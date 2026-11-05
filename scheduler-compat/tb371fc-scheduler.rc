@@ -1,0 +1,31 @@
+# Init owns a genuine legacy kernel controller. The scheduler cannot mount it.
+on init && property:ro.product.board=spinel
+    mkdir /dev/tb371fc-schedtune 0700 root root
+    mount cgroup schedtune /dev/tb371fc-schedtune nodev noexec nosuid schedtune
+    mkdir /dev/tb371fc-schedtune/foreground 0700 root root
+    chown root root /dev/tb371fc-schedtune/tasks
+    chmod 0600 /dev/tb371fc-schedtune/tasks
+    chown root root /dev/tb371fc-schedtune/foreground/tasks
+    chmod 0600 /dev/tb371fc-schedtune/foreground/tasks
+    write /dev/tb371fc-schedtune/foreground/schedtune.boost 0
+    write /dev/tb371fc-schedtune/foreground/schedtune.prefer_idle 0
+
+on post-fs-data && property:ro.product.board=spinel
+    mkdir /data/misc/tb371fc-scheduler 0700 root root
+    restorecon_recursive /data/misc/tb371fc-scheduler
+
+service tb371fc-scheduler /system_ext/bin/tb371fc-scheduler --run
+    class late_start
+    user root
+    group root system readproc package_info
+    seclabel u:r:tb371fc_scheduler:s0
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1 && property:ro.product.board=spinel
+    start tb371fc-scheduler
+
+# An unexpected process death must neutralize its boost without a restart loop.
+on property:init.svc.tb371fc-scheduler=stopped
+    write /dev/tb371fc-schedtune/foreground/schedtune.boost 0
+    write /dev/tb371fc-schedtune/foreground/schedtune.prefer_idle 0

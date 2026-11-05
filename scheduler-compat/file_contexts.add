@@ -1,0 +1,2 @@
+/system_ext/bin/tb371fc-scheduler u:object_r:tb371fc_scheduler_exec:s0
+/data/misc/tb371fc-scheduler(/.*)? u:object_r:tb371fc_scheduler_data_file:s0

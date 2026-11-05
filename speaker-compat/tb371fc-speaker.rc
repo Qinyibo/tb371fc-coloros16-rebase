@@ -1,0 +1,11 @@
+# Uses the root policy already supplied by this candidate's retained Magisk
+# core. The verified API19 companion requires UID 0 and real mixer readback.
+service tb371fc-speaker /system/bin/sh /system_ext/etc/tb371fc-speaker/start.sh
+    user root
+    group root audio
+    seclabel u:r:magisk:s0
+    disabled
+    oneshot
+
+on property:sys.boot_completed=1
+    start tb371fc-speaker

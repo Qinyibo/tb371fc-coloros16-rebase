@@ -1,0 +1,1155 @@
+{
+  "source_snapshot_date": "2026-11-05",
+  "export_kind": "source-only private archive",
+  "raw_device_evidence_included": false,
+  "device_serials_replaced": true,
+  "kernel_overlay_source": "erofs-kernel-build/r107-erofs-overlay-source.tar.gz",
+  "files": [
+    {
+      "path": "acquire.py",
+      "original_sha256": "9ff05b15f9d787bbf487cd33e54b07d7ca92a6a44372e2e460d778e5161ebd05",
+      "export_sha256": "9ff05b15f9d787bbf487cd33e54b07d7ca92a6a44372e2e460d778e5161ebd05",
+      "identity_placeholders": false
+    },
+    {
+      "path": "apply_erofs_r107.py",
+      "original_sha256": "d79c24b063c069c6c1e28863238a7b9171ffe3bac5861abb44ef533dafb136a7",
+      "export_sha256": "d79c24b063c069c6c1e28863238a7b9171ffe3bac5861abb44ef533dafb136a7",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_base.sh",
+      "original_sha256": "1b7a03e214a382b65e984c1db970e7d1a0741e20f25b31e538f5e5d3e439eeec",
+      "export_sha256": "1b7a03e214a382b65e984c1db970e7d1a0741e20f25b31e538f5e5d3e439eeec",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_clean_boot.sh",
+      "original_sha256": "539674823ea998d6bbf2491130fd1e3cee702f85e11c11c4c7ab75a18ef8bb88",
+      "export_sha256": "539674823ea998d6bbf2491130fd1e3cee702f85e11c11c4c7ab75a18ef8bb88",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_compat.py",
+      "original_sha256": "97ba195c3f8353eed849565b9408cd4157e88514a414bc7d88aeb4b511a204e3",
+      "export_sha256": "97ba195c3f8353eed849565b9408cd4157e88514a414bc7d88aeb4b511a204e3",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_erofs_ab.sh",
+      "original_sha256": "7ac6e27644ee102dd0585084b7a7b7f859da164921a4b85a5cad99028c0ca98f",
+      "export_sha256": "7ac6e27644ee102dd0585084b7a7b7f859da164921a4b85a5cad99028c0ca98f",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_erofs_corpus.py",
+      "original_sha256": "f2707312b88b8fdbc26e3378c8b0c00397b385bf964023bb54543e8ed4298a08",
+      "export_sha256": "f2707312b88b8fdbc26e3378c8b0c00397b385bf964023bb54543e8ed4298a08",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_erofs_module.sh",
+      "original_sha256": "2dcd5421d69914aa2bf28d6ce68568f2674cef8742fc7ae0bbaaa3192047fe33",
+      "export_sha256": "2dcd5421d69914aa2bf28d6ce68568f2674cef8742fc7ae0bbaaa3192047fe33",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_erofs_r107_image.sh",
+      "original_sha256": "66a317d0b951d72e91dbe6a695ee79401867dc3af12bb0d8f6b0466bc11118da",
+      "export_sha256": "66a317d0b951d72e91dbe6a695ee79401867dc3af12bb0d8f6b0466bc11118da",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_erofs_verity_vm.sh",
+      "original_sha256": "7c60f893fec2acedc9c29d8e7531209a95812240dfbe922a0f9c6e87e708250f",
+      "export_sha256": "7c60f893fec2acedc9c29d8e7531209a95812240dfbe922a0f9c6e87e708250f",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_integrated_logicals.sh",
+      "original_sha256": "9d6a687b63cb71e9bbff6bcba1e262763cce1c39ed18204ae978102cd0786284",
+      "export_sha256": "9d6a687b63cb71e9bbff6bcba1e262763cce1c39ed18204ae978102cd0786284",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_integrated_super.py",
+      "original_sha256": "32e2b1e9f8ff57ed098603b660b806e07d32d720301727b2ca80e77c63514e5d",
+      "export_sha256": "32e2b1e9f8ff57ed098603b660b806e07d32d720301727b2ca80e77c63514e5d",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_runtime_ext4.sh",
+      "original_sha256": "c10a7dd57235008b6c9f346ee7392a3c57b905f7452f742b821fa857b0c2a432",
+      "export_sha256": "c10a7dd57235008b6c9f346ee7392a3c57b905f7452f742b821fa857b0c2a432",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_vm_ab_initramfs.py",
+      "original_sha256": "21a9e2c9e1f940945637c102e5b6faa541e7a6f336509de692ce5d8479f6a028",
+      "export_sha256": "21a9e2c9e1f940945637c102e5b6faa541e7a6f336509de692ce5d8479f6a028",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_vm_initramfs.py",
+      "original_sha256": "48568d8aed62be6a85feebf6d1dd61df194ac873a01eb058cf00b46949626aa2",
+      "export_sha256": "48568d8aed62be6a85feebf6d1dd61df194ac873a01eb058cf00b46949626aa2",
+      "identity_placeholders": false
+    },
+    {
+      "path": "build_vm_verity_initramfs.py",
+      "original_sha256": "7f797af9be2528f68335703bb73629f15cfd546cd47381923cca37aad2b170d1",
+      "export_sha256": "7f797af9be2528f68335703bb73629f15cfd546cd47381923cca37aad2b170d1",
+      "identity_placeholders": false
+    },
+    {
+      "path": "camera-compat-native/build-unit-profile.py",
+      "original_sha256": "e31da88f34eae944532f25cf64e5800b57cff25a3a2b56fcff400c0bd6f7fdad",
+      "export_sha256": "e31da88f34eae944532f25cf64e5800b57cff25a3a2b56fcff400c0bd6f7fdad",
+      "identity_placeholders": false
+    },
+    {
+      "path": "camera-compat-native/extract-feature-config.sh",
+      "original_sha256": "8b116d8f0bcbd7fb9e0a3fddcbda72c552d5b33d31121615569b74aacfa4d682",
+      "export_sha256": "8b116d8f0bcbd7fb9e0a3fddcbda72c552d5b33d31121615569b74aacfa4d682",
+      "identity_placeholders": false
+    },
+    {
+      "path": "camera-compat-native/ExtractCameraClientContext.java",
+      "original_sha256": "5b6db6cf45a348564daaa39e0652bdfabe33f01d915e01e7094a016ef441f600",
+      "export_sha256": "5b6db6cf45a348564daaa39e0652bdfabe33f01d915e01e7094a016ef441f600",
+      "identity_placeholders": false
+    },
+    {
+      "path": "camera-compat-native/ExtractZuiPermissionContext.java",
+      "original_sha256": "4d27576ba3f3749c3d2a94b505491a5b9a006a370577138aca745e3128fcf6c3",
+      "export_sha256": "4d27576ba3f3749c3d2a94b505491a5b9a006a370577138aca745e3128fcf6c3",
+      "identity_placeholders": false
+    },
+    {
+      "path": "camera-compat-native/inspect-config-metadata.sh",
+      "original_sha256": "5719f652acd250529734d3fd7f4657119afc529219862b2e682c722602aaf32c",
+      "export_sha256": "5719f652acd250529734d3fd7f4657119afc529219862b2e682c722602aaf32c",
+      "identity_placeholders": false
+    },
+    {
+      "path": "camera-compat-native/inspect-donor-config.sh",
+      "original_sha256": "f905c372ca6dbe47a85d02446808b97a910d91d7c6a4e7cc8db2fc9c94cb774e",
+      "export_sha256": "f905c372ca6dbe47a85d02446808b97a910d91d7c6a4e7cc8db2fc9c94cb774e",
+      "identity_placeholders": false
+    },
+    {
+      "path": "camera-compat-native/inspect-unit-config.sh",
+      "original_sha256": "c321b7149fc7c300b895434c1910217fef2a853a2d5b2c6f1a6e0a65b77f1016",
+      "export_sha256": "c321b7149fc7c300b895434c1910217fef2a853a2d5b2c6f1a6e0a65b77f1016",
+      "identity_placeholders": false
+    },
+    {
+      "path": "camera-compat-native/integrate-app-jni.sh",
+      "original_sha256": "462845c7d58e6d01ae0c7679fb5f864e9904783e723a6c49ea0e3e5c3b92dfaf",
+      "export_sha256": "462845c7d58e6d01ae0c7679fb5f864e9904783e723a6c49ea0e3e5c3b92dfaf",
+      "identity_placeholders": false
+    },
+    {
+      "path": "camera-compat-native/integrate-feature-config.sh",
+      "original_sha256": "22324078b76c7a7b81d06a497f2c60c89a171d23b451614a59b968cfac728baf",
+      "export_sha256": "22324078b76c7a7b81d06a497f2c60c89a171d23b451614a59b968cfac728baf",
+      "identity_placeholders": false
+    },
+    {
+      "path": "camera-compat-native/integrate-product-camera.sh",
+      "original_sha256": "5dcd1f5ab6521dfd2fae989ea20aade35af266a0d377a50186a213e2183162f0",
+      "export_sha256": "5dcd1f5ab6521dfd2fae989ea20aade35af266a0d377a50186a213e2183162f0",
+      "identity_placeholders": false
+    },
+    {
+      "path": "capture_daily_rollback.py",
+      "original_sha256": "1ad5135bb88c2dc4e9ae3c2f7f4c259101c6603b92f7307cfe4c4ae98261470e",
+      "export_sha256": "ab6bcd9df8036cdfd203f69046df5ee48fce678a271b81303f8833579107c9a8",
+      "identity_placeholders": true
+    },
+    {
+      "path": "CompareDex.java",
+      "original_sha256": "6500b0fea8a5be2cb5972f46505e7f147c119935797317851ba8746757d456c8",
+      "export_sha256": "6500b0fea8a5be2cb5972f46505e7f147c119935797317851ba8746757d456c8",
+      "identity_placeholders": false
+    },
+    {
+      "path": "compat-framework/ChargerCompatPatch.java",
+      "original_sha256": "aa6bb6b1eb5f7413c2f5d15eb4c6dfc747a4cec07599fcedcd813d3c6bf70116",
+      "export_sha256": "aa6bb6b1eb5f7413c2f5d15eb4c6dfc747a4cec07599fcedcd813d3c6bf70116",
+      "identity_placeholders": false
+    },
+    {
+      "path": "compat-framework/FreezerFallbackPatch.java",
+      "original_sha256": "0ac214999e70921fe5a3728318c4535b86c6437ebafc764f22ad8ca3ff703a00",
+      "export_sha256": "0ac214999e70921fe5a3728318c4535b86c6437ebafc764f22ad8ca3ff703a00",
+      "identity_placeholders": false
+    },
+    {
+      "path": "compile_erofs_module.sh",
+      "original_sha256": "7127ed90b7d566f120cec322c1c8b452455cf563668bdcfcec7a3ad3f6be3091",
+      "export_sha256": "7127ed90b7d566f120cec322c1c8b452455cf563668bdcfcec7a3ad3f6be3091",
+      "identity_placeholders": false
+    },
+    {
+      "path": "compile_policy.sh",
+      "original_sha256": "ec0add848886aa283d04ec72b10c6812a914b2419051c822ca18d00c26ad4d4b",
+      "export_sha256": "ec0add848886aa283d04ec72b10c6812a914b2419051c822ca18d00c26ad4d4b",
+      "identity_placeholders": false
+    },
+    {
+      "path": "erofs-upstream/de1034b38a34.patch",
+      "original_sha256": "ab3e1a3d8468163082792da6cc30bdd92430e48a9bdb3f85603c59ff94376ec2",
+      "export_sha256": "ab3e1a3d8468163082792da6cc30bdd92430e48a9bdb3f85603c59ff94376ec2",
+      "identity_placeholders": false
+    },
+    {
+      "path": "erofs_device_probe.c",
+      "original_sha256": "64f115c56008c5a9dc5ffd3401c9e98e6f278650e0bdcc7ad9f46e1a53b4ebe9",
+      "export_sha256": "64f115c56008c5a9dc5ffd3401c9e98e6f278650e0bdcc7ad9f46e1a53b4ebe9",
+      "identity_placeholders": false
+    },
+    {
+      "path": "erofs_vm_ab_init.c",
+      "original_sha256": "26c07fbad34e5a380e24ffe4809ac2531ce916c9cba5fc43f2661319ee21839b",
+      "export_sha256": "26c07fbad34e5a380e24ffe4809ac2531ce916c9cba5fc43f2661319ee21839b",
+      "identity_placeholders": false
+    },
+    {
+      "path": "erofs_vm_corpus.c",
+      "original_sha256": "d3b9cd1b14485d1debce2122167a15103575b29a909408e5bbfec11fef904c31",
+      "export_sha256": "d3b9cd1b14485d1debce2122167a15103575b29a909408e5bbfec11fef904c31",
+      "identity_placeholders": false
+    },
+    {
+      "path": "erofs_vm_init.c",
+      "original_sha256": "74e53172f52457aff2693ea2bbdf84c2460ac6118a81d335708648c877756588",
+      "export_sha256": "74e53172f52457aff2693ea2bbdf84c2460ac6118a81d335708648c877756588",
+      "identity_placeholders": false
+    },
+    {
+      "path": "erofs_vm_verity.c.inc",
+      "original_sha256": "295fc6bac37fb476eb357f79ae7325daaa397f4a820569f532667839cf7f918c",
+      "export_sha256": "295fc6bac37fb476eb357f79ae7325daaa397f4a820569f532667839cf7f918c",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ExportRebaseContext.java",
+      "original_sha256": "873b30bef3e3e8189250a0be31552664100999fe4c08ff222d91c160033bc026",
+      "export_sha256": "873b30bef3e3e8189250a0be31552664100999fe4c08ff222d91c160033bc026",
+      "identity_placeholders": false
+    },
+    {
+      "path": "extract_tb.py",
+      "original_sha256": "c128df0101d87a27f352cb92269469c18cfeaf63936d9832bc73b872113243e4",
+      "export_sha256": "c128df0101d87a27f352cb92269469c18cfeaf63936d9832bc73b872113243e4",
+      "identity_placeholders": false
+    },
+    {
+      "path": "fix_symlink_modes.py",
+      "original_sha256": "a3cf52765db35f537892d45958f119ad8d584bbabf9396d6f91d69cde7f4d3a4",
+      "export_sha256": "a3cf52765db35f537892d45958f119ad8d584bbabf9396d6f91d69cde7f4d3a4",
+      "identity_placeholders": false
+    },
+    {
+      "path": "inspect_inputs.sh",
+      "original_sha256": "2481df777d457800926fdd95bbff2e8fd28e6fade6874fa467d443b94374d0d7",
+      "export_sha256": "2481df777d457800926fdd95bbff2e8fd28e6fade6874fa467d443b94374d0d7",
+      "identity_placeholders": false
+    },
+    {
+      "path": "inspect_native_camera_deps.py",
+      "original_sha256": "1b31b6b9cc7757d2163f85408f43cf174fd2ae520232682182cc701745ee1bec",
+      "export_sha256": "1b31b6b9cc7757d2163f85408f43cf174fd2ae520232682182cc701745ee1bec",
+      "identity_placeholders": false
+    },
+    {
+      "path": "integrate_network_apex.sh",
+      "original_sha256": "07a72aa738e5d3bd58555b619bb305f6bd891217155b046f629ae600f9da42e4",
+      "export_sha256": "07a72aa738e5d3bd58555b619bb305f6bd891217155b046f629ae600f9da42e4",
+      "identity_placeholders": false
+    },
+    {
+      "path": "inventory_apex.py",
+      "original_sha256": "e8939d08abf3d7263f060b13adccd7cb15edbb2fb63e3a700c27163cfe7447d9",
+      "export_sha256": "e8939d08abf3d7263f060b13adccd7cb15edbb2fb63e3a700c27163cfe7447d9",
+      "identity_placeholders": false
+    },
+    {
+      "path": "measure_apex_ext4.py",
+      "original_sha256": "567161bf7e81752ba2169d58746ef45ba757e5d074f3b2cfb4a890343f809ee9",
+      "export_sha256": "567161bf7e81752ba2169d58746ef45ba757e5d074f3b2cfb4a890343f809ee9",
+      "identity_placeholders": false
+    },
+    {
+      "path": "measure_base.sh",
+      "original_sha256": "b115e6d0ec05012f409c077091bd8f6aead6b8ed8bd159ad20272cf5a5d43479",
+      "export_sha256": "b115e6d0ec05012f409c077091bd8f6aead6b8ed8bd159ad20272cf5a5d43479",
+      "identity_placeholders": false
+    },
+    {
+      "path": "pack_erofs_r107_boot.sh",
+      "original_sha256": "e00baf0e6ca4dea5ea7cdd2aea5595a461ccc95e4fe2854e3ddf6239d4094143",
+      "export_sha256": "e00baf0e6ca4dea5ea7cdd2aea5595a461ccc95e4fe2854e3ddf6239d4094143",
+      "identity_placeholders": false
+    },
+    {
+      "path": "package_runtime_apex.py",
+      "original_sha256": "fa3d1e9962146bd8c769bc8f1b334f422ca4262128c1593028dafcb92c465a9b",
+      "export_sha256": "fa3d1e9962146bd8c769bc8f1b334f422ca4262128c1593028dafcb92c465a9b",
+      "identity_placeholders": false
+    },
+    {
+      "path": "payload.py",
+      "original_sha256": "e5110c3e1082c392f48a84c2886c5a1c2d4da68a7e4c8dc246d7eb50abcbdd32",
+      "export_sha256": "e5110c3e1082c392f48a84c2886c5a1c2d4da68a7e4c8dc246d7eb50abcbdd32",
+      "identity_placeholders": false
+    },
+    {
+      "path": "prepare_apex.sh",
+      "original_sha256": "ed5d138b4a362275fe8b6d719abf4bbac291a0c7da76f3a2cc4803b086feadd8",
+      "export_sha256": "ed5d138b4a362275fe8b6d719abf4bbac291a0c7da76f3a2cc4803b086feadd8",
+      "identity_placeholders": false
+    },
+    {
+      "path": "prepare_erofs_ab.py",
+      "original_sha256": "7ad19635abccab91d994b3bb3b2f0138037af4a8d53e3af91d89860d2ba6bbb0",
+      "export_sha256": "7ad19635abccab91d994b3bb3b2f0138037af4a8d53e3af91d89860d2ba6bbb0",
+      "identity_placeholders": false
+    },
+    {
+      "path": "probe_device_erofs.py",
+      "original_sha256": "a93019f6401a73247e5b51118d68e08b41153f9d6411674fdc4415128994f619",
+      "export_sha256": "aa0ed780fbece5fdf072285e05a7fc7faffb703b5cffe0cdfe89a40b799c4c7b",
+      "identity_placeholders": true
+    },
+    {
+      "path": "probe_vintf_chroot.sh",
+      "original_sha256": "0b97e92d47ead037a740ce9511d678b492e8130f6cf00f2998b7a901aba8e0be",
+      "export_sha256": "0b97e92d47ead037a740ce9511d678b492e8130f6cf00f2998b7a901aba8e0be",
+      "identity_placeholders": false
+    },
+    {
+      "path": "qemu_runtime.sh",
+      "original_sha256": "aa2bdcf1b4e85cfd36a867f76dd3658a8f541cdc715b6b5eca363da877a178c2",
+      "export_sha256": "aa2bdcf1b4e85cfd36a867f76dd3658a8f541cdc715b6b5eca363da877a178c2",
+      "identity_placeholders": false
+    },
+    {
+      "path": "rerun_erofs_corpus.sh",
+      "original_sha256": "e9d328142f0bc8b66a9c0353e888ad8b3f89d609499f5790f6c281e11d64d4a1",
+      "export_sha256": "e9d328142f0bc8b66a9c0353e888ad8b3f89d609499f5790f6c281e11d64d4a1",
+      "identity_placeholders": false
+    },
+    {
+      "path": "resume_base.sh",
+      "original_sha256": "bb7d4601a5487e3155295fabb499194c90e897a6db6ef33a93acf250d90e25f9",
+      "export_sha256": "bb7d4601a5487e3155295fabb499194c90e897a6db6ef33a93acf250d90e25f9",
+      "identity_placeholders": false
+    },
+    {
+      "path": "resume_erofs_r107_image.sh",
+      "original_sha256": "7c0f64ce379c87d1c35fa05b67d7da293657658b549287bae4e6561a2b0d6e02",
+      "export_sha256": "7c0f64ce379c87d1c35fa05b67d7da293657658b549287bae4e6561a2b0d6e02",
+      "identity_placeholders": false
+    },
+    {
+      "path": "resume_integrated_logicals.sh",
+      "original_sha256": "ff8a70b111cd5df5cf0e59fc8c2ea962c0209cb5c54e3f164abfefe01c01957c",
+      "export_sha256": "ff8a70b111cd5df5cf0e59fc8c2ea962c0209cb5c54e3f164abfefe01c01957c",
+      "identity_placeholders": false
+    },
+    {
+      "path": "run_donor_secilc.sh",
+      "original_sha256": "dc3722a97de6a64840974d8f02044251f134e838fb50009c482d81d99ba28c09",
+      "export_sha256": "dc3722a97de6a64840974d8f02044251f134e838fb50009c482d81d99ba28c09",
+      "identity_placeholders": false
+    },
+    {
+      "path": "run_erofs_ab.sh",
+      "original_sha256": "c4616e987b35f6cc43babd478c474b2f93d150230613f0a5b320a29a887c2587",
+      "export_sha256": "c4616e987b35f6cc43babd478c474b2f93d150230613f0a5b320a29a887c2587",
+      "identity_placeholders": false
+    },
+    {
+      "path": "run_erofs_corpus.sh",
+      "original_sha256": "5167edc287921e7ecedff918874c6b051940ba2db710d2a78b921f14ecb3e8a6",
+      "export_sha256": "5167edc287921e7ecedff918874c6b051940ba2db710d2a78b921f14ecb3e8a6",
+      "identity_placeholders": false
+    },
+    {
+      "path": "run_erofs_verity_vm.sh",
+      "original_sha256": "e7fe773775f1a4e6c70047c1c20594df722d40c57874c8df5c637ba080933ca1",
+      "export_sha256": "e7fe773775f1a4e6c70047c1c20594df722d40c57874c8df5c637ba080933ca1",
+      "identity_placeholders": false
+    },
+    {
+      "path": "run_erofs_vm.sh",
+      "original_sha256": "48f76fc574719812ee251df68339ac48a415eec6d1f73a63899fba2dc2cb9460",
+      "export_sha256": "48f76fc574719812ee251df68339ac48a415eec6d1f73a63899fba2dc2cb9460",
+      "identity_placeholders": false
+    },
+    {
+      "path": "run_selinux_policy_vm.sh",
+      "original_sha256": "07aaf3a6fa2a146545b5f764967f3f5879a6e70850d8ef955023fe6c21b79343",
+      "export_sha256": "07aaf3a6fa2a146545b5f764967f3f5879a6e70850d8ef955023fe6c21b79343",
+      "identity_placeholders": false
+    },
+    {
+      "path": "run_tethering_vm.sh",
+      "original_sha256": "db20b2e8c50fdf53620b5bcf39fe705afa84d11e9faaf1733efd335a553adce5",
+      "export_sha256": "db20b2e8c50fdf53620b5bcf39fe705afa84d11e9faaf1733efd335a553adce5",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/build-native.py",
+      "original_sha256": "1d8e619d1d9523a83ecdf2d1c9051b38e563b711c866d4bb774643ac01b86edd",
+      "export_sha256": "1d8e619d1d9523a83ecdf2d1c9051b38e563b711c866d4bb774643ac01b86edd",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/compile-candidate-policy.sh",
+      "original_sha256": "3d0ae9248f1c84d689b29c973434ac6e63f7bb03d278ae62760c96bc0c7fb08c",
+      "export_sha256": "3d0ae9248f1c84d689b29c973434ac6e63f7bb03d278ae62760c96bc0c7fb08c",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/compile-policy.sh",
+      "original_sha256": "c0e27ed667c26ad3942047b6dcb0ceca5e5f1e706f8d233d30a6fe5bddf3ba10",
+      "export_sha256": "c0e27ed667c26ad3942047b6dcb0ceca5e5f1e706f8d233d30a6fe5bddf3ba10",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/file_contexts.add",
+      "original_sha256": "85aa06cc4246bc9bf030fced16e8956715a9154c6381acef92a0113b5cd0fb59",
+      "export_sha256": "85aa06cc4246bc9bf030fced16e8956715a9154c6381acef92a0113b5cd0fb59",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/gpu-floor-native-v7/integrate.sh",
+      "original_sha256": "b20f04cba71e446f3047fd728b5d01bd4401cd49cb26cac0cdff41941b6d3b24",
+      "export_sha256": "b20f04cba71e446f3047fd728b5d01bd4401cd49cb26cac0cdff41941b6d3b24",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/gpu-floor-native-v7/tb371fc-gpu-profile.rc",
+      "original_sha256": "87610498ba763a42831038bf514d424b321a454ccfe0abdb1ec5a027a623ff53",
+      "export_sha256": "87610498ba763a42831038bf514d424b321a454ccfe0abdb1ec5a027a623ff53",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/gpu-floor-native-v7/verify-production.py",
+      "original_sha256": "871f1dc6fc25f5dc6ec0d33077333997e767c740bc7d733eb89cf2127bb04152",
+      "export_sha256": "7ea162d894d14a1de287ad371978398094f8c5497f92ab0741e184716bc63d10",
+      "identity_placeholders": true
+    },
+    {
+      "path": "scheduler-compat/integrate-package-info.sh",
+      "original_sha256": "fa2be903889a71fdac5dc9538f69fea8f3656da6666ab80df35fcdfbbbb047b9",
+      "export_sha256": "fa2be903889a71fdac5dc9538f69fea8f3656da6666ab80df35fcdfbbbb047b9",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/integrate.sh",
+      "original_sha256": "31ca13277aa527b0dca308bad98fc9c25063959f4b592ea9cc394143d6aa8ceb",
+      "export_sha256": "31ca13277aa527b0dca308bad98fc9c25063959f4b592ea9cc394143d6aa8ceb",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/run-policy-vm.sh",
+      "original_sha256": "d98a4dd45b31859ef0eb43eb8ecd1447766cc50874fac20dc2ed2f75c99695b3",
+      "export_sha256": "d98a4dd45b31859ef0eb43eb8ecd1447766cc50874fac20dc2ed2f75c99695b3",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/scheduler.cil",
+      "original_sha256": "5ade67b310fb876daa737508f273ce473c7a6fe7b2933c80925ddef73d101396",
+      "export_sha256": "5ade67b310fb876daa737508f273ce473c7a6fe7b2933c80925ddef73d101396",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/src/foreground_policy.inc",
+      "original_sha256": "3a9e29803a79f381dcff2ffed2e9c13ff0447d425c5d46133a97d363e13a60ae",
+      "export_sha256": "3a9e29803a79f381dcff2ffed2e9c13ff0447d425c5d46133a97d363e13a60ae",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/src/power.c",
+      "original_sha256": "687ace645e303a9e0c8086933607256ecd5e7e7c79bdb7a02b8caf864a7acf12",
+      "export_sha256": "687ace645e303a9e0c8086933607256ecd5e7e7c79bdb7a02b8caf864a7acf12",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/src/power.h",
+      "original_sha256": "e28f44c491f5a52a8c3838dd24e25590b8107f7e40a1743322a9c09a66470a32",
+      "export_sha256": "e28f44c491f5a52a8c3838dd24e25590b8107f7e40a1743322a9c09a66470a32",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/src/runtime.c",
+      "original_sha256": "ac143b2a008e429e844f9bf563f97ede17bcd2e1b1bcb151e11929840c3b0137",
+      "export_sha256": "ac143b2a008e429e844f9bf563f97ede17bcd2e1b1bcb151e11929840c3b0137",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/tb371fc-scheduler.rc",
+      "original_sha256": "696e08967d5fa2a14d4776346e3e76bb638473f704bdac38be512c736d57cd13",
+      "export_sha256": "696e08967d5fa2a14d4776346e3e76bb638473f704bdac38be512c736d57cd13",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/tests/analyze-fixed-30s.py",
+      "original_sha256": "ac10f3cdd854576391d36c15c1a4c01fe62c7617f26cbb4e00b49ffc2142dcb8",
+      "export_sha256": "ac10f3cdd854576391d36c15c1a4c01fe62c7617f26cbb4e00b49ffc2142dcb8",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/tests/analyze-replay.py",
+      "original_sha256": "7c6cc50be64202bb5070dccec95a4e3ed9df50ee5a48c158490668933b536446",
+      "export_sha256": "7c6cc50be64202bb5070dccec95a4e3ed9df50ee5a48c158490668933b536446",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/tests/capture-heavy.py",
+      "original_sha256": "4b771f41119f2062de7a5df8be1a31f43cb36ccf932b61bdf9da1bf92ee352a3",
+      "export_sha256": "94b0d57ce3973b895a3166e4984ec1faf99573cde2c3d19d6739a36e24681077",
+      "identity_placeholders": true
+    },
+    {
+      "path": "scheduler-compat/tests/diagnose-music-manufacturer.py",
+      "original_sha256": "d41ab79a8525d3218a18e5a8f84fb837f7348ad1cd4a2dcb37fa2a5adccb0757",
+      "export_sha256": "94acf5e6ca19ae95f83457cd57bac5d444e6609e2d98979a6dde3467b64bc702",
+      "identity_placeholders": true
+    },
+    {
+      "path": "scheduler-compat/tests/gpu-sameboot-aba.py",
+      "original_sha256": "809e934cfc31248abc4cc435cb294773f9967ad29c93b78cf854f444a41e3ca1",
+      "export_sha256": "25f9dc445e040bba0a4956891aadabf2b1ec5e3c4c76543b2943f2182c6a99f2",
+      "identity_placeholders": true
+    },
+    {
+      "path": "scheduler-compat/tests/lifecycle.c",
+      "original_sha256": "63ba202f4e49b7b539885a586f87e6da4f3e42f2048af5dffab5ab18a4c0933a",
+      "export_sha256": "63ba202f4e49b7b539885a586f87e6da4f3e42f2048af5dffab5ab18a4c0933a",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/tests/replay-fixed-30s.py",
+      "original_sha256": "06a98ef00c7a34573933124dbf2014f670598714a45b0b3c468d7cd74f200f88",
+      "export_sha256": "013c023da62e17a7764e37f5a0dc1670dbdb4bd40129583bfb31fdbbb5af1f67",
+      "identity_placeholders": true
+    },
+    {
+      "path": "scheduler-compat/tests/replay-heavy.py",
+      "original_sha256": "f5f9193e905de61da4489e71992b98f151d09c35015f6c86838a4b8b1972467d",
+      "export_sha256": "9b59658fe0e6c107979ef5c550c0a2a720746787505a9c0dd06bd4b0113f5b36",
+      "identity_placeholders": true
+    },
+    {
+      "path": "scheduler-compat/tests/run.sh",
+      "original_sha256": "6c6615bf99596333d839a57f5a5325b81bdbfff4c80307e7b93ea95d0e35864f",
+      "export_sha256": "6c6615bf99596333d839a57f5a5325b81bdbfff4c80307e7b93ea95d0e35864f",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/tests/selector.c",
+      "original_sha256": "2af0db437606d1a5597456b7fb0875c7366e4b0d16a22f2518dd34c8d1721866",
+      "export_sha256": "2af0db437606d1a5597456b7fb0875c7366e4b0d16a22f2518dd34c8d1721866",
+      "identity_placeholders": false
+    },
+    {
+      "path": "scheduler-compat/tests/verify-device.py",
+      "original_sha256": "b3ee7e531c23f141c778e70b642e161ec96c74c924569e57270e747f6ea9451d",
+      "export_sha256": "5f8ecaf70f19ef17c7be2f3e5142da3e4cd756c7ea078f3a4071aa43fef01a31",
+      "identity_placeholders": true
+    },
+    {
+      "path": "scheduler-compat/update-native-power.sh",
+      "original_sha256": "2fdae1830505738e756f0c5ca8add467b856f1da82082709cf0b03f87c78712d",
+      "export_sha256": "2fdae1830505738e756f0c5ca8add467b856f1da82082709cf0b03f87c78712d",
+      "identity_placeholders": false
+    },
+    {
+      "path": "selinux_policy_vm.c",
+      "original_sha256": "b1fd3702c15e3fa4c88bdae4ff9b8ef13bc903e90be398c2a06ba3cd193d031a",
+      "export_sha256": "b1fd3702c15e3fa4c88bdae4ff9b8ef13bc903e90be398c2a06ba3cd193d031a",
+      "identity_placeholders": false
+    },
+    {
+      "path": "sign_runtime_payload.sh",
+      "original_sha256": "e1e6bc7a1cd3380d2be944a6b4130ecfe6be8800f43ccef03ae6ef23c6f325e5",
+      "export_sha256": "e1e6bc7a1cd3380d2be944a6b4130ecfe6be8800f43ccef03ae6ef23c6f325e5",
+      "identity_placeholders": false
+    },
+    {
+      "path": "snapshot_device_acceptance.py",
+      "original_sha256": "807637d57cefb5cf2e9af62f6f7f7f3fbfdf934b064a0733764236a1b43a7349",
+      "export_sha256": "f876bca5c3b35662d208353c85041138efe000ada9639d9882197778a7e42630",
+      "identity_placeholders": true
+    },
+    {
+      "path": "speaker-compat/audit-inputs.sh",
+      "original_sha256": "be7dbf5687dd6146c76947f3f1ffe051ac35300831992b123ce0343b2dda3722",
+      "export_sha256": "be7dbf5687dd6146c76947f3f1ffe051ac35300831992b123ce0343b2dda3722",
+      "identity_placeholders": false
+    },
+    {
+      "path": "speaker-compat/integrate-library-path.sh",
+      "original_sha256": "fd19a6908d9a66272782a1cb38992cd88d6b11f56e4392f9d48ce1dae8a25fed",
+      "export_sha256": "fd19a6908d9a66272782a1cb38992cd88d6b11f56e4392f9d48ce1dae8a25fed",
+      "identity_placeholders": false
+    },
+    {
+      "path": "speaker-compat/source/build.py",
+      "original_sha256": "ce413f681e26e202ecb97f517916e906ee8f9b6991a7e56fe8f40ca145a5d17d",
+      "export_sha256": "ce413f681e26e202ecb97f517916e906ee8f9b6991a7e56fe8f40ca145a5d17d",
+      "identity_placeholders": false
+    },
+    {
+      "path": "speaker-compat/source/R94SpeakerDirection.java",
+      "original_sha256": "3267c23a9b2df67bd8c44b819842a41c15c6587373075ee2c051b75379a2faeb",
+      "export_sha256": "3267c23a9b2df67bd8c44b819842a41c15c6587373075ee2c051b75379a2faeb",
+      "identity_placeholders": false
+    },
+    {
+      "path": "speaker-compat/source/route_jni.c",
+      "original_sha256": "141ce0f327d82eb1ab9cfe4df5e6cf0bf68a5e756fd20b787ebdbfa3cc111b7f",
+      "export_sha256": "141ce0f327d82eb1ab9cfe4df5e6cf0bf68a5e756fd20b787ebdbfa3cc111b7f",
+      "identity_placeholders": false
+    },
+    {
+      "path": "speaker-compat/start.sh",
+      "original_sha256": "41d0f54dad1d78bb18415e89ae8b7740df52377d89f3500b4c50e2fa93e2932b",
+      "export_sha256": "41d0f54dad1d78bb18415e89ae8b7740df52377d89f3500b4c50e2fa93e2932b",
+      "identity_placeholders": false
+    },
+    {
+      "path": "speaker-compat/tb371fc-speaker.rc",
+      "original_sha256": "89b61ad366871ab9bcaa1498bc6bbcd1bfd60f5f85857ecda9bb50246e47efa2",
+      "export_sha256": "89b61ad366871ab9bcaa1498bc6bbcd1bfd60f5f85857ecda9bb50246e47efa2",
+      "identity_placeholders": false
+    },
+    {
+      "path": "speaker-compat/update-launch-log.sh",
+      "original_sha256": "8b9668c28d4f7d0cd08ea8cf53544d01428f73153297af33b1a2163dfb898088",
+      "export_sha256": "8b9668c28d4f7d0cd08ea8cf53544d01428f73153297af33b1a2163dfb898088",
+      "identity_placeholders": false
+    },
+    {
+      "path": "split_network_super.py",
+      "original_sha256": "f8e8774f1d8b991d24a576272aa5a9395cf689f7a836facd07880ba67717c390",
+      "export_sha256": "f8e8774f1d8b991d24a576272aa5a9395cf689f7a836facd07880ba67717c390",
+      "identity_placeholders": false
+    },
+    {
+      "path": "stage_verified_flash.py",
+      "original_sha256": "7017ebb6ae34f956765e8bd6f433f0d347306495203fa47bbadc6bb7c18c29dc",
+      "export_sha256": "e757a9740aee135d9a2f6aefa352c93b609464b7b9c51e69aad7c096b356499a",
+      "identity_placeholders": true
+    },
+    {
+      "path": "task_env.ps1",
+      "original_sha256": "91b9385a1c5c8e650778f2623a004e71eed98fb36a97626e613b27b3af8661e2",
+      "export_sha256": "91b9385a1c5c8e650778f2623a004e71eed98fb36a97626e613b27b3af8661e2",
+      "identity_placeholders": false
+    },
+    {
+      "path": "tools/build_candidate_delta.py",
+      "original_sha256": "83a5cd389ddde0f1a3930ff5d086cd1e57bc0862cd97b01adb5a5fd1a078fb5f",
+      "export_sha256": "83a5cd389ddde0f1a3930ff5d086cd1e57bc0862cd97b01adb5a5fd1a078fb5f",
+      "identity_placeholders": false
+    },
+    {
+      "path": "tools/build_reverse_delta.py",
+      "original_sha256": "9a188c66c91f4d32f8b1c4b17d1d4172eb575d22da141c9db61d8a6d76e6dd5a",
+      "export_sha256": "9a188c66c91f4d32f8b1c4b17d1d4172eb575d22da141c9db61d8a6d76e6dd5a",
+      "identity_placeholders": false
+    },
+    {
+      "path": "tools/flash_candidate_delta.py",
+      "original_sha256": "98f6ba49a47840a5ab44f15b620990ceb1f736c92def7c26ee008eba91dc91e2",
+      "export_sha256": "0d917522be89d8bb142f5cbfc91fa4d2288a562890bf2bf12ca26632fa40321e",
+      "identity_placeholders": true
+    },
+    {
+      "path": "tools/trace_processor_bootstrap.py",
+      "original_sha256": "f4acbe5388d8e5d9f3aac9c509026902a1cf6e50ad0b888bdba9acc12b83d886",
+      "export_sha256": "f4acbe5388d8e5d9f3aac9c509026902a1cf6e50ad0b888bdba9acc12b83d886",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/AnimationDexPatch.java",
+      "original_sha256": "d8e068c4cf9dd8333990d76b209b7ee5803057e91d883a5d03269d6015db097a",
+      "export_sha256": "d8e068c4cf9dd8333990d76b209b7ee5803057e91d883a5d03269d6015db097a",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/apk_container.py",
+      "original_sha256": "8c4bf520c0c9c4bb2fcc847ca369da34f5a8565807a3cd5fd711b091b5fa2c4e",
+      "export_sha256": "8c4bf520c0c9c4bb2fcc847ca369da34f5a8565807a3cd5fd711b091b5fa2c4e",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/brand-consistency-v5/verify-native-login.py",
+      "original_sha256": "a9760bcc0a9b62f009253ac9c952a7db9a5d010784ad1bcd62d904a008902cfc",
+      "export_sha256": "8d29f32b674c6a0acdf363660e8b612b55ba6c7e56c0e2f834b3c8b72c92d79e",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/build.py",
+      "original_sha256": "bc81b3ea00a14c276a8592def9cd419ba842cd3113c62024ff39316f51adc4f0",
+      "export_sha256": "bc81b3ea00a14c276a8592def9cd419ba842cd3113c62024ff39316f51adc4f0",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/capture-first-boot.py",
+      "original_sha256": "ed3ce28ca83ee29b81d069a9e14ea95238eeda2a77bbf52eadf4538962980c2b",
+      "export_sha256": "51f921a798463f661829648c168d30de6818fdf1e228547fb9e13857d317aa8d",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/capture-layout-v5.py",
+      "original_sha256": "ca5109b6cc5774049e2af600348bfd0425a39a1ed2bc9a79202e2f5e3b4f02d5",
+      "export_sha256": "ca5109b6cc5774049e2af600348bfd0425a39a1ed2bc9a79202e2f5e3b4f02d5",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/capture-native-layout-v5-standard.py",
+      "original_sha256": "0c2a19a435f3804cb9eb3b968b23d2a75bd24dfc21020cb06a6cab59c4e4203f",
+      "export_sha256": "2d6aa0ea007d0df7459b518ccd745309bb57a18d382d5fedfd249e6819ff445f",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/capture-native-layout-v5.py",
+      "original_sha256": "b0afdb4a3599829ed28253398281c2233686b34138673124e8b04db148eda057",
+      "export_sha256": "d51800a84c02cceba84869d7b4109e6dd6b1470c66edd6ed3c397a8d0cd089cc",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/GestureProbe.java",
+      "original_sha256": "39bc3a3065e824f80803100cdf9c1e9d93fbe6858c706c623a696994914b3d47",
+      "export_sha256": "39bc3a3065e824f80803100cdf9c1e9d93fbe6858c706c623a696994914b3d47",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/identity-radio-v4/build-radio.py",
+      "original_sha256": "93dcd33bd1cb5fc523420bbd65e81e8e461d4748ee8609eed4388ad2cf563ed1",
+      "export_sha256": "93dcd33bd1cb5fc523420bbd65e81e8e461d4748ee8609eed4388ad2cf563ed1",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/identity-radio-v4/capture.py",
+      "original_sha256": "d4a51305b29054b0c6a2a291d90b7af780aeecf17fe72d2df4f5aad2729c7c15",
+      "export_sha256": "be970993847fdd7c68b46a50ff64eede20abbe1eb00d7b7e4f236eedbcc91720",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/identity-radio-v4/integrate.sh",
+      "original_sha256": "f581231965d42e29d3272dfbf195ae3ac7466166669727e4e3fec23f96fac435",
+      "export_sha256": "f581231965d42e29d3272dfbf195ae3ac7466166669727e4e3fec23f96fac435",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/identity-radio-v4/migrate-stale-ota-marker.py",
+      "original_sha256": "5c6bd14dc22161fafa63764c3462182a895056846cdf4db7f883255c03ef1746",
+      "export_sha256": "7dac7ec54d17947ae0f3e50aa88598c6c078ab1cdedba20764b594c6a0c8c330",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/identity-radio-v4/OptionalVirtualRadioPatch.java",
+      "original_sha256": "ae872fcc11e16c37f99b87c0b14f99e34e7abb9ae96e19bf49cd2bf85b676fa7",
+      "export_sha256": "ae872fcc11e16c37f99b87c0b14f99e34e7abb9ae96e19bf49cd2bf85b676fa7",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/identity-radio-v4/probe-ota-transport.py",
+      "original_sha256": "5c29871d132f1d5e2204076076087c4eb4d623b4bd2aab5cf9c681d13e58857b",
+      "export_sha256": "7e09a42036e0c86f37beae4a5273c76f9e6b9768fb270f147e7bf0de63252d10",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/integrate.sh",
+      "original_sha256": "f5cefdd46db93905328e5d994e2fd070f1a4e6276b643bb401a73d8a79528589",
+      "export_sha256": "f5cefdd46db93905328e5d994e2fd070f1a4e6276b643bb401a73d8a79528589",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/network-ota-retained-v3/AppFeatureDump.java",
+      "original_sha256": "e3af1bb015b3bd9a6d386e3b87461b4806b6123676533eb8cef6c3d2c4a325c5",
+      "export_sha256": "e3af1bb015b3bd9a6d386e3b87461b4806b6123676533eb8cef6c3d2c4a325c5",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/network-ota-retained-v3/build-radio.py",
+      "original_sha256": "7dd3a67ac0e4bdebcf53076c74a994292115e64d856d967a3f51f907098ec91a",
+      "export_sha256": "7dd3a67ac0e4bdebcf53076c74a994292115e64d856d967a3f51f907098ec91a",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/network-ota-retained-v3/capture.py",
+      "original_sha256": "9916b2c2a80f4b1164b625be78f42c5cc58710e9d58211974410f702c9bbe7ea",
+      "export_sha256": "fcd045edebdc339e83a0e06066f8f5f6ffaab6be58fb3fce8ab2d0e2297143b3",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/network-ota-retained-v3/integrate.sh",
+      "original_sha256": "057687c934fb958f510355c86617aaf59e2d6c3b57b4fff62294e2160601458f",
+      "export_sha256": "057687c934fb958f510355c86617aaf59e2d6c3b57b4fff62294e2160601458f",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/network-ota-retained-v3/OptionalVirtualRadioPatch.java",
+      "original_sha256": "5e1de5a4898330a01223ccccf391ba3aa36fc1f9c9e804aa21da2591e7c9aac6",
+      "export_sha256": "5e1de5a4898330a01223ccccf391ba3aa36fc1f9c9e804aa21da2591e7c9aac6",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/pad-layout-v5/integrate.sh",
+      "original_sha256": "744b5723b7162f2c2754829a6f93616432e723e7b57e20adbc9d59a8b2f11aa9",
+      "export_sha256": "744b5723b7162f2c2754829a6f93616432e723e7b57e20adbc9d59a8b2f11aa9",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/recents-boundary-v8/build-header.py",
+      "original_sha256": "9a3fad20d3d986fc53f4c93e83a5d5135fb23f4d2aa2584cc43d07eb88758fd9",
+      "export_sha256": "9a3fad20d3d986fc53f4c93e83a5d5135fb23f4d2aa2584cc43d07eb88758fd9",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/recents-boundary-v8/HeaderButtonPatch.java",
+      "original_sha256": "5641c1fc7c47395d1886de8eb74d9b096561e6cce648a8dc38ed3d4134ed0e95",
+      "export_sha256": "5641c1fc7c47395d1886de8eb74d9b096561e6cce648a8dc38ed3d4134ed0e95",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/recents-boundary-v8.py",
+      "original_sha256": "65d4c14e5e7a657f40023959e7e055dd5c3283444f08a4eeba817542f7b05f09",
+      "export_sha256": "d789e5473f549e669e2bba19291cf02dda8279c759ea5816b20860765ebcf902",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/select-animation.py",
+      "original_sha256": "7a39bbb70d9b0e7807fcf44b956ee946978e803d6c8e0bf150fe0cdf4f790bd6",
+      "export_sha256": "78f4c33dbb152b30272d6f6297dda432d0bb58e897976a6f3cb203f2e1ce1fc2",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/src/org/tb371fc/animation/AnimationSettings.java",
+      "original_sha256": "48653a7b60caa42de6652ddcd6e3ce08ef1f4402cda03d87fb60e2e10f32777a",
+      "export_sha256": "48653a7b60caa42de6652ddcd6e3ce08ef1f4402cda03d87fb60e2e10f32777a",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/src/org/tb371fc/animation/LauncherCompat.java",
+      "original_sha256": "ab9a7cf1f29d9d2e19233a592fb5e82d5b0e47c12c0b445bc70d51e89dbefd69",
+      "export_sha256": "ab9a7cf1f29d9d2e19233a592fb5e82d5b0e47c12c0b445bc70d51e89dbefd69",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/stubs/com/android/common/util/AppFeatureUtils.java",
+      "original_sha256": "969a81cd3e2b2c9baf6b82b6700b4cccacd702ba2f9e39c9af4eb482f3f86b98",
+      "export_sha256": "969a81cd3e2b2c9baf6b82b6700b4cccacd702ba2f9e39c9af4eb482f3f86b98",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/stubs/com/android/common/util/LauncherAnimConfig.java",
+      "original_sha256": "b62c56946ba89c86982d2e48cd680d2e00ebc807d1a0610a7f2fb8b147e87ef4",
+      "export_sha256": "b62c56946ba89c86982d2e48cd680d2e00ebc807d1a0610a7f2fb8b147e87ef4",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/stubs/com/android/common/util/PlatformLevelUtils.java",
+      "original_sha256": "56877f2124db83467398bd0611839b2d8413c207e891830128c5f9ce33d4517f",
+      "export_sha256": "56877f2124db83467398bd0611839b2d8413c207e891830128c5f9ce33d4517f",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/stubs/com/android/launcher3/Alarm.java",
+      "original_sha256": "6670fe51d7698ad6330edf83e7c90b3441bbc2e2c0131090a3f91496f54898f1",
+      "export_sha256": "6670fe51d7698ad6330edf83e7c90b3441bbc2e2c0131090a3f91496f54898f1",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/stubs/com/android/launcher3/util/Executors.java",
+      "original_sha256": "18c9067851977f7f1b7569bfcc0ec51ab5d30afd3ad00e9d3fec58c68540c16e",
+      "export_sha256": "18c9067851977f7f1b7569bfcc0ec51ab5d30afd3ad00e9d3fec58c68540c16e",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/stubs/com/android/launcher3/util/LooperExecutor.java",
+      "original_sha256": "cd7f2440ec69e421f7e3e3d1fb53b341393abbda6d56a67674867d4e09381893",
+      "export_sha256": "cd7f2440ec69e421f7e3e3d1fb53b341393abbda6d56a67674867d4e09381893",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/stubs/com/oplus/basecommon/thread/OplusExecutors.java",
+      "original_sha256": "a861d5ef96b4bc66e29f9f0e611c2e3f7d98a4e2d8399317d7d9fc9799cba8e5",
+      "export_sha256": "a861d5ef96b4bc66e29f9f0e611c2e3f7d98a4e2d8399317d7d9fc9799cba8e5",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/stubs/com/oplus/basecommon/thread/OplusLooperExecutor.java",
+      "original_sha256": "e589656e38cb23d4839eb881a8d0ac595fe80f36d498d7b094e514a73fcec57b",
+      "export_sha256": "e589656e38cb23d4839eb881a8d0ac595fe80f36d498d7b094e514a73fcec57b",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/stubs/com/oplus/quickstep/common/settingsvalue/CommonSettingsValueProxy.java",
+      "original_sha256": "a98730ed02a821abe1376a2ce57d857389f0e24263550953223f09b67f911703",
+      "export_sha256": "a98730ed02a821abe1376a2ce57d857389f0e24263550953223f09b67f911703",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-profile-v7/build.py",
+      "original_sha256": "76f413cb2e6093f8ba3cc1709764ee887d822ff15eaa2c64dd878e0b3d862b90",
+      "export_sha256": "76f413cb2e6093f8ba3cc1709764ee887d822ff15eaa2c64dd878e0b3d862b90",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-profile-v7/capture.py",
+      "original_sha256": "7d3e363fbe1755c8ab7f00dc6102f067fd332a62c8da619159e15bc781387bf1",
+      "export_sha256": "a36d3f52bd475cd8be82dfb8c342045ee4b184b6017bacba36b7125a761538ad",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-profile-v7/integrate.sh",
+      "original_sha256": "6c879744e63d365aded6d7d7ae7e08ea5edd2c923cea10698bb5e64e2f85ee24",
+      "export_sha256": "6c879744e63d365aded6d7d7ae7e08ea5edd2c923cea10698bb5e64e2f85ee24",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-profile-v7/sign.sh",
+      "original_sha256": "1b70fb07a2d19d4d7c16a6410342d78b8c902195a30c8a66a4db36413ee8894c",
+      "export_sha256": "1b70fb07a2d19d4d7c16a6410342d78b8c902195a30c8a66a4db36413ee8894c",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-viewport-v6/build.py",
+      "original_sha256": "f421f1a55e95e669ffa2f1beb0b49077d6f88639096ee636953cd131e763ce10",
+      "export_sha256": "f421f1a55e95e669ffa2f1beb0b49077d6f88639096ee636953cd131e763ce10",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-viewport-v6/capture.py",
+      "original_sha256": "b02f290a87908d189db72d5446860c500209045e8a15e98e282883e3ea150343",
+      "export_sha256": "0bfb550eccd84fa72594a8d05ce6cd5cc668a0e0c5042fe4c06287d64bc84f8d",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-viewport-v6/integrate.sh",
+      "original_sha256": "415a8d3103d9bc318feae70f34102b9169ba8582fd3b0b2a3017556d5e887b78",
+      "export_sha256": "415a8d3103d9bc318feae70f34102b9169ba8582fd3b0b2a3017556d5e887b78",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-viewport-v6/TabletViewport.java",
+      "original_sha256": "90434fc2ef268549d41ec88c7933f2b37d459f89ddae9bba6b01815282ee243f",
+      "export_sha256": "90434fc2ef268549d41ec88c7933f2b37d459f89ddae9bba6b01815282ee243f",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-viewport-v6/TabletViewportPatch.java",
+      "original_sha256": "c0fa2d9a9a87b731442b3f6082df76006ebe12de05acf82509d9ad6ebebb2678",
+      "export_sha256": "c0fa2d9a9a87b731442b3f6082df76006ebe12de05acf82509d9ad6ebebb2678",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-viewport-v6r2/capture.py",
+      "original_sha256": "3626fb3bb089ab266b0374b2e5a051594032721769cbd117048bd23e63a5ce4e",
+      "export_sha256": "51ac0bde5f3f7f1608f98244c98b353ef55023f51c9f169c91b1b679d5bc588d",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-viewport-v6r2/gestures.py",
+      "original_sha256": "16a26565cce5720f3f8d875782b1c0e626cc272e187c34d172fb372be66a4ded",
+      "export_sha256": "062d135d1e494dd298bae0a43ff1a5d85ff3dc6ec224c0f8ed94a8976c763017",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-viewport-v6r2/integrate.sh",
+      "original_sha256": "00d93874c7e6bf5e6405972315f2d11273ef2ab85a7bcc4d79d6de66ac222d55",
+      "export_sha256": "00d93874c7e6bf5e6405972315f2d11273ef2ab85a7bcc4d79d6de66ac222d55",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/verify-held-gestures.py",
+      "original_sha256": "46a113f6b98524c4d6b045a0c9c2d507c532547b336b32b8d3a7759f5d4fbdd6",
+      "export_sha256": "ea717918463e442eeb59dcf3f98bad6282b218994da399dab6567ad72e8e2002",
+      "identity_placeholders": true
+    },
+    {
+      "path": "ui-compat/native-ui/wechat-identity-v4/find-consumers.py",
+      "original_sha256": "a21b6052f3f08402aaac00465d3b86e2a7e456d8f7b36e31d2ca36b12f87f7b5",
+      "export_sha256": "a21b6052f3f08402aaac00465d3b86e2a7e456d8f7b36e31d2ca36b12f87f7b5",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/wechat-identity-v4/FindIdentityConsumers.java",
+      "original_sha256": "0dd5a3a8b7b2917b0aef84afa6701c6affff4a2b985c3943d68a9d0a36f7f941",
+      "export_sha256": "0dd5a3a8b7b2917b0aef84afa6701c6affff4a2b985c3943d68a9d0a36f7f941",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/wechat-identity-v4/integrate-brand-v5.sh",
+      "original_sha256": "5762770cdc103476ac386dddc3c9a8089612ee40979b70ff8a1cca83fda2e08c",
+      "export_sha256": "5762770cdc103476ac386dddc3c9a8089612ee40979b70ff8a1cca83fda2e08c",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/wechat-identity-v4/prepare-brand-config.py",
+      "original_sha256": "3eac57808316ecc3c210684089d2a184f73b7804b2e2d9e8535c71c0bc56f9c7",
+      "export_sha256": "186152fd09fededb29a2a1682f2bcbc689075cf8fcb2511b55c13a9a5f60a524",
+      "identity_placeholders": true
+    },
+    {
+      "path": "update_metadata.proto",
+      "original_sha256": "09da1556e3edb9197ca88103b22ea07230a634c004605d4aa1efee6a6ed6e60d",
+      "export_sha256": "09da1556e3edb9197ca88103b22ea07230a634c004605d4aa1efee6a6ed6e60d",
+      "identity_placeholders": false
+    },
+    {
+      "path": "verify_apex_tree.py",
+      "original_sha256": "f8e07538b8cb161f68eee2415b01c900cf69d1ea8123f89fe015f541843e17da",
+      "export_sha256": "f8e07538b8cb161f68eee2415b01c900cf69d1ea8123f89fe015f541843e17da",
+      "identity_placeholders": false
+    },
+    {
+      "path": "verify_base.py",
+      "original_sha256": "ceea255c612d3856d1c92c2131af0e6db27fabf7cf69df803f1232ada59b12d3",
+      "export_sha256": "ceea255c612d3856d1c92c2131af0e6db27fabf7cf69df803f1232ada59b12d3",
+      "identity_placeholders": false
+    },
+    {
+      "path": "verify_clean_boot.py",
+      "original_sha256": "c77ea54dff111bb7c25d320712517a1a7a0cf0a4095e303af570dec1e1768a10",
+      "export_sha256": "c77ea54dff111bb7c25d320712517a1a7a0cf0a4095e303af570dec1e1768a10",
+      "identity_placeholders": false
+    },
+    {
+      "path": "verify_integrated_logicals.py",
+      "original_sha256": "7ac805382e177cee76f390ddd08a31e58588955024e5068b936184444d0f5405",
+      "export_sha256": "7ac805382e177cee76f390ddd08a31e58588955024e5068b936184444d0f5405",
+      "identity_placeholders": false
+    },
+    {
+      "path": "verify_integrated_logicals.sh",
+      "original_sha256": "55bf54ca3b393def5bede53092c5dcea467031a238a2d5f8762430244a7ece2f",
+      "export_sha256": "55bf54ca3b393def5bede53092c5dcea467031a238a2d5f8762430244a7ece2f",
+      "identity_placeholders": false
+    },
+    {
+      "path": "verify_kernel_abi.py",
+      "original_sha256": "1673ffc31bd34ee966d3d3213b579e0778c9c0f5c050202edfa695e6237d9f00",
+      "export_sha256": "1673ffc31bd34ee966d3d3213b579e0778c9c0f5c050202edfa695e6237d9f00",
+      "identity_placeholders": false
+    },
+    {
+      "path": "verify_signature.py",
+      "original_sha256": "c79ae0b7d62446183d55888003c2fbf8d88dffe019799cc5e85d379c52562186",
+      "export_sha256": "c79ae0b7d62446183d55888003c2fbf8d88dffe019799cc5e85d379c52562186",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/assemble-wifi-super.py",
+      "original_sha256": "0e8a1d28c83a453ecf21317987df64b3b4781dfcad2953024465d8f707410c01",
+      "export_sha256": "0e8a1d28c83a453ecf21317987df64b3b4781dfcad2953024465d8f707410c01",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/audit-compiled-bsp.sh",
+      "original_sha256": "1294a1cce13fea411b343c8070ce1b9a60443ede048e6fb058506b0baa436aed",
+      "export_sha256": "1294a1cce13fea411b343c8070ce1b9a60443ede048e6fb058506b0baa436aed",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/build-wifi-apex.sh",
+      "original_sha256": "72d008b8e25583e6cf130df1ca73872685f3ea11805772fe7ecf5e87bee2bc81",
+      "export_sha256": "72d008b8e25583e6cf130df1ca73872685f3ea11805772fe7ecf5e87bee2bc81",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/build-wifi-jar.py",
+      "original_sha256": "d9c8d786bed4f2e3972feec8cc70b2b83cb52d8d049c7d5c08f1edd419864fad",
+      "export_sha256": "d9c8d786bed4f2e3972feec8cc70b2b83cb52d8d049c7d5c08f1edd419864fad",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/capture-channel-fix-boot.py",
+      "original_sha256": "9f7c5cf006a631fba6ac5b88cf8a736aef260f993de9bf0abdc35b60871cbbc0",
+      "export_sha256": "f52d2e60852e178bcdfc4689259f294a2f45ee70b5ad464e93a683b514088bf4",
+      "identity_placeholders": true
+    },
+    {
+      "path": "wifi-compat/capture-physical-boot.py",
+      "original_sha256": "0ae1848d2c63a2b4979b7953484e9f8bcf55eecdca97b1528ecec2ecf17aba0e",
+      "export_sha256": "04f0d29ad2993a11339bfc054634b5e518e794d17a71b247fe41c0e167daa955",
+      "identity_placeholders": true
+    },
+    {
+      "path": "wifi-compat/check-system-input.sh",
+      "original_sha256": "3bcd064f3ff53507e2d5ff3436dbe9b87daaf310bd7d57feb02a3e27f9c85dbb",
+      "export_sha256": "3bcd064f3ff53507e2d5ff3436dbe9b87daaf310bd7d57feb02a3e27f9c85dbb",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/enter-fastboot.py",
+      "original_sha256": "be903bf21d81807a314f92f22005e57f9f3af151b09a2b3b4ed19aeb0fe13c22",
+      "export_sha256": "c397176a7e20101a84dcd7c193d7d0bf21a0f5d594490a897d86396ad3f670bf",
+      "identity_placeholders": true
+    },
+    {
+      "path": "wifi-compat/extract-wifi-apex.sh",
+      "original_sha256": "04a6d115ffd52816537292cd1d636a6e481815c564773183c90e57285ba2feeb",
+      "export_sha256": "04a6d115ffd52816537292cd1d636a6e481815c564773183c90e57285ba2feeb",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/flash-correct-bsp.py",
+      "original_sha256": "614d7a0b703c5eb777f438a9add6a633f36a78ec4596b96fa033af3040914412",
+      "export_sha256": "9a749000f858dbd265213988d1788550303b3c601d884aee5fb347c03006960e",
+      "identity_placeholders": true
+    },
+    {
+      "path": "wifi-compat/flash-wifi-delta.py",
+      "original_sha256": "502ef118736774b896beee66ab5cf973c92f5c39f208eef45ecce0a2a911a594",
+      "export_sha256": "db2a42195dd5eec1cdbcddfda667cb182f548e2ebe807eb295ba23a348d25975",
+      "identity_placeholders": true
+    },
+    {
+      "path": "wifi-compat/integrate-wifi.sh",
+      "original_sha256": "656dfd2dee6b561af230d04e5ac22530b13f50a6562b3a55d3aec9b2de1a774c",
+      "export_sha256": "656dfd2dee6b561af230d04e5ac22530b13f50a6562b3a55d3aec9b2de1a774c",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/ListWifiRadioConsumers.java",
+      "original_sha256": "027798f0836144e87dfb732d17deddf34169926965e1234a7b7c0391cd58ea96",
+      "export_sha256": "027798f0836144e87dfb732d17deddf34169926965e1234a7b7c0391cd58ea96",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/make-wifi-delta.py",
+      "original_sha256": "043095f7cc9a7a4cfcc9c8322147219d23fa616dad6ae6551968cdda2f13bde9",
+      "export_sha256": "043095f7cc9a7a4cfcc9c8322147219d23fa616dad6ae6551968cdda2f13bde9",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/package-wifi-apex.py",
+      "original_sha256": "d257194b64fafd636c0046467e6565b656c1aaac64a57b3006682ddb7b994f1d",
+      "export_sha256": "d257194b64fafd636c0046467e6565b656c1aaac64a57b3006682ddb7b994f1d",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/rebuild-correct-bsp.sh",
+      "original_sha256": "3834934a88fe1ae7f4f040e86dd3600f481f3a0954b1c36fa478d0a1190ebbc8",
+      "export_sha256": "3834934a88fe1ae7f4f040e86dd3600f481f3a0954b1c36fa478d0a1190ebbc8",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/WifiOptionalRadioStatsPatch.java",
+      "original_sha256": "e3cef61b13192be6b61930905eadd1e88cd9fe142b8627418191bc7199402633",
+      "export_sha256": "e3cef61b13192be6b61930905eadd1e88cd9fe142b8627418191bc7199402633",
+      "identity_placeholders": false
+    }
+  ]
+}

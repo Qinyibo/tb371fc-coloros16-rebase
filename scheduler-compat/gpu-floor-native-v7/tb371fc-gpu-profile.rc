@@ -1,0 +1,3 @@
+# TB371FC KGSL level 4 is 441.6 MHz. Apply after Qualcomm's boot policy.
+on property:vendor.post_boot.parsed=1 && property:ro.product.board=spinel
+    write /sys/class/kgsl/kgsl-3d0/min_pwrlevel 4
