@@ -10,3 +10,7 @@ handoff-to-grok-20261106/** text eol=lf
 handoff-to-grok-20261106/music/libsysoptimizer.so -text
 handoff-to-grok-20261106/comm/r94-commcenterd.rc -text
 handoff-to-grok-20261106/music/music-installed.apk filter=lfs diff=lfs merge=lfs -text
+deploy-ready-20261106/** text eol=lf
+deploy-ready-20261106/**/*.so -text
+deploy-ready-20261106/music/libsysoptimizer.so.* -text
+deploy-ready-20261106/**/*.zip -text

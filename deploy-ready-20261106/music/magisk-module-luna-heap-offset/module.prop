@@ -1,0 +1,6 @@
+id=tb371fc_luna_heap_offset_fix
+name=TB371FC Luna HeapExpand offset 0x308
+version=v1
+versionCode=1
+author=Tibo-offline
+description=Replace com.luna.music libsysoptimizer.so bitmap offset 0x2f0->0x308. No ART/GC/OEM. hardware_success_claimed=false until verified.
