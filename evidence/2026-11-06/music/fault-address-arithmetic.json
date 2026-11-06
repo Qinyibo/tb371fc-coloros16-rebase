@@ -1,0 +1,11 @@
+{
+  "scope": "Arithmetic from this tombstone registers and memory near x0, using verified fault-site instructions; identifies the accessed address, not who corrupted or constructed the object",
+  "x0_tagged": "0xb400006f50c78f08",
+  "bitmap_begin_read_at_x0_plus_0x48": "0x82000000",
+  "heap_begin_read_at_x0_plus_0x58": "0x21",
+  "visit_begin_x1": "0x2000000",
+  "formula": "bitmap_begin + (((visit_begin - heap_begin) >> 9) << 3)",
+  "calculated_address": "0x8207fff8",
+  "fault_address_matches": true,
+  "root_cause_verified": false
+}

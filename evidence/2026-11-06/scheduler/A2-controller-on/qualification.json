@@ -1,0 +1,18 @@
+{
+  "explicit_launches": {
+    "com.ss.android.ugc.aweme": 16
+  },
+  "trace_covers_workload": true,
+  "requested_third_party_apps_rendered": true,
+  "both_third_party_apps_rendered": null,
+  "boot_id_unchanged": true,
+  "gpu_level_start": "4",
+  "gpu_level_end": "4",
+  "lifecycle_events_in_capture": 4,
+  "target_process_deaths_in_capture": [],
+  "steady_process_lifetime": null,
+  "observed_native_crashes": [],
+  "matched_warm_benchmark_qualified": false,
+  "user_acceptance": false,
+  "performance_gain_verified": false
+}

@@ -1,0 +1,48 @@
+{
+  "libart_sha256": "63ed6aa8ffbc82db163faaaf5bd1cf0e3bdf1138af7e0d32bab80283e6e2452a",
+  "symbol_ranges_scanned": 46,
+  "store_instructions_indexed": 533,
+  "binary_reconstructed_object_footprint": "0x80; no DWARF sizeof available",
+  "crash_region": "0x6f50c78c00",
+  "crash_this": "0x6f50c78f08",
+  "expected_member_offset": "0x308",
+  "earlier_layout_address": "0x6f50c78ef0",
+  "earlier_member_offset": "0x2f0",
+  "actual_this_fields": {
+    "bitmap_begin": "0x82000000",
+    "bitmap_size": "0x29",
+    "heap_begin": "0x21",
+    "heap_limit": "0x6d453ab370"
+  },
+  "earlier_candidate_fields": {
+    "bitmap_begin": "0x6c43200000",
+    "bitmap_size": "0x2000000",
+    "heap_begin": "0x2000000",
+    "heap_limit": "0x82000000"
+  },
+  "computed_fault": "0x8207fff8",
+  "string_candidate_length": 33,
+  "healthy_sample": {
+    "pid": 2065,
+    "process": "system_server",
+    "region_address": "0x6f50c78c00",
+    "read_bytes": 904,
+    "sampling": "one read pass from proc mem; no ptrace attach or process suspension; not an atomic snapshot",
+    "libart_load_bias": "0x6f4a365000",
+    "vtable_matched_RegionSpace": true,
+    "live_bitmap_offset": "0x308",
+    "live_bitmap_address": "0x6f50c78f08",
+    "fields": {
+      "bitmap_begin": "0x6f3f600000",
+      "bitmap_size": "0x1000000",
+      "heap_begin": "0x2000000",
+      "heap_limit": "0x42000000"
+    }
+  },
+  "limits": [
+    "Earlier bytes form a coherent alternate layout, not proof of construction or writer.",
+    "Healthy process is system_server, not the crashed process; same virtual address does not mean same object.",
+    "The one process-memory read is not atomic; no further process-memory sample taken.",
+    "Typed writes cannot be exhaustively recovered from this stripped-of-DWARF binary."
+  ]
+}

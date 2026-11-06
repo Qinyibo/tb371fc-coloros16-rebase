@@ -1,0 +1,11 @@
+{
+  "tombstone_pid": 18521,
+  "tombstone_timestamp": "2026-11-05 21:52:26.158610133+0800",
+  "fault_address": "0x8207fff8",
+  "fault_inside_listed_mapping": false,
+  "maps_source": "This tombstone, not /proc of a replacement process",
+  "raw_tombstone_sha256": "d544a6147bedf71dd91e5c170b48575a2e7c2ab0c122b51ba5944903b3b5db4f",
+  "full_logcat_before_crash_available": false,
+  "heap_expansion_marker_source": "Perfetto slice; not logcat",
+  "old_same_app_runtime_test_available": false
+}

@@ -1,0 +1,374 @@
+{
+  "format": 1,
+  "raw_device_evidence_included": false,
+  "files": [
+    {
+      "path": "music/fault-address-arithmetic.json",
+      "sha256": "481aecb7483df8f03516c88d8933d21b1a46c8636c994dac062bae30a3004310",
+      "source": "grok-handoff-20261105/fault-address-arithmetic.json",
+      "source_sha256": "394c973d667c28bed9f383b37a0257834a01e90a2e9a6e1d19bff7b90b35afbc",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "music/fault-neighborhood-maps.json",
+      "sha256": "82b926a0c4bcb3839e96b34f1907256de86ea3078b697bc1a62532d976d7e39c",
+      "source": "grok-handoff-20261105/fault-neighborhood-maps.json",
+      "source_sha256": "ecc4796d96b1ab33920f8d22a2689e92d77564721ab9aefed419662cbe00b090",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "music/music-evidence-facts.json",
+      "sha256": "4cc23531f8604426b3de0691bde295e0d45cc95016ed25d62392425d00027c14",
+      "source": "grok-handoff-20261105/music-evidence-facts.json",
+      "source_sha256": "e3acf9eb225db76b7a25803999b62d122054a335c9cc1d1134d39c3bbf7d6071",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "music/music-gc-expansion.csv",
+      "sha256": "1c15fb92c6885cad5a9b943fe11e31552f62c7b0251ce6288457cb29ddc4033f",
+      "source": "grok-handoff-20261105/music-gc-expansion.csv",
+      "source_sha256": "135d3c68b08674101db8044c1b355984009dd83c2bbace924f0972a67d07923d",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "music/music-gc-expansion.sql",
+      "sha256": "f005aaeb1ff1678d83995ae4ad1545ad874fad1ba8ba3dc6722f2fa6c933a947",
+      "source": "grok-handoff-20261105/music-gc-expansion.sql",
+      "source_sha256": "22a983e6ef213f2876a3013a1646fec0d670b84eb27615876ff476ea738cb0f7",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "music/old-art-static-properties.json",
+      "sha256": "772b90817905ddaf859b1a7706ff82c75d40d1e4078b4c982ea976f9b5a7a69e",
+      "source": "grok-handoff-20261105/old-art-static-properties.json",
+      "source_sha256": "772b90817905ddaf859b1a7706ff82c75d40d1e4078b4c982ea976f9b5a7a69e",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "music/art-fault-site.asm",
+      "sha256": "f1890bd772e1aea0001dea690b6064a033d91e496424c41c321af862672d28ee",
+      "source": "grok-handoff-20261105/art-fault-site.asm",
+      "source_sha256": "f5d130c3dab0978c99e10cf772535413689bd0e87ccf748fbdfbf63367e363d1",
+      "selection": "Remove local path in disassembler header"
+    },
+    {
+      "path": "music/art-layout/bitmap-constructor.asm",
+      "sha256": "edd49c8ad7dc87e31b2da99b052488d933fc22c38beb81499702249acd513dca",
+      "source": "grok-handoff-20261105/layout-readonly/bitmap-constructor.asm",
+      "source_sha256": "4e964f3de929f773fecd2462a5077121ee0db6ee9318c27b5341568bac538d2a",
+      "selection": "Remove local path in disassembler header"
+    },
+    {
+      "path": "music/art-layout/bitmap-create.asm",
+      "sha256": "ed995fd9b3f24839543021fa0307534059eafdfb28081b292d9cc762315bc2b4",
+      "source": "grok-handoff-20261105/layout-readonly/bitmap-create.asm",
+      "source_sha256": "3051cbd168ee8618808344cec3bd38801e7b57c372f96c411259fe55994175d3",
+      "selection": "Remove local path in disassembler header"
+    },
+    {
+      "path": "music/art-layout/bitmap-set-limit.asm",
+      "sha256": "16501f9dbb63338ba2195124e543e15b90ea43541cdfb846eb08db02d68129f2",
+      "source": "grok-handoff-20261105/layout-readonly/bitmap-set-limit.asm",
+      "source_sha256": "950e0968ff3df04f31e4ee6c1ab7a85f658571770cd68dd261f67a7d01701cef",
+      "selection": "Remove local path in disassembler header"
+    },
+    {
+      "path": "music/art-layout/region-live-getter.asm",
+      "sha256": "88538a69589daf0b99bb6841cb30398f1fc8964f7dca72d998f713e2b7bf3a53",
+      "source": "grok-handoff-20261105/layout-readonly/region-live-getter.asm",
+      "source_sha256": "a42bc82b452af7635806a5ba2cce7669ee7d42c89fb520999713c67207d42532",
+      "selection": "Remove local path in disassembler header"
+    },
+    {
+      "path": "music/art-layout/old-region-live-getter.asm",
+      "sha256": "6c00f393b004045b7615801e919de7b6b50314de533c9ab9c8cbdaae592edc7e",
+      "source": "grok-handoff-20261105/layout-readonly/old-region-live-getter.asm",
+      "source_sha256": "7cae3151f54bf5262a7ec2e108e395d7e6e05ce62a551cd87f6785a492fc1016",
+      "selection": "Remove local path in disassembler header"
+    },
+    {
+      "path": "music/app-probe/bitmap-write.asm",
+      "sha256": "c75795fd591cbd9bcdd734449b1da1237efc842c08254ffb2211b1122a17bcd9",
+      "source": "grok-handoff-20261105/heap-expand-readonly-20261106/bitmap-write.asm",
+      "source_sha256": "e2be5987f2786aa5953bce224ef4cb8ea15c8de2dcc9ef82b34c192e7fcc38e5",
+      "selection": "Remove local path in disassembler header"
+    },
+    {
+      "path": "music/app-probe/bitmap-copy-data.asm",
+      "sha256": "8d4d7bd5ad0208b3bb9a546dba55633243ab72509784e9af76138093d7166092",
+      "source": "grok-handoff-20261105/heap-expand-readonly-20261106/bitmap-copy-data.asm",
+      "source_sha256": "4bdff2e635359eab21fe83be71cff56484ac4a763cf80e32334a7bade42d5210",
+      "selection": "Remove local path in disassembler header"
+    },
+    {
+      "path": "music/app-probe/provider-selection-and-values.asm",
+      "sha256": "8931addac27880f303095c1067b3647a3e38d598f6492fa5291549dcd90ac82f",
+      "source": "grok-handoff-20261105/heap-expand-readonly-20261106/provider-selection-and-values.asm",
+      "source_sha256": "c101bc2e52875f574a7e76458da0afba0d0368591b22441a3fe842faf3a90ccd",
+      "selection": "Remove local path in disassembler header; remove trailing whitespace"
+    },
+    {
+      "path": "music/app-probe/probe-modern.asm",
+      "sha256": "8a8bbb1d0fe19ecd66713446d7f4d5cf0e4c7a52edd2cee4409cf9c79c309cfd",
+      "source": "grok-handoff-20261105/heap-expand-readonly-20261106/probe-modern.asm",
+      "source_sha256": "6c13c38e9f0e5054eb59be8f6289d469956c874bc24857651393f011d6e5812e",
+      "selection": "Remove local path in disassembler header; remove trailing whitespace"
+    },
+    {
+      "path": "music/app-probe/current-art-region-clear.asm",
+      "sha256": "b99e5f85766c8be060385d15f1bd223e4fd50ed78c7ab80b40d7f8f77d451d50",
+      "source": "grok-handoff-20261105/heap-expand-readonly-20261106/current-art-region-clear.asm",
+      "source_sha256": "c37719a6e70387f712376bdf0327a14402ab50fb09871e8c20ec3f785e565cab",
+      "selection": "Remove local path in disassembler header"
+    },
+    {
+      "path": "music/app-probe/region-table-stride.asm",
+      "sha256": "16972abe0230d3c017a108cc1cac547033e5c4653eb5fa264006b86dcbf42473",
+      "source": "grok-handoff-20261105/heap-expand-readonly-20261106/region-table-stride.asm",
+      "source_sha256": "a91746b72f87e88a9e5633e253ab2bfea919d26fe3f7ebde2f30a0f3fc696a76",
+      "selection": "Remove local path in disassembler header"
+    },
+    {
+      "path": "music/app-probe/resolve-create-and-provider.asm",
+      "sha256": "1b5fb7cc1f551f25e8eee6a5e9968f80b89c83c6cdfee890ddd566bdf81e9d25",
+      "source": "grok-handoff-20261105/heap-expand-readonly-20261106/resolve-create-and-provider.asm",
+      "source_sha256": "557428e6478c88f248028b1cbd1abe2a410639f8c61216402a6aa1cfe08839b9",
+      "selection": "Remove local path in disassembler header; remove trailing whitespace"
+    },
+    {
+      "path": "music/app-probe/probe-match.json",
+      "sha256": "fee97f4e82bff250c79c70b1105003319441a914f39180e25673b0a392a17c04",
+      "source": "grok-handoff-20261105/heap-expand-readonly-20261106/probe-match.json",
+      "source_sha256": "6e37b0ce7f8ddf19d3bc760f53513d77ae49bef1c51d60e908d652acc79a6c50",
+      "selection": "Remove local path in disassembler header"
+    },
+    {
+      "path": "music/app-probe/provider-vtables.json",
+      "sha256": "22ee04a68023b3a74924952fc3257becbb1328960a23c8105adea70479b1d62d",
+      "source": "grok-handoff-20261105/heap-expand-readonly-20261106/provider-vtables.json",
+      "source_sha256": "2b4ed02c9e68e0ec27c9c84b4da680f3ef2ab6c37e8d178d793d9a390c46cf14",
+      "selection": "Remove local path in disassembler header"
+    },
+    {
+      "path": "music/art-layout/layout-facts.json",
+      "sha256": "d5c5b3f7786d5a988a1527eef17e66402e1dc3db152ac2e2ea2cdd1361f8642e",
+      "source": "grok-handoff-20261105/layout-readonly/layout-facts.json",
+      "source_sha256": "6f1682551d56aa30088b895013a8d4ad7e5be1e2982449aae46cae857b771762",
+      "selection": "Remove boot UUID from derived layout facts"
+    },
+    {
+      "path": "music/art-layout/crash-bitmap-near.hex.txt",
+      "sha256": "2be881f4f51d99d507a09a2635956214ccde69e7f09265800f5627ab8721036d",
+      "source": "grok-handoff-20261105/layout-readonly/crash-bitmap-near.hex.txt",
+      "source_sha256": "85edada859ca035ed5753c646d952c0aa1cca82f34d187be6d87df90e2118a77",
+      "selection": "Only 64-bit words near the identified bitmap object, no ASCII view or other memory"
+    },
+    {
+      "path": "music/art-layout/healthy-bitmap-once.hex.txt",
+      "sha256": "953ac0b22ec5aa8486f74245f29a21cea033261448e585eb44871d2e5cc69e72",
+      "source": "grok-handoff-20261105/layout-readonly/healthy-bitmap-once.hex.txt",
+      "source_sha256": "bd5640ede2a850d91f3ea20cea484055fd1693245dc9fdf7293b7be485c09929",
+      "selection": "Only 64-bit words near the identified bitmap object, no ASCII view or other memory"
+    },
+    {
+      "path": "music/tombstone-excerpt.txt",
+      "sha256": "bd1fd4b451602bd82d8d042983546fcfce577ebfa4387561d2f79eaec98edba4",
+      "source": "grok-handoff-20261105/tombstone-15.txt",
+      "source_sha256": "d544a6147bedf71dd91e5c170b48575a2e7c2ab0c122b51ba5944903b3b5db4f",
+      "selection": "Select crash metadata, used registers, 16 frames, and two relevant mappings. Raw memory is limited to bitmap words in the separate file."
+    },
+    {
+      "path": "music/crash-buffer-fatal.txt",
+      "sha256": "2b3815ed725659a6fc879ada0d7e38c2b83aa960d772380ef31d29e433d7219e",
+      "source": "grok-handoff-20261105/music-crash-logcat-window.txt",
+      "source_sha256": "c17d5727ce2495a5110d3990663e4c955bcb157185b9f1820207d92b6ed6f5eb",
+      "selection": "Only the matching native fatal line. Continuous pre-crash main buffer unavailable."
+    },
+    {
+      "path": "music/current-dalvik-properties.txt",
+      "sha256": "a9aefbf3828f87fe100abf2c352843967afc5d7ed06a61755512771a9038e6b4",
+      "source": "grok-handoff-20261105/current-runtime.txt",
+      "source_sha256": "0130162d532ed16c35d085f10f2c12582592ece3143e90635621e708567dbea6",
+      "selection": "Select simple dalvik.vm property values"
+    },
+    {
+      "path": "music/later-anr-facts.json",
+      "sha256": "754ed14e7d4917d04407af0959273f09b2a90ba539f61f388c58cc48c496fd65",
+      "source": "grok-handoff-20261105/heap-expand-readonly-20261106/new-crash-readonly/event-facts.json",
+      "source_sha256": "1fa6c7ef9c112f8c41132792121afe9556b584e0832d8d62485d0357ef7c0be2",
+      "selection": "Derived facts only. Remove boot UUID. Exclude full log and touch coordinates."
+    },
+    {
+      "path": "scheduler/protocol.json",
+      "sha256": "13e6e8918dacc74b771c30214504288cc612b518e6216e68da722d05faa0763d",
+      "source": "grok-handoff-20261105/controller-protocol.json",
+      "source_sha256": "cc87597cfde76e1bd1658154ea590ca6e71bb153f3eee79c80e7b97fe4b0c099",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/A1-controller-on/p95-input-frames.csv",
+      "sha256": "5c0b372c1bd768ff5621424ebefe41af8aa93845c9139323c9a250b9e41683c7",
+      "source": "grok-handoff-20261105/A1-controller-on/p95-input-frames.csv",
+      "source_sha256": "fb3bdf0b6ae64fb450a9542540617a743a15a73acc9b510c1dce29c04c18c705",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/A1-controller-on/p95-input-frames.sql",
+      "sha256": "01f32a82106a2486b914755944dece771e57e51a321f88b2cf1c668ed6dfb101",
+      "source": "grok-handoff-20261105/A1-controller-on/p95-input-frames.sql",
+      "source_sha256": "3334ee3625e414be3593584fa49351be4b8c63c6c9d24fe93b3c0a6af4840447",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/A1-controller-on/worst-douyin-frame-threads.csv",
+      "sha256": "ee744639668deb98d8ba8cdd4c3ee2acba014569392a2f448dc57a27f80c3b79",
+      "source": "grok-handoff-20261105/A1-controller-on/worst-douyin-frame-threads.csv",
+      "source_sha256": "c8623e93abf5b97e81b7be871ed582237055780081c36427d9f86be1ed624fc1",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/A1-controller-on/worst-douyin-frame-threads.sql",
+      "sha256": "9d6e5ca491a567dc7ba4c723f42a1f540f39790ec27a3ea09f9cc41ef0abf9e0",
+      "source": "grok-handoff-20261105/A1-controller-on/worst-douyin-frame-threads.sql",
+      "source_sha256": "f784a3df2748ec18bc3a17f5349a9ce36fed5347206384e06f950545c1eacbc2",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/A1-controller-on/qualification.json",
+      "sha256": "83cb959e500a8c130b3b57dab6e02f0fb39a36464f6f630d78ac926a512a19f6",
+      "source": "grok-handoff-20261105/A1-controller-on/qualification.json",
+      "source_sha256": "907980bb26e4868a83ed9fcc22601bfc831842247b846600ba7d31981136c8fa",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/A1-controller-on/metrics.txt",
+      "sha256": "1891d6874ea049f29859b5f65b03e997517c2e759fab1ed020c1131995669300",
+      "source": "grok-handoff-20261105/A1-controller-on/metrics.txt",
+      "source_sha256": "cd965bcf0dc59a8b0b53f2db37da5b02cc108fe4949462038475d94244b96f1e",
+      "selection": "Keep workload, frame and render-wait tables. CPU process list and other rows omitted."
+    },
+    {
+      "path": "scheduler/A1-controller-on/launches.txt",
+      "sha256": "20eb47d37f05cfe69a08b340e8dcb5ec3e93ee7e8bb56ec027451d25166136be",
+      "source": "grok-handoff-20261105/A1-controller-on/workload.txt",
+      "source_sha256": "709be9530b03a0c260b7f67a061fb27b5a420cd78347119e39eb077cac05397b",
+      "selection": "Exact target launch records. Window bounds available in metrics and protocol."
+    },
+    {
+      "path": "scheduler/B-controller-off/p95-input-frames.csv",
+      "sha256": "4f56c9f5fcfae6d3d3fd6aff3531c99b3dafe63b4a912fd15263e4f9a5c7fcc1",
+      "source": "grok-handoff-20261105/B-controller-off/p95-input-frames.csv",
+      "source_sha256": "96e90014d85f2e2aa6ae4270897de562afc51f0822fdb2bccffd9cff0f0190c2",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/B-controller-off/p95-input-frames.sql",
+      "sha256": "a7ee75fc04f74949344083499808a90627f180b6a4ab4bf17d03ff8a3ab4ee21",
+      "source": "grok-handoff-20261105/B-controller-off/p95-input-frames.sql",
+      "source_sha256": "c737149735c80c0845c6373e4a199a3a18a5bfae39c0efb16e07f457ca16e80a",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/B-controller-off/worst-douyin-frame-threads.csv",
+      "sha256": "ac3e2cde0fc5cd45fba23170e088a54f5fb74eb662cfe0181e64fbab8e20ad82",
+      "source": "grok-handoff-20261105/B-controller-off/worst-douyin-frame-threads.csv",
+      "source_sha256": "2b30ee255c5dc4b35f85166c9cea398e7e9273bd716bde7a4d623fad764dbc78",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/B-controller-off/worst-douyin-frame-threads.sql",
+      "sha256": "1525058a74941538103d85f36443deff8db311832e0c4fef26c5e2d1283513d4",
+      "source": "grok-handoff-20261105/B-controller-off/worst-douyin-frame-threads.sql",
+      "source_sha256": "5d15e23fbe02954ad6ebd7928936195810039771c252fe87cbddf7d530f53ee0",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/B-controller-off/qualification.json",
+      "sha256": "97e50c6cbee3678bb9d2738207e8772c6b629f9ffd3f4ba75e5b6020a4d8d416",
+      "source": "grok-handoff-20261105/B-controller-off/qualification.json",
+      "source_sha256": "919076468f067959240ada776fae3d1f077bde6322e163fc57485ac5a3f220b6",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/B-controller-off/metrics.txt",
+      "sha256": "2af9d560809fbbfa268324fe1dc929a7f3f106a70c90059de5aa7632ede59f08",
+      "source": "grok-handoff-20261105/B-controller-off/metrics.txt",
+      "source_sha256": "e26ab99af12c54826bd5d174701a7a0bcb0309d768981e9cf25981789a5da196",
+      "selection": "Keep workload, frame and render-wait tables. CPU process list and other rows omitted."
+    },
+    {
+      "path": "scheduler/B-controller-off/launches.txt",
+      "sha256": "20eb47d37f05cfe69a08b340e8dcb5ec3e93ee7e8bb56ec027451d25166136be",
+      "source": "grok-handoff-20261105/B-controller-off/workload.txt",
+      "source_sha256": "95458ed147d2f5acd38b9e123a9833412b7c400dcf7943897beb96e64979cea6",
+      "selection": "Exact target launch records. Window bounds available in metrics and protocol."
+    },
+    {
+      "path": "scheduler/A2-controller-on/p95-input-frames.csv",
+      "sha256": "e38078cee2879d05d8caebffb6b75e0ffd5b866484960965b9c640a24021bcc1",
+      "source": "grok-handoff-20261105/A2-controller-on/p95-input-frames.csv",
+      "source_sha256": "df237f174e8184a83d3284eae066290fc44fe6dac75b876da540ea1090a62dc3",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/A2-controller-on/p95-input-frames.sql",
+      "sha256": "920acef8d3b305525563eabdf999a10cd9c11db948a3fa424a7f4ddbe5e044c1",
+      "source": "grok-handoff-20261105/A2-controller-on/p95-input-frames.sql",
+      "source_sha256": "374ba4a689e93ae326e7a5eec3c99d0fea63fadf2a944ed8ea8d450785450382",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/A2-controller-on/worst-douyin-frame-threads.csv",
+      "sha256": "7c3a1875f87a84aaa8de16bdcc14863b2763047ec8cd2c57182fdbe0206fcaa5",
+      "source": "grok-handoff-20261105/A2-controller-on/worst-douyin-frame-threads.csv",
+      "source_sha256": "1014f26ef579353741ec66f486dc89fcf22a11c2063515541c28ba7939f5d529",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/A2-controller-on/worst-douyin-frame-threads.sql",
+      "sha256": "df89bd56ef3b9f6d246a0b38566b41012864a795ebb9e4707eea54b18fca1a88",
+      "source": "grok-handoff-20261105/A2-controller-on/worst-douyin-frame-threads.sql",
+      "source_sha256": "31c7b682b4a6a8f5232f5b839e6f91c7f0e55eb177a4f27aee7f6ecbb9a0f748",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/A2-controller-on/qualification.json",
+      "sha256": "5b94f03d5681ce26cce237cfcdd190f7deb9303418e0a22956bd22282fd78b6d",
+      "source": "grok-handoff-20261105/A2-controller-on/qualification.json",
+      "source_sha256": "971364a4ccd68d2c098434d5e82b63901343be5d7d3dc50d88eff5d1dcf411fd",
+      "selection": "Text with LF line endings"
+    },
+    {
+      "path": "scheduler/A2-controller-on/metrics.txt",
+      "sha256": "649d6c22d744098431adb117b41e1506d85a9ff3b32748da0ae016848d9b7d12",
+      "source": "grok-handoff-20261105/A2-controller-on/metrics.txt",
+      "source_sha256": "e4f8844ae53fba79f6d58ecdf6f4dc449e0a55fa497433ad792b61996f1baea3",
+      "selection": "Keep workload, frame and render-wait tables. CPU process list and other rows omitted."
+    },
+    {
+      "path": "scheduler/A2-controller-on/launches.txt",
+      "sha256": "20eb47d37f05cfe69a08b340e8dcb5ec3e93ee7e8bb56ec027451d25166136be",
+      "source": "grok-handoff-20261105/A2-controller-on/workload.txt",
+      "source_sha256": "32b691a89f1322d6738f525c98cb00088c2add308e1c5f2102316e6cd9236e91",
+      "selection": "Exact target launch records. Window bounds available in metrics and protocol."
+    },
+    {
+      "path": "hardware/v17-vnet-comparison.json",
+      "sha256": "e465abf98c5ff860d1b3cd791cf5be500e5c691a9bd22b9ed49f1436b3ec0008",
+      "source": "pen-sharing-compat/v17-comparison/comparison.json",
+      "source_sha256": "97548c0b55849a4f7be5dda50fa27f94703a2da69b02515bf7d26e863f28e9a8",
+      "selection": "Only image paths, hashes and init behavior"
+    },
+    {
+      "path": "hardware/recents-observations.json",
+      "sha256": "589eeb80835236dccec3339c2c088cc1642117cac52138a2523d38928e7d2f3f",
+      "source": "ui-compat/native-ui/recents-boundary-v9/bounded-edge-observations.json",
+      "source_sha256": "acd5b68045eb3d4638a9e5b8e862db5b1b5b322d39f78fcee791d7a8e063b7f4",
+      "selection": "Only qualification. Screenshot and full window dumps remain local."
+    },
+    {
+      "path": "README.md",
+      "sha256": "a351aecd053c7a4fe9a425a59bfbd97c23039764c93d65a2d1ad3769e5127d76"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "phase": "A1-controller-on",
+    "workload_start_uptime_seconds": "10923.09",
+    "workload_end_uptime_seconds": "10939.81",
+    "discarded_full_workload_warmup": false,
+    "only_warmup": "am start -W then 3 seconds before each phase",
+    "page_or_video_identity_recorded": false,
+    "worst_douyin_frame": {
+      "app": "com.ss.android.ugc.aweme",
+      "upid": "704",
+      "surface_frame_token": "959501",
+      "frame_start_ns": "10933180397286",
+      "timeline_duration_ns": "98723333",
+      "missed": "1",
+      "late": "1"
+    },
+    "input_rows": 3266
+  },
+  {
+    "phase": "B-controller-off",
+    "workload_start_uptime_seconds": "10971.35",
+    "workload_end_uptime_seconds": "10988.03",
+    "discarded_full_workload_warmup": false,
+    "only_warmup": "am start -W then 3 seconds before each phase",
+    "page_or_video_identity_recorded": false,
+    "worst_douyin_frame": {
+      "app": "com.ss.android.ugc.aweme",
+      "upid": "752",
+      "surface_frame_token": "1044045",
+      "frame_start_ns": "10975698277529",
+      "timeline_duration_ns": "27557031",
+      "missed": "1",
+      "late": "1"
+    },
+    "input_rows": 2541
+  },
+  {
+    "phase": "A2-controller-on",
+    "workload_start_uptime_seconds": "11015.92",
+    "workload_end_uptime_seconds": "11032.64",
+    "discarded_full_workload_warmup": false,
+    "only_warmup": "am start -W then 3 seconds before each phase",
+    "page_or_video_identity_recorded": false,
+    "worst_douyin_frame": {
+      "app": "com.ss.android.ugc.aweme",
+      "upid": "1",
+      "surface_frame_token": "1120394",
+      "frame_start_ns": "11022381064127",
+      "timeline_duration_ns": "24116510",
+      "missed": "1",
+      "late": "1"
+    },
+    "input_rows": 2714
+  }
+]

@@ -1,0 +1,590 @@
+[
+  {
+    "name": "N14heap_expand_v417offset_provider_tE",
+    "typeinfo": "0xa7080",
+    "vtable": "0xa70a8",
+    "slots": []
+  },
+  {
+    "name": "N14heap_expand_v417offset_provider_tE",
+    "typeinfo": "0xa7080",
+    "vtable": "0xa72b8",
+    "slots": []
+  },
+  {
+    "name": "N14heap_expand_v417offset_provider_tE",
+    "typeinfo": "0xa7080",
+    "vtable": "0xa7368",
+    "slots": []
+  },
+  {
+    "name": "N14heap_expand_v421offset_provider_api26E",
+    "typeinfo": "0xa7090",
+    "vtable": "0xa6ff8",
+    "slots": [
+      {
+        "slot": "0x0",
+        "target": "0x71eb4",
+        "first_instructions": "71eb4: mov w0, wzr; 71eb8: ret ; 71ebc: mov w0, #0x50"
+      },
+      {
+        "slot": "0x8",
+        "target": "0x71ebc",
+        "first_instructions": "71ebc: mov w0, #0x50; 71ec0: ret ; 71ec4: mov w0, #0xb0"
+      },
+      {
+        "slot": "0x10",
+        "target": "0x71640",
+        "first_instructions": "71640: mov w0, #0x130; 71644: ret ; 71648: mov w0, #0x128"
+      },
+      {
+        "slot": "0x18",
+        "target": "0x71ec4",
+        "first_instructions": "71ec4: mov w0, #0xb0; 71ec8: ret ; 71ecc: mov w0, #0xc0"
+      },
+      {
+        "slot": "0x20",
+        "target": "0x71ecc",
+        "first_instructions": "71ecc: mov w0, #0xc0; 71ed0: ret ; 71ed4: mov w0, #0x40"
+      },
+      {
+        "slot": "0x28",
+        "target": "0x71ed4",
+        "first_instructions": "71ed4: mov w0, #0x40; 71ed8: ret ; 71edc: mov w0, #0x28"
+      },
+      {
+        "slot": "0x30",
+        "target": "0x71edc",
+        "first_instructions": "71edc: mov w0, #0x28; 71ee0: ret ; 71ee4: mov w0, #0x30"
+      },
+      {
+        "slot": "0x38",
+        "target": "0x71ee4",
+        "first_instructions": "71ee4: mov w0, #0x30; 71ee8: ret ; 71eec: mov w0, #0x38"
+      },
+      {
+        "slot": "0x40",
+        "target": "0x71eec",
+        "first_instructions": "71eec: mov w0, #0x38; 71ef0: ret ; 71ef4: mov w0, #0xd0"
+      },
+      {
+        "slot": "0x48",
+        "target": "0x71ef4",
+        "first_instructions": "71ef4: mov w0, #0xd0; 71ef8: ret ; 71efc: stp x29, x30, [sp, #-0x10]!"
+      },
+      {
+        "slot": "0x50",
+        "target": "0x71efc",
+        "first_instructions": "71efc: stp x29, x30, [sp, #-0x10]!; 71f00: mov x29, sp; 71f04: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x58",
+        "target": "0x71f1c",
+        "first_instructions": "71f1c: stp x29, x30, [sp, #-0x10]!; 71f20: mov x29, sp; 71f24: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x60",
+        "target": "0x71f3c",
+        "first_instructions": "71f3c: mov x0, #-1; 71f40: ret ; 71f44: mov w0, #0x18"
+      },
+      {
+        "slot": "0x68",
+        "target": "0x71f44",
+        "first_instructions": "71f44: mov w0, #0x18; 71f48: ret ; 71f4c: stp x29, x30, [sp, #-0x10]!"
+      },
+      {
+        "slot": "0x70",
+        "target": "0x71f4c",
+        "first_instructions": "71f4c: stp x29, x30, [sp, #-0x10]!; 71f50: mov x29, sp; 71f54: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x78",
+        "target": "0x71f6c",
+        "first_instructions": "71f6c: stp x29, x30, [sp, #-0x10]!; 71f70: mov x29, sp; 71f74: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x80",
+        "target": "0x71f8c",
+        "first_instructions": "71f8c: stp x29, x30, [sp, #-0x10]!; 71f90: mov x29, sp; 71f94: ldr x8, [x0]"
+      }
+    ]
+  },
+  {
+    "name": "N14heap_expand_v421offset_provider_api26E",
+    "typeinfo": "0xa7090",
+    "vtable": "0xa7158",
+    "slots": []
+  },
+  {
+    "name": "N14heap_expand_v421offset_provider_api26E",
+    "typeinfo": "0xa7090",
+    "vtable": "0xa7208",
+    "slots": []
+  },
+  {
+    "name": "N14heap_expand_v429offset_provider_api26_samsungE",
+    "typeinfo": "0xa7140",
+    "vtable": "0xa70b8",
+    "slots": [
+      {
+        "slot": "0x0",
+        "target": "0x71eb4",
+        "first_instructions": "71eb4: mov w0, wzr; 71eb8: ret ; 71ebc: mov w0, #0x50"
+      },
+      {
+        "slot": "0x8",
+        "target": "0x71ebc",
+        "first_instructions": "71ebc: mov w0, #0x50; 71ec0: ret ; 71ec4: mov w0, #0xb0"
+      },
+      {
+        "slot": "0x10",
+        "target": "0x71648",
+        "first_instructions": "71648: mov w0, #0x128; 7164c: ret ; 71650: mov w0, #0x138"
+      },
+      {
+        "slot": "0x18",
+        "target": "0x71fac",
+        "first_instructions": "71fac: mov w0, #0xa8; 71fb0: ret ; 71fb4: mov w0, #0xb8"
+      },
+      {
+        "slot": "0x20",
+        "target": "0x71fb4",
+        "first_instructions": "71fb4: mov w0, #0xb8; 71fb8: ret ; 71fbc: mov w0, #0xc8"
+      },
+      {
+        "slot": "0x28",
+        "target": "0x71ed4",
+        "first_instructions": "71ed4: mov w0, #0x40; 71ed8: ret ; 71edc: mov w0, #0x28"
+      },
+      {
+        "slot": "0x30",
+        "target": "0x71edc",
+        "first_instructions": "71edc: mov w0, #0x28; 71ee0: ret ; 71ee4: mov w0, #0x30"
+      },
+      {
+        "slot": "0x38",
+        "target": "0x71ee4",
+        "first_instructions": "71ee4: mov w0, #0x30; 71ee8: ret ; 71eec: mov w0, #0x38"
+      },
+      {
+        "slot": "0x40",
+        "target": "0x71eec",
+        "first_instructions": "71eec: mov w0, #0x38; 71ef0: ret ; 71ef4: mov w0, #0xd0"
+      },
+      {
+        "slot": "0x48",
+        "target": "0x71fbc",
+        "first_instructions": "71fbc: mov w0, #0xc8; 71fc0: ret ; 71fc4: mov w0, #0xa8"
+      },
+      {
+        "slot": "0x50",
+        "target": "0x71efc",
+        "first_instructions": "71efc: stp x29, x30, [sp, #-0x10]!; 71f00: mov x29, sp; 71f04: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x58",
+        "target": "0x71f1c",
+        "first_instructions": "71f1c: stp x29, x30, [sp, #-0x10]!; 71f20: mov x29, sp; 71f24: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x60",
+        "target": "0x71f3c",
+        "first_instructions": "71f3c: mov x0, #-1; 71f40: ret ; 71f44: mov w0, #0x18"
+      },
+      {
+        "slot": "0x68",
+        "target": "0x71f44",
+        "first_instructions": "71f44: mov w0, #0x18; 71f48: ret ; 71f4c: stp x29, x30, [sp, #-0x10]!"
+      },
+      {
+        "slot": "0x70",
+        "target": "0x71f4c",
+        "first_instructions": "71f4c: stp x29, x30, [sp, #-0x10]!; 71f50: mov x29, sp; 71f54: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x78",
+        "target": "0x71f6c",
+        "first_instructions": "71f6c: stp x29, x30, [sp, #-0x10]!; 71f70: mov x29, sp; 71f74: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x80",
+        "target": "0x71f8c",
+        "first_instructions": "71f8c: stp x29, x30, [sp, #-0x10]!; 71f90: mov x29, sp; 71f94: ldr x8, [x0]"
+      }
+    ]
+  },
+  {
+    "name": "N14heap_expand_v421offset_provider_api28E",
+    "typeinfo": "0xa71f0",
+    "vtable": "0xa7168",
+    "slots": [
+      {
+        "slot": "0x0",
+        "target": "0x71eb4",
+        "first_instructions": "71eb4: mov w0, wzr; 71eb8: ret ; 71ebc: mov w0, #0x50"
+      },
+      {
+        "slot": "0x8",
+        "target": "0x71ebc",
+        "first_instructions": "71ebc: mov w0, #0x50; 71ec0: ret ; 71ec4: mov w0, #0xb0"
+      },
+      {
+        "slot": "0x10",
+        "target": "0x71650",
+        "first_instructions": "71650: mov w0, #0x138; 71654: ret ; 71658: sub sp, sp, #0xd0"
+      },
+      {
+        "slot": "0x18",
+        "target": "0x71fc4",
+        "first_instructions": "71fc4: mov w0, #0xa8; 71fc8: ret ; 71fcc: mov w0, #0xc8"
+      },
+      {
+        "slot": "0x20",
+        "target": "0x71fcc",
+        "first_instructions": "71fcc: mov w0, #0xc8; 71fd0: ret ; 71fd4: mov w0, #0xd8"
+      },
+      {
+        "slot": "0x28",
+        "target": "0x71ed4",
+        "first_instructions": "71ed4: mov w0, #0x40; 71ed8: ret ; 71edc: mov w0, #0x28"
+      },
+      {
+        "slot": "0x30",
+        "target": "0x71edc",
+        "first_instructions": "71edc: mov w0, #0x28; 71ee0: ret ; 71ee4: mov w0, #0x30"
+      },
+      {
+        "slot": "0x38",
+        "target": "0x71ee4",
+        "first_instructions": "71ee4: mov w0, #0x30; 71ee8: ret ; 71eec: mov w0, #0x38"
+      },
+      {
+        "slot": "0x40",
+        "target": "0x71eec",
+        "first_instructions": "71eec: mov w0, #0x38; 71ef0: ret ; 71ef4: mov w0, #0xd0"
+      },
+      {
+        "slot": "0x48",
+        "target": "0x71fd4",
+        "first_instructions": "71fd4: mov w0, #0xd8; 71fd8: ret ; 71fdc: mov w0, #1"
+      },
+      {
+        "slot": "0x50",
+        "target": "0x71efc",
+        "first_instructions": "71efc: stp x29, x30, [sp, #-0x10]!; 71f00: mov x29, sp; 71f04: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x58",
+        "target": "0x71f1c",
+        "first_instructions": "71f1c: stp x29, x30, [sp, #-0x10]!; 71f20: mov x29, sp; 71f24: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x60",
+        "target": "0x71f3c",
+        "first_instructions": "71f3c: mov x0, #-1; 71f40: ret ; 71f44: mov w0, #0x18"
+      },
+      {
+        "slot": "0x68",
+        "target": "0x71f44",
+        "first_instructions": "71f44: mov w0, #0x18; 71f48: ret ; 71f4c: stp x29, x30, [sp, #-0x10]!"
+      },
+      {
+        "slot": "0x70",
+        "target": "0x71f4c",
+        "first_instructions": "71f4c: stp x29, x30, [sp, #-0x10]!; 71f50: mov x29, sp; 71f54: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x78",
+        "target": "0x71f6c",
+        "first_instructions": "71f6c: stp x29, x30, [sp, #-0x10]!; 71f70: mov x29, sp; 71f74: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x80",
+        "target": "0x71f8c",
+        "first_instructions": "71f8c: stp x29, x30, [sp, #-0x10]!; 71f90: mov x29, sp; 71f94: ldr x8, [x0]"
+      }
+    ]
+  },
+  {
+    "name": "N14heap_expand_v421offset_provider_api30E",
+    "typeinfo": "0xa72a0",
+    "vtable": "0xa7218",
+    "slots": [
+      {
+        "slot": "0x0",
+        "target": "0x71fdc",
+        "first_instructions": "71fdc: mov w0, #1; 71fe0: ret ; 71fe4: mov w0, #0x40"
+      },
+      {
+        "slot": "0x8",
+        "target": "0x71fe4",
+        "first_instructions": "71fe4: mov w0, #0x40; 71fe8: ret ; 71fec: mov w0, #0x2e0"
+      },
+      {
+        "slot": "0x10",
+        "target": "0x71fec",
+        "first_instructions": "71fec: mov w0, #0x2e0; 71ff0: ret ; 71ff4: mov w0, #0x240"
+      },
+      {
+        "slot": "0x18",
+        "target": "0x71ff4",
+        "first_instructions": "71ff4: mov w0, #0x240; 71ff8: ret ; 71ffc: mov w0, #0x260"
+      },
+      {
+        "slot": "0x20",
+        "target": "0x71ffc",
+        "first_instructions": "71ffc: mov w0, #0x260; 72000: ret ; 72004: mov w0, #0x288"
+      },
+      {
+        "slot": "0x28",
+        "target": "0x71ed4",
+        "first_instructions": "71ed4: mov w0, #0x40; 71ed8: ret ; 71edc: mov w0, #0x28"
+      },
+      {
+        "slot": "0x30",
+        "target": "0x71edc",
+        "first_instructions": "71edc: mov w0, #0x28; 71ee0: ret ; 71ee4: mov w0, #0x30"
+      },
+      {
+        "slot": "0x38",
+        "target": "0x71ee4",
+        "first_instructions": "71ee4: mov w0, #0x30; 71ee8: ret ; 71eec: mov w0, #0x38"
+      },
+      {
+        "slot": "0x40",
+        "target": "0x71eec",
+        "first_instructions": "71eec: mov w0, #0x38; 71ef0: ret ; 71ef4: mov w0, #0xd0"
+      },
+      {
+        "slot": "0x48",
+        "target": "0x72004",
+        "first_instructions": "72004: mov w0, #0x288; 72008: ret ; 7200c: stp x29, x30, [sp, #-0x10]!"
+      },
+      {
+        "slot": "0x50",
+        "target": "0x7200c",
+        "first_instructions": "7200c: stp x29, x30, [sp, #-0x10]!; 72010: mov x29, sp; 72014: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x58",
+        "target": "0x7202c",
+        "first_instructions": "7202c: stp x29, x30, [sp, #-0x10]!; 72030: mov x29, sp; 72034: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x60",
+        "target": "0x7204c",
+        "first_instructions": "7204c: stp x29, x30, [sp, #-0x10]!; 72050: mov x29, sp; 72054: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x68",
+        "target": "0x71f44",
+        "first_instructions": "71f44: mov w0, #0x18; 71f48: ret ; 71f4c: stp x29, x30, [sp, #-0x10]!"
+      },
+      {
+        "slot": "0x70",
+        "target": "0x71f4c",
+        "first_instructions": "71f4c: stp x29, x30, [sp, #-0x10]!; 71f50: mov x29, sp; 71f54: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x78",
+        "target": "0x71f6c",
+        "first_instructions": "71f6c: stp x29, x30, [sp, #-0x10]!; 71f70: mov x29, sp; 71f74: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x80",
+        "target": "0x71f8c",
+        "first_instructions": "71f8c: stp x29, x30, [sp, #-0x10]!; 71f90: mov x29, sp; 71f94: ldr x8, [x0]"
+      }
+    ]
+  },
+  {
+    "name": "N14heap_expand_v431offset_provider_api31_till_lastE",
+    "typeinfo": "0xa7350",
+    "vtable": "0xa72c8",
+    "slots": [
+      {
+        "slot": "0x0",
+        "target": "0x71fdc",
+        "first_instructions": "71fdc: mov w0, #1; 71fe0: ret ; 71fe4: mov w0, #0x40"
+      },
+      {
+        "slot": "0x8",
+        "target": "0x71fe4",
+        "first_instructions": "71fe4: mov w0, #0x40; 71fe8: ret ; 71fec: mov w0, #0x2e0"
+      },
+      {
+        "slot": "0x10",
+        "target": "0x7206c",
+        "first_instructions": "7206c: mov w0, #0x2e8; 72070: ret ; 72074: mov w0, #0x240"
+      },
+      {
+        "slot": "0x18",
+        "target": "0x72074",
+        "first_instructions": "72074: mov w0, #0x240; 72078: ret ; 7207c: mov w0, #0x268"
+      },
+      {
+        "slot": "0x20",
+        "target": "0x7207c",
+        "first_instructions": "7207c: mov w0, #0x268; 72080: ret ; 72084: mov w0, #0x290"
+      },
+      {
+        "slot": "0x28",
+        "target": "0x71ed4",
+        "first_instructions": "71ed4: mov w0, #0x40; 71ed8: ret ; 71edc: mov w0, #0x28"
+      },
+      {
+        "slot": "0x30",
+        "target": "0x71edc",
+        "first_instructions": "71edc: mov w0, #0x28; 71ee0: ret ; 71ee4: mov w0, #0x30"
+      },
+      {
+        "slot": "0x38",
+        "target": "0x71ee4",
+        "first_instructions": "71ee4: mov w0, #0x30; 71ee8: ret ; 71eec: mov w0, #0x38"
+      },
+      {
+        "slot": "0x40",
+        "target": "0x71eec",
+        "first_instructions": "71eec: mov w0, #0x38; 71ef0: ret ; 71ef4: mov w0, #0xd0"
+      },
+      {
+        "slot": "0x48",
+        "target": "0x72084",
+        "first_instructions": "72084: mov w0, #0x290; 72088: ret ; 7208c: mov w0, #0x298"
+      },
+      {
+        "slot": "0x50",
+        "target": "0x7208c",
+        "first_instructions": "7208c: mov w0, #0x298; 72090: ret ; 72094: mov w0, #0x2a0"
+      },
+      {
+        "slot": "0x58",
+        "target": "0x72094",
+        "first_instructions": "72094: mov w0, #0x2a0; 72098: ret ; 7209c: mov w0, #0x2f0"
+      },
+      {
+        "slot": "0x60",
+        "target": "0x7204c",
+        "first_instructions": "7204c: stp x29, x30, [sp, #-0x10]!; 72050: mov x29, sp; 72054: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x68",
+        "target": "0x71f44",
+        "first_instructions": "71f44: mov w0, #0x18; 71f48: ret ; 71f4c: stp x29, x30, [sp, #-0x10]!"
+      },
+      {
+        "slot": "0x70",
+        "target": "0x71f4c",
+        "first_instructions": "71f4c: stp x29, x30, [sp, #-0x10]!; 71f50: mov x29, sp; 71f54: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x78",
+        "target": "0x71f6c",
+        "first_instructions": "71f6c: stp x29, x30, [sp, #-0x10]!; 71f70: mov x29, sp; 71f74: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x80",
+        "target": "0x71f8c",
+        "first_instructions": "71f8c: stp x29, x30, [sp, #-0x10]!; 71f90: mov x29, sp; 71f94: ldr x8, [x0]"
+      }
+    ]
+  },
+  {
+    "name": "N14heap_expand_v431offset_provider_api31_till_lastE",
+    "typeinfo": "0xa7350",
+    "vtable": "0xa7418",
+    "slots": []
+  },
+  {
+    "name": "N14heap_expand_v428offset_provider_api31_huaweiE",
+    "typeinfo": "0xa7400",
+    "vtable": "0xa7378",
+    "slots": [
+      {
+        "slot": "0x0",
+        "target": "0x71fdc",
+        "first_instructions": "71fdc: mov w0, #1; 71fe0: ret ; 71fe4: mov w0, #0x40"
+      },
+      {
+        "slot": "0x8",
+        "target": "0x71fe4",
+        "first_instructions": "71fe4: mov w0, #0x40; 71fe8: ret ; 71fec: mov w0, #0x2e0"
+      },
+      {
+        "slot": "0x10",
+        "target": "0x7209c",
+        "first_instructions": "7209c: mov w0, #0x2f0; 720a0: ret ; 720a4: mov w0, #0x248"
+      },
+      {
+        "slot": "0x18",
+        "target": "0x720a4",
+        "first_instructions": "720a4: mov w0, #0x248; 720a8: ret ; 720ac: mov w0, #0x270"
+      },
+      {
+        "slot": "0x20",
+        "target": "0x720ac",
+        "first_instructions": "720ac: mov w0, #0x270; 720b0: ret ; 720b4: mov w0, #0x298"
+      },
+      {
+        "slot": "0x28",
+        "target": "0x71ed4",
+        "first_instructions": "71ed4: mov w0, #0x40; 71ed8: ret ; 71edc: mov w0, #0x28"
+      },
+      {
+        "slot": "0x30",
+        "target": "0x71edc",
+        "first_instructions": "71edc: mov w0, #0x28; 71ee0: ret ; 71ee4: mov w0, #0x30"
+      },
+      {
+        "slot": "0x38",
+        "target": "0x71ee4",
+        "first_instructions": "71ee4: mov w0, #0x30; 71ee8: ret ; 71eec: mov w0, #0x38"
+      },
+      {
+        "slot": "0x40",
+        "target": "0x71eec",
+        "first_instructions": "71eec: mov w0, #0x38; 71ef0: ret ; 71ef4: mov w0, #0xd0"
+      },
+      {
+        "slot": "0x48",
+        "target": "0x720b4",
+        "first_instructions": "720b4: mov w0, #0x298; 720b8: ret ; 720bc: mov w0, #0x2a0"
+      },
+      {
+        "slot": "0x50",
+        "target": "0x720bc",
+        "first_instructions": "720bc: mov w0, #0x2a0; 720c0: ret ; 720c4: mov w0, #0x2a8"
+      },
+      {
+        "slot": "0x58",
+        "target": "0x720c4",
+        "first_instructions": "720c4: mov w0, #0x2a8; 720c8: ret ; 720cc: sub sp, sp, #0x30"
+      },
+      {
+        "slot": "0x60",
+        "target": "0x7204c",
+        "first_instructions": "7204c: stp x29, x30, [sp, #-0x10]!; 72050: mov x29, sp; 72054: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x68",
+        "target": "0x71f44",
+        "first_instructions": "71f44: mov w0, #0x18; 71f48: ret ; 71f4c: stp x29, x30, [sp, #-0x10]!"
+      },
+      {
+        "slot": "0x70",
+        "target": "0x71f4c",
+        "first_instructions": "71f4c: stp x29, x30, [sp, #-0x10]!; 71f50: mov x29, sp; 71f54: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x78",
+        "target": "0x71f6c",
+        "first_instructions": "71f6c: stp x29, x30, [sp, #-0x10]!; 71f70: mov x29, sp; 71f74: ldr x8, [x0]"
+      },
+      {
+        "slot": "0x80",
+        "target": "0x71f8c",
+        "first_instructions": "71f8c: stp x29, x30, [sp, #-0x10]!; 71f90: mov x29, sp; 71f94: ldr x8, [x0]"
+      }
+    ]
+  }
+]

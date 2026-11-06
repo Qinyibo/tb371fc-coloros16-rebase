@@ -5,3 +5,4 @@
 *.c text eol=lf
 *.h text eol=lf
 pen-sharing-compat/** text eol=lf
+evidence/** text eol=lf

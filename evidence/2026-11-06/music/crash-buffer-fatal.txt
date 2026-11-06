@@ -1,0 +1,1 @@
+1793886745.339 18521 23067 F libc    : Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x8207fff8 in tid 23067 (HeapTaskDaemon), pid 18521 (com.luna.music)

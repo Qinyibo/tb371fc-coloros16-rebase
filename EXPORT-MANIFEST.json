@@ -1,15 +1,15 @@
 {
   "source_snapshot_date": "2026-11-06",
-  "export_kind": "source-only private archive",
+  "export_kind": "source and selected review evidence private archive",
   "raw_device_evidence_included": false,
   "device_serials_replaced": true,
   "kernel_overlay_source": "erofs-kernel-build/r107-erofs-overlay-source.tar.gz",
   "files": [
     {
       "path": ".gitattributes",
-      "original_sha256": "923d531c88fd0859be9fc7ee5db55e889a988493cff2801da364f7392f713ab8",
+      "original_sha256": "2fecc1f7baa854a248d826775c2f7819b04755a4fb2ad5506664abafef1a9d21",
       "identity_placeholders": false,
-      "export_sha256": "923d531c88fd0859be9fc7ee5db55e889a988493cff2801da364f7392f713ab8",
+      "export_sha256": "2fecc1f7baa854a248d826775c2f7819b04755a4fb2ad5506664abafef1a9d21",
       "export_line_endings": "LF"
     },
     {
@@ -26,15 +26,15 @@
     },
     {
       "path": "README.md",
-      "original_sha256": "4996c35ff86256f14ad938635e76e736d77577c5ccde24f7a5555ac63ecc68cc",
-      "export_sha256": "a75fa1fe1980d9053350532bddd7207c8398590c5a3aab037f9fc8f01a2b9d50",
+      "original_sha256": "42f2a292d6e745750308a2fee743078c388c3122446e87ca95dc93ff66e88b22",
+      "export_sha256": "42f2a292d6e745750308a2fee743078c388c3122446e87ca95dc93ff66e88b22",
       "identity_placeholders": false,
       "export_line_endings": "LF"
     },
     {
       "path": "STATUS.md",
-      "original_sha256": "12cfd0206a6098558d127e4c1fe44f491740ef7a161c45bee49458b53c4f0470",
-      "export_sha256": "b7fff266d4f7eec4e4fec3ad8b3be82f09cb1b27ad0db4993caabee3a50e5c1a",
+      "original_sha256": "a96b920d12e778c1c2088526c5d08813df507485782ccae103b4df88092a7263",
+      "export_sha256": "a96b920d12e778c1c2088526c5d08813df507485782ccae103b4df88092a7263",
       "identity_placeholders": false,
       "export_line_endings": "LF"
     },
@@ -1370,5 +1370,6 @@
       "identity_placeholders": false
     }
   ],
-  "followup_scope": "Pen V4 offline source; real vnet integration; corrected physical/functional status; no raw device evidence"
+  "followup_scope": "Pen V4 offline source; real vnet integration; corrected physical/functional status; no raw device evidence",
+  "curated_evidence_manifest": "evidence/2026-11-06/manifest.json"
 }

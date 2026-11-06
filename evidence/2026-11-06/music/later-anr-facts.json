@@ -1,0 +1,39 @@
+{
+  "event": "ANR, not a newly confirmed native GC crash",
+  "pid": 11773,
+  "input_timeout_ms": 5000,
+  "exit_time_HK": "2026-11-06 00:09:28.898",
+  "reason": 6,
+  "reason_name": "ANR",
+  "status": 0,
+  "latest_tombstone_in_list": "tombstone_17 at 2026-11-05 21:54",
+  "waiting_channel_snapshots": [
+    {
+      "header": " pid 11773 at 2026-11-06 00:09:16.738798397+0800 -----",
+      "thread_states": {
+        "do_signal_stop": 482
+      }
+    },
+    {
+      "header": " pid 11773 at 2026-11-06 00:09:26.766969643+0800 -----",
+      "thread_states": {
+        "do_signal_stop": 482
+      }
+    }
+  ],
+  "limits": [
+    "wchan do_signal_stop does not identify signal sender",
+    "No new native crash tombstone captured",
+    "ANR stack collection timed out; no complete main-thread Java/native backtrace available",
+    "No causal link established between this ANR and the older bitmap corruption"
+  ],
+  "preserved_file_sha256": {
+    "anr-11773.gz": "b46d2901f5678aadb9f355b5154c0d509f94ec64dd43514ff9c2e8d6b575c7b6",
+    "anr-11773.txt": "f96cefaee43b993ce21844c6533813ba6a2a5742c3c360260cf6ece0f1749b8d",
+    "crash-buffer.txt": "993aec6e554288fff9f9cec1db9069e84ed5d42d40fe62b10cfa7cafcba9c23d",
+    "key-anr-events.txt": "b3aae464201aaf8cbf7d3c60ae00f2affeaaec1a7cb10a46d8d9ceeedf5019b8",
+    "music-exit-info.txt": "594b8652de6dd2f6e64f9919f9907781686b6dcd3eee761299a40af8eb661988",
+    "recent-main-system-events.txt": "809053d740e0f1986546869efcf512c7d60dc0bfe0e87a0fd8657aada3e7eed7",
+    "state-and-tombstone-list.txt": "0d404ca7c945505efd83971d0e986618d8af8238c4aa0896d4b1a6b6c5851e72"
+  }
+}

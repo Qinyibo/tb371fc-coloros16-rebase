@@ -1,0 +1,11 @@
+{
+  "acceptance": {
+    "unbounded_edge_reproduced_in_this_run": false,
+    "fixed": false,
+    "limitation": "Finite swipes through input dispatcher; occasional physical-touch cancellation sequence not captured. System gesture/layout functional check only, not performance acceptance."
+  },
+  "rotated_run_qualification": {
+    "valid_overview_test": false,
+    "reason": "Screenshots show home after rotation interrupted overview entry; hidden recents node geometry cannot be treated as visible edge behavior."
+  }
+}

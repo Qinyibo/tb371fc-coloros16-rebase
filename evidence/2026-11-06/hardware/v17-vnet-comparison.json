@@ -1,0 +1,23 @@
+[
+  {
+    "current_image_path": "/bin/r94-commcenter/commcenterd",
+    "sha256": "25da3d0da6fce0f63c896753f3dd6d2f23975b1ed960a477e742e666ba01aef7",
+    "v17_sha256": "25da3d0da6fce0f63c896753f3dd6d2f23975b1ed960a477e742e666ba01aef7",
+    "matches_v17": true
+  },
+  {
+    "current_image_path": "/lib/modules/oplus_vnet.ko",
+    "sha256": "01cb1335daddcf308d11076af1db50f5386c6bb94312243b02197d1a7bfc66bd",
+    "v17_sha256": "01cb1335daddcf308d11076af1db50f5386c6bb94312243b02197d1a7bfc66bd",
+    "matches_v17": true
+  },
+  {
+    "current_image_path": "/etc/init/r94-commcenterd.rc",
+    "sha256": "108b8e120855988fd22d5c7f0201f38b94ee1257d85c0212eaa30177a232a742",
+    "v17_sha256": null,
+    "matches_v17": null
+  },
+  {
+    "init_oneshot_preserved": true
+  }
+]

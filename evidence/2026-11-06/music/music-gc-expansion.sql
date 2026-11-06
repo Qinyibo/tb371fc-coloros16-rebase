@@ -1,0 +1,1 @@
+SELECT p.pid,t.tid,t.name AS thread,s.ts,s.dur,s.name FROM slice s JOIN thread_track tt ON s.track_id=tt.id JOIN thread t USING(utid) JOIN process p USING(upid) WHERE p.pid=18521 AND (s.name LIKE '%expand heap%' OR s.name LIKE '%concurrent copying GC%' OR s.name LIKE '%ThreadFlipSuspendAll%') ORDER BY s.ts;

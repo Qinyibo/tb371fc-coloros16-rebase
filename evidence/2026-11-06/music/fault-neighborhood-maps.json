@@ -1,0 +1,8 @@
+[
+  {
+    "start": "0x2000000",
+    "end_exclusive": "0x82000000",
+    "line": "    00000000'02000000-00000000'81ffffff rw-         0  80000000  [anon:dalvik-main space (region space) (expand)]",
+    "contains_fault": false
+  }
+]

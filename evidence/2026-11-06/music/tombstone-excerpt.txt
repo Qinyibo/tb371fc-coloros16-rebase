@@ -1,0 +1,39 @@
+ABI: 'arm64'
+Timestamp: 2026-11-05 21:52:26.158610133+0800
+Process uptime: 6138s
+Cmdline: com.luna.music
+pid: 18521, tid: 23067, name: HeapTaskDaemon  >>> com.luna.music <<<
+signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x000000008207fff8
+
+Selected registers
+x0 b400006f50c78f08
+x1 0000000002000000
+x2 0000000002000400
+x8 0000000001ffffdf
+x9 0000000000000021
+x10 000000008207fff8
+x25 000000000000ffff
+x26 b400006f50c78c00
+x27 b400006f50c78f08
+
+Crashing thread backtrace
+      #00 pc 00000000006b7aa4  /apex/com.android.art/lib64/libart.so (void art::gc::accounting::SpaceBitmap<8ul>::VisitMarkedRange<false, art::gc::collector::ConcurrentCopying::CopyingPhase()::$_0 const&>(unsigned long, unsigned long, art::gc::collector::ConcurrentCopying::CopyingPhase()::$_0 const&) const (.__uniq.219178288367021339109957061695789229157)+76) (BuildId: 6116d0e56573559ea90cc3bf6e88c9f7)
+      #01 pc 00000000006b4b78  /apex/com.android.art/lib64/libart.so (art::gc::collector::ConcurrentCopying::RunPhases()+3248) (BuildId: 6116d0e56573559ea90cc3bf6e88c9f7)
+      #02 pc 0000000000594e74  /apex/com.android.art/lib64/libart.so (art::gc::collector::GarbageCollector::Run(art::gc::GcCause, bool)+328) (BuildId: 6116d0e56573559ea90cc3bf6e88c9f7)
+      #03 pc 00000000006c7314  /apex/com.android.art/lib64/libart.so (art::gc::Heap::CollectGarbageInternal(art::gc::collector::GcType, art::gc::GcCause, bool, unsigned int)+624) (BuildId: 6116d0e56573559ea90cc3bf6e88c9f7)
+      #04 pc 00000000006c6f90  /apex/com.android.art/lib64/libart.so (art::gc::Heap::ConcurrentGC(art::Thread*, art::gc::GcCause, bool, unsigned int)+168) (BuildId: 6116d0e56573559ea90cc3bf6e88c9f7)
+      #05 pc 00000000006c54f8  /apex/com.android.art/lib64/libart.so (art::gc::Heap::ConcurrentGCTask::Run(art::Thread*)+76) (BuildId: 6116d0e56573559ea90cc3bf6e88c9f7)
+      #06 pc 0000000000430bb4  /apex/com.android.art/lib64/libart.so (art::gc::TaskProcessor::RunAllTasks(art::Thread*)+124) (BuildId: 6116d0e56573559ea90cc3bf6e88c9f7)
+      #07 pc 00000000014c9620  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (art_jni_trampoline+112)
+      #08 pc 00000000007a2888  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Daemons$HeapTaskDaemon.runInternal+200)
+      #09 pc 00000000007a0abc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Daemons$Daemon.run+124)
+      #10 pc 000000000048b9d8  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (java.lang.Thread.run+152)
+      #11 pc 000000000051c194  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: 6116d0e56573559ea90cc3bf6e88c9f7)
+      #12 pc 00000000006dffc0  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+144) (BuildId: 6116d0e56573559ea90cc3bf6e88c9f7)
+      #13 pc 00000000006ed2b8  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1052) (BuildId: 6116d0e56573559ea90cc3bf6e88c9f7)
+      #14 pc 0000000000099f6c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+184) (BuildId: 9ca73a4265250c8cf868057c0307439e)
+      #15 pc 000000000008c788  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+68) (BuildId: 9ca73a4265250c8cf868057c0307439e)
+
+Two relevant memory mappings
+    00000000'02000000-00000000'81ffffff rw-         0  80000000  [anon:dalvik-main space (region space) (expand)]
+    0000006c'43200000-0000006c'451fffff rw-         0   2000000  [anon:dalvik-region space live bitmap (expand)]

@@ -1,0 +1,61 @@
+{
+  "scope": "Static image inputs only; old runtime overrides are unavailable",
+  "sources": {
+    "system_a:/system/build.prop": {
+      "found": true,
+      "dalvik_properties": {
+        "dalvik.vm.heapsize": "36m",
+        "dalvik.vm.dex2oat64.enabled": "true",
+        "dalvik.vm.image-dex2oat-Xms": "64m",
+        "dalvik.vm.image-dex2oat-Xmx": "64m",
+        "dalvik.vm.dex2oat-Xms": "64m",
+        "dalvik.vm.dex2oat-Xmx": "512m",
+        "dalvik.vm.usejit": "true",
+        "dalvik.vm.dexopt.secondary": "true",
+        "dalvik.vm.dexopt.thermal-cutoff": "2",
+        "dalvik.vm.appimageformat": "lz4",
+        "ro.dalvik.vm.native.bridge": "0",
+        "dalvik.vm.dex2oat-resolve-startup-strings": "true",
+        "dalvik.vm.dex2oat-max-image-block-size": "524288",
+        "dalvik.vm.minidebuginfo": "true",
+        "dalvik.vm.dex2oat-minidebuginfo": "true",
+        "dalvik.vm.madvise.vdexfile.size": "0",
+        "dalvik.vm.madvise.odexfile.size": "0",
+        "dalvik.vm.usap_pool_enabled": "false",
+        "dalvik.vm.usap_refill_threshold": "1",
+        "dalvik.vm.usap_pool_size_max": "3",
+        "dalvik.vm.usap_pool_size_min": "1",
+        "dalvik.vm.usap_pool_refill_delay_ms": "3000",
+        "dalvik.vm.useartservice": "true",
+        "dalvik.vm.enable_pr_dexopt": "true",
+        "dalvik.vm.pr_dexopt_async_for_ota": "true",
+        "dalvik.vm.thread-suspend-timeout-ms": "30000"
+      }
+    },
+    "system_a:/system/etc/prop.default": {
+      "found": false,
+      "dalvik_properties": {}
+    },
+    "system_ext_a:/build.prop": {
+      "found": false,
+      "dalvik_properties": {}
+    },
+    "system_ext_a:/etc/build.prop": {
+      "found": true,
+      "dalvik_properties": {
+        "dalvik.vm.ps-min-first-save-ms ": " 5000"
+      }
+    },
+    "vendor_a:/build.prop": {
+      "found": true,
+      "dalvik_properties": {
+        "dalvik.vm.heapstartsize": "8m",
+        "dalvik.vm.heapsize": "512m",
+        "dalvik.vm.heapgrowthlimit": "256m",
+        "dalvik.vm.heaptargetutilization": "0.75",
+        "dalvik.vm.heapminfree": "512k",
+        "dalvik.vm.heapmaxfree": "8m"
+      }
+    }
+  }
+}

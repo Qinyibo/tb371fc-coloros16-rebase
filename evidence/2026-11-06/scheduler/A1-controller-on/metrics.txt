@@ -1,0 +1,10 @@
+"start_s","end_s","workload_s","complete_trace_coverage"
+10923.090000,10939.810000,16.720000,1
+
+"app","unique_surface_tokens","p50_ms","p95_ms","max_ms","missed","late"
+"com.android.launcher",1406,5.110000,19.710000,57.760000,196,574
+"com.android.systemui",1772,4.340000,11.470000,63.770000,78,507
+"com.ss.android.ugc.aweme",88,9.290000,40.000000,98.720000,36,73
+
+"waits","p95_ms","max_ms","waits_over_10ms"
+901,5.870000,12.310000,3
