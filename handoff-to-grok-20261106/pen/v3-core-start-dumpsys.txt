@@ -1,0 +1,48 @@
+BOOT_COMPLETED=1
+CORE PID empty
+---- TIME 2026/11/6 01:59:50 ----
+ACTIVITY MANAGER SERVICES (dumpsys activity services)
+  User 0 active services:
+  * ServiceRecord{c78d9e0 u0 com.oplus.ipemanager/.btadsorb.CoreService c:android}
+    intent={cmp=com.oplus.ipemanager/.btadsorb.CoreService mCallingUid=1000}
+    packageName=com.oplus.ipemanager
+    processName=com.oplus.ipemanager:ble
+    targetSdkVersion=36
+    permission=com.oplus.permission.safe.IOT
+    baseDir=/my_product/priv-app/IPeManager/IPeManager.apk
+    dataDir=/data/user/0/com.oplus.ipemanager
+    app=null
+    useNewWiuLogic_forCapabilities()=true
+    useNewWiuLogic_forStart()=true
+    useNewBfslLogic()=true
+    mAllowWiu_noBinding=PROC_STATE_PERSISTENT
+    mAllowWiu_inBindService=DENIED
+    mAllowWiu_byBindings=DENIED
+    getFgsAllowWiu_legacy=PROC_STATE_PERSISTENT
+    getFgsAllowWiu_new=PROC_STATE_PERSISTENT
+    getFgsAllowWiu_forStart=PROC_STATE_PERSISTENT
+    getFgsAllowWiu_forCapabilities=PROC_STATE_PERSISTENT
+    allowUiJobScheduling=false
+    recentCallingPackage=android
+    recentCallingUid=1000
+    mAllowStart_noBinding=PROC_STATE_PERSISTENT
+    mAllowStart_inBindService=DENIED
+    mAllowStart_byBindings=DENIED
+    getFgsAllowStart_legacy=PROC_STATE_PERSISTENT
+    getFgsAllowStart_new=PROC_STATE_PERSISTENT
+    getFgsAllowStart=PROC_STATE_PERSISTENT
+    startForegroundCount=0
+    infoAllowStartForeground=[callingPackage: android; callingUid: 1000; uidState: PER ; uidBFSL: [BFSL]; intent: Intent { xflg=0x4 cmp=com.oplus.ipemanager/.btadsorb.CoreService mCallingUid=1000 }; code:PROC_STATE_PERSISTENT; tempAllowListReason:<,reasonCode:SYSTEM_ALLOW_LISTED,duration:9223372036854775807,callingUid:-1>; allowWiu:10; targetSdkVersion:36; callerTargetSdkVersion:36; startForegroundCount:0; bindFromPackage:null: isBindService:false]
+    createTime=-31s140ms startingBgTimeout=--
+    lastActivity=-31s140ms restartTime=-- createdFromFg=true
+    restartReschedulingCount=0, RestartSceneMask=0, Flag = 0x0
+STATE
+Enforcing
+0
+ovnet0
+ovnet1
+ovnet2
+running
+running
+running
+PEN_LOG

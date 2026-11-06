@@ -1,0 +1,30 @@
+{
+  "elf": [
+    {
+      "path": "D:/TB371FC-release/clean-rebase-20261104/scheduler-compat/gpu-floor-native-v7/sameboot-aba/libsysoptimizer.so",
+      "bytes": 675008,
+      "sha256": "e8357c10cef28edb36ad59faeec51d120c9ae41f04ff3de8f5874349dc5f7ec3",
+      "build_id": "5ba6754a5e6f6684715e45f17c582f47de746879"
+    },
+    {
+      "path": "D:/TB371FC-release/clean-rebase-20261104/scheduler-compat/gpu-floor-native-v7/sameboot-aba/libart.so",
+      "bytes": 21253680,
+      "sha256": "63ed6aa8ffbc82db163faaaf5bd1cf0e3bdf1138af7e0d32bab80283e6e2452a",
+      "build_id": "6116d0e56573559ea90cc3bf6e88c9f7"
+    }
+  ],
+  "apk": {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/scheduler-compat/gpu-floor-native-v7/sameboot-aba/music-installed.apk",
+    "bytes": 130010010,
+    "sha256": "0285ea96a2b924912e8984e45dc0b62907c859475eac5aecce0e52632d571ab2",
+    "badging": "package: name='com.luna.music' versionCode='100215040' versionName='21.5.0' platformBuildVersionName='14' platformBuildVersionCode='34' compileSdkVersion='34' compileSdkVersionCodename='14'",
+    "certificate_sha256": "6491ec50293dd3dee7a03b74800e09af118fdd0f008725d08b911f850b7d79f4",
+    "certificate_source": "Previous apksigner verification of this saved APK",
+    "embedded_libsysoptimizer_sha256": "e8357c10cef28edb36ad59faeec51d120c9ae41f04ff3de8f5874349dc5f7ec3"
+  },
+  "tombstone15": {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/grok-handoff-20261105/tombstone-15.txt",
+    "bytes": 2461946,
+    "sha256": "d544a6147bedf71dd91e5c170b48575a2e7c2ab0c122b51ba5944903b3b5db4f"
+  }
+}

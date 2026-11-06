@@ -1,0 +1,38 @@
+{
+  "nas": {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/pen-sharing-compat/v17-comparison/nas-app/app/NetworkAssistSys.apk",
+    "bytes": 25180065,
+    "sha256": "2b2c65db1404a270e65af2917be1cfb9e6e00dcc0388224cb9d2627bfd10e9b4",
+    "source_partition_path": "/system_ext/opex/NetworkAssistSys.opex",
+    "payload_entry": "/app/NetworkAssistSys.apk",
+    "service": "com.oplus.nas/com.oplus.nas.data.virtualdata.VirtualDataApiService",
+    "mounted_device_apk_path_verified": false
+  },
+  "nas_startup_log": {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/pen-sharing-compat/candidate-v3/boot-log-private.txt",
+    "bytes": 2401988,
+    "sha256": "91e2e7346902af2ace896689f7014a1187ef3ee941cfe46c1551497359125a7c"
+  },
+  "wireless_settings_source": {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/pen-sharing-compat/WirelessSettings-current.apk",
+    "bytes": 18150445,
+    "sha256": "53896e3b43b146e58a257553f7b73a1c00ce616909b2f09e16388f79cd09a14f"
+  },
+  "wireless_settings_integrated": {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/pen-sharing-compat/build/WirelessSettings-current.apk/WirelessSettings-pen-v1.apk",
+    "bytes": 18264189,
+    "sha256": "37982d419eaa461d180cd43e573e367e51e6f6b00b93395ecac28a45019efb03",
+    "device_path": "/system_ext/priv-app/WirelessSettings/WirelessSettings.apk"
+  },
+  "virtualcomm_current": {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/pen-sharing-compat/v17-comparison/OplusVirtualComm-current.apk",
+    "bytes": 1405342,
+    "sha256": "7d8a11fe738dab522f7c4d4896aea86f3bef42661c522dfa92fbf7600cbe72df",
+    "device_path": "/system_ext/priv-app/OplusVirtualComm/OplusVirtualComm.apk"
+  },
+  "virtualcomm_v17": {
+    "device_path": "/system_ext/priv-app/OplusVirtualComm/OplusVirtualComm.apk",
+    "sha256": "959b381847ec630baab44d670b1502105a18a3fe1f6561a67a94f9325931719b",
+    "source": "v17-communication-history.json"
+  }
+}

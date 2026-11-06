@@ -1,0 +1,5 @@
+State:	R (running)
+Pid:	31376
+02000000-42000000 rw-p 00000000 00:00 0                                  [anon:dalvik-main space (region space)]
+6f3f600000-6f40600000 rw-p 00000000 00:00 0                              [anon:dalvik-region space live bitmap]
+    <boolean name="enableArtHeapExpandV4" value="true" />

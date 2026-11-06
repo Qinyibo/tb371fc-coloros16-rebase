@@ -1,0 +1,54 @@
+classes6.dex	7Lcom/luna/common/arch/stability/ArtHeapExpandOptimizer;
+classes9.dex	+ 1 ArtHeapExpandOptimizer.kt
+classes9.dex	.Lcom/bytedance/sysoptimizer/heap/HeapExpandV2;
+classes9.dex	.Lcom/bytedance/sysoptimizer/heap/HeapExpandV4;
+classes9.dex	7Lcom/luna/common/arch/stability/ArtHeapExpandOptimizer;
+classes9.dex	ArtHeapExpandOptimizer
+classes9.dex	ArtHeapExpandOptimizer.kt
+classes9.dex	com/luna/common/arch/stability/ArtHeapExpandOptimizer
+classes8.dex	 art_heap_expand_v4_delay_seconds
+classes8.dex	, artHeapExpandV4DelaySeconds=
+classes8.dex	, enableArtHeapExpandV2=
+classes8.dex	, enableArtHeapExpandV4=
+classes8.dex	artHeapExpandV4DelaySeconds
+classes8.dex	enableArtHeapExpandV2
+classes8.dex	enableArtHeapExpandV4
+classes8.dex	getArtHeapExpandV4DelaySeconds
+classes8.dex	getEnableArtHeapExpandV2
+classes8.dex	getEnableArtHeapExpandV4
+classes8.dex	setArtHeapExpandV4DelaySeconds
+classes8.dex	setEnableArtHeapExpandV2
+classes8.dex	setEnableArtHeapExpandV4
+classes2.dex	.Lcom/bytedance/sysoptimizer/heap/HeapExpandV2;
+classes2.dex	.Lcom/bytedance/sysoptimizer/heap/HeapExpandV4;
+classes2.dex	4api < 26, not region space, use HeapExpandV2 instead
+classes2.dex	HeapExpandV2
+classes2.dex	HeapExpandV4
+classes2.dex	heapExpand
+classes2.dex	heap_expand
+classes11.dex	 art_heap_expand_v4_delay_seconds
+classes11.dex	artHeapExpandV4DelaySeconds
+classes11.dex	enableArtHeapExpandV2
+classes11.dex	enableArtHeapExpandV4
+classes11.dex	enable_art_heap_expand_v2
+classes11.dex	enable_art_heap_expand_v4
+lib/arm64-v8a/libsysoptimizer_early.so	Java_com_bytedance_sysoptimizer_heap_HeapExpandV2_applyNative
+lib/arm64-v8a/libsysoptimizer_early.so	Java_com_bytedance_sysoptimizer_heap_HeapExpandV2_initNative
+lib/arm64-v8a/libsysoptimizer_early.so	Java_com_bytedance_sysoptimizer_heap_HeapExpandV2_is64BitNative
+lib/arm64-v8a/libsysoptimizer_early.so	Java_com_bytedance_sysoptimizer_heap_HeapExpandV2_triggerCopyGcNative
+lib/arm64-v8a/libsysoptimizer_early.so	art_heap_expand_v2
+lib/arm64-v8a/libsysoptimizer.so	Java_com_bytedance_sysoptimizer_heap_HeapExpandV4_applyNative
+lib/arm64-v8a/libsysoptimizer.so	Java_com_bytedance_sysoptimizer_heap_HeapExpandV4_initNative
+lib/arm64-v8a/libsysoptimizer.so	N14heap_expand_v417offset_provider_tE
+lib/arm64-v8a/libsysoptimizer.so	N14heap_expand_v421offset_provider_api26E
+lib/arm64-v8a/libsysoptimizer.so	N14heap_expand_v421offset_provider_api28E
+lib/arm64-v8a/libsysoptimizer.so	N14heap_expand_v421offset_provider_api30E
+lib/arm64-v8a/libsysoptimizer.so	N14heap_expand_v428offset_provider_api31_huaweiE
+lib/arm64-v8a/libsysoptimizer.so	N14heap_expand_v429offset_provider_api26_samsungE
+lib/arm64-v8a/libsysoptimizer.so	N14heap_expand_v431offset_provider_api31_till_lastE
+lib/arm64-v8a/libsysoptimizer.so	N14heap_expand_v45quirk10oppo_quirkE
+lib/arm64-v8a/libsysoptimizer.so	N14heap_expand_v45quirk11honor_quirkE
+lib/arm64-v8a/libsysoptimizer.so	N14heap_expand_v45quirk16quirk_resolver_tE
+lib/arm64-v8a/libsysoptimizer.so	expand_helper
+lib/arm64-v8a/libsysoptimizer.so	expand_helper init fail
+lib/arm64-v8a/libsysoptimizer.so	heap_expand_v4

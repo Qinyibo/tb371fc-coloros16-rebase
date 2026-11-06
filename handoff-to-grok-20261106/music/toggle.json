@@ -1,0 +1,9 @@
+{
+  "key": "enableArtHeapExpandV4",
+  "original": true,
+  "test": false,
+  "verified_sha256": "affda1e4e868963635a4ec459675e27bdf6a4320c30aa3eb52408370f5797cba",
+  "device_file": "/data/user/0/com.luna.music/shared_prefs/luna_launch_local_shared_preferences.xml",
+  "backup": "launch-preferences.before.xml",
+  "permanent": false
+}

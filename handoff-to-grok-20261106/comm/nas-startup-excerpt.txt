@@ -1,0 +1,2 @@
+11-06 01:59:13.021  2505  3184 I am_proc_start: [0,3605,1000,com.oplus.nas,added application,com.oplus.nas,NULL]
+11-06 01:59:16.389  3605  3787 D OplusTelephonyManager: registerCallback:android.telephony.OplusTelephonyManager$2@d7c6a0d, package:com.oplus.nas

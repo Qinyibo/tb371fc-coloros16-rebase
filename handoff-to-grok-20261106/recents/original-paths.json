@@ -1,0 +1,57 @@
+[
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/ui-compat/native-ui/recents-boundary-v9/multi-right-0.png",
+    "bytes": 2742138,
+    "sha256": "fd31f75da3c0cc9770ad77c99731ccc10d3a07d55881af0d3bab28ef83577dd9"
+  },
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/ui-compat/native-ui/recents-boundary-v9/multi-right-4.png",
+    "bytes": 3506866,
+    "sha256": "67727963c5dba3b160064325e39e3a116eb95783bc2a9eafec60c65538106092"
+  },
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/ui-compat/native-ui/recents-boundary-v9/multi-right-8.png",
+    "bytes": 3507291,
+    "sha256": "3b9dfe75366414796014e77d1e7d0e0d2b5cc835d4154c0f996104c43be1b63d"
+  },
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/ui-compat/native-ui/recents-boundary-v9/multi-right-0.zip",
+    "bytes": 36918,
+    "sha256": "f0921fc4738f6416c910b8836784506c1a0bd09756fc85a2d97e81aabaebf278"
+  },
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/ui-compat/native-ui/recents-boundary-v9/multi-right-4.zip",
+    "bytes": 36922,
+    "sha256": "0768d3834b80cdd5092a6877ce607d3a4b8e676e1632390bb027af155a9baaaf"
+  },
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/ui-compat/native-ui/recents-boundary-v9/multi-right-8.zip",
+    "bytes": 36922,
+    "sha256": "3de3aa8eb978e9d465b41e2735c6166c7c3e5eaa441ddb293381be380bb47db8"
+  },
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/ui-compat/native-ui/recents-boundary-v9/rotated-right-0.png",
+    "bytes": 4663624,
+    "sha256": "8763858dae42d1ddf8bba1c206e5a29804ab36012810adaa383be5d53e4f6b29"
+  },
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/ui-compat/native-ui/recents-boundary-v9/rotated-right-12.png",
+    "bytes": 4661443,
+    "sha256": "cac624f2ff2a8dd917cefa18a20ff14fd9367eabf1c0f8b4e98d6564a87c0783"
+  },
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/ui-compat/native-ui/recents-boundary-v9/capture-boundary.py",
+    "bytes": 1054,
+    "sha256": "f897cf95af486e9c318bea1bc0868ed3c04c03eb8646a9e0bff338ae9e61dc75"
+  },
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/ui-compat/native-ui/recents-boundary-v9/capture-multitask.py",
+    "bytes": 1096,
+    "sha256": "c2bf24724cdf4f43abdf62d89263f3114d2317db9b4174bef712ae15c4f12c91"
+  },
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/ui-compat/native-ui/recents-boundary-v9/capture-rotation.py",
+    "bytes": 922,
+    "sha256": "a4a4f7282e95f1da5d883dd92040169505f733a5b7fb1cbc184364c6889953d5"
+  }
+]

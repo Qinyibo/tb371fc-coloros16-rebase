@@ -1,0 +1,46 @@
+{
+  "base_manifest": "pen-sharing-compat/candidate-v3/candidate.json",
+  "base_super_sha256": "cac703a493dce9be832c3ca81a01b4ca74c47852bc0ad2ff7ac275cb314e5a9e",
+  "updated_super_sha256": "31dbe4eafed965806ff4de4242f44103056ada235bdc0dea7acaaaea2470908e",
+  "bytes": 12884901888,
+  "partitions": {
+    "system_a": {
+      "path": "pen-sharing-compat/system-pen-v4.img",
+      "before_sha256": "0b095d6adcf00e3636d5f0b5bc1a65756218cd1121a4d81bca714ca5e7b9a297",
+      "sha256": "76b7f9510ed0ff7c6224182a7df9b2899a8128d11b765fa9abe4408e46d8c94a",
+      "bytes": 10187964416,
+      "start_sector": 79872,
+      "changed_bytes": 114536448
+    }
+  },
+  "parts": [
+    {
+      "file": "super-delta-00.img",
+      "bytes": 23867576,
+      "sha256": "c4f9b645d60d4c5cc8dc1e97f9ee2a1af1d1e6dce39c6a0d1870b919df355586"
+    },
+    {
+      "file": "super-delta-01.img",
+      "bytes": 16777280,
+      "sha256": "214704d49df0253c6c9a20d89ea9d8a396e72fdac14b492e4a49b082450226a6"
+    },
+    {
+      "file": "super-delta-02.img",
+      "bytes": 25178272,
+      "sha256": "c80582e85b60a5a882a3ff7c1b0a01ec0cb64c471277a83a134de3f232bd26d7"
+    },
+    {
+      "file": "super-delta-03.img",
+      "bytes": 31920228,
+      "sha256": "c4a5f29944d4174dffae1dc3076b47b2d6c0b95fd4710441ac343b7121fb1d80"
+    },
+    {
+      "file": "super-delta-04.img",
+      "bytes": 16793784,
+      "sha256": "ccdb96322111557e892cdfe7b2c2bd4608a7b7b04c2221e95fcfffd146e1e298"
+    }
+  ],
+  "changed_raw_bytes": 114536448,
+  "scope": "Pen startup follows genuine CTN730 events through the stock manifest receiver with verified system sender identity; app owns its CoreService lifecycle. Remove framework cross-app startup attempts, no forced connection or restart loop.",
+  "complete_image_readback_hash_verified": true
+}

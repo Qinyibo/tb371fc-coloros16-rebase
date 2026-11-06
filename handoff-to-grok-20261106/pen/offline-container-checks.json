@@ -1,0 +1,23 @@
+{
+  "IPeManager-current.apk": {
+    "sha256": "bfdae2e161774767a2c0dc94598fb78cdfa0e8063a00e7d6a459340311a956f2",
+    "zip_valid": true,
+    "non_dex_entries_identical": true,
+    "native_4k_alignment_preserved": [
+      "lib/arm64-v8a/libforecast.so",
+      "lib/arm64-v8a/libpaint.so",
+      "lib/arm64-v8a/libvfxmodelviewer-jni.so",
+      "lib/armeabi-v7a/libvfxmodelviewer-jni.so"
+    ],
+    "modified_methods": 17,
+    "runtime_or_hardware_verified": false
+  },
+  "services-current.jar": {
+    "sha256": "6a3caff3686b55ec58e492e8dc69090efe7c269e42327b454e0efe6308a8b490",
+    "zip_valid": true,
+    "non_dex_entries_identical": true,
+    "native_4k_alignment_preserved": [],
+    "modified_methods": 2,
+    "runtime_or_hardware_verified": false
+  }
+}

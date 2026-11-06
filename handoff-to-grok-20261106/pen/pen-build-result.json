@@ -1,0 +1,53 @@
+{
+  "IPeManager-current.apk": {
+    "input_sha256": "4caa374981f03080a7e887cda1baadd95a2c1edb5e283a8847ebedfb563ddbf7",
+    "output": "build-v4/IPeManager-current.apk/IPeManager-pen-v1.apk",
+    "output_sha256": "bfdae2e161774767a2c0dc94598fb78cdfa0e8063a00e7d6a459340311a956f2",
+    "modified_methods": 17,
+    "edits": [
+      "EDIT Lcom/oplus/ipemanager/btadsorb/CoreService; onCreate()V created",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/CoreService; onDestroy()V destroyed",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/CoreService; onStartCommand(Landroid/content/Intent;II)I started",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/ble/BluetoothStatusReceiver; onReceive(Landroid/content/Context;Landroid/content/Intent;)V hardware",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/ble/e; onCharacteristicChanged(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V changedlegacy",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/ble/e; onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V readlegacy",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/ble/e; onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;[BI)V read33",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/ble/e; onDescriptorWrite(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattDescriptor;I)V descriptorDispatch",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/ble/e; onServicesDiscovered(Landroid/bluetooth/BluetoothGatt;I)V serviceresult",
+      "ADD value-snapshot notification callback",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/util/v; W(Landroid/content/Context;Ljava/lang/String;)Z name",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/ble/l0; e(Landroid/bluetooth/BluetoothGattCharacteristic;)V notify",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/ble/l0; f(Landroid/bluetooth/BluetoothGattCharacteristic;I)V read",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/ble/l0; h(I)V descriptor",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/ble/l0; i()V connected",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/ble/l0; j()V disconnect",
+      "EDIT Lcom/oplus/ipemanager/btadsorb/ble/l0; k(Landroid/bluetooth/BluetoothGatt;)V services",
+      "PATCHED 17 methods"
+    ],
+    "added_dex": "classes4.dex",
+    "unmodified_entry_contents_preserved": true,
+    "device_verified": false
+  },
+  "services-current.jar": {
+    "input_sha256": "af1acf3f56b291a615a253453218ee1b38c842787c28ddbbbf12b9b8e6efc620",
+    "output": "build-v4/services-current.jar/services-pen-v1.jar",
+    "output_sha256": "6a3caff3686b55ec58e492e8dc69090efe7c269e42327b454e0efe6308a8b490",
+    "modified_methods": 2,
+    "edits": [
+      "EDIT Lcom/android/server/policy/PhoneWindowManager; interceptKeyBeforeQueueing",
+      "EDIT Lcom/android/server/policy/PhoneWindowManager; systemReady",
+      "PATCHED 2"
+    ],
+    "added_dex": "classes5.dex",
+    "unmodified_entry_contents_preserved": true,
+    "device_verified": false
+  },
+  "limits": {
+    "preload_only": true,
+    "oem_signature_valid_after_apk_modification": false,
+    "scope": "Compiled trusted-preload candidate; original certificate identity retained as in existing ROM build. No APK verification bypass or runtime mount introduced. Not an ordinary signed APK update.",
+    "no_pen_hardware_acceptance": true,
+    "no_system_server_restart_performed": true,
+    "wireless_settings_ui_pending": true
+  }
+}

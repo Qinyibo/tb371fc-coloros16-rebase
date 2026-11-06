@@ -1,0 +1,33 @@
+{
+  "use_only_when_super_is": "31dbe4eafed965806ff4de4242f44103056ada235bdc0dea7acaaaea2470908e",
+  "restores_super_sha256": "cac703a493dce9be832c3ca81a01b4ca74c47852bc0ad2ff7ac275cb314e5a9e",
+  "parts": [
+    {
+      "file": "super-delta-00.img",
+      "sha256": "707170d27496295322d24c6c8a93eecbf87b69d605af464f0d1c9677b4c801cc",
+      "bytes": 23867576
+    },
+    {
+      "file": "super-delta-01.img",
+      "sha256": "9e6167bd44d83e47c225dc483de704185b175772fcdd9ae4b5e9d520fa5a43a7",
+      "bytes": 16777280
+    },
+    {
+      "file": "super-delta-02.img",
+      "sha256": "f6c3f7907d102863f8344bf231aab5fb7c23864d43bd9e6616ac8aa2b7c0230a",
+      "bytes": 25178272
+    },
+    {
+      "file": "super-delta-03.img",
+      "sha256": "5d90d74d319355717f63e968dba32522560f0711b9a97034dfc79556411578f1",
+      "bytes": 31920228
+    },
+    {
+      "file": "super-delta-04.img",
+      "sha256": "76fc79eccb6338acdf4bfede5a19016540b11df391c9e0c54263a2cdc777d5a6",
+      "bytes": 16793784
+    }
+  ],
+  "userdata_wipe_required": false,
+  "runtime_tested": false
+}

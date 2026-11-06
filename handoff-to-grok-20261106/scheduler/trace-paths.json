@@ -1,0 +1,17 @@
+[
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/scheduler-compat/resume-20261105/controller-douyin-aba/A1-controller-on/capture/heavy.pftrace",
+    "bytes": 123810212,
+    "sha256": "b73c4e7af0fb94b25b615b4eb41c447bdae190c57eb4c15d8d630c0e76349715"
+  },
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/scheduler-compat/resume-20261105/controller-douyin-aba/B-controller-off/capture/heavy.pftrace",
+    "bytes": 87141414,
+    "sha256": "37a379f4c08e175a52517fc89f785c20d526edd90fbe5a18f8cd3b09ad22a5ee"
+  },
+  {
+    "path": "D:/TB371FC-release/clean-rebase-20261104/scheduler-compat/resume-20261105/controller-douyin-aba/A2-controller-on/capture/heavy.pftrace",
+    "bytes": 85563909,
+    "sha256": "7e7598f0e693578326c3b05527e702473f15ed4f5a572f6cc39456af2fe7531f"
+  }
+]
