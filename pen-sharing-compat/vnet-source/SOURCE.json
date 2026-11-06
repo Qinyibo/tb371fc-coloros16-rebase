@@ -1,0 +1,6 @@
+{
+  "local_git": "D:/TB371FC-release/public-source/android_kernel_lenovo_tb371fc.git",
+  "commit": "5bb573b6c07c152975585477a6171663ba6e03e0",
+  "module_sha256": "01cb1335daddcf308d11076af1db50f5386c6bb94312243b02197d1a7bfc66bd",
+  "module_input": "existing pre-rebase physical rollback super; exact verified daily module; no kernel downloaded"
+}

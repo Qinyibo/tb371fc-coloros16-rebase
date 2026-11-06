@@ -1,0 +1,3 @@
+# TB371FC real communication data-plane driver. Load once before boot-complete services.
+on post-fs-data && property:ro.product.board=spinel
+    insmod /vendor/lib/modules/oplus_vnet.ko

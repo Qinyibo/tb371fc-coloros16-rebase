@@ -16,6 +16,7 @@ parser.add_argument('--migrate-display-store', action='store_true')
 parser.add_argument('--allow-camera-odm-config', action='store_true')
 parser.add_argument('--allow-vendor-carrier-profile', action='store_true')
 parser.add_argument('--allow-vendor-gpu-profile', action='store_true')
+parser.add_argument('--allow-vendor-vnet', action='store_true')
 args = parser.parse_args()
 work = root / args.work
 info = json.loads((work / 'delta-result.json').read_text(encoding='utf-8'))
@@ -68,6 +69,20 @@ if args.allow_vendor_gpu_profile:
     assert proof['all_previous_entries_identical'] and proof['entries_checked'] > 2000
     assert proof['filesystem_check_pass'] and proof['new_file_uses_existing_vendor_init_metadata']
     assert set(info['partitions']) == {'vendor_a'}
+    vendor = info['partitions']['vendor_a']
+    assert vendor['before_sha256'] == proof['before_image_sha256'] == current['logical_partitions']['vendor_a']['sha256']
+    assert vendor['sha256'] == proof['after_image_sha256']
+    allowed.add('vendor_a')
+if args.allow_vendor_vnet:
+    proof = json.loads((work / 'vnet-integration.json').read_text(encoding='utf-8'))
+    assert set(proof['new_files']) == {'etc/init/tb371fc-vnet.rc', 'lib/modules/oplus_vnet.ko'}
+    assert proof['all_previous_entries_identical'] and proof['entries_checked'] > 2000
+    assert proof['filesystem_check_pass'] and proof['metadata_from_existing_vendor_files']
+    ko = work.parent / 'vendor-overlay/lib/modules/oplus_vnet.ko'
+    assert hashlib.sha256(ko.read_bytes()).hexdigest() == '01cb1335daddcf308d11076af1db50f5386c6bb94312243b02197d1a7bfc66bd'
+    rc = (work.parent / 'vendor-overlay/etc/init/tb371fc-vnet.rc').read_text(encoding='utf-8')
+    assert rc.count('    insmod ') == 1 and 'on post-fs-data && property:ro.product.board=spinel' in rc
+    assert rc.rstrip().endswith('insmod /vendor/lib/modules/oplus_vnet.ko')
     vendor = info['partitions']['vendor_a']
     assert vendor['before_sha256'] == proof['before_image_sha256'] == current['logical_partitions']['vendor_a']['sha256']
     assert vendor['sha256'] == proof['after_image_sha256']

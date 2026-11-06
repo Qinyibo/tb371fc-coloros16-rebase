@@ -1,0 +1,8 @@
+{
+  "donor": "OPD2413_16.0.10.600(CN01)",
+  "super_sha256": "31dbe4eafed965806ff4de4242f44103056ada235bdc0dea7acaaaea2470908e",
+  "state": "OFFLINE_BUILT_NOT_FLASHED",
+  "hardware_verified": false,
+  "module_sha256": "01cb1335daddcf308d11076af1db50f5386c6bb94312243b02197d1a7bfc66bd",
+  "scope": "Pen startup follows genuine CTN730 events through the stock manifest receiver with verified system sender identity; app owns its CoreService lifecycle. Remove framework cross-app startup attempts, no forced connection or restart loop."
+}

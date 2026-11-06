@@ -1,10 +1,43 @@
 {
-  "source_snapshot_date": "2026-11-05",
+  "source_snapshot_date": "2026-11-06",
   "export_kind": "source-only private archive",
   "raw_device_evidence_included": false,
   "device_serials_replaced": true,
   "kernel_overlay_source": "erofs-kernel-build/r107-erofs-overlay-source.tar.gz",
   "files": [
+    {
+      "path": ".gitattributes",
+      "original_sha256": "923d531c88fd0859be9fc7ee5db55e889a988493cff2801da364f7392f713ab8",
+      "identity_placeholders": false,
+      "export_sha256": "923d531c88fd0859be9fc7ee5db55e889a988493cff2801da364f7392f713ab8",
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "CompareDex.java",
+      "original_sha256": "6500b0fea8a5be2cb5972f46505e7f147c119935797317851ba8746757d456c8",
+      "export_sha256": "6500b0fea8a5be2cb5972f46505e7f147c119935797317851ba8746757d456c8",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ExportRebaseContext.java",
+      "original_sha256": "873b30bef3e3e8189250a0be31552664100999fe4c08ff222d91c160033bc026",
+      "export_sha256": "873b30bef3e3e8189250a0be31552664100999fe4c08ff222d91c160033bc026",
+      "identity_placeholders": false
+    },
+    {
+      "path": "README.md",
+      "original_sha256": "4996c35ff86256f14ad938635e76e736d77577c5ccde24f7a5555ac63ecc68cc",
+      "export_sha256": "a75fa1fe1980d9053350532bddd7207c8398590c5a3aab037f9fc8f01a2b9d50",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "STATUS.md",
+      "original_sha256": "12cfd0206a6098558d127e4c1fe44f491740ef7a161c45bee49458b53c4f0470",
+      "export_sha256": "b7fff266d4f7eec4e4fec3ad8b3be82f09cb1b27ad0db4993caabee3a50e5c1a",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
     {
       "path": "acquire.py",
       "original_sha256": "9ff05b15f9d787bbf487cd33e54b07d7ca92a6a44372e2e460d778e5161ebd05",
@@ -102,18 +135,6 @@
       "identity_placeholders": false
     },
     {
-      "path": "camera-compat-native/build-unit-profile.py",
-      "original_sha256": "e31da88f34eae944532f25cf64e5800b57cff25a3a2b56fcff400c0bd6f7fdad",
-      "export_sha256": "e31da88f34eae944532f25cf64e5800b57cff25a3a2b56fcff400c0bd6f7fdad",
-      "identity_placeholders": false
-    },
-    {
-      "path": "camera-compat-native/extract-feature-config.sh",
-      "original_sha256": "8b116d8f0bcbd7fb9e0a3fddcbda72c552d5b33d31121615569b74aacfa4d682",
-      "export_sha256": "8b116d8f0bcbd7fb9e0a3fddcbda72c552d5b33d31121615569b74aacfa4d682",
-      "identity_placeholders": false
-    },
-    {
       "path": "camera-compat-native/ExtractCameraClientContext.java",
       "original_sha256": "5b6db6cf45a348564daaa39e0652bdfabe33f01d915e01e7094a016ef441f600",
       "export_sha256": "5b6db6cf45a348564daaa39e0652bdfabe33f01d915e01e7094a016ef441f600",
@@ -123,6 +144,18 @@
       "path": "camera-compat-native/ExtractZuiPermissionContext.java",
       "original_sha256": "4d27576ba3f3749c3d2a94b505491a5b9a006a370577138aca745e3128fcf6c3",
       "export_sha256": "4d27576ba3f3749c3d2a94b505491a5b9a006a370577138aca745e3128fcf6c3",
+      "identity_placeholders": false
+    },
+    {
+      "path": "camera-compat-native/build-unit-profile.py",
+      "original_sha256": "e31da88f34eae944532f25cf64e5800b57cff25a3a2b56fcff400c0bd6f7fdad",
+      "export_sha256": "e31da88f34eae944532f25cf64e5800b57cff25a3a2b56fcff400c0bd6f7fdad",
+      "identity_placeholders": false
+    },
+    {
+      "path": "camera-compat-native/extract-feature-config.sh",
+      "original_sha256": "8b116d8f0bcbd7fb9e0a3fddcbda72c552d5b33d31121615569b74aacfa4d682",
+      "export_sha256": "8b116d8f0bcbd7fb9e0a3fddcbda72c552d5b33d31121615569b74aacfa4d682",
       "identity_placeholders": false
     },
     {
@@ -166,12 +199,6 @@
       "original_sha256": "1ad5135bb88c2dc4e9ae3c2f7f4c259101c6603b92f7307cfe4c4ae98261470e",
       "export_sha256": "ab6bcd9df8036cdfd203f69046df5ee48fce678a271b81303f8833579107c9a8",
       "identity_placeholders": true
-    },
-    {
-      "path": "CompareDex.java",
-      "original_sha256": "6500b0fea8a5be2cb5972f46505e7f147c119935797317851ba8746757d456c8",
-      "export_sha256": "6500b0fea8a5be2cb5972f46505e7f147c119935797317851ba8746757d456c8",
-      "identity_placeholders": false
     },
     {
       "path": "compat-framework/ChargerCompatPatch.java",
@@ -231,12 +258,6 @@
       "path": "erofs_vm_verity.c.inc",
       "original_sha256": "295fc6bac37fb476eb357f79ae7325daaa397f4a820569f532667839cf7f918c",
       "export_sha256": "295fc6bac37fb476eb357f79ae7325daaa397f4a820569f532667839cf7f918c",
-      "identity_placeholders": false
-    },
-    {
-      "path": "ExportRebaseContext.java",
-      "original_sha256": "873b30bef3e3e8189250a0be31552664100999fe4c08ff222d91c160033bc026",
-      "export_sha256": "873b30bef3e3e8189250a0be31552664100999fe4c08ff222d91c160033bc026",
       "identity_placeholders": false
     },
     {
@@ -304,6 +325,202 @@
       "original_sha256": "e5110c3e1082c392f48a84c2886c5a1c2d4da68a7e4c8dc246d7eb50abcbdd32",
       "export_sha256": "e5110c3e1082c392f48a84c2886c5a1c2d4da68a7e4c8dc246d7eb50abcbdd32",
       "identity_placeholders": false
+    },
+    {
+      "path": "pen-sharing-compat/LICENSE-GPL-3.0.txt",
+      "original_sha256": "e57f1c320b8cf8798a7d2ff83a6f9e06a33a03585f6e065fea97f1d86db84052",
+      "export_sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/NOTICE.txt",
+      "original_sha256": "4a0cb6829a63c32334696bba58fb8523ca08d742ce26935e3e9a235fc35fb687",
+      "export_sha256": "eb55d45e77276c1d1e8f1b22398e32492c0af907ddcbf78f352295b2d43eabe3",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/PenContracts.java",
+      "original_sha256": "f345dd0e657d8caa44e4bd14f0cb7a7e4a6144a9e25d20107546deb58c3371a6",
+      "export_sha256": "a08f983e677ea7ffe87268a63b882aa7379c1c4aec76819023b64e886c18e1ea",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/PenDexPatchV3.java",
+      "original_sha256": "ab59939a95068b7a6255efe7907d62d23b48169d9635e87e9cabd94c516fac17",
+      "export_sha256": "5eee1f5b6a9d89e0d5acdb77b6a952c4c3adac3d0617d69fb29be8adcbc0d7dc",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/README.md",
+      "original_sha256": "46a296afcc2b4b9b856511aefef075283233a4a7ee40ddfee21171f6ce8cff8d",
+      "export_sha256": "137df6839da8a859f05c61ce1cbe460cb1a231e3be9caa23c93a94938bab5416",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/ServicesPenPatch.java",
+      "original_sha256": "19993bbc56bd11dadc57d2ed2edb760348c08137657819ca0b44086f87066533",
+      "export_sha256": "19993bbc56bd11dadc57d2ed2edb760348c08137657819ca0b44086f87066533",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/build-pen.py",
+      "original_sha256": "a2a035f1ccb5748392bf02d816cd3d9fcb2f52241097fd934b4d72873cb36b08",
+      "export_sha256": "d56cfc0129434cdd151540930c93bf679cfb979018d716f315649651842ba0d5",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/build-wireless.py",
+      "original_sha256": "73323cc007fb1a7fb06c2b04c6e6e14a977ae65e5a002b120723f0d09a570b06",
+      "export_sha256": "0abd6ef6a4d1de1d6dd054eadc21bc379d7603a44c92bf3d6f7e06d1e075b005",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/inspect-contracts.py",
+      "original_sha256": "6fa36e58b161617ab10eb9b41066e5106a105b06b12f50782547b026cc67b9fb",
+      "export_sha256": "ec0f93c61ed436067512a2c561ebac231698e3b6d35b906f9028056674800d7c",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/integrate-pen-v4.sh",
+      "original_sha256": "d6e56a667a8d0d3502f62991d953b332181e63bb9b36f60376a12726c35d5f07",
+      "export_sha256": "d6e56a667a8d0d3502f62991d953b332181e63bb9b36f60376a12726c35d5f07",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/integrate-vnet.sh",
+      "original_sha256": "199f3199db19d803bc3f1adeb59cea4d8522864c0e6a4c9e6cd746bc9e529620",
+      "export_sha256": "199f3199db19d803bc3f1adeb59cea4d8522864c0e6a4c9e6cd746bc9e529620",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/integrate-wireless.sh",
+      "original_sha256": "5b767cacd3035194896dd9e37dffd084fbc678ec32bfe5ddb6e226dd0fd6f76b",
+      "export_sha256": "5b767cacd3035194896dd9e37dffd084fbc678ec32bfe5ddb6e226dd0fd6f76b",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/offline-candidate.json",
+      "original_sha256": "9e90ef6bb6bfd77f0c09a35b0ce62acc0d11fdd5c470d30e7d4f15a1445440c9",
+      "export_sha256": "5801abe24e874b6627b6265dcb6e9050aa461b2bb911ea54a7cc81f32904c46d",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/offline-container-checks.json",
+      "original_sha256": "7a95f3aafd89587e1210f5ce1584305d9a862dd2dfd0c931764385eeb40cf19d",
+      "export_sha256": "dad13e554a32665e35eaa7de3ca754dd5cdbbbc93fa70afe79440023e8c01493",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/src/org/tb371fc/pen/NativeDeviceCard.java",
+      "original_sha256": "a2e46e02a76abee1a3bfc43a5f30f23f623c3e8098eb6a1ce3d2abad32b078b8",
+      "export_sha256": "a2e46e02a76abee1a3bfc43a5f30f23f623c3e8098eb6a1ce3d2abad32b078b8",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/src/org/tb371fc/pen/NativeGatt.java",
+      "original_sha256": "88fc1fa715d64e127ec8096016579944fcdb566a6a82870704e0852c85255c7d",
+      "export_sha256": "a146acb20886e420c6e0dc802ef07e0e08ae57c9b2dcb53d3686f18a8a4b8766",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/src/org/tb371fc/pen/NativeHardwareState.java",
+      "original_sha256": "62f8c34bbdabf088ba840e38a9639e61c53dee668b2a49bc2d1bfdfb1544d5c4",
+      "export_sha256": "62f8c34bbdabf088ba840e38a9639e61c53dee668b2a49bc2d1bfdfb1544d5c4",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/src/org/tb371fc/pen/NativePenLifecycle.java",
+      "original_sha256": "5b9e15f8f571e21ae5a8c8b39240a32e192ac85066a6ba81d8d4cefb1de13761",
+      "export_sha256": "6bea37fc4765d2f88bd4013bb21496aade9daae679034a24174a5e8e4edbb464",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/src/org/tb371fc/pen/PenGattValues.java",
+      "original_sha256": "6db960f0fa86f74f0708850d847dcbb5a019f2505cdd41c23a598a944368b443",
+      "export_sha256": "6db960f0fa86f74f0708850d847dcbb5a019f2505cdd41c23a598a944368b443",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/src/org/tb371fc/pen/PenSession.java",
+      "original_sha256": "baf1cea3eddf4862784f816160f4c606fff96c8bf903099eac9daa67baa68592",
+      "export_sha256": "baf1cea3eddf4862784f816160f4c606fff96c8bf903099eac9daa67baa68592",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/stubs/android/os/UEventObserver.java",
+      "original_sha256": "86672858633a081c876d1341dd5e3cbca33ef581785e4623ba94b0243554252d",
+      "export_sha256": "86672858633a081c876d1341dd5e3cbca33ef581785e4623ba94b0243554252d",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/system-src/org/tb371fc/pen/system/NativePenSystem.java",
+      "original_sha256": "30bdf10eda1aa08685f8d98f1ba047a895d84cd19f9d13ef43e4dacfed2f6e27",
+      "export_sha256": "2c3ab750cd86e738e28ddbfa726ff81eadd9ee54b8b712f267c748fe309f59ff",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/system-src/org/tb371fc/pen/system/PenGesture.java",
+      "original_sha256": "e7d84ab6c29258a66282b48490ec4132b1bb66218005cecf3a0b5a31ae515458",
+      "export_sha256": "e7d84ab6c29258a66282b48490ec4132b1bb66218005cecf3a0b5a31ae515458",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/vendor-overlay/etc/init/tb371fc-vnet.rc",
+      "original_sha256": "db6301f8405379126247f7fdabb36e0dda1cd3254e7c972f356cf67af7c6ccf3",
+      "export_sha256": "db6301f8405379126247f7fdabb36e0dda1cd3254e7c972f356cf67af7c6ccf3",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/vnet-source/COPYING",
+      "original_sha256": "ee5808b032a67f587d3541099d46de34f5bec8cd5976114ba07f1299ee6001ff",
+      "export_sha256": "ee5808b032a67f587d3541099d46de34f5bec8cd5976114ba07f1299ee6001ff",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/vnet-source/Makefile",
+      "original_sha256": "5b8b0b1c4e7927c723ebdde73562214da879c1ef1954e67602cd6eff971409de",
+      "export_sha256": "5b8b0b1c4e7927c723ebdde73562214da879c1ef1954e67602cd6eff971409de",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/vnet-source/SOURCE.json",
+      "original_sha256": "91fa5f6a0650ecc73967d4be30abfae209a9974a01bfbb269e60edb788852443",
+      "export_sha256": "2f072b201fe693706c2657a60f073f6a3aad5680324854d5b3e0bb78e341735a",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
+    },
+    {
+      "path": "pen-sharing-compat/vnet-source/oplus_vnet.c",
+      "original_sha256": "908c1ab6f362846ddaa8f1d4adfeef44283cb5c8ecc5a60e5d5d84f689055f87",
+      "export_sha256": "77042a14aca32584b6a3ebfa9606ce88f727bee8f3071c7284f269a62310acc6",
+      "identity_placeholders": false,
+      "export_line_endings": "LF"
     },
     {
       "path": "prepare_apex.sh",
@@ -600,15 +817,15 @@
       "identity_placeholders": false
     },
     {
-      "path": "speaker-compat/source/build.py",
-      "original_sha256": "ce413f681e26e202ecb97f517916e906ee8f9b6991a7e56fe8f40ca145a5d17d",
-      "export_sha256": "ce413f681e26e202ecb97f517916e906ee8f9b6991a7e56fe8f40ca145a5d17d",
-      "identity_placeholders": false
-    },
-    {
       "path": "speaker-compat/source/R94SpeakerDirection.java",
       "original_sha256": "3267c23a9b2df67bd8c44b819842a41c15c6587373075ee2c051b75379a2faeb",
       "export_sha256": "3267c23a9b2df67bd8c44b819842a41c15c6587373075ee2c051b75379a2faeb",
+      "identity_placeholders": false
+    },
+    {
+      "path": "speaker-compat/source/build.py",
+      "original_sha256": "ce413f681e26e202ecb97f517916e906ee8f9b6991a7e56fe8f40ca145a5d17d",
+      "export_sha256": "ce413f681e26e202ecb97f517916e906ee8f9b6991a7e56fe8f40ca145a5d17d",
       "identity_placeholders": false
     },
     {
@@ -667,9 +884,10 @@
     },
     {
       "path": "tools/flash_candidate_delta.py",
-      "original_sha256": "98f6ba49a47840a5ab44f15b620990ceb1f736c92def7c26ee008eba91dc91e2",
-      "export_sha256": "0d917522be89d8bb142f5cbfc91fa4d2288a562890bf2bf12ca26632fa40321e",
-      "identity_placeholders": true
+      "original_sha256": "8dd783c94b6029d0f611bad2f4c7cd5c9e209445680aef6256b41128669b38c1",
+      "export_sha256": "771c5509bd815a128e3b3f0af11a976d22d198bdb7cfcc6ee055cd8fe2caded0",
+      "identity_placeholders": true,
+      "export_line_endings": "LF"
     },
     {
       "path": "tools/trace_processor_bootstrap.py",
@@ -681,6 +899,12 @@
       "path": "ui-compat/native-ui/AnimationDexPatch.java",
       "original_sha256": "d8e068c4cf9dd8333990d76b209b7ee5803057e91d883a5d03269d6015db097a",
       "export_sha256": "d8e068c4cf9dd8333990d76b209b7ee5803057e91d883a5d03269d6015db097a",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/GestureProbe.java",
+      "original_sha256": "39bc3a3065e824f80803100cdf9c1e9d93fbe6858c706c623a696994914b3d47",
+      "export_sha256": "39bc3a3065e824f80803100cdf9c1e9d93fbe6858c706c623a696994914b3d47",
       "identity_placeholders": false
     },
     {
@@ -726,9 +950,9 @@
       "identity_placeholders": true
     },
     {
-      "path": "ui-compat/native-ui/GestureProbe.java",
-      "original_sha256": "39bc3a3065e824f80803100cdf9c1e9d93fbe6858c706c623a696994914b3d47",
-      "export_sha256": "39bc3a3065e824f80803100cdf9c1e9d93fbe6858c706c623a696994914b3d47",
+      "path": "ui-compat/native-ui/identity-radio-v4/OptionalVirtualRadioPatch.java",
+      "original_sha256": "ae872fcc11e16c37f99b87c0b14f99e34e7abb9ae96e19bf49cd2bf85b676fa7",
+      "export_sha256": "ae872fcc11e16c37f99b87c0b14f99e34e7abb9ae96e19bf49cd2bf85b676fa7",
       "identity_placeholders": false
     },
     {
@@ -756,12 +980,6 @@
       "identity_placeholders": true
     },
     {
-      "path": "ui-compat/native-ui/identity-radio-v4/OptionalVirtualRadioPatch.java",
-      "original_sha256": "ae872fcc11e16c37f99b87c0b14f99e34e7abb9ae96e19bf49cd2bf85b676fa7",
-      "export_sha256": "ae872fcc11e16c37f99b87c0b14f99e34e7abb9ae96e19bf49cd2bf85b676fa7",
-      "identity_placeholders": false
-    },
-    {
       "path": "ui-compat/native-ui/identity-radio-v4/probe-ota-transport.py",
       "original_sha256": "5c29871d132f1d5e2204076076087c4eb4d623b4bd2aab5cf9c681d13e58857b",
       "export_sha256": "7e09a42036e0c86f37beae4a5273c76f9e6b9768fb270f147e7bf0de63252d10",
@@ -777,6 +995,12 @@
       "path": "ui-compat/native-ui/network-ota-retained-v3/AppFeatureDump.java",
       "original_sha256": "e3af1bb015b3bd9a6d386e3b87461b4806b6123676533eb8cef6c3d2c4a325c5",
       "export_sha256": "e3af1bb015b3bd9a6d386e3b87461b4806b6123676533eb8cef6c3d2c4a325c5",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/network-ota-retained-v3/OptionalVirtualRadioPatch.java",
+      "original_sha256": "5e1de5a4898330a01223ccccf391ba3aa36fc1f9c9e804aa21da2591e7c9aac6",
+      "export_sha256": "5e1de5a4898330a01223ccccf391ba3aa36fc1f9c9e804aa21da2591e7c9aac6",
       "identity_placeholders": false
     },
     {
@@ -798,22 +1022,16 @@
       "identity_placeholders": false
     },
     {
-      "path": "ui-compat/native-ui/network-ota-retained-v3/OptionalVirtualRadioPatch.java",
-      "original_sha256": "5e1de5a4898330a01223ccccf391ba3aa36fc1f9c9e804aa21da2591e7c9aac6",
-      "export_sha256": "5e1de5a4898330a01223ccccf391ba3aa36fc1f9c9e804aa21da2591e7c9aac6",
-      "identity_placeholders": false
-    },
-    {
       "path": "ui-compat/native-ui/pad-layout-v5/integrate.sh",
       "original_sha256": "744b5723b7162f2c2754829a6f93616432e723e7b57e20adbc9d59a8b2f11aa9",
       "export_sha256": "744b5723b7162f2c2754829a6f93616432e723e7b57e20adbc9d59a8b2f11aa9",
       "identity_placeholders": false
     },
     {
-      "path": "ui-compat/native-ui/recents-boundary-v8/build-header.py",
-      "original_sha256": "9a3fad20d3d986fc53f4c93e83a5d5135fb23f4d2aa2584cc43d07eb88758fd9",
-      "export_sha256": "9a3fad20d3d986fc53f4c93e83a5d5135fb23f4d2aa2584cc43d07eb88758fd9",
-      "identity_placeholders": false
+      "path": "ui-compat/native-ui/recents-boundary-v8.py",
+      "original_sha256": "65d4c14e5e7a657f40023959e7e055dd5c3283444f08a4eeba817542f7b05f09",
+      "export_sha256": "d789e5473f549e669e2bba19291cf02dda8279c759ea5816b20860765ebcf902",
+      "identity_placeholders": true
     },
     {
       "path": "ui-compat/native-ui/recents-boundary-v8/HeaderButtonPatch.java",
@@ -822,10 +1040,10 @@
       "identity_placeholders": false
     },
     {
-      "path": "ui-compat/native-ui/recents-boundary-v8.py",
-      "original_sha256": "65d4c14e5e7a657f40023959e7e055dd5c3283444f08a4eeba817542f7b05f09",
-      "export_sha256": "d789e5473f549e669e2bba19291cf02dda8279c759ea5816b20860765ebcf902",
-      "identity_placeholders": true
+      "path": "ui-compat/native-ui/recents-boundary-v8/build-header.py",
+      "original_sha256": "9a3fad20d3d986fc53f4c93e83a5d5135fb23f4d2aa2584cc43d07eb88758fd9",
+      "export_sha256": "9a3fad20d3d986fc53f4c93e83a5d5135fb23f4d2aa2584cc43d07eb88758fd9",
+      "identity_placeholders": false
     },
     {
       "path": "ui-compat/native-ui/select-animation.py",
@@ -924,6 +1142,18 @@
       "identity_placeholders": false
     },
     {
+      "path": "ui-compat/native-ui/tablet-viewport-v6/TabletViewport.java",
+      "original_sha256": "90434fc2ef268549d41ec88c7933f2b37d459f89ddae9bba6b01815282ee243f",
+      "export_sha256": "90434fc2ef268549d41ec88c7933f2b37d459f89ddae9bba6b01815282ee243f",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/tablet-viewport-v6/TabletViewportPatch.java",
+      "original_sha256": "c0fa2d9a9a87b731442b3f6082df76006ebe12de05acf82509d9ad6ebebb2678",
+      "export_sha256": "c0fa2d9a9a87b731442b3f6082df76006ebe12de05acf82509d9ad6ebebb2678",
+      "identity_placeholders": false
+    },
+    {
       "path": "ui-compat/native-ui/tablet-viewport-v6/build.py",
       "original_sha256": "f421f1a55e95e669ffa2f1beb0b49077d6f88639096ee636953cd131e763ce10",
       "export_sha256": "f421f1a55e95e669ffa2f1beb0b49077d6f88639096ee636953cd131e763ce10",
@@ -939,18 +1169,6 @@
       "path": "ui-compat/native-ui/tablet-viewport-v6/integrate.sh",
       "original_sha256": "415a8d3103d9bc318feae70f34102b9169ba8582fd3b0b2a3017556d5e887b78",
       "export_sha256": "415a8d3103d9bc318feae70f34102b9169ba8582fd3b0b2a3017556d5e887b78",
-      "identity_placeholders": false
-    },
-    {
-      "path": "ui-compat/native-ui/tablet-viewport-v6/TabletViewport.java",
-      "original_sha256": "90434fc2ef268549d41ec88c7933f2b37d459f89ddae9bba6b01815282ee243f",
-      "export_sha256": "90434fc2ef268549d41ec88c7933f2b37d459f89ddae9bba6b01815282ee243f",
-      "identity_placeholders": false
-    },
-    {
-      "path": "ui-compat/native-ui/tablet-viewport-v6/TabletViewportPatch.java",
-      "original_sha256": "c0fa2d9a9a87b731442b3f6082df76006ebe12de05acf82509d9ad6ebebb2678",
-      "export_sha256": "c0fa2d9a9a87b731442b3f6082df76006ebe12de05acf82509d9ad6ebebb2678",
       "identity_placeholders": false
     },
     {
@@ -978,15 +1196,15 @@
       "identity_placeholders": true
     },
     {
-      "path": "ui-compat/native-ui/wechat-identity-v4/find-consumers.py",
-      "original_sha256": "a21b6052f3f08402aaac00465d3b86e2a7e456d8f7b36e31d2ca36b12f87f7b5",
-      "export_sha256": "a21b6052f3f08402aaac00465d3b86e2a7e456d8f7b36e31d2ca36b12f87f7b5",
-      "identity_placeholders": false
-    },
-    {
       "path": "ui-compat/native-ui/wechat-identity-v4/FindIdentityConsumers.java",
       "original_sha256": "0dd5a3a8b7b2917b0aef84afa6701c6affff4a2b985c3943d68a9d0a36f7f941",
       "export_sha256": "0dd5a3a8b7b2917b0aef84afa6701c6affff4a2b985c3943d68a9d0a36f7f941",
+      "identity_placeholders": false
+    },
+    {
+      "path": "ui-compat/native-ui/wechat-identity-v4/find-consumers.py",
+      "original_sha256": "a21b6052f3f08402aaac00465d3b86e2a7e456d8f7b36e31d2ca36b12f87f7b5",
+      "export_sha256": "a21b6052f3f08402aaac00465d3b86e2a7e456d8f7b36e31d2ca36b12f87f7b5",
       "identity_placeholders": false
     },
     {
@@ -1047,6 +1265,18 @@
       "path": "verify_signature.py",
       "original_sha256": "c79ae0b7d62446183d55888003c2fbf8d88dffe019799cc5e85d379c52562186",
       "export_sha256": "c79ae0b7d62446183d55888003c2fbf8d88dffe019799cc5e85d379c52562186",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/ListWifiRadioConsumers.java",
+      "original_sha256": "027798f0836144e87dfb732d17deddf34169926965e1234a7b7c0391cd58ea96",
+      "export_sha256": "027798f0836144e87dfb732d17deddf34169926965e1234a7b7c0391cd58ea96",
+      "identity_placeholders": false
+    },
+    {
+      "path": "wifi-compat/WifiOptionalRadioStatsPatch.java",
+      "original_sha256": "e3cef61b13192be6b61930905eadd1e88cd9fe142b8627418191bc7199402633",
+      "export_sha256": "e3cef61b13192be6b61930905eadd1e88cd9fe142b8627418191bc7199402633",
       "identity_placeholders": false
     },
     {
@@ -1122,12 +1352,6 @@
       "identity_placeholders": false
     },
     {
-      "path": "wifi-compat/ListWifiRadioConsumers.java",
-      "original_sha256": "027798f0836144e87dfb732d17deddf34169926965e1234a7b7c0391cd58ea96",
-      "export_sha256": "027798f0836144e87dfb732d17deddf34169926965e1234a7b7c0391cd58ea96",
-      "identity_placeholders": false
-    },
-    {
       "path": "wifi-compat/make-wifi-delta.py",
       "original_sha256": "043095f7cc9a7a4cfcc9c8322147219d23fa616dad6ae6551968cdda2f13bde9",
       "export_sha256": "043095f7cc9a7a4cfcc9c8322147219d23fa616dad6ae6551968cdda2f13bde9",
@@ -1144,12 +1368,7 @@
       "original_sha256": "3834934a88fe1ae7f4f040e86dd3600f481f3a0954b1c36fa478d0a1190ebbc8",
       "export_sha256": "3834934a88fe1ae7f4f040e86dd3600f481f3a0954b1c36fa478d0a1190ebbc8",
       "identity_placeholders": false
-    },
-    {
-      "path": "wifi-compat/WifiOptionalRadioStatsPatch.java",
-      "original_sha256": "e3cef61b13192be6b61930905eadd1e88cd9fe142b8627418191bc7199402633",
-      "export_sha256": "e3cef61b13192be6b61930905eadd1e88cd9fe142b8627418191bc7199402633",
-      "identity_placeholders": false
     }
-  ]
+  ],
+  "followup_scope": "Pen V4 offline source; real vnet integration; corrected physical/functional status; no raw device evidence"
 }
