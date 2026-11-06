@@ -1,0 +1,16 @@
+{
+  "restored_awake_state": [
+    "running",
+    "30",
+    "1",
+    "23"
+  ],
+  "final": [
+    "running",
+    "0",
+    "0",
+    "0"
+  ],
+  "original_sleep_restored": true,
+  "permanent_changes": false
+}

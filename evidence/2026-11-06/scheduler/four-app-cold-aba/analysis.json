@@ -1,0 +1,965 @@
+{
+  "A1": {
+    "trace_coverage": true,
+    "tune_valid": true,
+    "warmup_all_four_cold": true,
+    "measured_all_eight_cold": true,
+    "focus_login_seen": [
+      "com.tencent.mobileqq"
+    ],
+    "refresh_hz": [
+      120.00001
+    ],
+    "battery_c": [
+      26.2,
+      26.3
+    ],
+    "thermal_ranges_c": [
+      [
+        58.8,
+        62.7
+      ],
+      [
+        67.7,
+        77.5
+      ],
+      [
+        68.9,
+        81.0
+      ]
+    ],
+    "trace_loss_rows": [
+      "\"name\",\"value\""
+    ],
+    "visits": [
+      {
+        "cycle": 1,
+        "app": "com.ss.android.ugc.aweme",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 3267,
+        "focus": "com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity",
+        "scheduler": "running",
+        "tune": "30 1 23",
+        "thermal_mC": [
+          58800,
+          72400,
+          75500
+        ],
+        "battery_dC": 262,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35646130000000,
+        "swipe_ns": 35649450000000,
+        "end_ns": 35651190000000,
+        "frame_timeline": {
+          "idx": "0",
+          "app": "com.ss.android.ugc.aweme",
+          "frames": "5",
+          "p95_ms": "23.510000",
+          "app_missed": "5",
+          "late": "2",
+          "frames_after_swipe": "4",
+          "first_frame_end_after_swipe_marker_ms": "314.210000"
+        }
+      },
+      {
+        "cycle": 1,
+        "app": "com.tencent.mm",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1951,
+        "focus": null,
+        "scheduler": "running",
+        "tune": "30 1 27",
+        "thermal_mC": [
+          60300,
+          75200,
+          77500
+        ],
+        "battery_dC": 262,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35651370000000,
+        "swipe_ns": 35653380000000,
+        "end_ns": 35654820000000,
+        "frame_timeline": {
+          "idx": "1",
+          "app": "com.tencent.mm",
+          "frames": "1",
+          "p95_ms": "50.900000",
+          "app_missed": "1",
+          "late": "1",
+          "frames_after_swipe": "0",
+          "first_frame_end_after_swipe_marker_ms": "[NULL]"
+        }
+      },
+      {
+        "cycle": 1,
+        "app": "com.tencent.mobileqq",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 2351,
+        "focus": "com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginActivity",
+        "scheduler": "running",
+        "tune": "30 1 23",
+        "thermal_mC": [
+          59200,
+          70100,
+          71300
+        ],
+        "battery_dC": 263,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35654910000000,
+        "swipe_ns": 35657320000000,
+        "end_ns": 35659020000000,
+        "frame_timeline": {
+          "idx": "2",
+          "app": "com.tencent.mobileqq",
+          "frames": "32",
+          "p95_ms": "118.640000",
+          "app_missed": "7",
+          "late": "7",
+          "frames_after_swipe": "30",
+          "first_frame_end_after_swipe_marker_ms": "188.840000"
+        }
+      },
+      {
+        "cycle": 1,
+        "app": "com.luna.music",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1537,
+        "focus": "com.luna.music/com.luna.biz.main.main.MainActivity",
+        "scheduler": "running",
+        "tune": "30 1 27",
+        "thermal_mC": [
+          61100,
+          75900,
+          79000
+        ],
+        "battery_dC": 263,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35659120000000,
+        "swipe_ns": 35660710000000,
+        "end_ns": 35662470000000,
+        "frame_timeline": {
+          "idx": "3",
+          "app": "com.luna.music",
+          "frames": "17",
+          "p95_ms": "165.270000",
+          "app_missed": "13",
+          "late": "15",
+          "frames_after_swipe": "16",
+          "first_frame_end_after_swipe_marker_ms": "210.260000"
+        }
+      },
+      {
+        "cycle": 2,
+        "app": "com.ss.android.ugc.aweme",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1123,
+        "focus": "com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity",
+        "scheduler": "running",
+        "tune": "30 1 23",
+        "thermal_mC": [
+          61900,
+          75900,
+          78700
+        ],
+        "battery_dC": 263,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35662630000000,
+        "swipe_ns": 35663820000000,
+        "end_ns": 35665220000000,
+        "frame_timeline": {
+          "idx": "4",
+          "app": "com.ss.android.ugc.aweme",
+          "frames": "64",
+          "p95_ms": "32.820000",
+          "app_missed": "27",
+          "late": "61",
+          "frames_after_swipe": "63",
+          "first_frame_end_after_swipe_marker_ms": "71.400000"
+        }
+      },
+      {
+        "cycle": 2,
+        "app": "com.tencent.mm",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1474,
+        "focus": "com.tencent.mm/com.tencent.mm.ui.LauncherUI",
+        "scheduler": "running",
+        "tune": "30 1 28",
+        "thermal_mC": [
+          61900,
+          75900,
+          79000
+        ],
+        "battery_dC": 263,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35665360000000,
+        "swipe_ns": 35666900000000,
+        "end_ns": 35668630000000,
+        "frame_timeline": {
+          "idx": "5",
+          "app": "com.tencent.mm",
+          "frames": "3",
+          "p95_ms": "389.750000",
+          "app_missed": "3",
+          "late": "2",
+          "frames_after_swipe": "2",
+          "first_frame_end_after_swipe_marker_ms": "1051.400000"
+        }
+      },
+      {
+        "cycle": 2,
+        "app": "com.tencent.mobileqq",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1776,
+        "focus": "com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginActivity",
+        "scheduler": "running",
+        "tune": "30 1 23",
+        "thermal_mC": [
+          60300,
+          67700,
+          68900
+        ],
+        "battery_dC": 263,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35668880000000,
+        "swipe_ns": 35670740000000,
+        "end_ns": 35672220000000,
+        "frame_timeline": {
+          "idx": "6",
+          "app": "com.tencent.mobileqq",
+          "frames": "31",
+          "p95_ms": "92.470000",
+          "app_missed": "10",
+          "late": "11",
+          "frames_after_swipe": "29",
+          "first_frame_end_after_swipe_marker_ms": "282.220000"
+        }
+      },
+      {
+        "cycle": 2,
+        "app": "com.luna.music",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1683,
+        "focus": "com.luna.music/com.luna.biz.main.main.MainActivity",
+        "scheduler": "running",
+        "tune": "30 1 23",
+        "thermal_mC": [
+          62700,
+          77500,
+          81000
+        ],
+        "battery_dC": 263,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35672310000000,
+        "swipe_ns": 35674040000000,
+        "end_ns": 35675880000000,
+        "frame_timeline": {
+          "idx": "7",
+          "app": "com.luna.music",
+          "frames": "9",
+          "p95_ms": "197.140000",
+          "app_missed": "9",
+          "late": "8",
+          "frames_after_swipe": "8",
+          "first_frame_end_after_swipe_marker_ms": "306.090000"
+        }
+      }
+    ],
+    "lifecycle_event_counts": {
+      "target_events": 32,
+      "am_crash": 0,
+      "am_anr": 0,
+      "music_killed_after_douyin_provider_death": 1
+    }
+  },
+  "B": {
+    "trace_coverage": true,
+    "tune_valid": true,
+    "warmup_all_four_cold": true,
+    "measured_all_eight_cold": true,
+    "focus_login_seen": [
+      "com.tencent.mobileqq"
+    ],
+    "refresh_hz": [
+      120.00001
+    ],
+    "battery_c": [
+      26.5,
+      26.6
+    ],
+    "thermal_ranges_c": [
+      [
+        63.9,
+        67.0
+      ],
+      [
+        74.4,
+        81.4
+      ],
+      [
+        74.8,
+        84.1
+      ]
+    ],
+    "trace_loss_rows": [
+      "\"name\",\"value\""
+    ],
+    "visits": [
+      {
+        "cycle": 1,
+        "app": "com.ss.android.ugc.aweme",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 4759,
+        "focus": "com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity",
+        "scheduler": "stopped",
+        "tune": "0 0 0",
+        "thermal_mC": [
+          63900,
+          78300,
+          81800
+        ],
+        "battery_dC": 265,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35736110000000,
+        "swipe_ns": 35740930000000,
+        "end_ns": 35743150000000,
+        "frame_timeline": {
+          "idx": "0",
+          "app": "com.ss.android.ugc.aweme",
+          "frames": "43",
+          "p95_ms": "41.960000",
+          "app_missed": "16",
+          "late": "40",
+          "frames_after_swipe": "42",
+          "first_frame_end_after_swipe_marker_ms": "614.220000"
+        }
+      },
+      {
+        "cycle": 1,
+        "app": "com.tencent.mm",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1838,
+        "focus": "com.tencent.mm/com.tencent.mm.ui.LauncherUI",
+        "scheduler": "stopped",
+        "tune": "0 0 0",
+        "thermal_mC": [
+          64200,
+          78300,
+          81400
+        ],
+        "battery_dC": 265,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35743360000000,
+        "swipe_ns": 35745300000000,
+        "end_ns": 35746750000000,
+        "frame_timeline": {
+          "idx": "1",
+          "app": "com.tencent.mm",
+          "frames": "1",
+          "p95_ms": "55.740000",
+          "app_missed": "1",
+          "late": "1",
+          "frames_after_swipe": "0",
+          "first_frame_end_after_swipe_marker_ms": "[NULL]"
+        }
+      },
+      {
+        "cycle": 1,
+        "app": "com.tencent.mobileqq",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1731,
+        "focus": "com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginActivity",
+        "scheduler": "stopped",
+        "tune": "0 0 0",
+        "thermal_mC": [
+          63900,
+          74800,
+          76300
+        ],
+        "battery_dC": 265,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35746860000000,
+        "swipe_ns": 35748690000000,
+        "end_ns": 35750250000000,
+        "frame_timeline": {
+          "idx": "2",
+          "app": "com.tencent.mobileqq",
+          "frames": "31",
+          "p95_ms": "91.700000",
+          "app_missed": "8",
+          "late": "8",
+          "frames_after_swipe": "29",
+          "first_frame_end_after_swipe_marker_ms": "622.200000"
+        }
+      },
+      {
+        "cycle": 1,
+        "app": "com.luna.music",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1723,
+        "focus": "com.luna.music/com.luna.biz.main.main.MainActivity",
+        "scheduler": "stopped",
+        "tune": "0 0 0",
+        "thermal_mC": [
+          66200,
+          81000,
+          84100
+        ],
+        "battery_dC": 265,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35750360000000,
+        "swipe_ns": 35752130000000,
+        "end_ns": 35754220000000,
+        "frame_timeline": {
+          "idx": "3",
+          "app": "com.luna.music",
+          "frames": "9",
+          "p95_ms": "214.570000",
+          "app_missed": "9",
+          "late": "7",
+          "frames_after_swipe": "8",
+          "first_frame_end_after_swipe_marker_ms": "210.550000"
+        }
+      },
+      {
+        "cycle": 2,
+        "app": "com.ss.android.ugc.aweme",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1456,
+        "focus": "com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity",
+        "scheduler": "stopped",
+        "tune": "0 0 0",
+        "thermal_mC": [
+          65800,
+          78700,
+          82600
+        ],
+        "battery_dC": 265,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35754350000000,
+        "swipe_ns": 35755850000000,
+        "end_ns": 35757290000000,
+        "frame_timeline": {
+          "idx": "4",
+          "app": "com.ss.android.ugc.aweme",
+          "frames": "85",
+          "p95_ms": "29.120000",
+          "app_missed": "22",
+          "late": "49",
+          "frames_after_swipe": "83",
+          "first_frame_end_after_swipe_marker_ms": "109.660000"
+        }
+      },
+      {
+        "cycle": 2,
+        "app": "com.tencent.mm",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1292,
+        "focus": "com.tencent.mm/com.tencent.mm.ui.LauncherUI",
+        "scheduler": "stopped",
+        "tune": "0 0 0",
+        "thermal_mC": [
+          65400,
+          80200,
+          82900
+        ],
+        "battery_dC": 265,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35757450000000,
+        "swipe_ns": 35758780000000,
+        "end_ns": 35760480000000,
+        "frame_timeline": {
+          "idx": "5",
+          "app": "com.tencent.mm",
+          "frames": "3",
+          "p95_ms": "371.750000",
+          "app_missed": "3",
+          "late": "2",
+          "frames_after_swipe": "2",
+          "first_frame_end_after_swipe_marker_ms": "1061.850000"
+        }
+      },
+      {
+        "cycle": 2,
+        "app": "com.tencent.mobileqq",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 2390,
+        "focus": "com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginActivity",
+        "scheduler": "stopped",
+        "tune": "0 0 0",
+        "thermal_mC": [
+          63900,
+          74400,
+          74800
+        ],
+        "battery_dC": 266,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35760690000000,
+        "swipe_ns": 35763150000000,
+        "end_ns": 35764690000000,
+        "frame_timeline": {
+          "idx": "6",
+          "app": "com.tencent.mobileqq",
+          "frames": "32",
+          "p95_ms": "53.450000",
+          "app_missed": "7",
+          "late": "7",
+          "frames_after_swipe": "31",
+          "first_frame_end_after_swipe_marker_ms": "57.870000"
+        }
+      },
+      {
+        "cycle": 2,
+        "app": "com.luna.music",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1591,
+        "focus": "com.luna.music/com.luna.biz.main.main.MainActivity",
+        "scheduler": "stopped",
+        "tune": "0 0 0",
+        "thermal_mC": [
+          67000,
+          81400,
+          84100
+        ],
+        "battery_dC": 266,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35764730000000,
+        "swipe_ns": 35766360000000,
+        "end_ns": 35768660000000,
+        "frame_timeline": {
+          "idx": "7",
+          "app": "com.luna.music",
+          "frames": "12",
+          "p95_ms": "240.170000",
+          "app_missed": "10",
+          "late": "11",
+          "frames_after_swipe": "11",
+          "first_frame_end_after_swipe_marker_ms": "278.090000"
+        }
+      }
+    ],
+    "lifecycle_event_counts": {
+      "target_events": 35,
+      "am_crash": 0,
+      "am_anr": 0,
+      "music_killed_after_douyin_provider_death": 1
+    }
+  },
+  "A2": {
+    "trace_coverage": true,
+    "tune_valid": true,
+    "warmup_all_four_cold": true,
+    "measured_all_eight_cold": true,
+    "focus_login_seen": [
+      "com.tencent.mobileqq"
+    ],
+    "refresh_hz": [
+      120.00001
+    ],
+    "battery_c": [
+      26.9,
+      27.0
+    ],
+    "thermal_ranges_c": [
+      [
+        65.4,
+        69.7
+      ],
+      [
+        75.5,
+        84.9
+      ],
+      [
+        77.5,
+        88.0
+      ]
+    ],
+    "trace_loss_rows": [
+      "\"name\",\"value\""
+    ],
+    "visits": [
+      {
+        "cycle": 1,
+        "app": "com.ss.android.ugc.aweme",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 4538,
+        "focus": "com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity",
+        "scheduler": "running",
+        "tune": "30 1 24",
+        "thermal_mC": [
+          66600,
+          81400,
+          84900
+        ],
+        "battery_dC": 269,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35826360000000,
+        "swipe_ns": 35830940000000,
+        "end_ns": 35832670000000,
+        "frame_timeline": {
+          "idx": "0",
+          "app": "com.ss.android.ugc.aweme",
+          "frames": "26",
+          "p95_ms": "46.990000",
+          "app_missed": "12",
+          "late": "17",
+          "frames_after_swipe": "25",
+          "first_frame_end_after_swipe_marker_ms": "316.770000"
+        }
+      },
+      {
+        "cycle": 1,
+        "app": "com.tencent.mm",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1946,
+        "focus": null,
+        "scheduler": "running",
+        "tune": "30 1 27",
+        "thermal_mC": [
+          67400,
+          81400,
+          84500
+        ],
+        "battery_dC": 269,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35832990000000,
+        "swipe_ns": 35835000000000,
+        "end_ns": 35836440000000,
+        "frame_timeline": {
+          "idx": "1",
+          "app": "com.tencent.mm",
+          "frames": "1",
+          "p95_ms": "77.060000",
+          "app_missed": "1",
+          "late": "1",
+          "frames_after_swipe": "0",
+          "first_frame_end_after_swipe_marker_ms": "[NULL]"
+        }
+      },
+      {
+        "cycle": 1,
+        "app": "com.tencent.mobileqq",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1435,
+        "focus": "com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginActivity",
+        "scheduler": "running",
+        "tune": "30 1 23",
+        "thermal_mC": [
+          65400,
+          75500,
+          77500
+        ],
+        "battery_dC": 269,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35836520000000,
+        "swipe_ns": 35838050000000,
+        "end_ns": 35839490000000,
+        "frame_timeline": {
+          "idx": "2",
+          "app": "com.tencent.mobileqq",
+          "frames": "30",
+          "p95_ms": "72.220000",
+          "app_missed": "6",
+          "late": "7",
+          "frames_after_swipe": "28",
+          "first_frame_end_after_swipe_marker_ms": "529.510000"
+        }
+      },
+      {
+        "cycle": 1,
+        "app": "com.luna.music",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 4392,
+        "focus": "com.luna.music/com.luna.biz.main.main.MainActivity",
+        "scheduler": "running",
+        "tune": "30 1 24",
+        "thermal_mC": [
+          67700,
+          83300,
+          86100
+        ],
+        "battery_dC": 269,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35839590000000,
+        "swipe_ns": 35844040000000,
+        "end_ns": 35846120000000,
+        "frame_timeline": {
+          "idx": "3",
+          "app": "com.luna.music",
+          "frames": "4",
+          "p95_ms": "752.340000",
+          "app_missed": "4",
+          "late": "4",
+          "frames_after_swipe": "3",
+          "first_frame_end_after_swipe_marker_ms": "545.930000"
+        }
+      },
+      {
+        "cycle": 2,
+        "app": "com.ss.android.ugc.aweme",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 3510,
+        "focus": "com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity",
+        "scheduler": "running",
+        "tune": "30 1 23",
+        "thermal_mC": [
+          69300,
+          84100,
+          87200
+        ],
+        "battery_dC": 269,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35846430000000,
+        "swipe_ns": 35850010000000,
+        "end_ns": 35851880000000,
+        "frame_timeline": {
+          "idx": "4",
+          "app": "com.ss.android.ugc.aweme",
+          "frames": "19",
+          "p95_ms": "88.430000",
+          "app_missed": "13",
+          "late": "12",
+          "frames_after_swipe": "18",
+          "first_frame_end_after_swipe_marker_ms": "248.810000"
+        }
+      },
+      {
+        "cycle": 2,
+        "app": "com.tencent.mm",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 2074,
+        "focus": null,
+        "scheduler": "running",
+        "tune": "30 1 27",
+        "thermal_mC": [
+          69300,
+          84500,
+          88000
+        ],
+        "battery_dC": 269,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35852100000000,
+        "swipe_ns": 35854230000000,
+        "end_ns": 35855670000000,
+        "frame_timeline": {
+          "idx": "5",
+          "app": "com.tencent.mm",
+          "frames": "1",
+          "p95_ms": "42.170000",
+          "app_missed": "1",
+          "late": "1",
+          "frames_after_swipe": "0",
+          "first_frame_end_after_swipe_marker_ms": "[NULL]"
+        }
+      },
+      {
+        "cycle": 2,
+        "app": "com.tencent.mobileqq",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 1835,
+        "focus": "com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginActivity",
+        "scheduler": "running",
+        "tune": "30 1 23",
+        "thermal_mC": [
+          69700,
+          84900,
+          87600
+        ],
+        "battery_dC": 269,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35855810000000,
+        "swipe_ns": 35857760000000,
+        "end_ns": 35859560000000,
+        "frame_timeline": {
+          "idx": "6",
+          "app": "com.tencent.mobileqq",
+          "frames": "30",
+          "p95_ms": "99.580000",
+          "app_missed": "10",
+          "late": "14",
+          "frames_after_swipe": "28",
+          "first_frame_end_after_swipe_marker_ms": "326.230000"
+        }
+      },
+      {
+        "cycle": 2,
+        "app": "com.luna.music",
+        "launch_state": "COLD",
+        "reported_ok": true,
+        "launch_ms": 4084,
+        "focus": "com.luna.music/com.luna.biz.main.main.MainActivity",
+        "scheduler": "running",
+        "tune": "30 1 24",
+        "thermal_mC": [
+          69300,
+          84900,
+          88000
+        ],
+        "battery_dC": 270,
+        "refresh_hz": 120.00001,
+        "vsync_hz": 120.00001,
+        "bounds_px": [
+          1840,
+          2944
+        ],
+        "begin_ns": 35859840000000,
+        "swipe_ns": 35863990000000,
+        "end_ns": 35867540000000,
+        "frame_timeline": {
+          "idx": "7",
+          "app": "com.luna.music",
+          "frames": "5",
+          "p95_ms": "1061.880000",
+          "app_missed": "5",
+          "late": "2",
+          "frames_after_swipe": "4",
+          "first_frame_end_after_swipe_marker_ms": "360.420000"
+        }
+      }
+    ],
+    "lifecycle_event_counts": {
+      "target_events": 34,
+      "am_crash": 0,
+      "am_anr": 0,
+      "music_killed_after_douyin_provider_death": 0
+    }
+  }
+}
