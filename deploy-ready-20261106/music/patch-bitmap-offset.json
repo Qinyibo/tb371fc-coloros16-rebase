@@ -1,0 +1,21 @@
+{
+  "patch_id": "music-libsysoptimizer-bitmap-offset-0x2f0-to-0x308",
+  "file_offset_hex": "0x7209c",
+  "old_insn": "mov w0, #0x2f0",
+  "new_insn": "mov w0, #0x308",
+  "old_bytes_le": "005e8052",
+  "new_bytes_le": "00618052",
+  "provider": "offset_provider_api31_huawei",
+  "vtable_slot": "0x10",
+  "original_sha256": "e8357c10cef28edb36ad59faeec51d120c9ae41f04ff3de8f5874349dc5f7ec3",
+  "patched_sha256": "be0565463b741685bdf95803fbb9d5de57832ad862b5e66555df2df7ecc66416",
+  "build_id": "5ba6754a5e6f6684715e45f17c582f47de746879",
+  "art_expected_offset": "0x308",
+  "does_not_touch": [
+    "libart",
+    "GC props",
+    "OEM identity",
+    "schedtune",
+    "whitelist"
+  ]
+}

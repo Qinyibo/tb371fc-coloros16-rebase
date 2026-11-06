@@ -1,0 +1,16 @@
+{
+  "patch_id": "music-libsysoptimizer-disable-HeapExpandV4-applyNative",
+  "file_offset_hex": "0x6c6ac",
+  "symbol": "Java_com_bytedance_sysoptimizer_heap_HeapExpandV4_applyNative",
+  "old_first8_hex": "fd7bbfa9fd030091",
+  "new_first8_hex": "e003002ac0035fd6",
+  "effect": "applyNative returns 0 immediately; expand never runs",
+  "original_sha256": "e8357c10cef28edb36ad59faeec51d120c9ae41f04ff3de8f5874349dc5f7ec3",
+  "patched_sha256": "2dc3bda37442e36f9fd6d3b2a19aec427e59c0393449f0ffb433095c94cf0b4e",
+  "note": "Prefer offset patch if expand desired; use this if offset patch regresses",
+  "does_not_touch": [
+    "libart",
+    "GC props",
+    "OEM identity"
+  ]
+}

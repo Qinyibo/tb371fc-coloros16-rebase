@@ -23,6 +23,9 @@ temp/
 *.dex
 *.so
 *.ko
+# Codex handoff keeps the patched library and Magisk zip in-tree.
+!deploy-ready-20261106/**/*.so
+!deploy-ready-20261106/**/*.zip
 *.o
 *.class
 *.pftrace

@@ -1,5 +1,9 @@
 # 实际状态 · 2026-11-06
 
+## Codex 执行交接
+
+Codex 从本仓库执行的离线草案在 [deploy-ready-20261106/](deploy-ready-20261106/CODEX_DEPLOY.md)（tip handoff `55b8fe6`）。汽水有限处理已到可部署（应用侧位图偏移 `0x2f0`→`0x308`）；笔 V4 刷入／回退已写入文档、未刷入；通信与竖屏多任务／流畅度仅试跑。`hardware_success_claimed=false`。不改 ART、GC、厂商标识、schedtune 或白名单。
+
 ## 当前设备与离线候选
 
 母包仍为 OPD2413_16.0.10.600(CN01)，Android16/API36。当前实际刷入的是笔／通信 V3；最新 V4 只完成离线构建，**未刷入、未做笔或手机实物验收**。Magisk31.1、GPU下限level4、既有前台调度选择器、四扬与身份适配保留；没有新增永久调度、GC、ART、频率或白名单参数。
