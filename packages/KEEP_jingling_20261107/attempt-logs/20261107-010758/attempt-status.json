@@ -1,0 +1,27 @@
+﻿{
+    "state":  "command_failed",
+    "time":  "2026-11-07T01:09:07.1836329+08:00",
+    "serial":  "HA1W0JA3",
+    "command":  [
+                    "flash",
+                    "super",
+                    "D:\\TB371FC-release\\ColorOS16_TB371FC_KEEP_jingling_20261107_CANDIDATE\\images\\super-KEEP-jingling.img"
+                ],
+    "detail":  "Invalid sparse file format at header magic\nSending sparse \u0027super\u0027 1/194 (65532 KB)            OKAY [  1.724s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 2/194 (65532 KB)            OKAY [  1.870s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 3/194 (57529 KB)            OKAY [  1.639s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 4/194 (65532 KB)            OKAY [  1.850s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 5/194 (65533 KB)            OKAY [  1.890s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 6/194 (65533 KB)            OKAY [  1.890s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 7/194 (65533 KB)            OKAY [  1.879s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 8/194 (65532 KB)            OKAY [  1.850s]\nWriting \u0027super\u0027                                    OKAY [  0.010s]\nSending sparse \u0027super\u0027 9/194 (65534 KB)            OKAY [  1.880s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 10/194 (65532 KB)           OKAY [  1.909s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 11/194 (65532 KB)           OKAY [  1.890s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 12/194 (57358 KB)           OKAY [  1.669s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 13/194 (60360 KB)           OKAY [  1.720s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 14/194 (62872 KB)           OKAY [  1.810s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 15/194 (65532 KB)           OKAY [  1.890s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 16/194 (65532 KB)           OKAY [  1.842s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 17/194 (65533 KB)           OKAY [  1.848s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 18/194 (65532 KB)           OKAY [  1.810s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 19/194 (65532 KB)           OKAY [  1.870s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 20/194 (65535 KB)           OKAY [  1.879s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 21/194 (63643 KB)           OKAY [  1.869s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 22/194 (59992 KB)           OKAY [  1.740s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 23/194 (63488 KB)           FAILED (AdbWriteEndpointSync failed: 信号灯超时时间已到 (121))\nfastboot: error: Command failed",
+    "completed_commands":  [
+                               "devices",
+                               "getvar is-userspace",
+                               "getvar product",
+                               "getvar unlocked",
+                               "getvar current-slot",
+                               "getvar battery-soc-ok",
+                               "getvar partition-size:super",
+                               "getvar partition-size:boot_a",
+                               "getvar partition-size:vbmeta_a",
+                               "getvar partition-size:vbmeta_system_a",
+                               "getvar partition-size:metadata",
+                               "getvar max-download-size",
+                               "getvar partition-size:userdata"
+                           ],
+    "android_boot_verified":  false
+}

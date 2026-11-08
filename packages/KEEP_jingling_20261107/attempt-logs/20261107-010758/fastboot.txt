@@ -1,0 +1,109 @@
+﻿2026-11-07T01:08:10.5154644+08:00 镜像核验通过：super
+2026-11-07T01:08:10.6261829+08:00 镜像核验通过：boot
+2026-11-07T01:08:10.6281744+08:00 镜像核验通过：vbmeta
+2026-11-07T01:08:10.6303074+08:00 镜像核验通过：vbmeta_system
+2026-11-07T01:08:10.6358249+08:00 清单 wipe_userdata=false：完整刷入 super/boot/vbmeta，不清 userdata/metadata。
+2026-11-07T01:08:10.6447033+08:00 开始 devices
+2026-11-07T01:08:10.7417338+08:00 HA1W0JA3	 fastboot
+2026-11-07T01:08:10.8311977+08:00 结束 exit=0
+2026-11-07T01:08:10.8365141+08:00 已选择当前连接设备：HA1W0JA3
+2026-11-07T01:08:10.8391105+08:00 开始 getvar is-userspace
+2026-11-07T01:08:10.8902933+08:00 is-userspace: no
+2026-11-07T01:08:10.9378647+08:00 Finished. Total time: 0.002s
+2026-11-07T01:08:11.0161387+08:00 结束 exit=0
+2026-11-07T01:08:11.0302536+08:00 开始 getvar product
+2026-11-07T01:08:11.0774038+08:00 product: spinel
+2026-11-07T01:08:11.1090792+08:00 Finished. Total time: 0.002s
+2026-11-07T01:08:11.1877914+08:00 结束 exit=0
+2026-11-07T01:08:11.1923661+08:00 开始 getvar unlocked
+2026-11-07T01:08:11.2350708+08:00 unlocked: yes
+2026-11-07T01:08:11.2811640+08:00 Finished. Total time: 0.001s
+2026-11-07T01:08:11.3592887+08:00 结束 exit=0
+2026-11-07T01:08:11.3615002+08:00 开始 getvar current-slot
+2026-11-07T01:08:11.4055461+08:00 current-slot: a
+2026-11-07T01:08:11.4523790+08:00 Finished. Total time: 0.002s
+2026-11-07T01:08:11.5442057+08:00 结束 exit=0
+2026-11-07T01:08:11.5472145+08:00 开始 getvar battery-soc-ok
+2026-11-07T01:08:11.5913669+08:00 battery-soc-ok: yes
+2026-11-07T01:08:11.6224945+08:00 Finished. Total time: 0.002s
+2026-11-07T01:08:11.7003265+08:00 结束 exit=0
+2026-11-07T01:08:11.7068555+08:00 开始 getvar partition-size:super
+2026-11-07T01:08:11.7477177+08:00 partition-size:super:  0x300000000
+2026-11-07T01:08:11.7778802+08:00 Finished. Total time: 0.003s
+2026-11-07T01:08:11.8553435+08:00 结束 exit=0
+2026-11-07T01:08:11.8668530+08:00 开始 getvar partition-size:boot_a
+2026-11-07T01:08:11.9021093+08:00 partition-size:boot_a:  0x6000000
+2026-11-07T01:08:11.9491296+08:00 Finished. Total time: 0.006s
+2026-11-07T01:08:12.0266556+08:00 结束 exit=0
+2026-11-07T01:08:12.0291592+08:00 开始 getvar partition-size:vbmeta_a
+2026-11-07T01:08:12.0783850+08:00 partition-size:vbmeta_a:  0x10000
+2026-11-07T01:08:12.1199871+08:00 Finished. Total time: 0.003s
+2026-11-07T01:08:12.1972284+08:00 结束 exit=0
+2026-11-07T01:08:12.2002603+08:00 开始 getvar partition-size:vbmeta_system_a
+2026-11-07T01:08:12.2445369+08:00 partition-size:vbmeta_system_a:  0x10000
+2026-11-07T01:08:12.2903375+08:00 Finished. Total time: 0.004s
+2026-11-07T01:08:12.3536576+08:00 结束 exit=0
+2026-11-07T01:08:12.3556551+08:00 开始 getvar partition-size:metadata
+2026-11-07T01:08:12.4004144+08:00 partition-size:metadata:  0x1000000
+2026-11-07T01:08:12.4331415+08:00 Finished. Total time: 0.003s
+2026-11-07T01:08:12.5103321+08:00 结束 exit=0
+2026-11-07T01:08:12.5123354+08:00 开始 getvar max-download-size
+2026-11-07T01:08:12.5559960+08:00 max-download-size: 805306368
+2026-11-07T01:08:12.6023862+08:00 Finished. Total time: 0.003s
+2026-11-07T01:08:12.6657279+08:00 结束 exit=0
+2026-11-07T01:08:12.6792703+08:00 设备报告下载缓冲区 805306368 字节；本次 super 分块上限 67108864 字节。
+2026-11-07T01:08:12.6802771+08:00 开始 getvar partition-size:userdata
+2026-11-07T01:08:12.7282410+08:00 partition-size:userdata:  0x1A1DDD3000
+2026-11-07T01:08:12.7756951+08:00 Finished. Total time: 0.003s
+2026-11-07T01:08:12.8532227+08:00 结束 exit=0
+2026-11-07T01:08:12.8552892+08:00 已核对指定平板、容量、槽位及电量，开始完整 ROM 刷入（按清单决定是否清 userdata）。
+2026-11-07T01:08:12.8572888+08:00 开始 flash super D:\TB371FC-release\ColorOS16_TB371FC_KEEP_jingling_20261107_CANDIDATE\images\super-KEEP-jingling.img
+2026-11-07T01:08:12.8592878+08:00 super 传输采用保守稀疏分块，上限 67108864 字节；失败停止，不自动重试写入。
+2026-11-07T01:08:12.9306390+08:00 Invalid sparse file format at header magic
+2026-11-07T01:08:22.1444543+08:00 Sending sparse 'super' 1/194 (65532 KB)            OKAY [  1.724s]
+2026-11-07T01:08:22.1914663+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:23.9820347+08:00 Sending sparse 'super' 2/194 (65532 KB)            OKAY [  1.870s]
+2026-11-07T01:08:24.0273484+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:25.6350114+08:00 Sending sparse 'super' 3/194 (57529 KB)            OKAY [  1.639s]
+2026-11-07T01:08:25.6665742+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:27.4681959+08:00 Sending sparse 'super' 4/194 (65532 KB)            OKAY [  1.850s]
+2026-11-07T01:08:27.4992845+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:29.3520048+08:00 Sending sparse 'super' 5/194 (65533 KB)            OKAY [  1.890s]
+2026-11-07T01:08:29.3987204+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:31.2655262+08:00 Sending sparse 'super' 6/194 (65533 KB)            OKAY [  1.890s]
+2026-11-07T01:08:31.2966134+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:33.1354441+08:00 Sending sparse 'super' 7/194 (65533 KB)            OKAY [  1.879s]
+2026-11-07T01:08:33.1813321+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:34.9705655+08:00 Sending sparse 'super' 8/194 (65532 KB)            OKAY [  1.850s]
+2026-11-07T01:08:35.0165223+08:00 Writing 'super'                                    OKAY [  0.010s]
+2026-11-07T01:08:36.8971818+08:00 Sending sparse 'super' 9/194 (65534 KB)            OKAY [  1.880s]
+2026-11-07T01:08:36.9435901+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:38.7772101+08:00 Sending sparse 'super' 10/194 (65532 KB)           OKAY [  1.909s]
+2026-11-07T01:08:38.8251296+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:40.6768014+08:00 Sending sparse 'super' 11/194 (65532 KB)           OKAY [  1.890s]
+2026-11-07T01:08:40.7069821+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:42.3428209+08:00 Sending sparse 'super' 12/194 (57358 KB)           OKAY [  1.669s]
+2026-11-07T01:08:42.3900691+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:44.0665342+08:00 Sending sparse 'super' 13/194 (60360 KB)           OKAY [  1.720s]
+2026-11-07T01:08:44.1120309+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:45.8892429+08:00 Sending sparse 'super' 14/194 (62872 KB)           OKAY [  1.810s]
+2026-11-07T01:08:45.9352488+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:47.7667631+08:00 Sending sparse 'super' 15/194 (65532 KB)           OKAY [  1.890s]
+2026-11-07T01:08:47.8112832+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:49.6001170+08:00 Sending sparse 'super' 16/194 (65532 KB)           OKAY [  1.842s]
+2026-11-07T01:08:49.6472645+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:51.4562773+08:00 Sending sparse 'super' 17/194 (65533 KB)           OKAY [  1.848s]
+2026-11-07T01:08:51.5020821+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:53.2695241+08:00 Sending sparse 'super' 18/194 (65532 KB)           OKAY [  1.810s]
+2026-11-07T01:08:53.3158112+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:55.1281723+08:00 Sending sparse 'super' 19/194 (65532 KB)           OKAY [  1.870s]
+2026-11-07T01:08:55.1756904+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:57.0278477+08:00 Sending sparse 'super' 20/194 (65535 KB)           OKAY [  1.879s]
+2026-11-07T01:08:57.0588947+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:08:58.8793356+08:00 Sending sparse 'super' 21/194 (63643 KB)           OKAY [  1.869s]
+2026-11-07T01:08:58.9106341+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:09:00.6372279+08:00 Sending sparse 'super' 22/194 (59992 KB)           OKAY [  1.740s]
+2026-11-07T01:09:00.6841520+08:00 Writing 'super'                                    OKAY [  0.000s]
+2026-11-07T01:09:07.0716764+08:00 Sending sparse 'super' 23/194 (63488 KB)           FAILED (AdbWriteEndpointSync failed: 信号灯超时时间已到 (121))
+2026-11-07T01:09:07.1044719+08:00 fastboot: error: Command failed
+2026-11-07T01:09:07.1826463+08:00 结束 exit=1

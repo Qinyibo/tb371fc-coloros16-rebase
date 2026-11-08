@@ -1,0 +1,37 @@
+只读连接检查：不重启、不刷写、不修改驱动或注册表。每个工具限15秒。
+
+List of devices attached
+HA1W0JA3               device product:TB371FC_PRC model:TB371FC device:TB371FC transport_id:13
+
+
+{
+    "instance_id":  "USB\\VID_17EF\u0026PID_7E31\\HA1W0JA3",
+    "status":  "OK",
+    "name":  "KONA-QRD _SN:959B9025",
+    "properties":  [
+                       {
+                           "KeyName":  "DEVPKEY_Device_HardwareIds",
+                           "Data":  [
+                                        "USB\\VID_17EF\u0026PID_7E31\u0026REV_0419",
+                                        "USB\\VID_17EF\u0026PID_7E31"
+                                    ]
+                       },
+                       {
+                           "KeyName":  "DEVPKEY_Device_Service",
+                           "Data":  "WINUSB"
+                       },
+                       {
+                           "KeyName":  "DEVPKEY_Device_DriverInfPath",
+                           "Data":  "winusb.inf"
+                       }
+                   ],
+    "interface_guids_readable":  false,
+    "interface_guids":  [
+
+                        ],
+    "android_guid_present":  null
+}
+匹配的USB节点数：1；枚举无错误不代表设备已连接。
+记录位置：D:\TB371FC-release\ColorOS16_TB371FC_KEEP_jingling_20261107_CANDIDATE\attempt-logs\connection-20261107-004759
+有USB设备但fastboot列表为空时，核对目标接口的WinUSB绑定和Android接口GUID；读取不到GUID不等于缺失。不要改ClassGUID或批量卸载驱动。
+USB3下查询/传输不稳，可用可靠USB2数据链路对照。连接检查不代替完整刷前检查。

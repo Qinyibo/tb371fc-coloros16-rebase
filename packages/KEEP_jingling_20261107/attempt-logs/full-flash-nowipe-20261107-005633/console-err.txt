@@ -1,0 +1,8 @@
+命令失败，停止后续操作；详见 attempt-status.json，未自动重试或补刷。
+所在位置 D:\TB371FC-release\ColorOS16_TB371FC_KEEP_jingling_20261107_CANDIDATE\scripts\Invoke-R91-Clean.ps1:112 字符: 9
++         throw '命令失败，停止后续操作；详见 attempt-status.json，未自动重试或补刷。'
++         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (命令失败，停止后续操作；详见 ....json，未自动重试或补刷。:String) [], 
+RuntimeException
+    + FullyQualifiedErrorId : 命令失败，停止后续操作；详见 attempt-status.json，未自动重试或补刷。
+ 

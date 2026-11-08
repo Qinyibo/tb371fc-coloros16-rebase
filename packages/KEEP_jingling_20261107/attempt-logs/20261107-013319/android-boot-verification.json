@@ -1,0 +1,29 @@
+{
+  "android_boot_completed": true,
+  "package_path": [
+    0,
+    "package:/system/app/YozoOffice/YozoOffice.apk",
+    ""
+  ],
+  "system_apk_sha256": [
+    0,
+    "0cc7977db6c35eab3dd3e919800b06d59d0035a819f30fa464726aeb5e508461  /system/app/YozoOffice/YozoOffice.apk",
+    ""
+  ],
+  "slot": [
+    0,
+    "_a",
+    ""
+  ],
+  "expected_path_verified": true,
+  "expected_apk_hash_verified": true,
+  "hardware_success_claimed": false,
+  "last_adb_attempt": [
+    0,
+    "device",
+    "",
+    0,
+    "1",
+    ""
+  ]
+}

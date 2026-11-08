@@ -1,0 +1,27 @@
+﻿{
+    "state":  "command_failed",
+    "time":  "2026-11-07T00:57:27.1152244+08:00",
+    "serial":  "HA1W0JA3",
+    "command":  [
+                    "flash",
+                    "super",
+                    "D:\\TB371FC-release\\ColorOS16_TB371FC_KEEP_jingling_20261107_CANDIDATE\\images\\super-KEEP-jingling.img"
+                ],
+    "detail":  "Invalid sparse file format at header magic\nSending sparse \u0027super\u0027 1/49 (245854 KB)            OKAY [  6.409s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 2/49 (262140 KB)            OKAY [  7.139s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 3/49 (262129 KB)            OKAY [  7.129s]\nWriting \u0027super\u0027                                    OKAY [  0.000s]\nSending sparse \u0027super\u0027 4/49 (255876 KB)            FAILED (AdbWriteEndpointSync failed: 淇″彿鐏秴鏃舵椂闂村凡鍒?(121))\nfastboot: error: Command failed",
+    "completed_commands":  [
+                               "devices",
+                               "getvar is-userspace",
+                               "getvar product",
+                               "getvar unlocked",
+                               "getvar current-slot",
+                               "getvar battery-soc-ok",
+                               "getvar partition-size:super",
+                               "getvar partition-size:boot_a",
+                               "getvar partition-size:vbmeta_a",
+                               "getvar partition-size:vbmeta_system_a",
+                               "getvar partition-size:metadata",
+                               "getvar max-download-size",
+                               "getvar partition-size:userdata"
+                           ],
+    "android_boot_verified":  false
+}

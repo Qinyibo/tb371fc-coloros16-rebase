@@ -1,0 +1,4 @@
+镜像核验通过：super
+镜像核验通过：boot
+镜像核验通过：vbmeta
+镜像核验通过：vbmeta_system

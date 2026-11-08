@@ -1,0 +1,71 @@
+镜像核验通过：super
+镜像核验通过：boot
+镜像核验通过：vbmeta
+镜像核验通过：vbmeta_system
+清单 wipe_userdata=false：完整刷入 super/boot/vbmeta，不清 userdata/metadata。
+开始 devices
+HA1W0JA3	 fastboot
+结束 exit=0
+已选择当前连接设备：HA1W0JA3
+开始 getvar is-userspace
+is-userspace: no
+Finished. Total time: 0.003s
+结束 exit=0
+开始 getvar product
+product: spinel
+Finished. Total time: 0.002s
+结束 exit=0
+开始 getvar unlocked
+unlocked: yes
+Finished. Total time: 0.001s
+结束 exit=0
+开始 getvar current-slot
+current-slot: a
+Finished. Total time: 0.002s
+结束 exit=0
+开始 getvar battery-soc-ok
+battery-soc-ok: yes
+Finished. Total time: 0.002s
+结束 exit=0
+开始 getvar partition-size:super
+partition-size:super:  0x300000000
+Finished. Total time: 0.006s
+结束 exit=0
+开始 getvar partition-size:boot_a
+partition-size:boot_a:  0x6000000
+Finished. Total time: 0.003s
+结束 exit=0
+开始 getvar partition-size:vbmeta_a
+partition-size:vbmeta_a:  0x10000
+Finished. Total time: 0.003s
+结束 exit=0
+开始 getvar partition-size:vbmeta_system_a
+partition-size:vbmeta_system_a:  0x10000
+Finished. Total time: 0.004s
+结束 exit=0
+开始 getvar partition-size:metadata
+partition-size:metadata:  0x1000000
+Finished. Total time: 0.003s
+结束 exit=0
+开始 getvar max-download-size
+max-download-size: 805306368
+Finished. Total time: 0.012s
+结束 exit=0
+设备报告下载缓冲区 805306368 字节；本次 super 分块上限 268435456 字节。
+开始 getvar partition-size:userdata
+partition-size:userdata:  0x1A1DDD3000
+Finished. Total time: 0.004s
+结束 exit=0
+已核对指定平板、容量、槽位及电量，开始完整 ROM 刷入（按清单决定是否清 userdata）。
+开始 flash super D:\TB371FC-release\ColorOS16_TB371FC_KEEP_jingling_20261107_CANDIDATE\images\super-KEEP-jingling.img
+super 传输采用保守稀疏分块，上限 268435456 字节；失败停止，不自动重试写入。
+Invalid sparse file format at header magic
+Sending sparse 'super' 1/49 (245854 KB)            OKAY [  6.409s]
+Writing 'super'                                    OKAY [  0.000s]
+Sending sparse 'super' 2/49 (262140 KB)            OKAY [  7.139s]
+Writing 'super'                                    OKAY [  0.000s]
+Sending sparse 'super' 3/49 (262129 KB)            OKAY [  7.129s]
+Writing 'super'                                    OKAY [  0.000s]
+Sending sparse 'super' 4/49 (255876 KB)            FAILED (AdbWriteEndpointSync failed: 淇″彿鐏秴鏃舵椂闂村凡鍒?(121))
+fastboot: error: Command failed
+结束 exit=1

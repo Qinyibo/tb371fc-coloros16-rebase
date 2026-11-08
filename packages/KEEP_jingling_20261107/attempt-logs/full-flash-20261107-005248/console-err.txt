@@ -1,0 +1,9 @@
+这是首次开机测试脚本，执行必须明确指定 -Clean；会删除应用、账号及个人文件。
+所在位置 D:\TB371FC-release\ColorOS16_TB371FC_KEEP_jingling_20261107_CANDIDATE\scripts\Invoke-R91-Clean.ps1:150 字符: 2
+7
++ ... cute -and !$Clean){throw '这是首次开机测试脚本，执行必须明确指定 -Clean；会删除应用、账号及个人文件。'}
++                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : OperationStopped: (这是首次开机测试脚本，执行必须...；会删除应用、账号及个人文件。:String
+) [], RuntimeException
+    + FullyQualifiedErrorId : 这是首次开机测试脚本，执行必须明确指定 -Clean；会删除应用、账号及个人文件。
+ 

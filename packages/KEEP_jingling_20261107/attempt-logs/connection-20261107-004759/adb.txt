@@ -1,0 +1,4 @@
+﻿List of devices attached
+HA1W0JA3               device product:TB371FC_PRC model:TB371FC device:TB371FC transport_id:13
+
+

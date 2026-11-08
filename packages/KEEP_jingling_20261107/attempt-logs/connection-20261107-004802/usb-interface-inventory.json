@@ -1,0 +1,29 @@
+﻿[
+    {
+        "instance_id":  "USB\\VID_17EF\u0026PID_7E31\\HA1W0JA3",
+        "status":  "OK",
+        "name":  "KONA-QRD _SN:959B9025",
+        "properties":  [
+                           {
+                               "KeyName":  "DEVPKEY_Device_HardwareIds",
+                               "Data":  [
+                                            "USB\\VID_17EF\u0026PID_7E31\u0026REV_0419",
+                                            "USB\\VID_17EF\u0026PID_7E31"
+                                        ]
+                           },
+                           {
+                               "KeyName":  "DEVPKEY_Device_Service",
+                               "Data":  "WINUSB"
+                           },
+                           {
+                               "KeyName":  "DEVPKEY_Device_DriverInfPath",
+                               "Data":  "winusb.inf"
+                           }
+                       ],
+        "interface_guids_readable":  false,
+        "interface_guids":  [
+
+                            ],
+        "android_guid_present":  null
+    }
+]

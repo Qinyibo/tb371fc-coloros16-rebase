@@ -1,0 +1,19 @@
+{
+  "apk_relpath": "system/app/YozoOffice/YozoOffice.apk",
+  "apk_sha256": "0cc7977db6c35eab3dd3e919800b06d59d0035a819f30fa464726aeb5e508461",
+  "apk_md5": "0ac7c74fffb04e835655a97910d833cf",
+  "apk_bytes": 454404881,
+  "refresh_xml_md5": "35db38f8c85758c372546c707513642c",
+  "removed_for_space": [
+    "my_product/del-app/WpsLauncher/WpsLauncher.apk",
+    "my_product/del-app/WpsLauncher"
+  ],
+  "removed_count": 2,
+  "free_bytes_after": 495345664,
+  "base_system": "system-pen-v4-on-e088.img",
+  "package": "com.yozo.office",
+  "note": "Removed my_product/del-app/WpsLauncher (~862MB demoted WPS) to free space for Jingling Office V2.1 system bake",
+  "hardware_success_claimed": false,
+  "filesystem_check_pass": true,
+  "after_system_sha256": "092eef92ed3dc27a579218550cc96087c0d934a97f274076a2ec819a2905083d"
+}

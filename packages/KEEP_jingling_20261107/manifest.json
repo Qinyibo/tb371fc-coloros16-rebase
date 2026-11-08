@@ -1,0 +1,75 @@
+{
+  "format": "tb371fc-r94-rom-v1",
+  "state": "OFFLINE_VERIFIED_DEVICE_PENDING",
+  "product": "spinel",
+  "slot": "a",
+  "label": "ColorOS16 TB371FC KEEP + Jingling Office V2.1 完整刷机包 20261107",
+  "wipe_userdata": false,
+  "based_on": "pen-v4-on-e088 KEEP super 7b1c6736… + system bake YozoOffice; removed my_product/del-app/WpsLauncher for space",
+  "from_super_sha256": "7b1c6736d45bf228a46df0e00dd2cd54e73cf1e36f6cf6a9bb08efbf2aba033d",
+  "keep": {
+    "refresh_xml_md5": "35db38f8c85758c372546c707513642c",
+    "pen": "V4 on e088",
+    "boot_sha256": "5b4acefcc109ece2d3b84ce646b3496de6dfe2dc4b33d459bd2557d4d9a38b3a",
+    "jingling": {
+      "apk_relpath": "system/app/YozoOffice/YozoOffice.apk",
+      "apk_sha256": "0cc7977db6c35eab3dd3e919800b06d59d0035a819f30fa464726aeb5e508461",
+      "apk_md5": "0ac7c74fffb04e835655a97910d833cf",
+      "apk_bytes": 454404881,
+      "refresh_xml_md5": "35db38f8c85758c372546c707513642c",
+      "removed_for_space": [
+        "my_product/del-app/WpsLauncher/WpsLauncher.apk",
+        "my_product/del-app/WpsLauncher"
+      ],
+      "removed_count": 2,
+      "free_bytes_after": 495345664,
+      "base_system": "system-pen-v4-on-e088.img",
+      "package": "com.yozo.office",
+      "note": "Removed my_product/del-app/WpsLauncher (~862MB demoted WPS) to free space for Jingling Office V2.1 system bake",
+      "hardware_success_claimed": false,
+      "filesystem_check_pass": true,
+      "after_system_sha256": "092eef92ed3dc27a579218550cc96087c0d934a97f274076a2ec819a2905083d"
+    }
+  },
+  "images": [
+    {
+      "name": "super",
+      "path": "images/super-KEEP-jingling.img",
+      "bytes": 12884901888,
+      "sha256": "9845539c7c139cc08408bbc6f9a3d9c1653c0b84821e6170993f651df73c27cb"
+    },
+    {
+      "name": "boot",
+      "path": "images/boot_a.img",
+      "bytes": 100663296,
+      "sha256": "5b4acefcc109ece2d3b84ce646b3496de6dfe2dc4b33d459bd2557d4d9a38b3a"
+    },
+    {
+      "name": "vbmeta",
+      "path": "images/vbmeta_a.img",
+      "bytes": 65536,
+      "sha256": "5faf802f3d821512505c42a9fa0dba5b969f135fd5ec3bf6686e8448e741a169"
+    },
+    {
+      "name": "vbmeta_system",
+      "path": "images/vbmeta_system_a.img",
+      "bytes": 65536,
+      "sha256": "848f04a7cf01cbfc68640ece4895e1aa00c6ba5cbf385c81b395f51da0829fef"
+    }
+  ],
+  "defaults": {
+    "peak_refresh_rate": 144.00002,
+    "note": "T2/fantasy/FWUI/luna/trim as already in KEEP tree or Magisk; Jingling now in system/app"
+  },
+  "official_app_extra": [
+    "com.yozo.office"
+  ],
+  "magisk": "preserve existing; disable Magisk jingling module after flash to verify ROM bake",
+  "device_runtime_verified": false,
+  "hardware_success_claimed": false,
+  "limitations": [
+    "Full super flash is large; prefer delta flash from current 7b1c6736 when device already on KEEP",
+    "userdata_wipe default false to preserve Magisk luna/modules",
+    "Live refresh MD5 may differ under Magisk overlay; image XML is 35db38f8…"
+  ]
+}
