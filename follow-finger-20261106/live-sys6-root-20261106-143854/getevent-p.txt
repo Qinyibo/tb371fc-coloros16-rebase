@@ -1,0 +1,73 @@
+﻿add device 1: /dev/input/event9
+  name:     "uinput_nav"
+  events:
+    KEY (0001): 0067  0069  006a  006c  0072  0073  00d9 
+  input props:
+    <none>
+add device 2: /dev/input/event8
+  name:     "kona-qrd-snd-card Button Jack"
+  events:
+    KEY (0001): 0072  0073  00e2  0104  0105  0246 
+  input props:
+    <none>
+add device 3: /dev/input/event7
+  name:     "kona-qrd-snd-card Headset Jack"
+  events:
+    SW  (0005): 0002  0004  0006  0007  0011  0012  0013  0014 
+  input props:
+    <none>
+add device 4: /dev/input/event1
+  name:     "qwerty"
+  events:
+    KEY (0001): 0066  0067  0069  006a  006c  0072  0073  0074 
+                008b  009e  00d4  00d8  00d9 
+  input props:
+    <none>
+add device 5: /dev/input/event4
+  name:     "NVTCapacitiveTouchScreen"
+  events:
+    KEY (0001): 0074  014a  020b  025e 
+    ABS (0003): 002f  : value 0, min 0, max 9, fuzz 0, flat 0, resolution 0
+                0030  : value 0, min 0, max 255, fuzz 0, flat 0, resolution 0
+                0035  : value 0, min 0, max 18400, fuzz 0, flat 0, resolution 0
+                0036  : value 0, min 0, max 29440, fuzz 0, flat 0, resolution 0
+                0039  : value 0, min 0, max 65535, fuzz 0, flat 0, resolution 0
+                003a  : value 0, min 0, max 1000, fuzz 0, flat 0, resolution 0
+  input props:
+    INPUT_PROP_DIRECT
+add device 6: /dev/input/event3
+  name:     "gpio-keys"
+  events:
+    KEY (0001): 0073 
+  input props:
+    <none>
+add device 7: /dev/input/event2
+  name:     "qti-haptics"
+  events:
+    FF  (0015): 0050  0051  0052  005d  0060 
+  input props:
+    <none>
+add device 8: /dev/input/event6
+  name:     "NVTCapacitivePen"
+  events:
+    KEY (0001): 0140  014a  014b  014c 
+    ABS (0003): 0000  : value 0, min 0, max 18400, fuzz 0, flat 0, resolution 0
+                0001  : value 0, min 0, max 29440, fuzz 0, flat 0, resolution 0
+                0018  : value 0, min 0, max 4095, fuzz 0, flat 0, resolution 0
+                0019  : value 0, min 0, max 1, fuzz 0, flat 0, resolution 0
+                001a  : value 0, min -60, max 60, fuzz 0, flat 0, resolution 0
+                001b  : value 0, min -60, max 60, fuzz 0, flat 0, resolution 0
+  input props:
+    INPUT_PROP_DIRECT
+add device 9: /dev/input/event0
+  name:     "qpnp_pon"
+  events:
+    KEY (0001): 0072  0074 
+  input props:
+    <none>
+add device 10: /dev/input/event5
+  name:     "nvt_wake_key"
+  events:
+    KEY (0001): 0074  008f 
+  input props:
+    <none>

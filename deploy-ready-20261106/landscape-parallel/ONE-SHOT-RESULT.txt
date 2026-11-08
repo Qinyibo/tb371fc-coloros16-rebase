@@ -1,0 +1,5 @@
+WHY_EMPTY: Prior bulk expanded FO fullscreen (rao:true) which overrides Magic parallel; QQ/Douyin magic stayed status=2 excludeDevice:PAD; Settings pscanvas UI is float-only (same APK hash as donor). XML count ~2888 was mostly uninstalled packages, not visible adaptation.
+FIXED: product+DB parallel-restore — magic status=1 for on-device magic packages, strip PAD exclude, FO demoted to status=2 for those packages (WeChat per public-source rules + scaleWindow=-1). Verified Douyin+QQ mode=oplus-magic-windows. WeChat needs chat open for dual-pane.
+MATERIALS: No OplusFlexibleWindowUI.apk with SHA≠01450E66… under D:\TB371FC-release, .codex sessions, CodexBackups, agent-tools. Prompt: landscape-parallel\CODEX-PROMPT-extract-FlexibleWindowUI-zh.md
+DOCS: STATUS-parallel-runtime-fix-20261106.md ; parallel-restore-20261106\
+KEEP: T2/144/type=2/FO-bulk-nonmagic; hardware_success_claimed=false

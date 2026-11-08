@@ -1,0 +1,12 @@
+com.oneplus.bbs	1
+com.luna.music	1
+com.tencent.mm	1
+com.ss.android.ugc.aweme	2
+com.tencent.mobileqq	2
+com.heytap.yoli	1
+com.heytap.music	1
+com.heytap.reader	1
+com.heytap.browser	1
+com.coloros.video	1
+com.coloros.gallery3d	1
+andes.oplus.documentsreader	1

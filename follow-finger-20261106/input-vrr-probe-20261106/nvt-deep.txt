@@ -1,0 +1,166 @@
+﻿===PROC===
+-r--r--r-- 1 root root 0 2026-11-06 14:54 /proc/nvt_baseline
+-r--r--r-- 1 root root 0 2026-11-06 14:54 /proc/nvt_diff
+-r--r--r-- 1 root root 0 2026-11-06 14:54 /proc/nvt_fw_status
+-r--r--r-- 1 root root 0 2026-11-06 14:54 /proc/nvt_fw_version
+-r--r--r-- 1 root root 0 2026-11-06 14:54 /proc/nvt_pen_diff
+-r--r--r-- 1 root root 0 2026-11-06 14:54 /proc/nvt_raw
+-r--r--r-- 1 root root 0 2026-11-06 14:54 /proc/nvt_baseline
+-r--r--r-- 1 root root 0 2026-11-06 14:54 /proc/nvt_diff
+-r--r--r-- 1 root root 0 2026-11-06 14:54 /proc/nvt_fw_status
+-r--r--r-- 1 root root 0 2026-11-06 14:54 /proc/nvt_fw_version
+-r--r--r-- 1 root root 0 2026-11-06 14:54 /proc/nvt_pen_diff
+-r--r--r-- 1 root root 0 2026-11-06 14:54 /proc/nvt_raw
+FILE /proc/nvt_baseline
+  761,   770,   828,   823,   777,   776,   814,   793,   781,   813,   792,   776,   804,   789,   777,   781,   774,   819,   843,   767,   819,   842,   763,   816,   836,   760,   795,   764,   823,   811,   799,   790,   822,   789,   790,   772,   782,   809,   779,   781,   810,   775,   772,   805,   774,   757,   798,   833,   816,   793,   831,   815,   789,   828,   808,   783,   801,   826,   838,   765, 
+  832,   771,   761,   828,   790,   849,   769,   846,   850,   773,   751,   849,   764,   843,   847,   837,   821,   838,   781,   815,   748,   782,   810,   844,   777,   811,   784,   844,   816,   789,   846,   825,   770,   779,   849,   769,   818,   813,   770,   819,   813,   769,   810,   809,   768,   816,   805,   788,   764,   798,   789,   759,   788,   781,  
+FILE /proc/nvt_diff
+    2,     2,     3,     1,     1,     1,     4,    -1,     2,    -2,    -1,     1,    -2,     1,     0,     0,     1,     0,     0,     1,     0,     0,    -2,    -2,    -1,     1,     0,     1,     2,    -2,    -1,     0,     1,     0,     0,     1,    -1,     0,    -1,     1,     2,     1,     0,     0,    -1,    -1,     0,     1,    -1,     0,     0,     1,    -2,     0,     1,    -1,     0,     3,     1,     2, 
+    0,     1,     4,     2,     0,     2,    -1,     1,    -1,     1,     2,    -3,     1,     0,     0,     1,     1,     2,    -1,    -2,     1,     0,     0,     0,     0,     0,     0,     0,     1,     1,     0,     0,     1,     1,     0,    -2,    -3,    -1,     0,     1,    -1,     0,     1,    -1,     0,     0,    -3,     0,     1,     1,    -2,    -1,     0,    -4,  
+FILE /proc/nvt_fw_status
+A3
+
+FILE /proc/nvt_fw_version
+fw_ver=26, x_num=60, y_num=40, button_num=0
+
+FILE /proc/nvt_pen_diff
+Tip X:
+    0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0, 
+Tip Y:
+    0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0, 
+Ring X:
+    0,     0,     0,     0,     0,     0,     0,     0,     0,     0,     0,
+FILE /proc/nvt_raw
+  764,   773,   832,   824,   778,   777,   818,   792,   783,   812,   791,   777,   803,   791,   778,   781,   774,   819,   843,   768,   819,   842,   761,   814,   835,   761,   795,   765,   824,   809,   798,   790,   823,   789,   790,   773,   781,   809,   778,   782,   811,   776,   772,   805,   774,   756,   799,   834,   815,   793,   831,   816,   787,   828,   809,   782,   801,   828,   839,   767, 
+  833,   773,   766,   830,   790,   851,   768,   847,   849,   774,   752,   846,   765,   844,   848,   838,   822,   840,   781,   813,   749,   782,   810,   844,   777,   811,   784,   844,   817,   790,   846,   825,   771,   780,   849,   767,   815,   812,   770,   820,   812,   769,   811,   808,   768,   816,   803,   788,   765,   799,   787,   758,   788,   777,  
+===SYSFS_FIND===
+/sys/bus/spi/drivers/NVT-ts
+===SPI_DRIVER===
+total 0
+drwxr-xr-x 2 root root    0 2026-11-06 14:54 .
+drwxr-xr-x 8 root root    0 2026-11-06 14:54 ..
+--w------- 1 root root 4096 2026-11-06 14:54 bind
+lrwxrwxrwx 1 root root    0 2026-11-06 14:54 spi0.0 -> ../../../../devices/platform/soc/880000.spi/spi_master/spi0/spi0.0
+--w------- 1 root root 4096 2026-11-06 14:54 uevent
+--w------- 1 root root 4096 2026-11-06 14:54 unbind
+total 0
+drwxr-xr-x 2 root root 0 2026-11-06 14:54 .
+drwxr-xr-x 4 root root 0 2026-11-06 14:54 ..
+lrwxrwxrwx 1 root root 0 2026-11-06 14:54 spi0.0 -> ../../../devices/platform/soc/880000.spi/spi_master/spi0/spi0.0
+DIR /sys/bus/spi/drivers/NVT-ts/spi0.0
+lrwxrwxrwx 1 root root 0 2026-11-06 14:54 /sys/bus/spi/drivers/NVT-ts/spi0.0 -> ../../../../devices/platform/soc/880000.spi/spi_master/spi0/spi0.0
+===SPI0===
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/uevent
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/timedout
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_1024-2047
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_32768-65535
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_4-7
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_4096-8191
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/bytes
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_256-511
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_16384-32767
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_512-1023
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfers
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_8192-16383
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_32-63
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/bytes_tx
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/spi_async
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_65536+
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/bytes_rx
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_0-1
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_128-255
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/spi_sync_immediate
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_8-15
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfers_split_maxsize
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_16-31
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_2048-4095
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_64-127
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/errors
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/messages
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/transfer_bytes_histo_2-3
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/statistics/spi_sync
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/of_node
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/power
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/power/runtime_active_time
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/power/runtime_status
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/power/autosuspend_delay_ms
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/power/runtime_suspended_time
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/power/control
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/driver
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/subsystem
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/uevent
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/capabilities
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/capabilities/rel
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/capabilities/abs
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/capabilities/ff
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/capabilities/led
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/capabilities/sw
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/capabilities/key
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/capabilities/msc
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/capabilities/snd
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/capabilities/ev
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/event5
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/event5/uevent
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/event5/power
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/event5/power/runtime_active_time
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/event5/power/runtime_status
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/event5/power/autosuspend_delay_ms
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/event5/power/runtime_suspended_time
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/event5/power/control
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/event5/dev
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/event5/device
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/event5/subsystem
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/power
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/power/runtime_active_time
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/power/runtime_status
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/power/autosuspend_delay_ms
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/power/runtime_suspended_time
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/power/control
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/uniq
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/properties
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/id
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/id/bustype
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/id/vendor
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/id/product
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/id/version
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/device
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/subsystem
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/phys
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/name
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/modalias
+/sys/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/modalias
+===INPUT8===
+total 0
+drwxr-xr-x 7 root root    0 1970-01-07 04:09 .
+drwxr-xr-x 6 root root    0 1970-01-07 04:09 ..
+drwxr-xr-x 2 root root    0 2026-11-06 14:54 capabilities
+drwxr-xr-x 3 root root    0 2026-11-06 14:54 event4
+drwxr-xr-x 2 root root    0 2026-11-06 14:54 id
+-r--r--r-- 1 root root 4096 2026-11-06 14:54 modalias
+-r--r--r-- 1 root root 4096 2026-11-06 14:54 name
+-r--r--r-- 1 root root 4096 2026-11-06 14:54 phys
+drwxr-xr-x 2 root root    0 2026-11-06 14:54 power
+-r--r--r-- 1 root root 4096 2026-11-06 14:54 properties
+lrwxrwxrwx 1 root root    0 2026-11-06 14:54 subsystem -> ../../../../class/input
+-rw-r--r-- 1 root root 4096 2026-11-06 14:54 uevent
+-r--r--r-- 1 root root 4096 2026-11-06 14:54 uniq
+drwxr-xr-x 2 root root    0 1970-01-07 04:09 wakeup76
+total 0
+drwxr-xr-x 7 root root    0 1970-01-07 04:09 .
+drwxr-xr-x 6 root root    0 1970-01-07 04:09 ..
+drwxr-xr-x 2 root root    0 2026-11-06 14:54 capabilities
+drwxr-xr-x 3 root root    0 2026-11-06 14:54 event4
+drwxr-xr-x 2 root root    0 2026-11-06 14:54 id
+-r--r--r-- 1 root root 4096 2026-11-06 14:54 modalias
+-r--r--r-- 1 root root 4096 2026-11-06 14:54 name
+-r--r--r-- 1 root root 4096 2026-11-06 14:54 phys
+drwxr-xr-x 2 root root    0 2026-11-06 14:54 power
+-r--r--r-- 1 root root 4096 2026-11-06 14:54 properties
+lrwxrwxrwx 1 root root    0 2026-11-06 14:54 subsystem -> ../../../../class/input
+-rw-r--r-- 1 root root 4096 2026-11-06 14:54 uevent
+-r--r--r-- 1 root root 4096 2026-11-06 14:54 uniq
+drwxr-xr-x 2 root root    0 1970-01-07 04:09 wakeup76

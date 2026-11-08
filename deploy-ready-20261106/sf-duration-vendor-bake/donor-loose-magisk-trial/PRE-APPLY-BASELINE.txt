@@ -1,0 +1,3 @@
+fe6f8d95b40efedfcdfc45cf05ba6ec7  /vendor/build.prop
+_a
+OPD2413_16.0.10.600(CN01)

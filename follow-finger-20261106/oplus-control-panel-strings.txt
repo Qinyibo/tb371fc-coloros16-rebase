@@ -1,0 +1,44 @@
+﻿    | COURSE[
+ initControlPanelRefreshRateData 
+ nativeSaveGpuControlPanelProfile
+!nativeSyncGpuControlPanelProfiles
+!OPLUS_ACTION_TOGGLE_CONTROL_PANEL
+"nativeDeleteGpuControlPanelProfile
+-$$Nest$fgetmPanelRateData
+%KEY_GESTURE_TYPE_TOGGLE_CONTROL_PANEL
+,disableControlPanelRate=
+,getNormalModePickPreferredId: control panel 
+;control panel:
+5Lcom/android/server/app/features/GameGpuControlPanel;
+8Lcom/android/server/app/features/GameGpuControlPanel-IA;
+AON_GESTURE_COURSE_ENGINE
+ATTR_DISABLE_CONTROLPANEL
+disableControlPanel
+disableControlPanelRate
+enableControlPanelRefreshRate
+FLAG_DISABLE_CONTROL_PANEL_RATE
+GameGpuControlPanel
+GameGpuControlPanel.java
+GESTURE_COURSE_STATE_TURNDOWN
+GESTURE_COURSE_STATE_TURNUP
+GESTURE_COURSE_STATE_UNKNOWN
+getControlPanelRefreshRateId
+getDisableControlPanelRate
+gpu.controlpanel.disable
+gpu.controlpanel.settings
+GpuControlPanelRUSHelper
+hLcom/android/server/app/features/GameGpuControlPanel$GpuControlPanelRUSHelper$$ExternalSyntheticLambda0;
+HLcom/android/server/app/features/GameGpuControlPanel$GpuPanelCtrlConfig;
+initControlPanelRefreshRateData
+isGpuControlPanelAutoVrsOn
+mGpuControlPanelRUSHelper
+mPanelRateData
+mPanelRateData =
+NLcom/android/server/app/features/GameGpuControlPanel$GpuControlPanelRUSHelper;
+NotificationShade_controlPanel
+OLcom/android/server/app/features/GameGpuControlPanel$$ExternalSyntheticLambda0;
+OLcom/android/server/app/features/GameGpuControlPanel$$ExternalSyntheticLambda1;
+oplus.gpu.controlpanel.support
+putPreferredRefreshRateId
+setDisableControlPanelRate
+toggleControlPanel

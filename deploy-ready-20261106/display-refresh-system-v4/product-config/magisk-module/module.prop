@@ -1,0 +1,6 @@
+id=tb371fc_system_refresh_policy
+name=TB371FC system refresh policy (144 product config)
+version=v4d
+versionCode=6
+author=tibo
+description=v4d: v4c + product rateId high-tier 3->4 (1001 items); no separate per-app module

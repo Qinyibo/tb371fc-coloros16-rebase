@@ -1,0 +1,35 @@
+﻿ mDefaultRateId=
+!-$$Nest$fgetmCurrentDefaultRateId
+"handleBrightnessBlockedRefreshRate
+-$$Nest$fgetmPanelRateData
+-$$Nest$msetDefaultRateId
+(notifyBrightnessBlockedRefreshRateChange
+) [OTI] setBrightnessBlockedRefreshRate : 
+,disableControlPanelRate=
+,isBrightnessBlock=
+,mCurrentDefaultRateId=
+,notifyBrightnessBlockedRefreshRateChange is 
+.setDefaultRateId mDefaultRateId can not reset 
++-$$Nest$mhandleBrightnessBlockedRefreshRate
+0-$$Nest$mhandleResetBrightnessBlockedRefreshRate
+ATTR_DEFAULT_RATE_ID
+brightnessBlock
+defaultRateId
+disableControlPanelRate
+getCurrentDefaultRateId
+getDefaultRateId
+getDisableControlPanelRate
+'handleResetBrightnessBlockedRefreshRate
+isBrightnessBlock
+MAX_REFRESH_RATE_ID
+mCurrentDefaultRateId
+mCurrentDefaultRateId =
+mDefaultRateId
+mPanelRateData
+mPanelRateData =
+putPreferredRefreshRateId
+setBrightnessBlock
+setBrightnessBlockedRefreshRate
+setDefaultRateId
+setDisableControlPanelRate
+SETTING_MODE_144

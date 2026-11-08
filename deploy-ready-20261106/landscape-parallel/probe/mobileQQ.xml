@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="894605198_miniappfullscreenshowsearch" value="1" />
+    <string name="894605198_miniappgetpskeydomain">qzone.qq.com,m.tencent.com,graph.qq.com</string>
+    <boolean name="emosm_has_download_emosmpackage_tag_894605198" value="false" />
+    <boolean name="ptlogin_flag894605198" value="false" />
+    <string name="894605198_miniappfullscreenshownotificationbtn">1</string>
+    <long name="subaccount_last_report_time_894605198" value="1793860689059" />
+    <int name="894605198_miniappshowfullscreen" value="1" />
+    <long name="last_pull_club_content_update_time" value="1793860687985" />
+    <boolean name="qfind_report_gps_bt_stat894605198" value="false" />
+    <long name="pref_req_self_level_time894605198" value="1793860688320" />
+    <string name="894605198_miniappshowreddot">1</string>
+    <boolean name="push_banner_display894605198" value="false" />
+    <boolean name="qfind_searching894605198" value="false" />
+    <string name="894605198_miniapptriggerfullscreenheight">-360</string>
+    <string name="894605198_miniappshowmessagereddot">1</string>
+    <int name="894605198_miniappfullscreenshowsetting" value="0" />
+    <int name="894605198_miniappfullscreenshowclose" value="1" />
+    <string name="894605198_miniappfullscreentitle">小程序</string>
+    <string name="894605198_mini_sdk_prelaunch_all_enable">0</string>
+    <long name="pref_req_x_man_prefix894605198" value="1793860688321" />
+    <boolean name="troop_smart_manager_894605198" value="true" />
+    <boolean name="emosm_has_set_emosmpackage_valid_894605198" value="true" />
+</map>

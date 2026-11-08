@@ -1,0 +1,14 @@
+﻿mDisableCameraOverridePackages: {com.whatsapp, com.tencent.mm, com.tencent.mobileqq}
+mCurrentPickMode=4
+mPanelRateData = RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}
+mCurrentPickRate=144.00002
+pickWin:Window{109b9c1 u0 com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity}
+11.2 & 11.3 actName:com.ss.android.ugc.aweme/.main.MainActivity
+above 11.3  actName:com.ss.android.ugc.aweme.main.MainActivity
+mPreferredRefreshRateId:PreferredRefreshRateData{mPreferredRefreshRateId=[2, 2, 2, 4],isAnimBoost=true,isBrightnessBlock=true}
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]
+    | COURSE[;control panel:4,data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}]
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]
+Top Pkg AutoResolutionInfo: pkg :com.ss.android.ugc.aweme not on auto resolution list

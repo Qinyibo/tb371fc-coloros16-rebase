@@ -1,0 +1,43 @@
+﻿===MY_PRODUCT_TOUCH_VRR===
+drwxr-xr-x   3 root root    4096 2026-09-11 22:28 com.coloros.assistantscreen
+-rw-r--r--   1 root root       0 2026-09-11 22:28 cxvk-framework-new.conf
+-rw-r--r--   1 root root   18183 2026-09-11 22:28 oplus_vrr_config.json
+-rw-r--r--   1 root root  198373 2026-11-06 14:33 refresh_rate_config.xml
+-rw-r--r--   1 root root   28215 2026-09-11 22:28 sys_dynamic_frame_config.xml
+===VENDOR===
+-rw-r--r--  1 root root     2216 2009-01-01 08:00 excluded-input-devices.xml
+/my_product/media/quickboot/boot_charger_battery_untouch.png
+/vendor/etc/init/vendor.lenovo.hardware.touchscreen@1.0-service.rc
+/vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
+/my_product/etc/vibrator_service_config/inputmethod_duration_map.xml
+/my_product/app/SogouInput_U_Product
+/my_product/app/SogouInput_U_Product/SogouInput_U_Product.apk
+/vendor/etc/excluded-input-devices.xml
+/vendor/etc/init/motorola.hardware.input@1.1-service.rc
+/vendor/etc/vintf/manifest/motorola.hardware.input@1.1-service.xml
+===PROPS_TOUCH===
+[debug.sf.enable_advanced_sf_phase_offset]: [1]
+[debug.sf.high_fps_late_sf_phase_offset_ns]: [-4000000]
+[init.svc.touchscreen_hal_service]: [stopped]
+[init.svc_debug_pid.touchscreen_hal_service]: []
+[persist.oplus.display.vrr]: [1]
+[ro.boottime.touchscreen_hal_service]: [4613921352]
+[ro.oplus.vrr.pencil.support]: [1]
+[ro.surface_flinger.set_touch_timer_ms]: [2000]
+[ro.vendor.config.lgsi.pen.event.name]: [NVTCapacitivePen]
+[sys.display.vrr.vote.support]: [1]
+[vendor.display.enable_optimize_refresh]: [1]
+===IRQ===
+ 39:       1871          0        953          0          0          0          0          0     GICv3 538 Level     tsens-upper-lower
+ 40:          0          0          0          0          0          0          0          0     GICv3 540 Level     tsens-critical
+ 41:          0          0          0          0          0          0          0          0     GICv3 539 Level     tsens-upper-lower
+ 42:          0          0          0          0          0          0          0          0     GICv3 541 Level     tsens-critical
+338:         18          0        728          0          0          0          0          0     GICv3 405 Level     spi_geni
+526:          0          0          0          0          0          0          0          0   msmgpio  68 Edge      NVT-ts
+IPI0:    277647     279225     278137     255141     211598     212369     214990     124054       Rescheduling interrupts
+IPI1:    107958     105416     104244     104355     146842     119787     129851     125941       Function call interrupts
+IPI2:         0          0          0          0          0          0          0          0       CPU stop interrupts
+IPI3:         0          0          0          0          0          0          0          0       CPU stop (for crash dump) interrupts
+IPI4:        12          7         15         10          7          8          7         11       Timer broadcast interrupts
+IPI5:     64792      46494      47839      49628      77089      74879      76554      88089       IRQ work interrupts
+IPI6:         0          0          0          0          0          0          0          0       CPU wake-up interrupts

@@ -1,0 +1,110 @@
+{
+  "fo_xml_md5_pre": "5848af15cce834a875202d32953be164",
+  "fo_xml_md5_post": "1986e9bec618ed4ea2eaee78fff9e5ce",
+  "fo_xml_bytes_post": 96395,
+  "fo_transform_stats": {
+    "status1_kept": 473,
+    "status0_to_1": 103,
+    "deny_kept": 5,
+    "status2_to_1": 45,
+    "status1_trap_simplified": 2,
+    "deny_forced_off": 2,
+    "added": 7
+  },
+  "fantasy_xml_md5_pre": "d6081e89fac2a073bf1f978905fd53c6",
+  "fantasy_xml_md5_post": "0de66d2fc04bc2e34cb4338f4a297ac1",
+  "fantasy_transform_stats": {
+    "magic_added": 7
+  },
+  "db_stats": {
+    "db_fo_updated": 601,
+    "db_fo_ok": 22,
+    "db_deny_off": 2,
+    "db_fo_inserted": 7,
+    "db_magic_inserted": 7,
+    "db_magic_keep_off_for_fo": 2,
+    "db_wechat_fo": 1
+  },
+  "db_fo_status_counts": [
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      630
+    ]
+  ],
+  "db_magic_status_counts": [
+    [
+      0,
+      111
+    ],
+    [
+      1,
+      2887
+    ],
+    [
+      2,
+      34
+    ]
+  ],
+  "db_installed_fo": [
+    [
+      "com.luna.music",
+      1,
+      "{\"rao\":\"true\",\"rotate_cam\":\"false\"}"
+    ],
+    [
+      "com.tencent.mm",
+      1,
+      "{\"rao\":\"true\",\"rotate_cam\":\"false\"}"
+    ],
+    [
+      "com.ss.android.ugc.aweme",
+      1,
+      "{\"rao\":\"true\",\"rotate_cam\":\"false\"}"
+    ],
+    [
+      "com.tencent.mobileqq",
+      1,
+      "{\"rao\":\"true\",\"rotate_cam\":\"false\"}"
+    ],
+    [
+      "com.heytap.yoli",
+      1,
+      "{\"rao\":\"true\",\"rotate_cam\":\"false\"}"
+    ],
+    [
+      "com.heytap.music",
+      1,
+      "{\"rao\":\"true\",\"rotate_cam\":\"false\"}"
+    ],
+    [
+      "com.heytap.reader",
+      1,
+      "{\"rao\":\"true\",\"rotate_cam\":\"false\"}"
+    ],
+    [
+      "com.heytap.browser",
+      1,
+      "{\"rao\":\"true\",\"rotate_cam\":\"false\"}"
+    ],
+    [
+      "com.coloros.video",
+      1,
+      "{\"rao\":\"true\",\"rotate_cam\":\"false\"}"
+    ],
+    [
+      "com.coloros.gallery3d",
+      1,
+      "{\"rao\":\"true\",\"rotate_cam\":\"false\"}"
+    ],
+    [
+      "andes.oplus.documentsreader",
+      1,
+      "{\"rao\":\"true\",\"rotate_cam\":\"false\"}"
+    ]
+  ],
+  "pkgs3_count": 29
+}

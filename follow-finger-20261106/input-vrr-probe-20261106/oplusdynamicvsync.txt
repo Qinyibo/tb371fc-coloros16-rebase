@@ -1,0 +1,11 @@
+﻿********************** Help begin:**********************
+1. dump all info
+cmd: dumpsys dynamicvsync dump
+2. update switch config
+cmd: dumpsys dynamicvsync debug 0/1
+cmd: dumpsys dynamicvsync support 0/1
+cmd: dumpsys dynamicvsync backlight 200
+cmd: dumpsys dynamicvsync allapp 0/1
+cmd: dumpsys dynamicvsync delay MILLISECOND
+cmd: dumpsys dynamicvsync add/remove w/b PACKGNAME
+********************** Help end.  **********************

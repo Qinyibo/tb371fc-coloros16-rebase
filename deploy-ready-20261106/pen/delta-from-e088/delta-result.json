@@ -1,0 +1,46 @@
+{
+  "base_manifest": "pen-sharing-compat/candidate-v4-on-e088/base-e088-candidate.json",
+  "base_super_sha256": "e088d404d8e6e67f07820681f85259a62eee7911a0e5c24ef9c67b57aca03cdf",
+  "updated_super_sha256": "7b1c6736d45bf228a46df0e00dd2cd54e73cf1e36f6cf6a9bb08efbf2aba033d",
+  "bytes": 12884901888,
+  "partitions": {
+    "system_a": {
+      "path": "pen-sharing-compat/candidate-v4-on-e088/system-pen-v4-on-e088.img",
+      "before_sha256": "e08a7e5c1af13033b7c040abb1e4c256348bd7ffe95925c4dfc9fac7132ed916",
+      "sha256": "af42f266b23fa9cbcd72a9603fddbf97f5abbbe5a5e06aa79a1fbfacc97144b9",
+      "bytes": 10187964416,
+      "start_sector": 79872,
+      "changed_bytes": 114536448
+    }
+  },
+  "parts": [
+    {
+      "file": "super-delta-00.img",
+      "bytes": 23867576,
+      "sha256": "1a5901ea804ee0c3f3bc85e193d30a49309c4b3dcae978a57724db5891a3bc49"
+    },
+    {
+      "file": "super-delta-01.img",
+      "bytes": 16777280,
+      "sha256": "214704d49df0253c6c9a20d89ea9d8a396e72fdac14b492e4a49b082450226a6"
+    },
+    {
+      "file": "super-delta-02.img",
+      "bytes": 25178272,
+      "sha256": "73e7bfdabc7169b25fea51a8bfd0f79c204cca1ab18888e760a2c3df56366d93"
+    },
+    {
+      "file": "super-delta-03.img",
+      "bytes": 31920228,
+      "sha256": "c4a5f29944d4174dffae1dc3076b47b2d6c0b95fd4710441ac343b7121fb1d80"
+    },
+    {
+      "file": "super-delta-04.img",
+      "bytes": 16793784,
+      "sha256": "194535d6379e90ab444653f471fc7f3f86333e321bd8f65f6f7635a99d74f732"
+    }
+  ],
+  "changed_raw_bytes": 114536448,
+  "scope": "Pen V4 on live e088 baseline: replace IPeManager.apk + services.jar only; preserve refresh_rate_config.xml MD5 35db38f8c85758c372546c707513642c; boot unchanged.",
+  "complete_image_readback_hash_verified": true
+}

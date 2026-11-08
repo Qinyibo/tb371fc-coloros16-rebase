@@ -1,0 +1,153 @@
+{
+  "state": "OFFLINE_DELTA_BUILT_NOT_FLASHED",
+  "hardware_success_claimed": false,
+  "flashed": false,
+  "created_at_asia_hong_kong": "2026-11-06T17:08:07+08:00",
+  "serial": "HA1W0JA3",
+  "approach": "A-variant: dump live system_a, splice into V3 OFFLINE super copy to reconstruct e088 baseline; mount copy of live system; replace only IPeManager.apk + services.jar with pen V4 outputs; preserve refresh XML; build_candidate_delta + build_reverse_delta",
+  "boot_a_sha256": "5b4acefcc109ece2d3b84ce646b3496de6dfe2dc4b33d459bd2557d4d9a38b3a",
+  "base_super_sha256": "e088d404d8e6e67f07820681f85259a62eee7911a0e5c24ef9c67b57aca03cdf",
+  "updated_super_sha256": "7b1c6736d45bf228a46df0e00dd2cd54e73cf1e36f6cf6a9bb08efbf2aba033d",
+  "system_a_before_sha256": "e08a7e5c1af13033b7c040abb1e4c256348bd7ffe95925c4dfc9fac7132ed916",
+  "system_a_after_sha256": "af42f266b23fa9cbcd72a9603fddbf97f5abbbe5a5e06aa79a1fbfacc97144b9",
+  "changed_raw_bytes": 114536448,
+  "refresh_xml_md5": "35db38f8c85758c372546c707513642c",
+  "refresh_xml_verified_in_to_image": true,
+  "pen_files_in_to_image": {
+    "my_product/priv-app/IPeManager/IPeManager.apk": "bfdae2e161774767a2c0dc94598fb78cdfa0e8063a00e7d6a459340311a956f2",
+    "system/framework/services.jar": "6a3caff3686b55ec58e492e8dc69090efe7c269e42327b454e0efe6308a8b490"
+  },
+  "forward_parts": [
+    {
+      "file": "super-delta-00.img",
+      "bytes": 23867576,
+      "sha256": "1a5901ea804ee0c3f3bc85e193d30a49309c4b3dcae978a57724db5891a3bc49"
+    },
+    {
+      "file": "super-delta-01.img",
+      "bytes": 16777280,
+      "sha256": "214704d49df0253c6c9a20d89ea9d8a396e72fdac14b492e4a49b082450226a6"
+    },
+    {
+      "file": "super-delta-02.img",
+      "bytes": 25178272,
+      "sha256": "73e7bfdabc7169b25fea51a8bfd0f79c204cca1ab18888e760a2c3df56366d93"
+    },
+    {
+      "file": "super-delta-03.img",
+      "bytes": 31920228,
+      "sha256": "c4a5f29944d4174dffae1dc3076b47b2d6c0b95fd4710441ac343b7121fb1d80"
+    },
+    {
+      "file": "super-delta-04.img",
+      "bytes": 16793784,
+      "sha256": "194535d6379e90ab444653f471fc7f3f86333e321bd8f65f6f7635a99d74f732"
+    }
+  ],
+  "rollback": {
+    "use_only_when_super_is": "7b1c6736d45bf228a46df0e00dd2cd54e73cf1e36f6cf6a9bb08efbf2aba033d",
+    "restores_super_sha256": "e088d404d8e6e67f07820681f85259a62eee7911a0e5c24ef9c67b57aca03cdf",
+    "parts": [
+      {
+        "file": "super-delta-00.img",
+        "sha256": "50b452b13099eed6a877270434163feb0afde55bbaeb5d6c64bbd1a8268421b4",
+        "bytes": 23867576
+      },
+      {
+        "file": "super-delta-01.img",
+        "sha256": "9e6167bd44d83e47c225dc483de704185b175772fcdd9ae4b5e9d520fa5a43a7",
+        "bytes": 16777280
+      },
+      {
+        "file": "super-delta-02.img",
+        "sha256": "f6c3f7907d102863f8344bf231aab5fb7c23864d43bd9e6616ac8aa2b7c0230a",
+        "bytes": 25178272
+      },
+      {
+        "file": "super-delta-03.img",
+        "sha256": "5d90d74d319355717f63e968dba32522560f0711b9a97034dfc79556411578f1",
+        "bytes": 31920228
+      },
+      {
+        "file": "super-delta-04.img",
+        "sha256": "59ae35c29b123fc5f57150defdfb116223c8a88fd90b5c2aeee0e5533b9db679",
+        "bytes": 16793784
+      }
+    ],
+    "userdata_wipe_required": false,
+    "runtime_tested": false
+  },
+  "work_dir": "pen-sharing-compat/candidate-v4-on-e088",
+  "flash_command": "python tools/flash_candidate_delta.py --work pen-sharing-compat/candidate-v4-on-e088 --receipt pen-sharing-compat/candidate-v4-on-e088/physical-baseline-receipt.json",
+  "expected_super_sha256": "e088d404d8e6e67f07820681f85259a62eee7911a0e5c24ef9c67b57aca03cdf",
+  "boot_sha256": "5b4acefcc109ece2d3b84ce646b3496de6dfe2dc4b33d459bd2557d4d9a38b3a",
+  "forbidden": [
+    "restore super-pen-sharing-v3-OFFLINE.img (destroys refresh bake)",
+    "apply old V3->V4 deltas against cac703a baseline",
+    "Magisk jar / ART/GC/OEM/freq/whitelist stacking"
+  ],
+  "magisk_required": {
+    "tb371fc_system_refresh_policy": "DISABLED",
+    "tb371fc_luna_heap_offset_fix": "ENABLED",
+    "tb371fc_dynframe_144": "DISABLED",
+    "tb371fc_vrr_touchidle_off": "DISABLED",
+    "tb371fc_sf_duration_144": "DISABLED"
+  },
+  "live_precheck_at_build_end": {
+    "super": "e088d404d8e6e67f07820681f85259a62eee7911a0e5c24ef9c67b57aca03cdf",
+    "boot_a": "5b4acefcc109ece2d3b84ce646b3496de6dfe2dc4b33d459bd2557d4d9a38b3a",
+    "refresh_xml_md5": "35db38f8c85758c372546c707513642c"
+  },
+  "integration": {
+    "files": [
+      {
+        "path": "my_product/priv-app/IPeManager/IPeManager.apk",
+        "output_sha256": "bfdae2e161774767a2c0dc94598fb78cdfa0e8063a00e7d6a459340311a956f2",
+        "output": "build-v4/IPeManager-current.apk/IPeManager-pen-v1.apk",
+        "modified_methods": 17,
+        "edits": [
+          "EDIT Lcom/oplus/ipemanager/btadsorb/CoreService; onCreate()V created",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/CoreService; onDestroy()V destroyed",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/CoreService; onStartCommand(Landroid/content/Intent;II)I started",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/ble/BluetoothStatusReceiver; onReceive(Landroid/content/Context;Landroid/content/Intent;)V hardware",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/ble/e; onCharacteristicChanged(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V changedlegacy",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/ble/e; onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;I)V readlegacy",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/ble/e; onCharacteristicRead(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;[BI)V read33",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/ble/e; onDescriptorWrite(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattDescriptor;I)V descriptorDispatch",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/ble/e; onServicesDiscovered(Landroid/bluetooth/BluetoothGatt;I)V serviceresult",
+          "ADD value-snapshot notification callback",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/util/v; W(Landroid/content/Context;Ljava/lang/String;)Z name",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/ble/l0; e(Landroid/bluetooth/BluetoothGattCharacteristic;)V notify",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/ble/l0; f(Landroid/bluetooth/BluetoothGattCharacteristic;I)V read",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/ble/l0; h(I)V descriptor",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/ble/l0; i()V connected",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/ble/l0; j()V disconnect",
+          "EDIT Lcom/oplus/ipemanager/btadsorb/ble/l0; k(Landroid/bluetooth/BluetoothGatt;)V services",
+          "PATCHED 17 methods"
+        ],
+        "added_dex": "classes4.dex"
+      },
+      {
+        "path": "system/framework/services.jar",
+        "output_sha256": "6a3caff3686b55ec58e492e8dc69090efe7c269e42327b454e0efe6308a8b490",
+        "output": "build-v4/services-current.jar/services-pen-v1.jar",
+        "modified_methods": 2,
+        "edits": [
+          "EDIT Lcom/android/server/policy/PhoneWindowManager; interceptKeyBeforeQueueing",
+          "EDIT Lcom/android/server/policy/PhoneWindowManager; systemReady",
+          "PATCHED 2"
+        ],
+        "added_dex": "classes5.dex"
+      }
+    ],
+    "removed_stale_sidecars": [],
+    "replacement_metadata_preserved": true,
+    "filesystem_check_pass": true,
+    "refresh_xml_md5": "35db38f8c85758c372546c707513642c",
+    "base_system_sha256_file": "system-live-e088.sha256",
+    "physical_boot_verified": false,
+    "pen_hardware_verified": false,
+    "hardware_success_claimed": false,
+    "after_image_sha256": "af42f266b23fa9cbcd72a9603fddbf97f5abbbe5a5e06aa79a1fbfacc97144b9"
+  }
+}

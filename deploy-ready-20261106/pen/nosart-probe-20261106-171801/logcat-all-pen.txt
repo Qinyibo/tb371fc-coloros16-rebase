@@ -1,0 +1,34 @@
+﻿
+11-06 17:18:03.288 12490 12735 D TAB.TabMonitorGroup: 						"TB371FC",
+11-06 17:19:38.714 14923 14923 I auditd  : type=1400 audit(0.0:1238): avc:  denied  { getattr } for  comm="ls" path="/s
+ys/devices/virtual/misc/ctn730/param" dev="sysfs" ino=66167 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tclass=f
+ile permissive=0
+11-06 17:19:38.714 14923 14923 W ls      : type=1400 audit(0.0:1238): avc:  denied  { getattr } for  path="/sys/devices
+/virtual/misc/ctn730/param" dev="sysfs" ino=66167 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tclass=file permis
+sive=0
+11-06 17:19:38.714 14923 14923 I auditd  : type=1400 audit(0.0:1239): avc:  denied  { getattr } for  comm="ls" path="/s
+ys/devices/virtual/misc/ctn730/uevent" dev="sysfs" ino=66151 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tclass=
+file permissive=0
+11-06 17:19:38.714 14923 14923 W ls      : type=1400 audit(0.0:1239): avc:  denied  { getattr } for  path="/sys/devices
+/virtual/misc/ctn730/uevent" dev="sysfs" ino=66151 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tclass=file permi
+ssive=0
+11-06 17:19:38.714 14923 14923 I auditd  : type=1400 audit(0.0:1240): avc:  denied  { getattr } for  comm="ls" path="/s
+ys/devices/virtual/misc/ctn730/rf_on" dev="sysfs" ino=66166 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tclass=f
+ile permissive=0
+11-06 17:19:38.714 14923 14923 W ls      : type=1400 audit(0.0:1240): avc:  denied  { getattr } for  path="/sys/devices
+/virtual/misc/ctn730/rf_on" dev="sysfs" ino=66166 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tclass=file permis
+sive=0
+11-06 17:19:38.714 14923 14923 I auditd  : type=1400 audit(0.0:1241): avc:  denied  { getattr } for  comm="ls" path="/s
+ys/devices/virtual/misc/ctn730/reget_mac" dev="sysfs" ino=66164 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tcla
+ss=file permissive=0
+11-06 17:19:38.714 14923 14923 W ls      : type=1400 audit(0.0:1241): avc:  denied  { getattr } for  path="/sys/devices
+/virtual/misc/ctn730/reget_mac" dev="sysfs" ino=66164 scontext=u:r:shell:s0 tcontext=u:object_r:sysfs:s0 tclass=file pe
+rmissive=0
+11-06 17:19:38.714 14923 14923 I auditd  : type=1400 audit(0.0:1242): avc:  denied  { getattr } for  comm="ls" path="/s
+ys/devices/virtual/misc/ctn730/charge_state" dev="sysfs" ino=66168 scontext=u:r:shell:s0 tcontext=u:object_r:vendor_sys
+fs_pencil:s0 tclass=file permissive=0
+11-06 17:19:38.714 14923 14923 W ls      : type=1400 audit(0.0:1242): avc:  denied  { getattr } for  path="/sys/devices
+/virtual/misc/ctn730/charge_state" dev="sysfs" ino=66168 scontext=u:r:shell:s0 tcontext=u:object_r:vendor_sysfs_pencil:
+s0 tclass=file permissive=0
+
+

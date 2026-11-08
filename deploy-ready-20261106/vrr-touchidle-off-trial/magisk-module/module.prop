@@ -1,0 +1,6 @@
+id=tb371fc_vrr_touchidle_off
+name=TB371FC VRR TouchIdle OFF trial
+version=v1
+versionCode=1
+author=tibo-sys6
+description=Bind oplus_vrr_config.json: touch_idle/hw/sw OFF, clear sw_whitelist_3rd. Product JSON only. Reversible.

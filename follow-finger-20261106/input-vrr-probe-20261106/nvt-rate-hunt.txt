@@ -1,0 +1,95 @@
+﻿===DMESG_NVT===
+[  190.303177] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  190.303181] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  190.580851] [NVT-ts] nvt_fw_status_show 947: ++
+[  190.581235] [NVT-ts] nvt_fw_status_show 967: --
+[  190.594656] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  190.594659] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  192.398810] [NVT-ts] nvt_fw_status_show 947: ++
+[  192.399258] [NVT-ts] nvt_fw_status_show 967: --
+[  192.428371] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  192.428376] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  198.151776] [NVT-ts] nvt_fw_status_show 947: ++
+[  198.152329] [NVT-ts] nvt_fw_status_show 967: --
+[  198.167344] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  198.167349] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  198.438347] [NVT-ts] nvt_fw_status_show 947: ++
+[  198.438759] [NVT-ts] nvt_fw_status_show 967: --
+[  198.467658] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  198.467663] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  198.743256] [NVT-ts] nvt_fw_status_show 947: ++
+[  198.743668] [NVT-ts] nvt_fw_status_show 967: --
+[  198.758907] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  198.758910] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  200.545861] [NVT-ts] nvt_fw_status_show 947: ++
+[  200.546277] [NVT-ts] nvt_fw_status_show 967: --
+[  200.576293] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  200.576297] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  206.267845] [NVT-ts] nvt_fw_status_show 947: ++
+[  206.268334] [NVT-ts] nvt_fw_status_show 967: --
+[  206.287455] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  206.287459] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  206.528463] [NVT-ts] nvt_fw_status_show 947: ++
+[  206.529045] [NVT-ts] nvt_fw_status_show 967: --
+[  206.554433] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  206.554438] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  206.865855] [NVT-ts] nvt_fw_status_show 947: ++
+[  206.866392] [NVT-ts] nvt_fw_status_show 967: --
+[  206.880545] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  206.880548] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  208.651064] [NVT-ts] nvt_fw_status_show 947: ++
+[  208.651467] [NVT-ts] nvt_fw_status_show 967: --
+[  208.680943] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  208.680948] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  214.371955] [NVT-ts] nvt_fw_status_show 947: ++
+[  214.372577] [NVT-ts] nvt_fw_status_show 967: --
+[  214.392144] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  214.392147] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  214.646946] [NVT-ts] nvt_fw_status_show 947: ++
+[  214.647355] [NVT-ts] nvt_fw_status_show 967: --
+[  214.675839] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  214.675843] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  214.964659] [NVT-ts] nvt_fw_status_show 947: ++
+[  214.965213] [NVT-ts] nvt_fw_status_show 967: --
+[  214.980950] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  214.980954] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  216.784333] [NVT-ts] nvt_fw_status_show 947: ++
+[  216.785202] [NVT-ts] nvt_fw_status_show 967: --
+[  216.814930] [NVT-ts] nvt_drm_panel_notifier_callback_locked 4176: hid-keyboard,nvt_drm_panel_notifier_callback_locked,event=1, *blank=0
+[  216.814934] [NVT-ts] nvt_ts_resume 3851: Touch is already resume
+[  238.982355] [NVT-ts] nvt_fw_version_open 591: ++
+[  238.982821] [NVT-ts] nvt_get_fw_info 1032: fw_ver=0x1A, fw_type=0x01, PID=0x6068, ABS_X_MAX=18400, ABS_Y_MAX=29440
+[  238.982822] [NVT-ts] nvt_fw_version_open 604: --
+[  238.996994] [NVT-ts] nvt_fw_status_show 947: ++
+[  238.997134] [NVT-ts] nvt_fw_status_show 967: --
+[  323.667900] [NVT-ts] nvt_baseline_open 639: ++
+[  323.689220] [NVT-ts] nvt_get_fw_info 1032: fw_ver=0x1A, fw_type=0x01, PID=0x6068, ABS_X_MAX=18400, ABS_Y_MAX=29440
+[  323.737414] [NVT-ts] nvt_baseline_open 668: --
+[  323.755894] [NVT-ts] nvt_diff_open 770: ++
+[  323.779508] [NVT-ts] nvt_get_fw_info 1032: fw_ver=0x1A, fw_type=0x01, PID=0x6068, ABS_X_MAX=18400, ABS_Y_MAX=29440
+[  323.829304] [NVT-ts] nvt_diff_open 802: --
+[  323.856436] [NVT-ts] nvt_fw_status_show 947: ++
+[  323.857010] [NVT-ts] nvt_fw_status_show 967: --
+[  323.869989] [NVT-ts] nvt_fw_version_open 591: ++
+[  323.870215] [NVT-ts] nvt_get_fw_info 1032: fw_ver=0x1A, fw_type=0x01, PID=0x6068, ABS_X_MAX=18400, ABS_Y_MAX=29440
+[  323.870217] [NVT-ts] nvt_fw_version_open 604: --
+[  323.883446] [NVT-ts] nvt_pen_diff_open 857: ++
+[  323.915950] [NVT-ts] nvt_get_fw_info 1032: fw_ver=0x1A, fw_type=0x01, PID=0x6068, ABS_X_MAX=18400, ABS_Y_MAX=29440
+[  323.972575] [NVT-ts] nvt_pen_diff_open 903: --
+[  323.986803] [NVT-ts] nvt_raw_open 703: ++
+[  324.008807] [NVT-ts] nvt_get_fw_info 1032: fw_ver=0x1A, fw_type=0x01, PID=0x6068, ABS_X_MAX=18400, ABS_Y_MAX=29440
+[  324.058107] [NVT-ts] nvt_raw_open 735: --
+===LOGCAT_NVT===
+===DT_REPORT===
+===STRINGS_VENDOR_TOUCH===
+/vendor/lib/vendor.lenovo.hardware.touchscreen@1.0.so
+/vendor/lib/hw/vendor.lenovo.hardware.touchscreen@1.0-impl.so
+/vendor/bin/hw/vendor.lenovo.hardware.touchscreen@1.0-service
+/vendor/bin/touch
+/vendor/etc/init/vendor.lenovo.hardware.touchscreen@1.0-service.rc
+/vendor/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
+/vendor/lib64/vendor.lenovo.hardware.touchscreen@1.0.so
+/vendor/lib64/hw/vendor.lenovo.hardware.touchscreen@1.0-impl.so
+/my_product/media/quickboot/boot_charger_battery_untouch.png
+===GETEVENT_PERMS===
+crw-rw---- 1 root input 13,  68 1970-01-07 04:09 /dev/input/event4

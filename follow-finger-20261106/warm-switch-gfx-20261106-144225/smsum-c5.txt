@@ -1,0 +1,4 @@
+﻿Config{ mEnableRateOverride=true mEnableFodHighRate=true mVoiceSceneLowRate=true mVoiceSceneLowRateDelay=500 mMaxRefreshSettings=4 mIpePencilRateId=3 mAppSwitchBoost=true mAppSwitchBoostType=0 mAppSwitchBoostMaxTemp=47 mDefaultRateId=[4, 4, 2, 4] mDefaultMaxRate=144.0 mDisableViewOverrideDefaultValue=false mExtremeHighEnable=true}
+current mode={id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}
+mCurrentPickRate=144.00002
+    | COURSE[;control panel:4,data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}]

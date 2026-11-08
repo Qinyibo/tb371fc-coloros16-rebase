@@ -1,0 +1,36 @@
+﻿
+Build configuration: [sf PRESENT_TIME_OFFSET=0 FORCE_HWC_FOR_RBG_TO_YUV=1 MAX_VIRT_DISPLAY_DIM=0 RUNNING_WITHOUT_SYNC_F
+RAMEWORK=0 NUM_FRAMEBUFFER_SURFACE_BUFFERS=2]
+           app phase:      1000000 ns	         SF phase:     -4000000 ns
+           app duration:   8888888 ns	         SF duration:  10944444 ns
+     early app phase:      1000000 ns	   early SF phase:     -4000000 ns
+     early app duration:   8888888 ns	   early SF duration:  10944444 ns
+  GL early app phase:      1000000 ns	GL early SF phase:     -4000000 ns
+  GL early app duration:   8888888 ns	GL early SF duration:  10944444 ns
+       HWC min duration:         0 ns
+    activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, su
+pportedHdrTypes=INVALID}
+        {id=0, hwcId=0, resolution=2944x1840, vsyncRate=120.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supported
+HdrTypes=INVALID}
+        {id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supported
+HdrTypes=INVALID}
+        {id=2, hwcId=2, resolution=2944x1840, vsyncRate=60.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedH
+drTypes=INVALID}
+        {id=3, hwcId=3, resolution=2944x1840, vsyncRate=30.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedH
+drTypes=INVALID}
+mWorkDuration=8.89 mReadyDuration=10.94 last vsync time -6506.80ms relative to now
+	mDisplayModePtr={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, 
+supportedHdrTypes=INVALID}
+    activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, su
+pportedHdrTypes=INVALID}
+        {id=0, hwcId=0, resolution=2944x1840, vsyncRate=120.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supported
+HdrTypes=INVALID}
+        {id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supported
+HdrTypes=INVALID}
+        {id=2, hwcId=2, resolution=2944x1840, vsyncRate=60.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedH
+drTypes=INVALID}
+        {id=3, hwcId=3, resolution=2944x1840, vsyncRate=30.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedH
+drTypes=INVALID}
+  peak-refresh-rate         : 144.00 Hz
+
+

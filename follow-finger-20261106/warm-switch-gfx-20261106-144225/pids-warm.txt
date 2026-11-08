@@ -1,0 +1,3 @@
+﻿com.tencent.mm=9415
+com.luna.music=9376
+com.ss.android.ugc.aweme=20485

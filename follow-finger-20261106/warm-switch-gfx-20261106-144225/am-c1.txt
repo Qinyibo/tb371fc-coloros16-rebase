@@ -1,0 +1,8 @@
+﻿Starting: Intent { cmp=com.ss.android.ugc.aweme/.splash.SplashActivity }
+Warning: Activity not started, intent has been delivered to currently running top-most instance.
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: com.ss.android.ugc.aweme/.main.MainActivity
+TotalTime: 0
+WaitTime: 39
+Complete

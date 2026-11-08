@@ -1,0 +1,141 @@
+Build configuration: [sf PRESENT_TIME_OFFSET=0 FORCE_HWC_FOR_RBG_TO_YUV=1 MAX_VIRT_DISPLAY_DIM=0 RUNNING_WITHOUT_SYNC_FRAMEWORK=0 NUM_FRAMEBUFFER_SURFACE_BUFFERS=2]
+    PresentFences=true
+	GameFrameRateOverrides=
+FrameRateOverrides=none
+           app phase:      1000000 ns	         SF phase:     -4000000 ns
+           app duration:   8888888 ns	         SF duration:  10944444 ns
+     early app phase:      1000000 ns	   early SF phase:     -4000000 ns
+     early app duration:   8888888 ns	   early SF duration:  10944444 ns
+  GL early app phase:      1000000 ns	GL early SF phase:     -4000000 ns
+  GL early app duration:   8888888 ns	GL early SF duration:  10944444 ns
+       HWC min duration:         0 ns
+    activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=0, hwcId=0, resolution=2944x1840, vsyncRate=120.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=2, hwcId=2, resolution=2944x1840, vsyncRate=60.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=3, hwcId=3, resolution=2944x1840, vsyncRate=30.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+    frameRateOverrideConfig=Enabled
+HWVsyncSuppressed: off
+SWIdealPeriod: 0
+    FakeVsyncCount: 0
+app: state=VSync VSyncState={displayId=4630947161651687041, count=108371}
+mWorkDuration=8.89 mReadyDuration=10.94 last vsync time 18.61ms relative to now
+ with vsync committed at 18.61ms  pending events (count=0):
+    Connection{0xb400006f7503ea00, 2231, VSyncRequest::None}
+    Connection{0xb400006f7503eac0, 2231, VSyncRequest::None}
+    Connection{0xb400006f5d578640, 2231, VSyncRequest::None}
+    Connection{0xb400006f5d5c6cc0, 2231, VSyncRequest::None}
+    Connection{0xb400006f5d5c8280, 2231, VSyncRequest::None}
+    Connection{0xb400006f3ac86600, 2231, VSyncRequest::None}
+    Connection{0xb400006f3b3f6c40, 2231, VSyncRequest::None}
+    Connection{0xb400006f5d5787c0, 2231, VSyncRequest::None}
+    Connection{0xb400006f5d578880, 2823, VSyncRequest::None}
+    Connection{0xb400006f3b3f6e80, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b3f6f40, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b031300, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b267080, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b0313c0, 3103, VSyncRequest::None}
+    Connection{0xb400006f3b031480, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b031540, 3103, VSyncRequest::None}
+    Connection{0xb400006f3b0316c0, 3208, VSyncRequest::None}
+    Connection{0xb400006f3b031780, 3367, VSyncRequest::None}
+    Connection{0xb400006f5d5c6240, 3295, VSyncRequest::None}
+    Connection{0xb400006f3b031900, 3208, VSyncRequest::None}
+    Connection{0xb400006f3b3f6d00, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b266fc0, 4009, VSyncRequest::None}
+    Connection{0xb400006f7503e700, 3103, VSyncRequest::None}
+    Connection{0xb400006f7503e880, 4402, VSyncRequest::None}
+    Connection{0xb400006f3b106380, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b3f49c0, 4735, VSyncRequest::None}
+    Connection{0xb400006f7503ec40, 4609, VSyncRequest::None}
+    Connection{0xb400006f3b105f00, 3899, VSyncRequest::None}
+    Connection{0xb400006f38af9180, 4898, VSyncRequest::None}
+    Connection{0xb400006f5d490700, 5292, VSyncRequest::None}
+    Connection{0xb400006f3aff5ec0, 5483, VSyncRequest::None}
+    Connection{0xb400006f38af9600, 6712, VSyncRequest::None}
+    Connection{0xb400006f38af96c0, 7038, VSyncRequest::None}
+    Connection{0xb400006f38af9a80, 5588, VSyncRequest::None}
+    Connection{0xb400006f38af9b40, 5588, VSyncRequest::None}
+    Connection{0xb400006f5d490b80, 9321, VSyncRequest::None}
+    Connection{0xb400006f5d490d00, 9321, VSyncRequest::None}
+    Connection{0xb400006f3e5ae380, 2231, VSyncRequest::None}
+    Connection{0xb400006f3e5aebc0, 2909, VSyncRequest::None}
+    Connection{0xb400006f49fad6c0, 9890, VSyncRequest::None}
+    Connection{0xb400006f38af9e40, 2231, VSyncRequest::None}
+    Connection{0xb400006f38af9000, 9890, VSyncRequest::None}
+    Connection{0xb400006f38af93c0, 9321, VSyncRequest::None}
+    Connection{0xb400006f5d4d3180, 9321, VSyncRequest::None}
+    Connection{0xb400006f38af99c0, 2909, VSyncRequest::None}
+    Connection{0xb400006f3ac88580, 9289, VSyncRequest::Single}
+    Connection{0xb400006f38afa140, 9289, VSyncRequest::None}
+    Connection{0xb400006f38afa200, 9289, VSyncRequest::None}
+    Connection{0xb400006f3aff6880, 11710, VSyncRequest::None}
+    Connection{0xb400006f3ac86480, 11665, VSyncRequest::None}
+    Connection{0xb400006f3aff6dc0, 11665, VSyncRequest::None}
+    Connection{0xb400006f5d490940, 17627, VSyncRequest::None}
+    Connection{0xb400006f5d490a00, 18372, VSyncRequest::None}
+    Connection{0xb400006f7503e940, 18354, VSyncRequest::None}
+  DynamicAppVsyncEnable=false
+  OplusSkipSyntheticVsync=false
+VsyncSchedule for pacesetter 4630947161651687041:
+hwVsyncState=Disabled
+pendingHwVsyncState=Disabled
+VsyncController:
+VsyncReactor in use
+mMoreSamplesNeeded=0 mPeriodConfirmationInProgress=0
+No Last HW vsync
+VSyncTracker:
+	mDisplayModePtr={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+		For ideal period 16.67ms: period = 16.67ms, intercept = 0
+		For ideal period 6.94ms: period = 6.94ms, intercept = 1565
+		For ideal period 8.33ms: period = 8.33ms, intercept = 0
+VsyncDispatch:
+	mTimerSlack: 0.50ms mMinVsyncDistance: 3.00ms
+			workDuration: 10.94ms readyDuration: 0.00ms lastVsync: -9.41ms relative to now committedVsync: -9.41ms relative to now
+		app:  [wake up in 5.44ms deadline in 14.33ms for vsync 25.28ms from now]
+			workDuration: 8.89ms readyDuration: 10.94ms lastVsync: 18.33ms relative to now committedVsync: 18.33ms relative to now
+			workDuration: 16.67ms readyDuration: 15.67ms lastVsync: -674772.06ms relative to now committedVsync: -674772.06ms relative to now
+    input{(0x0) canOccludePresentation touchCropId=147 touchableRegion={0,0,2944,1840}}
+    input{(NOT_FOCUSABLE | NOT_TOUCHABLE | TRUSTED_OVERLAY) canOccludePresentation touchableRegion={1822,315,529,1840}}
+    input{(NOT_FOCUSABLE | NOT_TOUCHABLE | TRUSTED_OVERLAY) canOccludePresentation touchableRegion={1822,315,529,1840}}
+    input{(0x0) canOccludePresentation touchCropId=147 touchableRegion={0,0,2944,1840}}
+    input{(NO_INPUT_CHANNEL | NOT_VISIBLE | TRUSTED_OVERLAY) canOccludePresentation touchableRegion={0,0,0,0}}
+    input{(NOT_VISIBLE | NOT_FOCUSABLE | NOT_TOUCHABLE | TRUSTED_OVERLAY) canOccludePresentation touchableRegion={0,0,0,0}}
+ │  │  │        │  │  │        └─ com.android.launcher/com.android.launcher.Launcher#112 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::NoPreference} pid=3208 uid=10108 z=0
+ │  │  │        │     │  │  ├─ com.luna.music/com.luna.biz.main.main.MainActivity#729 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::Normal} pid=9289 uid=10337 z=0
+ │  │  │        │              └─ Caption of Task=265#736 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::NoPreference} pid=2909 uid=10116 z=0
+ │  │  │        │        └─ OplusOSEdgeFloatBar#108 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::NoPreference} pid=5588 uid=10280 z=0
+ │  │  │              └─ StatusBar#86 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::NoPreference} pid=2909 uid=10116 z=0
+ │  │  │                 └─ StatusBar InputLayer of Task=265#730 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::NoPreference} pid=2909 uid=10116 z=0
+ │  │  │           └─ Taskbar#100 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::NoPreference} pid=3208 uid=10108 z=0
+  max send vsync id: -1
+    activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=0, hwcId=0, resolution=2944x1840, vsyncRate=120.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=2, hwcId=2, resolution=2944x1840, vsyncRate=60.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=3, hwcId=3, resolution=2944x1840, vsyncRate=30.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+    frameRateOverrideConfig=Enabled
+EGL_ANDROID_front_buffer_auto_refresh EGL_ANDROID_get_native_client_buffer EGL_ANDROID_presentation_time EGL_EXT_surface_CTA861_3_metadata EGL_EXT_surface_SMPTE2086_metadata EGL_KHR_get_all_proc_addresses EGL_KHR_swap_buffers_with_damage EGL_ANDROID_get_frame_timestamps EGL_EXT_gl_colorspace_scrgb EGL_EXT_gl_colorspace_scrgb_linear EGL_EXT_gl_colorspace_display_p3_linear EGL_EXT_gl_colorspace_display_p3 EGL_EXT_gl_colorspace_display_p3_passthrough EGL_EXT_gl_colorspace_bt2020_hlg EGL_EXT_gl_colorspace_bt2020_linear EGL_EXT_gl_colorspace_bt2020_pq EGL_ANDROID_image_native_buffer EGL_ANDROID_native_fence_sync EGL_ANDROID_recordable EGL_EXT_create_context_robustness EGL_EXT_image_gl_colorspace EGL_EXT_pixel_format_float EGL_EXT_protected_content EGL_EXT_yuv_surface EGL_IMG_context_priority EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_mutable_render_buffer EGL_KHR_no_config_context EGL_KHR_partial_update EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_KHR_wait_sync 
+        Uniform:u_ripple_time_offset      type:float    len:1   v:0.25
+        Uniform:u_ripple_time_offset      type:float    len:1   v:0.15
+        Uniform:u_ripple_time_offset      type:float    len:1   v:0.0
+        Uniform:u_ripple_time_offset      type:float    len:1   v:0.07
+        Uniform:u_ripple_time_offset      type:float    len:1   v:0.0
+        ParameterRule[0]:effect, parameter_id, state, action, parameter, u_time, u_density, uRippleSource, uMinRadius, uRadius, uAmplitude, uRipples, uFadingFactor, uFadingFactor2, uOffset, uColorFullAlpha, uRotateSpeed, uAngleS, uAngleE
+        Uniform:uOffset                   type:float    len:1   v:10.0
+        ParameterRule[0]:effect, parameter_id, state, action, parameter, u_time, u_density, _HaloStartPoint, _HaloEndPoint, _HaloOffset_x, _HaloOffset_y, _HaloStart, _HaloSpace, _HaloFadeRangeE, _HaloAlpha, _WaveStartPoint, _WaveEndPoint, _WaveOffset_x, _WaveOffset_y, _WaveHaloStart, _WaveHaloSpaceS, _WaveHaloSpaceE, _WaveIntensity, _WaveIntensityX, _WaveIntensityY
+        Uniform:_WaveOffset_y             type:float    len:1   v:0.0
+        Uniform:_WaveOffset_x             type:float    len:1   v:0.0
+        Uniform:_HaloOffset_y             type:float    len:1   v:0.0
+        Uniform:u_offset_angle            type:float    len:1   v:203.0
+        Uniform:u_offset_y                type:float    len:1   v:0.406
+        Uniform:_HaloOffset_x             type:float    len:1   v:0.0
+        Uniform:u_offset_x                type:float    len:1   v:0.124
+state: 1 vsync on: 0 max. mixer stages: 11
+ vsync_period 6944444 v_back_porch: 182 v_front_porch: 26 v_pulse_width: 2
+vsync_predictor_recovery: false
+allow_n_vsyncs_in_targeter: true
+arr_setframerate_gte_enum: true
+deprecate_vsync_sf: false
+disable_synthetic_vsync_for_performance: true
+no_vsyncs_on_screen_off: false

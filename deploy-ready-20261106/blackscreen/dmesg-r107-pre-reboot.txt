@@ -1,0 +1,47 @@
+﻿
+[ 5314.336594] [NVT-ts] nvt_panel_resume_commit 4081: R94_NATIVE_COMPLETE_COMMITTED real_REK_verified IRQ_OPEN
+[ 5479.128716] [NVT-ts] nvt_panel_resume_commit 4081: R94_NATIVE_COMPLETE_COMMITTED real_REK_verified IRQ_OPEN
+[ 5572.113056] [NVT-ts] nvt_panel_resume_commit 4081: R94_NATIVE_COMPLETE_COMMITTED real_REK_verified IRQ_OPEN
+[ 5574.863075] [drm:sde_connector_complete_panel_recovery:1377] [sde error]R107_NATIVE_UNBLANK_FAILED rc=-1 conn_id=29
+[ 5574.873203] [drm:dsi_panel_post_unprepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_OFF allowing existing rail recovery
+[ 5574.875753] [drm:dsi_panel_pre_prepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_ON allowing existing rail recovery
+[ 5576.295012] [NVT-ts] nvt_panel_resume_commit 4057: R94_NATIVE_COMPLETE_REK_FAILED -1 IRQ_CLOSED_DISPLAY_RETAINED
+[ 5576.295015] [drm:sde_connector_complete_panel_recovery:1377] [sde error]R107_NATIVE_UNBLANK_FAILED rc=-1 conn_id=29
+[ 5577.848369] [drm:dsi_panel_post_unprepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_OFF allowing existing rail recovery
+[ 5578.152561] [drm:dsi_panel_pre_prepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_ON allowing existing rail recovery
+[ 5579.568078] [NVT-ts] nvt_panel_resume_commit 4057: R94_NATIVE_COMPLETE_REK_FAILED -1 IRQ_CLOSED_DISPLAY_RETAINED
+[ 5579.568083] [drm:sde_connector_complete_panel_recovery:1377] [sde error]R107_NATIVE_UNBLANK_FAILED rc=-1 conn_id=29
+[ 5579.908319] [drm:dsi_panel_post_unprepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_OFF allowing existing rail recovery
+[ 5579.932915] [drm:dsi_panel_pre_prepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_ON allowing existing rail recovery
+[ 5581.358010] [NVT-ts] nvt_panel_resume_commit 4057: R94_NATIVE_COMPLETE_REK_FAILED -1 IRQ_CLOSED_DISPLAY_RETAINED
+[ 5581.358014] [drm:sde_connector_complete_panel_recovery:1377] [sde error]R107_NATIVE_UNBLANK_FAILED rc=-1 conn_id=29
+[ 5585.216239] [drm:dsi_panel_post_unprepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_OFF allowing existing rail recovery
+[ 5585.232232] [drm:dsi_panel_pre_prepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_ON allowing existing rail recovery
+[ 5586.677156] [NVT-ts] nvt_panel_resume_commit 4057: R94_NATIVE_COMPLETE_REK_FAILED -1 IRQ_CLOSED_DISPLAY_RETAINED
+[ 5586.677165] [drm:sde_connector_complete_panel_recovery:1377] [sde error]R107_NATIVE_UNBLANK_FAILED rc=-1 conn_id=29
+[ 5598.972502] [drm:dsi_panel_post_unprepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_OFF allowing existing rail recovery
+[ 5600.576150] [drm:dsi_panel_pre_prepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_ON allowing existing rail recovery
+[ 5602.044760] [NVT-ts] nvt_panel_resume_commit 4057: R94_NATIVE_COMPLETE_REK_FAILED -1 IRQ_CLOSED_DISPLAY_RETAINED
+[ 5602.044771] [drm:sde_connector_complete_panel_recovery:1377] [sde error]R107_NATIVE_UNBLANK_FAILED rc=-1 conn_id=29
+[ 5604.452590] [drm:dsi_panel_post_unprepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_OFF allowing existing rail recovery
+[ 5604.961514] [drm:dsi_panel_pre_prepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_ON allowing existing rail recovery
+[ 5606.383410] [NVT-ts] nvt_panel_resume_commit 4057: R94_NATIVE_COMPLETE_REK_FAILED -1 IRQ_CLOSED_DISPLAY_RETAINED
+[ 5606.383420] [drm:sde_connector_complete_panel_recovery:1377] [sde error]R107_NATIVE_UNBLANK_FAILED rc=-1 conn_id=29
+[ 5607.020224] [drm:dsi_panel_post_unprepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_OFF allowing existing rail recovery
+[ 5607.026603] [drm:dsi_panel_pre_prepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_ON allowing existing rail recovery
+[ 5608.537004] [NVT-ts] nvt_panel_resume_commit 4057: R94_NATIVE_COMPLETE_REK_FAILED -1 IRQ_CLOSED_DISPLAY_RETAINED
+[ 5608.537008] [drm:sde_connector_complete_panel_recovery:1377] [sde error]R107_NATIVE_UNBLANK_FAILED rc=-1 conn_id=29
+[ 5609.792227] [drm:dsi_panel_post_unprepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_OFF allowing existing rail recovery
+[ 5609.804455] [drm:dsi_panel_pre_prepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_ON allowing existing rail recovery
+[ 5611.330312] [NVT-ts] nvt_panel_resume_commit 4057: R94_NATIVE_COMPLETE_REK_FAILED -1 IRQ_CLOSED_DISPLAY_RETAINED
+[ 5611.330316] [drm:sde_connector_complete_panel_recovery:1377] [sde error]R107_NATIVE_UNBLANK_FAILED rc=-1 conn_id=29
+[ 5617.324273] [drm:dsi_panel_post_unprepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_OFF allowing existing rail recovery
+[ 5624.701378] [drm:dsi_panel_pre_prepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_ON allowing existing rail recovery
+[ 5626.252930] [NVT-ts] nvt_panel_resume_commit 4057: R94_NATIVE_COMPLETE_REK_FAILED -1 IRQ_CLOSED_DISPLAY_RETAINED
+[ 5626.252940] [drm:sde_connector_complete_panel_recovery:1377] [sde error]R107_NATIVE_UNBLANK_FAILED rc=-1 conn_id=29
+[ 5626.568353] [drm:dsi_panel_post_unprepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_OFF allowing existing rail recovery
+[ 5647.765136] [drm:dsi_panel_pre_prepare] [msm-dsi-info]: R104_PANEL_DEAD_POWER_ON allowing existing rail recovery
+[ 5649.180705] [NVT-ts] nvt_panel_resume_commit 4057: R94_NATIVE_COMPLETE_REK_FAILED -1 IRQ_CLOSED_DISPLAY_RETAINED
+[ 5649.180711] [drm:sde_connector_complete_panel_recovery:1377] [sde error]R107_NATIVE_UNBLANK_FAILED rc=-1 conn_id=29
+
+

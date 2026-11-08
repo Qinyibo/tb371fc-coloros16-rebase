@@ -1,0 +1,16 @@
+from pathlib import Path
+import hashlib, sys
+raw_path = Path(sys.argv[1])
+out_path = Path(sys.argv[2])
+raw = raw_path.read_bytes()
+text = raw.decode('utf-8')
+c120 = text.count('targetFramerate="120"')
+patched = text.replace('targetFramerate="120"', 'targetFramerate="144"')
+c144 = patched.count('targetFramerate="144"')
+left = patched.count('targetFramerate="120"')
+out = patched.encode('utf-8')
+out_path.write_bytes(out)
+print('stock_md5', hashlib.md5(raw).hexdigest())
+print('patch_md5', hashlib.md5(out).hexdigest())
+print('c120', c120, 'c144', c144, 'left120', left)
+print('stock_crlf', b'\r\n' in raw, 'patch_crlf', b'\r\n' in out)

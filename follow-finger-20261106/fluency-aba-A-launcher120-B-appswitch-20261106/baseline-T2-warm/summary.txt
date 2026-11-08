@@ -1,0 +1,5 @@
+﻿wechat janky=25 (5.66%) p50=5ms p90=8ms p95=15ms p99=40ms missed=4 high=196 PickRate=144.00002
+douyin janky=97 (28.53%) p50=11ms p90=32ms p95=46ms p99=77ms missed=34 high=459 PickRate=144.00002
+luna janky=86 (33.33%) p50=11ms p90=61ms p95=81ms p99=121ms missed=54 high=346 PickRate=144.00002
+label=B0-type0 T2 mWorkDuration=6.94 refresh bake 35db38f8
+protocol=warm no-force-stop; am-start settle; gfx reset; 12x swipe 80ms

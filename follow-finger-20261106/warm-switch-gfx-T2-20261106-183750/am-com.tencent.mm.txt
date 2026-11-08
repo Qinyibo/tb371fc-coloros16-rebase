@@ -1,0 +1,23 @@
+﻿Starting: Intent { cmp=com.tencent.mm/.ui.LauncherUI }
+Status: ok
+LaunchState: WARM
+Activity: com.tencent.mm/.ui.LauncherUI
+TotalTime: 991
+WaitTime: 1002
+Complete
+Starting: Intent { cmp=com.tencent.mm/.ui.LauncherUI }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: HOT
+Activity: com.tencent.mm/.ui.LauncherUI
+TotalTime: 645
+WaitTime: 653
+Complete
+Starting: Intent { cmp=com.tencent.mm/.ui.LauncherUI }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: HOT
+Activity: com.tencent.mm/.ui.LauncherUI
+TotalTime: 331
+WaitTime: 346
+Complete

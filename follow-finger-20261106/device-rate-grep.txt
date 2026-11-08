@@ -1,0 +1,19 @@
+﻿/my_product/etc/refresh_rate_config.xml:8:<refresh_rate_config version="20260107" ratemagic="8750R60_90_120">
+
+Binary file /system/system_ext/priv-app/Settings/Settings.apk matches
+Binary file /system/system_ext/priv-app/Settings/Settings.apk matches
+Binary file /system/system_ext/priv-app/Settings/Settings.apk matches
+Binary file /system/system_ext/app/OplusEyeProtect/OplusEyeProtect.apk matches
+Binary file /system/system_ext/app/OplusEyeProtect/OplusEyeProtect.apk matches
+Binary file /system/framework/oplus-services.jar matches
+Binary file /system/framework/oplus-services.jar matches
+Binary file /system/framework/oplus-services.jar matches
+Binary file /system/framework/oplus-services.jar matches
+Binary file /system/framework/oplus-services.jar matches
+Binary file /system/framework/oplus-framework.jar matches
+Binary file /system/app/Bluetooth/Bluetooth.apk matches
+Binary file /system_ext/priv-app/Settings/Settings.apk matches
+Binary file /system_ext/priv-app/Settings/Settings.apk matches
+Binary file /system_ext/priv-app/Settings/Settings.apk matches
+Binary file /system_ext/app/OplusEyeProtect/OplusEyeProtect.apk matches
+Binary file /system_ext/app/OplusEyeProtect/OplusEyeProtect.apk matches

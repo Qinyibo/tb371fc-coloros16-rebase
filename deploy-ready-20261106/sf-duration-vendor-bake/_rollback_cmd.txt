@@ -1,0 +1,4 @@
+Resizing 'vendor_a'                                OKAY [  0.006s]
+Invalid sparse file format at header magic
+Sending sparse 'vendor_a' 1/106 (8188 KB)          FAILED (AdbWriteEndpointSync failed: 信号灯超时时间已到 (121))
+fastboot: error: Command failed

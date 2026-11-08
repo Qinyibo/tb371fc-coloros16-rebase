@@ -1,0 +1,6 @@
+id=tb371fc_system_refresh_policy
+name=TB371FC system refresh policy (144 product config)
+version=v0-trial
+versionCode=1
+author=tibo
+description=SYSTEM product policy: maxrefreshsettings/defaultMaxRate/extremeHighEnable/support144Hz. No per-app rateId edits. ABA then ROM.

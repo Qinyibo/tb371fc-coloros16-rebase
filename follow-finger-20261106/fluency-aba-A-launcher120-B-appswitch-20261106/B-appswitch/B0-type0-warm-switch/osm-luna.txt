@@ -1,0 +1,113 @@
+Current Version:20260107
+Config{ mEnableRateOverride=true mEnableFodHighRate=true mVoiceSceneLowRate=true mVoiceSceneLowRateDelay=500 mMaxRefreshSettings=4 mIpePencilRateId=3 mAppSwitchBoost=true mAppSwitchBoostType=0 mAppSwitchBoostMaxTemp=47 mDefaultRateId=[4, 4, 2, 4] mDefaultMaxRate=144.0 mDisableViewOverrideDefaultValue=false mExtremeHighEnable=true}
+mLowRateDisplayPackages: {com.oplus.cast, com.heytap.cast}
+mExtremeHighRateItems: []
+mDisableCameraOverridePackages: {com.whatsapp, com.tencent.mm, com.tencent.mobileqq}
+mOriginalPolicyPackages: [android.graphics.cts, android.display.cts, android.view.cts, android.cts.graphics, android.gameframerate.cts, android.view.surfacecontrol.cts]
+user override list size: 0
+-
+------------------------------
+current mode={id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}
+mDisplayId=0
+sDisableFpsPixelAdjust=false
+mLowBrightnessMode=false
+mFreezeTokens=[]
+mOifaceRequestedRates={}
+mNonHighRefreshRatePackages={}
+mAudioLowRefreshRatePackages={}
+mSupportMaxRefreshRate=144.0
+mCurrentPickMode=4
+mCurrentDefaultRateId =4
+mCurrentResolution=Point(1840, 2944)
+dAlwaysRespectAppRequestedMode =false
+mSupportMultiDisplayRefreshRate=false
+mCurrentScreenMode=0
+mSupportedScreen=[]
+mSupportPWMSwitch=false
+mIsDisableInputLowRateWindow=false
+mPanelRateData = RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}
+supportMemcGameFeature=false
+mBrightnessEnterCount=0,exitCount=0
+isDisplayPWMOn=false
+isIPEPencilConnected=false
+------------------------------
+mCurrentPickRate=144.00002
+mHasFloatOrZoomWindow=false
+mRegisterThermalListenerStatus=false
+isExtremeHighEnable=true
+isExtremeHighSettingOn=false
+pickWin:Window{266d7f0 u0 com.luna.music/com.luna.biz.main.main.MainActivity}
+11.2 & 11.3 actName:com.luna.music/com.luna.biz.main.main.MainActivity
+above 11.3  actName:com.luna.biz.main.main.MainActivity
+mWindowOverrideRateId:0
+mOifaceOverrideRateId:0
+mIsGame:false
+mPreferredRefreshRateId:null
+
+adfr support=false
+mOplusVrrRefreshRate=0.0
+OplusAdfrV32Controller:
+{mSupportAdfrV32Lp=true,mSupportAdfrV32Hp=false,mAdfrV32DirectorEnable=true,mCurrentFrtcRate=0.0,mCurrentDirectorState=0,mLastDirectorState=0,mSimulateV32frtcResult=true}
+------------------------------
+RefreshRateCore:
+mVotes:
+PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null}
+
+mActiveVotes:
+PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null}
+
+mFreezing:false
+OplusLowRefreshRate:
+,LowRefreshRate:false
+refresh rate switch info:
+ Refresh rate changing from 0.0 to 144.00002,maxRefreshRate=144.00002 FOR:{
+    | COURSE[;control panel:4,data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}]
+    | VOTES[PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null};]
+    | TIME:2026-11-06 13:01:00}
+mIsEnableFollowFocus:true
+refresh rate remoteConnection size:0
+------------------------------------------------------------------------------------------
+=========RESOLUTION DUMP=========
+FHD_DPI_ZOOM=
+QHD_DPI_ZOOM=
+FHD_DENSITY=480
+QHD_DENSITY=640
+FHD_SIZE=
+QHD_SIZE=
+DEBUG_START_EMPTY=true
+RESOLUTION_SWITCH_FREEZING_TIME=800
+mResolutionSettings=2
+mAutoResolutionSetting=1
+mDisplay.getMode={id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}
+mDefaultMode= record resolutionId=2,mode ={id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}
+mResolutionSupport=true
+mMaxScreenPhysicalWidth=1840
+mResolutionSwitchEnable=false
+mFakeResolutionSwitch=false
+mDisplayDensityIndex:1
+mSupportedResolutions:
+    size=Point(1840, 2944)
+-----------------------------------
+LastResolutionChangeInfo:
+    density:
+    ResolutionDebugInfo{mDensity=0, mWidth=0, mHeight=0, mCallingUid=0, mCallingPid=0, mCallingTime='null', mTopWin='null', mCallingStackTrace='null'}
+    size:
+    ResolutionDebugInfo{mDensity=0, mWidth=0, mHeight=0, mCallingUid=0, mCallingPid=0, mCallingTime='null', mTopWin='null', mCallingStackTrace='null'}
+-----------------------------------
+AutoResolutionConfig:
+ resolution config {
+  VERSION = 2025120410
+  mInitialComplete=true
+  mAppScaleInfo= AppScaleInfo{ mScale:1.17037,mInvScale:0.85443,mDensity:320,mask:10,mOriginScaleMode:false,mEnable:true,zoomEnable:false}
+  mAppOpOnSwitch=272
+  mCurResolutionId=1
+  mHighResoDownscale=true
+  mResolutionSwitchFreezingTime=1000
+  mScreenPhysicalWidth=1840
+  mZoomEnable=true
+  mAutoResolutionPkgMap size=6
+  mDynamicResolutionPkgMap size=0
+ }
+Top Pkg AutoResolutionInfo: pkg :com.luna.music not on auto resolution list
+ mSupportedResolutions size =1
+ mOriginalPolicyFirst =false

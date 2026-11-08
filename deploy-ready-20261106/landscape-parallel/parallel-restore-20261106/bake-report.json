@@ -1,0 +1,77 @@
+{
+  "stats": {
+    "on_device_magic": 12,
+    "magic_enabled": 12,
+    "magic_exclude_stripped": 2,
+    "fo_to_status2": 12,
+    "wechat_scale": 1,
+    "qq_douyin_magic_on": 2,
+    "db_fo_updated": 12,
+    "db_magic_updated": 3,
+    "db_magic_installed_status": [
+      [
+        1,
+        12
+      ]
+    ],
+    "key_magic": [
+      [
+        "com.ss.android.ugc.aweme",
+        1
+      ],
+      [
+        "com.tencent.mm",
+        1
+      ],
+      [
+        "com.tencent.mobileqq",
+        1
+      ],
+      [
+        "tv.danmaku.bili",
+        1
+      ]
+    ],
+    "key_fo": [
+      [
+        "com.ss.android.ugc.aweme",
+        2,
+        "{\"rao\":\"false\",\"rotate_cam\":\"false\"}"
+      ],
+      [
+        "com.tencent.mm",
+        2,
+        "{\"rao\":\"false\",\"rotate_cam\":\"false\",\"orientForStarting\":[\"com.tencent.mm.ui.Laun"
+      ],
+      [
+        "com.tencent.mobileqq",
+        2,
+        "{\"rao\":\"false\",\"rotate_cam\":\"false\"}"
+      ],
+      [
+        "tv.danmaku.bili",
+        1,
+        "{\"rao\":\"true\",\"rotate_cam\":\"false\"}"
+      ]
+    ],
+    "fw_xml_miss": [
+      "com.oneplus.bbs"
+    ],
+    "fo_xml_miss": [
+      "com.oneplus.bbs"
+    ]
+  },
+  "md5": {
+    "db": "ca8b3742185a80018522e07f0c0c4b73",
+    "fo": "2cc0d09033cad6e542864d21aaecb2cc",
+    "fw": "e70effef1c1f579339eddb2baf34c058",
+    "fo_base": "1986e9bec618ed4ea2eaee78fff9e5ce",
+    "fw_base": "0de66d2fc04bc2e34cb4338f4a297ac1"
+  },
+  "key_checks": {
+    "fo_wechat": "2",
+    "fw_wechat": "1",
+    "fw_qq": "1",
+    "fw_aweme": "1"
+  }
+}

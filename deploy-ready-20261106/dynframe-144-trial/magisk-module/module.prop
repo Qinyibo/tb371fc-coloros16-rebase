@@ -1,0 +1,6 @@
+id=tb371fc_dynframe_144
+name=TB371FC dynframe targetFramerate 144 trial
+version=v1
+versionCode=1
+author=tibo-sys6
+description=Bind sys_dynamic_frame_config.xml targetFramerate 120->144. Reversible. Not ART/GC/OEM.

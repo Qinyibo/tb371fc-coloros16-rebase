@@ -1,0 +1,9 @@
+andes.oplus.documentsreader	1	1
+com.heytap.music	1	1
+com.heytap.reader	1	1
+com.heytap.yoli	1	1
+com.luna.music	1	1
+com.oneplus.bbs	1	1
+com.ss.android.ugc.aweme	2	1
+com.tencent.mm	1	1
+com.tencent.mobileqq	2	1

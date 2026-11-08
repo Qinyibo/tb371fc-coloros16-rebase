@@ -1,0 +1,5 @@
+﻿@echo off
+REM revert product to pre-parallel (bulk FO) backups pulled at apply time live under /data/local/tmp
+echo Use: adb shell su -c "ls /data/local/tmp/sys_fo.pre-parallel-*.xml"
+echo Then remount copy chosen bak to /my_product/etc/fantasy/...
+echo Or restore bulk FO files from product-fo-bulk-20261106

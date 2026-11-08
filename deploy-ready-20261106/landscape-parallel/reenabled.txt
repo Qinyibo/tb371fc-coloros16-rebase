@@ -1,0 +1,4 @@
+﻿# Packages re-enabled 2026-11-06 for landscape / 平行视界
+# (were wrongly disabled in wps-and-trim)
+com.oplus.pscanvas
+com.oplus.cosa

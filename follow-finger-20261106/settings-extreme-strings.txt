@@ -1,0 +1,4 @@
+﻿app_extreme_high_refresh_switch
+3oplus.software.performance.app_extreme_high_refresh
+app_extreme_high_refresh_switch
+extreme_high_enable

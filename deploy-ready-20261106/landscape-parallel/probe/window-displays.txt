@@ -1,0 +1,65 @@
+﻿
+  overrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/
+h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 2944, 1840) mDi
+splayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_9
+0} s.438 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChanged=
+ -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFoldi
+ngAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 10
+0.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibleA
+ctivitySuitable= -1, mPuttDisplayFlag= -1}
+    * HideDisplayCutout:65:99
+      * HideDisplayCutout:58:64
+      * HideDisplayCutout:18:55
+      * HideDisplayCutout:16:16
+      * HideDisplayCutout:0:14
+      overrideConfig={0.0 ?mcc??mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?
+orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0
+ - 0, 0) mDisplayRotation=undefined mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=
+undefined} ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= -1, mAccessibleChange
+d= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontUserId= -1, mFontVariationSettings= fffffff
+f, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDarkModeDialogBgMaxL= -1.0, mDarkModeForegrou
+ndMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= -1, mFlag= 0, mExtraFlag= 0, 
+mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ROTATION_0={nonDecorInsets=[0,0][0,0], overrideNonDecorInsets=[0,0][0,37], configInsets=[0,0][0,0], overrideConfi
+gInsets=[0,105][0,37], nonDecorFrame=[0,0][1840,2944], overrideNonDecorFrame=[0,0][1840,2907], configFrame=[0,0][1840,2
+944], overrideConfigFrame=[0,105][1840,2907]}
+      ROTATION_90={nonDecorInsets=[0,0][0,0], overrideNonDecorInsets=[0,0][0,37], configInsets=[0,0][0,0], overrideConf
+igInsets=[0,105][0,37], nonDecorFrame=[0,0][2944,1840], overrideNonDecorFrame=[0,0][2944,1803], configFrame=[0,0][2944,
+1840], overrideConfigFrame=[0,105][2944,1803]}
+      ROTATION_180={nonDecorInsets=[0,0][0,0], overrideNonDecorInsets=[0,0][0,37], configInsets=[0,0][0,0], overrideCon
+figInsets=[0,105][0,37], nonDecorFrame=[0,0][1840,2944], overrideNonDecorFrame=[0,0][1840,2907], configFrame=[0,0][1840
+,2944], overrideConfigFrame=[0,105][1840,2907]}
+      ROTATION_270={nonDecorInsets=[0,0][0,0], overrideNonDecorInsets=[0,0][0,37], configInsets=[0,0][0,0], overrideCon
+figInsets=[0,105][0,37], nonDecorFrame=[0,0][2944,1840], overrideNonDecorFrame=[0,0][2944,1803], configFrame=[0,0][2944
+,1840], overrideConfigFrame=[0,105][2944,1803]}
+      mDisplayCutoutTouchableRegionSize=0
+  DisplayRotation
+    mRotation=1 mDeferredRotationPauseCount=0
+    mLandscapeRotation=ROTATION_90 mSeascapeRotation=ROTATION_270
+    mPortraitRotation=ROTATION_0 mUpsideDownRotation=ROTATION_180
+    mSupportAutoRotation=true
+    mDemoRotationLock=false
+    mDemoRotation=1
+    hookGetWifiDisplayRotation()=-1
+    mLockRotationTagList={}
+    isRotationFrozen=false
+      mCurrentRotation=ROTATION_90
+        mDesiredRotation=ROTATION_90
+        mProposedRotation=ROTATION_90
+        mLastRotationResolution=1
+    mCarDockRotation=-1 mDeskDockRotation=-1
+    mUserRotationMode=USER_ROTATION_FREE mUserRotation=ROTATION_0 mCameraRotationMode=0 mAllowAllRotations=true
+    mDemoHdmiRotation=ROTATION_90 mDemoHdmiRotationLock=false mUndockedHdmiRotation=-1
+    mLidOpenRotation=-1
+    mFixedToUserRotation=false
+    getSuggestRotationForBracketMode=-1
+    mUserRotationChanging=false
+    mLastReqUserRotationMode=0
+    mLastReqUserRotation=0
+    RotationHistory
+      11-06 18:38:01.266 ROTATION_90 to ROTATION_0
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=-1
+      11-06 18:44:03.480 ROTATION_0 to ROTATION_90
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=-1
+
+

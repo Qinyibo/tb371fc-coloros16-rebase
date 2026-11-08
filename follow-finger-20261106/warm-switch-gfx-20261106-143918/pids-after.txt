@@ -1,0 +1,12 @@
+﻿PID com.tencent.mm=38384
+PID com.ss.android.ugc.aweme=38384
+PID com.luna.music=38384
+
+Name                           Value                                                                                   
+----                           -----                                                                                   
+com.tencent.mm                 38384                                                                                   
+com.luna.music                 38384                                                                                   
+com.ss.android.ugc.aweme       38384                                                                                   
+
+
+

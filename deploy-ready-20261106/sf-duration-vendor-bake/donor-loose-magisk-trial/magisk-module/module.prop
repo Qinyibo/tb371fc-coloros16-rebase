@@ -1,0 +1,6 @@
+id=tb371fc_sf_duration_donor_loose
+name=TB371FC SF donor-loose duration trial
+version=v1
+versionCode=1
+author=tb371fc-grok
+description=Donor LOOSE durations 13666666/10500000 + flag=1; high_fps set to same loose (NOT hang 6944444/8500000). Disable+reboot restores.

@@ -1,0 +1,47 @@
+classes.dex: STATUS_ENABLE | TATUS_DEXOPT_MAX..STATUS_DEXOPT_UNKNOW..STATUS_ENABLE..STATUS_FACE_AUTH_SUCCESS..STATUS_FINGERPRINT_AUTH_SUCCESS.
+classes2.dex: STATUS_ENABLE | CEUNFZ..STATUS_DISABLE..STATUS_DISMISS..STATUS_ENABLE..STATUS_ERROR_DISCONNECTED..STATUS_ERROR_ENGINE_CLOSED..STA
+classes3.dex: FullOrientation | port  sResolutionSupport=.$ initActivityFullOrientation record=.. initDensityList error .F initOplusRefreshRatePoli
+classes3.dex: FullOrientation | tion: .., isForceDoCapturePackage=.., isFullOrientation: .., isFullScreen=.., isFullScreenWindow=.., isFullscreen: 
+classes3.dex: FullOrientation | deAnimation=.., mFtModifyMaxBounds=.., mFullOrientation = .., mFullscreen = .., mFuncVersion = .., mGameModeEvents=
+classes3.dex: FullOrientation | fNeed.0-$$Nest$mparseAllPackageConfigForFullOrientation..-$$Nest$mparseSafeInt..-$$Nest$mparseSafeString..-$$Nest$m
+classes3.dex: FullOrientationConfigs | actWindowConfigs.,-$$Nest$sfgetsDisabledFullOrientationConfigs.+-$$Nest$sfgetsDisabledParallelWindowConfigs.$-$$Nest$sfget
+classes3.dex: FullOrientationConfigs | ledParallelWindowConfigs.$-$$Nest$sfgetsFullOrientationConfigs..-$$Nest$sfgetsFuncEnable..-$$Nest$sfgetsHandler..-$$Nest$s
+classes3.dex: FullOrientation | ng=..; isFlexible: ..; isFolded = ..; isFullOrientation = ..; isHighLoading: ..; isNotSameComponent = ..; isOutSide
+classes3.dex: FullOrientationAppConfig | dicator..FullBgIndicatorSpringProperty..FullOrientationAppConfig..FullScreenCornerGesture..FullScreenMenuClicked..FullScreen
+classes3.dex: FullOrientationAppConfig | om/android/server/wm/parallelworld/OplusFullOrientationAppConfig$ActivityCreateOrientation;.CLcom/android/server/wm/parallel
+classes3.dex: FullOrientationAppConfig | om/android/server/wm/parallelworld/OplusFullOrientationAppConfig;.6Lcom/android/server/wm/parallelworld/OplusPWAppConfig;.EL
+classes3.dex: FullOrientationAppConfig | AndFlexibleTaskToSplitScreen.java."OplusFullOrientationAppConfig.java..OplusFullOrientationAppConfig{.*OplusFullScreenCutout
+classes3.dex: FullOrientationAppConfig | plusFullOrientationAppConfig.java..OplusFullOrientationAppConfig{.*OplusFullScreenCutoutDisplayRusHelper.java..OplusFullScre
+classes3.dex: FullOrientationAppConfig | nfigChangedListener..addFrtcRequest..addFullOrientationAppConfig.%addFullOrientationAppConfig pkgName: ..addFullScreenRatioI
+classes3.dex: FullOrientationAppConfig | equest..addFullOrientationAppConfig.%addFullOrientationAppConfig pkgName: ..addFullScreenRatioIfNeed..addGameHybridAccReques
+classes3.dex: FullOrientation | bleVisibleBounds..allFloatWinRateId..allFullOrientation..allFullTasks..allInVisible..allLogicalAnimationEnd..allMat
+classes3.dex: FullOrientation | oPackageAddAction.$doPackageAddActionForFullOrientation..doPackageFantasyVersionUpdate.$doPackageFantasyVersionUpda
+classes3.dex: FullOrientation | geStatusUpdate.'doPackageStatusUpdateForFullOrientation..doPendingActivityLaunches.!doPendingTransactionOnMiniAnimE
+classes3.dex: FullOrientation | Status selection = ."getPackageStatusForFullOrientation.+getPackageStatusForFullOrientation count = .)getPackageSta
+classes3.dex: FullOrientation | sForFullOrientation.+getPackageStatusForFullOrientation count = .)getPackageStatusForFullOrientation error:..getPac
+classes3.dex: FullOrientation | rientation count = .)getPackageStatusForFullOrientation error:..getPackageUid..getPackageUidAsUser..getPackageUidWi
+classes3.dex: FullOrientation | t..initActStartFreqControl..initActivityFullOrientation.#initActivityFullOrientation fixed: ..initActivityNormalOri
+classes3.dex: FullOrientation | nitActivityFullOrientation.#initActivityFullOrientation fixed: ..initActivityNormalOrientation..initAlpha..initAlph
+classes3.dex: FullOrientationWindow | ch = ..isEnabledCompactWindow..isEnabledFullOrientationWindow..isEnabledLowRate..isEnabledParallelWindow..isEncrypt..isEn
+classes3.dex: FullOrientation | FullBgIndicatorShow..isFullEncrypted..isFullOrientation..isFullOrientationActivity..isFullScreen..isFullScreenActiv
+classes3.dex: FullOrientationActivity | ..isFullEncrypted..isFullOrientation..isFullOrientationActivity..isFullScreen..isFullScreenActivity..isFullScreenActivityBy
+classes3.dex: FullOrientation | Anim2..mFullFlexibleTaskToSplitScreen..mFullOrientation..mFullScreenAppAnimStated..mFullScreenDisplay..mFullScreenD
+classes3.dex: FullOrientation | askDisplayAreaWhenColdInit..mIsFull..mIsFullOrientation..mIsFullOrientation =..mIsFullScreen."mIsFullscreenTaskIndi
+classes3.dex: FullOrientation | ldInit..mIsFull..mIsFullOrientation..mIsFullOrientation =..mIsFullScreen."mIsFullscreenTaskIndicatorDragging..mIsGa
+classes3.dex: FullOrientation | tAsUser error:.'parseAllPackageConfigForFullOrientation.$parseAlwaysFullOrientationActivities..parseAndUpdateList..
+classes3.dex: FullOrientationActivities | ageConfigForFullOrientation.$parseAlwaysFullOrientationActivities..parseAndUpdateList..parseAndUpdateList cmpName =:.FparseAn
+classes3.dex: FullOrientationConfigs | ledCompactWindowConfigs item:..sDisabledFullOrientationConfigs.%sDisabledFullOrientationConfigs item:..sDisabledParallelWi
+classes3.dex: FullOrientationConfigs | isabledFullOrientationConfigs.%sDisabledFullOrientationConfigs item:..sDisabledParallelWindowConfigs.$sDisabledParallelWin
+classes3.dex: FullOrientationConfigs | Failed..sFrameSkipEntryListSelfLocked..sFullOrientationConfigs..sFullOrientationConfigs item:..sFuncEnable..sGMSExt..sGame
+classes3.dex: FullOrientationConfigs | stSelfLocked..sFullOrientationConfigs..sFullOrientationConfigs item:..sFuncEnable..sGMSExt..sGameLastRateID..sGestureExclu
+classes3.dex: FullOrientation | oneDefault..setFtToFloatHotZoneMini..setFullOrientation..setFullScreenEncryptedInfo..setFullScreenState.;setFullScr
+classes3.dex: alwaysFullOrientActivities | tem: ..alwaysAliveEnabled..alwaysDebug..alwaysFullOrientActivities..alwaysOn..alwaysOnTop..alwaysShowIndicatorState..alwaysTru
+classes3.dex: isFullOrientation | tation: .., isForceDoCapturePackage=.., isFullOrientation: .., isFullScreen=.., isFullScreenWindow=.., isFullscreen: 
+classes3.dex: isFullOrientation | ting=..; isFlexible: ..; isFolded = ..; isFullOrientation = ..; isHighLoading: ..; isNotSameComponent = ..; isOutSide
+classes3.dex: isFullOrientation | isFullBgIndicatorShow..isFullEncrypted..isFullOrientation..isFullOrientationActivity..isFullScreen..isFullScreenActiv
+classes3.dex: isFullOrientationActivity | ow..isFullEncrypted..isFullOrientation..isFullOrientationActivity..isFullScreen..isFullScreenActivity..isFullScreenActivityBy
+classes3.dex: fullorientation | hold..debug.force.apply_postdraw.*debug.fullorientation.camstop_rotate_delay..debug.ime.lowerfps.allow..debug.os.pe
+classes3.dex: fullorientation | ullbg-indicator-sync-group..fullbounds..fullorientation..fullscreen..fullscreenBoundary..fullscreenBounds..fullscre
+classes3.dex: fullorientation | ..use_function in (".Kuse_function in ("fullorientation") AND installed =1 AND package_name in ( .@use_function in 
+classes3.dex: shouldOverrideOrientation | deToIme..shouldOrderLayerToImeInTablet..shouldOverrideOrientation..shouldPause..shouldPauseActivity..shouldPauseActivity peek
+classes3.dex: STATUS_ENABLE | SIONED..STATUS_DISABLE..STATUS_DISMISS..STATUS_ENABLE..STATUS_ENTER..STATUS_EXIT..STATUS_INIT..STATUS_INSTALLED..

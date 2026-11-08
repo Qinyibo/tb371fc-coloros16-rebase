@@ -1,0 +1,30 @@
+﻿"KEY_EXTREME_HIGH_REFRESH_RATE_LIST
+#SETTINGS_EXTREME_HIGH_ENABLE_ONLINE
+-$$Nest$misExtremeHighSettingOn
+(,getPreferredRefreshRateId  settingMode=
+, isExtremeHighSettingOn:
+;onChange, onExtremeHighSettingChange mExtremeHighSetting = 
+3oplus.software.performance.app_extreme_high_refresh
+Afeature oplus.software.performance.app_extreme_high_refresh exits
+app_extreme_high_refresh_switch
+ATTR_DEFAULT_RATE_ID
+ATTR_EXTREME_HIGH_ENABLE
+ATTR_EXTREME_HIGH_RATE_BOOST
+defaultMaxRateId
+Econtent://com.oplus.settings.app_extreme_high_refresh_switch.provider
+extreme_high_enable
+EXTREME_HIGH_SETTING
+EXTREME_HIGH_SETTING_ON
+extremeHighRefreshRateList
+extremeHighRefreshRateList = 
+getPreferredRefreshRateId
+Ifeature oplus.software.performance.app_extreme_high_refresh does not exit
+isExtremeHighSettingOn
+isExtremeHighSettingOn=
+MAX_REFRESH_RATE_ID
+mExtremeHighRateUri
+mExtremeHighSetting
+onExtremeHighSettingChange
+SETTING_MODE_144
+SUPPORT_EXTREME_HIGH_RATE
+TAG_EXTREME_HIGH_RATE

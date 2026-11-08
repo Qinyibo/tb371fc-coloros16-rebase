@@ -1,0 +1,83 @@
+﻿Applications Graphics Acceleration Info:
+Uptime: 564693 Realtime: 564693
+
+** Graphics info for pid 9376 [com.luna.music] **
+
+Stats since: 540409386824ns
+Total frames rendered: 411
+Janky frames: 134 (32.60%)
+Janky frames (legacy): 247 (60.10%)
+50th percentile: 12ms
+90th percentile: 38ms
+95th percentile: 93ms
+99th percentile: 200ms
+Number Missed Vsync: 52
+Number High input latency: 504
+Number Slow UI thread: 81
+Number Slow bitmap uploads: 53
+Number Slow issue draw commands: 103
+Number Frame deadline missed: 134
+Number Frame deadline missed (legacy): 126
+HISTOGRAM: 5ms=36 6ms=19 7ms=45 8ms=36 9ms=37 10ms=15 11ms=14 12ms=21 13ms=24 14ms=13 15ms=15 16ms=11 17ms=7 18ms=9 19ms=12 20ms=4 21ms=3 22ms=7 23ms=5 24ms=1 25ms=4 26ms=7 27ms=3 28ms=6 29ms=4 30ms=2 31ms=1 32ms=5 34ms=1 36ms=2 38ms=5 40ms=1 42ms=2 44ms=2 46ms=3 48ms=4 53ms=0 57ms=1 61ms=0 65ms=2 69ms=0 73ms=0 77ms=0 81ms=0 85ms=1 89ms=0 93ms=1 97ms=0 101ms=0 105ms=1 109ms=0 113ms=2 117ms=2 121ms=0 125ms=1 129ms=1 133ms=0 150ms=6 200ms=4 250ms=0 300ms=1 350ms=0 400ms=0 450ms=0 500ms=1 550ms=0 600ms=0 650ms=1 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+50th gpu percentile: 4ms
+90th gpu percentile: 7ms
+95th gpu percentile: 8ms
+99th gpu percentile: 11ms
+GPU HISTOGRAM: 1ms=1 2ms=107 3ms=43 4ms=74 5ms=59 6ms=38 7ms=62 8ms=13 9ms=7 10ms=2 11ms=1 12ms=0 13ms=0 14ms=0 15ms=2 16ms=0 17ms=0 18ms=0 19ms=0 20ms=1 21ms=0 22ms=1 23ms=0 24ms=0 25ms=0 4950ms=0
+
+Pipeline=Skia (OpenGL)
+Memory policy:
+  Max surface area: 5416960
+  Max resource usage: 780.04MB (x144)
+  Background retention: 50% (altUiHidden = true)
+  GPU Context timeout: 10
+Contexts: 1 (stopped = 1)
+CPU Caches:
+  Glyph Cache: 1.98 MB (1 entry)
+  Glyph Count: 265 
+Total CPU memory usage:
+  2074842 bytes, 1.98 MB (0.00 bytes is purgeable)
+GPU Caches:
+  Other:
+    Other: 0.00 bytes (1 entry)
+    Buffer Object: 24.00 KB (1 entry)
+  Image:
+    Texture: 16.23 MB (74 entries)
+  Scratch:
+    Texture: 6.45 MB (2 entries)
+    Buffer Object: 48.03 KB (2 entries)
+Total GPU memory usage:
+  23853548 bytes, 22.75 MB (20.70 MB is purgeable)
+
+Skia GPU memory Oplus dumper:
+GPU Caches:
+ 73760 bytes, 72.03 KB (24.00 KB is purgeable)
+  Buffer Object: 72.03 KB (3 entries)
+    skia/gpu_resources/resource_373  : size[24.00  KB   ] label[MakeGlBuffer] type[Buffer Object] category[Other] purgeable_size[24.00 KB]
+    skia/gpu_resources/resource_374  : size[32.00  bytes] type[Buffer Object] label[MakeGlBuffer] category[Scratch]
+    skia/gpu_resources/resource_21   : size[48.00  KB   ] type[Buffer Object] label[MakeGlBuffer] category[Scratch]
+Skia's Wrapped Objects:
+Total GPU memory usage:
+0.07 MB (24.00 KB is purgeable)
+
+
+GraphicBufferAllocator buffers:
+            Handle |         Size |     W (Stride) x H | Layers |   Format |      Usage | Requestor
+Total allocated by GraphicBufferAllocator (estimate): 0.00 KB
+Imported gralloc buffers:
+Total imported by gralloc: 0KiB
+
+Profile data in ms:
+
+	com.luna.music/com.luna.biz.main.main.MainActivity/android.view.ViewRootImpl@3bc6201 (visibility=8)
+View hierarchy:
+
+  com.luna.music/com.luna.biz.main.main.MainActivity/android.view.ViewRootImpl@3bc6201
+  959 views, 1462.14 kB of render nodes
+
+
+Total ViewRootImpl   : 1
+Total attached Views : 959
+Total RenderNode     : 1462.14 kB (used) / 1462.14 kB (capacity)
+
+

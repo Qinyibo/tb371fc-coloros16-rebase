@@ -1,0 +1,9 @@
+﻿tb371fc_dynframe_144
+tb371fc_luna_heap_offset_fix
+tb371fc_sf_duration_144
+tb371fc_sf_duration_donor_loose
+tb371fc_system_refresh_policy
+tb371fc_vrr_touchidle_off
+====
+*
+ENABLED

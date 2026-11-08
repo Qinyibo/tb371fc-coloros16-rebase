@@ -1,0 +1,4 @@
+﻿           app duration:   6944444 ns	         SF duration:   8500000 ns
+     early app duration:   6944444 ns	   early SF duration:   8500000 ns
+  GL early app duration:   6944444 ns	GL early SF duration:   8500000 ns
+mWorkDuration=6.94 mReadyDuration=8.50 last vsync time 10.14ms relative to now

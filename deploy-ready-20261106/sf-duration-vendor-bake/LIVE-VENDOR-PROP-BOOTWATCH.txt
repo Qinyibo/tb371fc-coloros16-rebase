@@ -1,0 +1,8 @@
+18:27:43 devices=List of devices attached |  boot=
+18:27:48 devices=List of devices attached |  boot=
+18:27:53 devices=List of devices attached |  boot=
+18:27:58 devices=List of devices attached |  boot=
+18:28:03 devices=List of devices attached | HA1W0JA3	device |  boot=
+18:28:08 devices=List of devices attached | HA1W0JA3	device |  boot=
+18:28:14 devices=List of devices attached | HA1W0JA3	device |  boot=
+18:28:19 devices=List of devices attached | HA1W0JA3	device |  boot=1

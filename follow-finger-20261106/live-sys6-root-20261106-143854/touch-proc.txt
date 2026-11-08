@@ -1,0 +1,7 @@
+﻿NVTSPI
+nvt_baseline
+nvt_diff
+nvt_fw_status
+nvt_fw_version
+nvt_pen_diff
+nvt_raw

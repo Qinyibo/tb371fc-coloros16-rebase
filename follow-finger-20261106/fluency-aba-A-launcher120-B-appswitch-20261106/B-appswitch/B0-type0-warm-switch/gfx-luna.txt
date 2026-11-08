@@ -1,0 +1,120 @@
+Applications Graphics Acceleration Info:
+Uptime: 66189 Realtime: 66189
+
+** Graphics info for pid 8911 [com.luna.music] **
+
+Stats since: 59582885601ns
+Total frames rendered: 174
+Janky frames: 92 (52.87%)
+Janky frames (legacy): 121 (69.54%)
+50th percentile: 15ms
+90th percentile: 121ms
+95th percentile: 250ms
+99th percentile: 350ms
+Number Missed Vsync: 51
+Number High input latency: 167
+Number Slow UI thread: 70
+Number Slow bitmap uploads: 47
+Number Slow issue draw commands: 75
+Number Frame deadline missed: 92
+Number Frame deadline missed (legacy): 85
+HISTOGRAM: 5ms=4 6ms=5 7ms=5 8ms=6 9ms=22 10ms=21 11ms=8 12ms=6 13ms=3 14ms=5 15ms=4 16ms=1 17ms=4 18ms=0 19ms=3 20ms=2 21ms=3 22ms=2 23ms=1 24ms=3 25ms=1 26ms=6 27ms=1 28ms=1 29ms=2 30ms=0 31ms=1 32ms=1 34ms=1 36ms=2 38ms=3 40ms=1 42ms=2 44ms=0 46ms=0 48ms=8 53ms=1 57ms=1 61ms=3 65ms=1 69ms=1 73ms=2 77ms=0 81ms=3 85ms=2 89ms=0 93ms=1 97ms=1 101ms=1 105ms=0 109ms=0 113ms=0 117ms=1 121ms=1 125ms=2 129ms=0 133ms=0 150ms=1 200ms=5 250ms=4 300ms=1 350ms=4 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+50th gpu percentile: 4ms
+90th gpu percentile: 7ms
+95th gpu percentile: 10ms
+99th gpu percentile: 24ms
+GPU HISTOGRAM: 1ms=0 2ms=23 3ms=22 4ms=54 5ms=37 6ms=16 7ms=8 8ms=4 9ms=1 10ms=1 11ms=0 12ms=0 13ms=1 14ms=0 15ms=0 16ms=0 17ms=1 18ms=0 19ms=1 20ms=1 21ms=1 22ms=0 23ms=0 24ms=2 25ms=1 4950ms=0
+
+Pipeline=Skia (OpenGL)
+Memory policy:
+  Max surface area: 5416960
+  Max resource usage: 780.04MB (x144)
+  Background retention: 50% (altUiHidden = true)
+  GPU Context timeout: 10
+Contexts: 1 (stopped = 0)
+CPU Caches:
+  Glyph Cache: 713.29 KB (1 entry)
+  Glyph Count: 109 
+Total CPU memory usage:
+  730411 bytes, 713.29 KB (0.00 bytes is purgeable)
+GPU Caches:
+  Other:
+    Other: 14.14 KB (1 entry)
+    Buffer Object: 24.00 KB (1 entry)
+  Image:
+    Texture: 25.27 MB (73 entries)
+  Scratch:
+    RenderTarget: 87.27 MB (17 entries)
+    Texture: 11.96 MB (17 entries)
+    Buffer Object: 48.03 KB (2 entries)
+Total GPU memory usage:
+  130627680 bytes, 124.58 MB (85.09 MB is purgeable)
+
+Skia GPU memory Oplus dumper:
+GPU Caches:
+ 91578400 bytes, 87.34 MB (65.12 MB is purgeable)
+  RenderTarget: 87.27 MB (17 entries)
+    skia/gpu_resources/resource_683/texture_renderbuffer: size[20.84  MB   ] type[RenderTarget] label[MakeDevice/ResourceAllocatorRegister] category[Scratch] purgeable_size[20.84 MB] Dimensions[2944:1856]
+    skia/gpu_resources/resource_684/texture_renderbuffer: size[20.84  MB   ] type[RenderTarget] label[MakeDevice/ResourceAllocatorRegister] category[Scratch] purgeable_size[20.84 MB] Dimensions[2944:1856]
+    skia/gpu_resources/resource_838/texture_renderbuffer: size[1.22   MB   ] type[RenderTarget] label[MakeDevice/ResourceAllocatorRegister] category[Scratch] purgeable_size[1.22 MB] Dimensions[2496:128]
+    skia/gpu_resources/resource_430/texture_renderbuffer: size[144.00 KB   ] Dimensions[192:192] type[RenderTarget] label[MakeDevice/ResourceAllocatorRegister] category[Scratch]
+    skia/gpu_resources/resource_847/texture_renderbuffer: size[192.00 KB   ] Dimensions[384:128] type[RenderTarget] label[MakeDevice/ResourceAllocatorRegister] category[Scratch]
+    skia/gpu_resources/resource_429/texture_renderbuffer: size[144.00 KB   ] Dimensions[192:192] type[RenderTarget] label[MakeDevice/ResourceAllocatorRegister] category[Scratch]
+    skia/gpu_resources/resource_817/texture_renderbuffer: size[20.84  MB   ] type[RenderTarget] label[MakeDevice/ResourceAllocatorRegister] category[Scratch] purgeable_size[20.84 MB] Dimensions[2944:1856]
+    skia/gpu_resources/resource_425/texture_renderbuffer: size[144.00 KB   ] Dimensions[192:192] type[RenderTarget] label[MakeDevice/ResourceAllocatorRegister] category[Scratch]
+    skia/gpu_resources/resource_431/texture_renderbuffer: size[64.00  KB   ] Dimensions[256:64] type[RenderTarget] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_424/texture_renderbuffer: size[20.84  MB   ] Dimensions[2944:1856] type[RenderTarget] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_427/texture_renderbuffer: size[144.00 KB   ] Dimensions[192:192] type[RenderTarget] label[MakeDevice/ResourceAllocatorRegister] category[Scratch]
+    skia/gpu_resources/resource_428/texture_renderbuffer: size[144.00 KB   ] Dimensions[192:192] type[RenderTarget] label[MakeDevice/ResourceAllocatorRegister] category[Scratch]
+    skia/gpu_resources/resource_426/texture_renderbuffer: size[144.00 KB   ] Dimensions[192:192] type[RenderTarget] label[MakeDevice/ResourceAllocatorRegister] category[Scratch]
+    skia/gpu_resources/resource_441/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] label[SurfaceDrawContext_ConvolveGaussian/ResourceAllocatorRegister] category[Scratch] purgeable_size[64.00 KB] Dimensions[256:64]
+    skia/gpu_resources/resource_837/texture_renderbuffer: size[1.22   MB   ] type[RenderTarget] label[MakeDevice/ResourceAllocatorRegister] category[Scratch] purgeable_size[1.22 MB] Dimensions[2496:128]
+    skia/gpu_resources/resource_432/texture_renderbuffer: size[240.00 KB   ] Dimensions[320:192] type[RenderTarget] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_440/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] label[RescaledSurfaceDrawContext/ResourceAllocatorRegister] category[Scratch] purgeable_size[64.00 KB] Dimensions[256:64]
+  Buffer Object: 72.03 KB (3 entries)
+    skia/gpu_resources/resource_120  : size[24.00  KB   ] type[Buffer Object] label[MakeGlBuffer] category[Other] purgeable_size[24.00 KB]
+    skia/gpu_resources/resource_61   : size[32.00  bytes] type[Buffer Object] label[MakeGlBuffer] category[Scratch]
+    skia/gpu_resources/resource_21   : size[48.00  KB   ] type[Buffer Object] label[MakeGlBuffer] category[Scratch]
+Skia's Wrapped Objects:
+Total GPU memory usage:
+87.34 MB (65.12 MB is purgeable)
+
+
+GraphicBufferAllocator buffers:
+            Handle |         Size |     W (Stride) x H | Layers |   Format |      Usage | Requestor
+      0x6bf47c1340 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[MainActivity]#3(BLAST Consumer)3
+      0x6bf47c13b0 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[MainActivity]#3(BLAST Consumer)3
+      0x6bf47c1420 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[MainActivity]#3(BLAST Consumer)3
+      0x6bf47c1490 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[MainActivity]#3(BLAST Consumer)3
+      0x701ec54d30 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[MainActivity]#3(BLAST Consumer)3
+      0x701ec550b0 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[MainActivity]#3(BLAST Consumer)3
+Total allocated by GraphicBufferAllocator (estimate): 126960.00 KB
+Imported gralloc buffers:
++ name:VRI[MainActivity]#3(BLAST Consumer)3, id:299, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[MainActivity]#3(BLAST Consumer)3, id:282, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[MainActivity]#3(BLAST Consumer)3, id:300, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[MainActivity]#3(BLAST Consumer)3, id:283, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[MainActivity]#3(BLAST Consumer)3, id:281, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[MainActivity]#3(BLAST Consumer)3, id:280, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
+Total imported by gralloc: 127488.00KiB
+
+Profile data in ms:
+
+	com.luna.music/com.luna.biz.main.main.MainActivity/android.view.ViewRootImpl@c848d85 (visibility=0)
+View hierarchy:
+
+  com.luna.music/com.luna.biz.main.main.MainActivity/android.view.ViewRootImpl@c848d85
+  959 views, 1677.11 kB of render nodes
+
+
+Total ViewRootImpl   : 1
+Total attached Views : 959
+Total RenderNode     : 1677.11 kB (used) / 3818.64 kB (capacity)
+
+

@@ -1,0 +1,21 @@
+﻿Starting: Intent { cmp=com.ss.android.ugc.aweme/.splash.SplashActivity }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: com.ss.android.ugc.aweme/.main.MainActivity
+WaitTime: 3025
+Complete
+Starting: Intent { cmp=com.ss.android.ugc.aweme/.splash.SplashActivity }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: com.ss.android.ugc.aweme/.main.MainActivity
+WaitTime: 3024
+Complete
+Starting: Intent { cmp=com.ss.android.ugc.aweme/.splash.SplashActivity }
+Warning: Activity not started, its current task has been brought to the front
+Status: ok
+LaunchState: UNKNOWN (0)
+Activity: com.ss.android.ugc.aweme/.main.MainActivity
+WaitTime: 3021
+Complete

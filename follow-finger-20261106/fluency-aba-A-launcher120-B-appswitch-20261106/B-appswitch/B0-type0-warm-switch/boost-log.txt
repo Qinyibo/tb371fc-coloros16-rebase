@@ -1,0 +1,4 @@
+11-06 21:01:20.544  2224  3523 D RefreshRate: don't do app switch boost,mPickRefreshRateData is:com.android.server.wm.OplusRefreshRatePolicyImpl$PickRefreshRateData@47a1d1b mLastPickedWin is:null
+11-06 21:01:23.160  2224  3360 D RefreshRate: don't do app switch boost,mPickRefreshRateData is:com.android.server.wm.OplusRefreshRatePolicyImpl$PickRefreshRateData@47a1d1b mLastPickedWin is:null
+11-06 21:01:26.130  2224  2256 D RefreshRate: don't do app switch boost,mPickRefreshRateData is:com.android.server.wm.OplusRefreshRatePolicyImpl$PickRefreshRateData@47a1d1b mLastPickedWin is:null
+11-06 21:01:27.631  2224  3523 D RefreshRate: don't do app switch boost,mPickRefreshRateData is:com.android.server.wm.OplusRefreshRatePolicyImpl$PickRefreshRateData@47a1d1b mLastPickedWin is:null

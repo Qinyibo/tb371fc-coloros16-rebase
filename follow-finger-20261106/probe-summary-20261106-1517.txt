@@ -1,0 +1,284 @@
+==== sf-key-20261106-1517.txt ====
+activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+mWorkDuration=8.89 mReadyDuration=10.94 last vsync time 18.61ms relative to now
+workDuration: 10.94ms readyDuration: 0.00ms lastVsync: -9.41ms relative to now committedVsync: -9.41ms relative to now
+workDuration: 8.89ms readyDuration: 10.94ms lastVsync: 18.33ms relative to now committedVsync: 18.33ms relative to now
+workDuration: 16.67ms readyDuration: 15.67ms lastVsync: -674772.06ms relative to now committedVsync: -674772.06ms relative to now
+activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+
+==== sf-props-20261106-1517.txt ====
+ro.surface_flinger.set_touch_timer_ms=2000
+ro.surface_flinger.set_idle_timer_ms=2000
+ro.surface_flinger.game_default_frame_rate_override=60
+ro.surface_flinger.max_frame_buffer_acquired_buffers=
+debug.sf.set_idle_timer_ms=
+debug.sf.high_fps_late_sf_phase_offset_ns=-4000000
+debug.sf.high_fps_late_app_phase_offset_ns=1000000
+debug.sf.late.sf.duration=
+debug.sf.late.app.duration=
+debug.sf.early.sf.duration=
+debug.sf.early.app.duration=
+debug.sf.earlyGl.sf.duration=
+debug.sf.earlyGl.app.duration=
+debug.sf.phase_offset_threshold_for_next_vsync_ns=
+debug.sf.use_phase_offsets_as_durations=
+debug.sf.enable_gl_backpressure=1
+debug.sf.predict_hwc_composition_strategy=
+persist.sys.sf.color_mode=0
+vendor.display.enable_optimal_refresh_rate=
+ro.vendor.display.vrr=
+[audio.offload.min.duration.secs]: [30]
+[debug.sf.bq_blocked_pid]: [1858]
+[debug.sf.debug_hang]: [false]
+[debug.sf.disable_client_composition_cache]: [0]
+[debug.sf.enable_advanced_sf_phase_offset]: [1]
+[debug.sf.enable_gl_backpressure]: [1]
+[debug.sf.enable_hwc_vds]: [0]
+[debug.sf.framefinder.status]: [0]
+[debug.sf.high_fps_early_gl_phase_offset_ns]: [-4000000]
+[debug.sf.high_fps_early_phase_offset_ns]: [-4000000]
+[debug.sf.high_fps_late_app_phase_offset_ns]: [1000000]
+[debug.sf.high_fps_late_sf_phase_offset_ns]: [-4000000]
+[debug.sf.hw]: [0]
+[debug.sf.ignore_hwc_physical_display_orientation]: [true]
+[debug.sf.latch_unsignaled]: [1]
+[debug.sf.load_dpp_lib]: [0]
+[debug.sf.oplus_display_trace.enable]: [1]
+[ro.surface_flinger.force_hwc_copy_for_virtual_displays]: [true]
+[ro.surface_flinger.game_default_frame_rate_override]: [60]
+[ro.surface_flinger.has_HDR_display]: [true]
+[ro.surface_flinger.has_wide_color_display]: [true]
+[ro.surface_flinger.primary_display_orientation]: [ORIENTATION_270]
+[ro.surface_flinger.protected_contents]: [true]
+[ro.surface_flinger.set_idle_timer_ms]: [2000]
+[ro.surface_flinger.set_touch_timer_ms]: [2000]
+[ro.surface_flinger.use_color_management]: [true]
+[ro.surface_flinger.wcg_composition_dataspace]: [143261696]
+
+==== sf-live-filter-20261106-1517.txt ====
+Build configuration: [sf PRESENT_TIME_OFFSET=0 FORCE_HWC_FOR_RBG_TO_YUV=1 MAX_VIRT_DISPLAY_DIM=0 RUNNING_WITHOUT_SYNC_FRAMEWORK=0 NUM_FRAMEBUFFER_SURFACE_BUFFERS=2]
+    PresentFences=true
+	GameFrameRateOverrides=
+FrameRateOverrides=none
+           app phase:      1000000 ns	         SF phase:     -4000000 ns
+           app duration:   8888888 ns	         SF duration:  10944444 ns
+     early app phase:      1000000 ns	   early SF phase:     -4000000 ns
+     early app duration:   8888888 ns	   early SF duration:  10944444 ns
+  GL early app phase:      1000000 ns	GL early SF phase:     -4000000 ns
+  GL early app duration:   8888888 ns	GL early SF duration:  10944444 ns
+       HWC min duration:         0 ns
+    activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=0, hwcId=0, resolution=2944x1840, vsyncRate=120.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=2, hwcId=2, resolution=2944x1840, vsyncRate=60.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=3, hwcId=3, resolution=2944x1840, vsyncRate=30.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+    frameRateOverrideConfig=Enabled
+HWVsyncSuppressed: off
+SWIdealPeriod: 0
+    FakeVsyncCount: 0
+app: state=VSync VSyncState={displayId=4630947161651687041, count=108371}
+mWorkDuration=8.89 mReadyDuration=10.94 last vsync time 18.61ms relative to now
+ with vsync committed at 18.61ms  pending events (count=0):
+    Connection{0xb400006f7503ea00, 2231, VSyncRequest::None}
+    Connection{0xb400006f7503eac0, 2231, VSyncRequest::None}
+    Connection{0xb400006f5d578640, 2231, VSyncRequest::None}
+    Connection{0xb400006f5d5c6cc0, 2231, VSyncRequest::None}
+    Connection{0xb400006f5d5c8280, 2231, VSyncRequest::None}
+    Connection{0xb400006f3ac86600, 2231, VSyncRequest::None}
+    Connection{0xb400006f3b3f6c40, 2231, VSyncRequest::None}
+    Connection{0xb400006f5d5787c0, 2231, VSyncRequest::None}
+    Connection{0xb400006f5d578880, 2823, VSyncRequest::None}
+    Connection{0xb400006f3b3f6e80, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b3f6f40, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b031300, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b267080, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b0313c0, 3103, VSyncRequest::None}
+    Connection{0xb400006f3b031480, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b031540, 3103, VSyncRequest::None}
+    Connection{0xb400006f3b0316c0, 3208, VSyncRequest::None}
+    Connection{0xb400006f3b031780, 3367, VSyncRequest::None}
+    Connection{0xb400006f5d5c6240, 3295, VSyncRequest::None}
+    Connection{0xb400006f3b031900, 3208, VSyncRequest::None}
+    Connection{0xb400006f3b3f6d00, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b266fc0, 4009, VSyncRequest::None}
+    Connection{0xb400006f7503e700, 3103, VSyncRequest::None}
+    Connection{0xb400006f7503e880, 4402, VSyncRequest::None}
+    Connection{0xb400006f3b106380, 2909, VSyncRequest::None}
+    Connection{0xb400006f3b3f49c0, 4735, VSyncRequest::None}
+    Connection{0xb400006f7503ec40, 4609, VSyncRequest::None}
+    Connection{0xb400006f3b105f00, 3899, VSyncRequest::None}
+    Connection{0xb400006f38af9180, 4898, VSyncRequest::None}
+    Connection{0xb400006f5d490700, 5292, VSyncRequest::None}
+    Connection{0xb400006f3aff5ec0, 5483, VSyncRequest::None}
+    Connection{0xb400006f38af9600, 6712, VSyncRequest::None}
+    Connection{0xb400006f38af96c0, 7038, VSyncRequest::None}
+    Connection{0xb400006f38af9a80, 5588, VSyncRequest::None}
+    Connection{0xb400006f38af9b40, 5588, VSyncRequest::None}
+    Connection{0xb400006f5d490b80, 9321, VSyncRequest::None}
+    Connection{0xb400006f5d490d00, 9321, VSyncRequest::None}
+    Connection{0xb400006f3e5ae380, 2231, VSyncRequest::None}
+    Connection{0xb400006f3e5aebc0, 2909, VSyncRequest::None}
+    Connection{0xb400006f49fad6c0, 9890, VSyncRequest::None}
+    Connection{0xb400006f38af9e40, 2231, VSyncRequest::None}
+    Connection{0xb400006f38af9000, 9890, VSyncRequest::None}
+    Connection{0xb400006f38af93c0, 9321, VSyncRequest::None}
+    Connection{0xb400006f5d4d3180, 9321, VSyncRequest::None}
+    Connection{0xb400006f38af99c0, 2909, VSyncRequest::None}
+    Connection{0xb400006f3ac88580, 9289, VSyncRequest::Single}
+    Connection{0xb400006f38afa140, 9289, VSyncRequest::None}
+    Connection{0xb400006f38afa200, 9289, VSyncRequest::None}
+    Connection{0xb400006f3aff6880, 11710, VSyncRequest::None}
+    Connection{0xb400006f3ac86480, 11665, VSyncRequest::None}
+    Connection{0xb400006f3aff6dc0, 11665, VSyncRequest::None}
+    Connection{0xb400006f5d490940, 17627, VSyncRequest::None}
+    Connection{0xb400006f5d490a00, 18372, VSyncRequest::None}
+    Connection{0xb400006f7503e940, 18354, VSyncRequest::None}
+  DynamicAppVsyncEnable=false
+  OplusSkipSyntheticVsync=false
+VsyncSchedule for pacesetter 4630947161651687041:
+hwVsyncState=Disabled
+pendingHwVsyncState=Disabled
+VsyncController:
+VsyncReactor in use
+mMoreSamplesNeeded=0 mPeriodConfirmationInProgress=0
+No Last HW vsync
+VSyncTracker:
+	mDisplayModePtr={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+		For ideal period 16.67ms: period = 16.67ms, intercept = 0
+		For ideal period 6.94ms: period = 6.94ms, intercept = 1565
+		For ideal period 8.33ms: period = 8.33ms, intercept = 0
+VsyncDispatch:
+	mTimerSlack: 0.50ms mMinVsyncDistance: 3.00ms
+			workDuration: 10.94ms readyDuration: 0.00ms lastVsync: -9.41ms relative to now committedVsync: -9.41ms relative to now
+		app:  [wake up in 5.44ms deadline in 14.33ms for vsync 25.28ms from now]
+			workDuration: 8.89ms readyDuration: 10.94ms lastVsync: 18.33ms relative to now committedVsync: 18.33ms relative to now
+			workDuration: 16.67ms readyDuration: 15.67ms lastVsync: -674772.06ms relative to now committedVsync: -674772.06ms relative to now
+    input{(0x0) canOccludePresentation touchCropId=147 touchableRegion={0,0,2944,1840}}
+    input{(NOT_FOCUSABLE | NOT_TOUCHABLE | TRUSTED_OVERLAY) canOccludePresentation touchableRegion={1822,315,529,1840}}
+    input{(NOT_FOCUSABLE | NOT_TOUCHABLE | TRUSTED_OVERLAY) canOccludePresentation touchableRegion={1822,315,529,1840}}
+    input{(0x0) canOccludePresentation touchCropId=147 touchableRegion={0,0,2944,1840}}
+    input{(NO_INPUT_CHANNEL | NOT_VISIBLE | TRUSTED_OVERLAY) canOccludePresentation touchableRegion={0,0,0,0}}
+    input{(NOT_VISIBLE | NOT_FOCUSABLE | NOT_TOUCHABLE | TRUSTED_OVERLAY) canOccludePresentation touchableRegion={0,0,0,0}}
+ │  │  │        │  │  │        └─ com.android.launcher/com.android.launcher.Launcher#112 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::NoPreference} pid=3208 uid=10108 z=0
+ │  │  │        │     │  │  ├─ com.luna.music/com.luna.biz.main.main.MainActivity#729 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::Normal} pid=9289 uid=10337 z=0
+ │  │  │        │              └─ Caption of Task=265#736 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::NoPreference} pid=2909 uid=10116 z=0
+ │  │  │        │        └─ OplusOSEdgeFloatBar#108 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::NoPreference} pid=5588 uid=10280 z=0
+ │  │  │              └─ StatusBar#86 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::NoPreference} pid=2909 uid=10116 z=0
+ │  │  │                 └─ StatusBar InputLayer of Task=265#730 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::NoPreference} pid=2909 uid=10116 z=0
+ │  │  │           └─ Taskbar#100 requestedFrameRate: {0.00 Hz FrameRateCompatibility::Default FrameRateCategory::NoPreference} pid=3208 uid=10108 z=0
+  max send vsync id: -1
+    activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=0, hwcId=0, resolution=2944x1840, vsyncRate=120.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=2, hwcId=2, resolution=2944x1840, vsyncRate=60.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=3, hwcId=3, resolution=2944x1840, vsyncRate=30.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+    frameRateOverrideConfig=Enabled
+EGL_ANDROID_front_buffer_auto_refresh EGL_ANDROID_get_native_client_buffer EGL_ANDROID_presentation_time EGL_EXT_surface_CTA861_3_metadata EGL_EXT_surface_SMPTE2086_metadata EGL_KHR_get_all_proc_addresses EGL_KHR_swap_buffers_with_damage EGL_ANDROID_get_frame_timestamps EGL_EXT_gl_colorspace_scrgb EGL_EXT_gl_colorspace_scrgb_linear EGL_EXT_gl_colorspace_display_p3_linear EGL_EXT_gl_colorspace_display_p3 EGL_EXT_gl_colorspace_display_p3_passthrough EGL_EXT_gl_colorspace_bt2020_hlg EGL_EXT_gl_colorspace_bt2020_linear EGL_EXT_gl_colorspace_bt2020_pq EGL_ANDROID_image_native_buffer EGL_ANDROID_native_fence_sync EGL_ANDROID_recordable EGL_EXT_create_context_robustness EGL_EXT_image_gl_colorspace EGL_EXT_pixel_format_float EGL_EXT_protected_content EGL_EXT_yuv_surface EGL_IMG_context_priority EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image EGL_KHR_image_base EGL_KHR_lock_surface EGL_KHR_mutable_render_buffer EGL_KHR_no_config_context EGL_KHR_partial_update EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_KHR_wait_sync 
+        Uniform:u_ripple_time_offset      type:float    len:1   v:0.25
+        Uniform:u_ripple_time_offset      type:float    len:1   v:0.15
+        Uniform:u_ripple_time_offset      type:float    len:1   v:0.0
+        Uniform:u_ripple_time_offset      type:float    len:1   v:0.07
+        Uniform:u_ripple_time_offset      type:float    len:1   v:0.0
+        ParameterRule[0]:effect, parameter_id, state, action, parameter, u_time, u_density, uRippleSource, uMinRadius, uRadius, uAmplitude, uRipples, uFadingFactor, uFadingFactor2, uOffset, uColorFullAlpha, uRotateSpeed, uAngleS, uAngleE
+        Uniform:uOffset                   type:float    len:1   v:10.0
+        ParameterRule[0]:effect, parameter_id, state, action, parameter, u_time, u_density, _HaloStartPoint, _HaloEndPoint, _HaloOffset_x, _HaloOffset_y, _HaloStart, _HaloSpace, _HaloFadeRangeE, _HaloAlpha, _WaveStartPoint, _WaveEndPoint, _WaveOffset_x, _WaveOffset_y, _WaveHaloStart, _WaveHaloSpaceS, _WaveHaloSpaceE, _WaveIntensity, _WaveIntensityX, _WaveIntensityY
+        Uniform:_WaveOffset_y             type:float    len:1   v:0.0
+        Uniform:_WaveOffset_x             type:float    len:1   v:0.0
+        Uniform:_HaloOffset_y             type:float    len:1   v:0.0
+        Uniform:u_offset_angle            type:float    len:1   v:203.0
+        Uniform:u_offset_y                type:float    len:1   v:0.406
+        Uniform:_HaloOffset_x             type:float    len:1   v:0.0
+        Uniform:u_offset_x                type:float    len:1   v:0.124
+state: 1 vsync on: 0 max. mixer stages: 11
+ vsync_period 6944444 v_back_porch: 182 v_front_porch: 26 v_pulse_width: 2
+vsync_predictor_recovery: false
+allow_n_vsyncs_in_targeter: true
+arr_setframerate_gte_enum: true
+deprecate_vsync_sf: false
+disable_synthetic_vsync_for_performance: true
+no_vsyncs_on_screen_off: false
+==== screenmode-live-20261106-1517.txt ====
+Current Version:20260107
+Config{ mEnableRateOverride=true mEnableFodHighRate=true mVoiceSceneLowRate=true mVoiceSceneLowRateDelay=500 mMaxRefreshSettings=4 mIpePencilRateId=3 mAppSwitchBoost=true mAppSwitchBoostType=0 mAppSwitchBoostMaxTemp=47 mDefaultRateId=[4, 4, 2, 4] mDefaultMaxRate=144.0 mDisableViewOverrideDefaultValue=false mExtremeHighEnable=true}
+mCurrentPickMode=4
+mCurrentDefaultRateId =4
+mCurrentResolution=Point(1840, 2944)
+mCurrentScreenMode=0
+mPanelRateData = RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}
+mCurrentPickRate=144.00002
+mPreferredRefreshRateId:null
+{mSupportAdfrV32Lp=true,mSupportAdfrV32Hp=false,mAdfrV32DirectorEnable=true,mCurrentFrtcRate=0.0,mCurrentDirectorState=0,mLastDirectorState=0,mSimulateV32frtcResult=true}
+    | COURSE[;control panel:4,data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}]
+  VERSION = 2025120410
+==== magisk-disable-20261106-1517.txt ====
+total 18
+
+drwxr-xr-x 6 root root 3452 1970-01-07 04:22 .
+
+drwx------ 7 root root 3452 1970-01-07 04:22 ..
+
+drwxr-xr-x 3 root root 3452 2026-11-06 14:49 tb371fc_dynframe_144
+
+drwxr-xr-x 2 root root 3452 1970-01-07 03:06 tb371fc_luna_heap_offset_fix
+
+drwxr-xr-x 2 root root 3452 1970-01-07 03:32 tb371fc_system_refresh_policy
+
+drwxr-xr-x 3 root root 3452 2026-11-06 15:07 tb371fc_vrr_touchidle_off
+
+
+ERR:
+ls: /data/adb/modules/*/disable: Permission denied
+
+
+==== blackscreen-ring-status-20261106-1517.txt ====
+
+
+--- raw ls ---
+USER           PID  PPID        VSZ    RSS WCHAN            ADDR S NAME                       
+root             1     0    2326064   7152 0                   0 S init
+root             2     0          0      0 0                   0 S [kthreadd]
+root             3     2          0      0 0                   0 I [rcu_gp]
+root             4     2          0      0 0                   0 I [rcu_par_gp]
+root             5     2          0      0 0                   0 I [kworker/0:0-events]
+root             6     2          0      0 0                   0 I [kworker/0:0H-events_highpri]
+root             7     2          0      0 0                   0 S [kworker/u16:0+LPASS_CNTL]
+root             8     2          0      0 0                   0 I [mm_percpu_wq]
+root             9     2          0      0 0                   0 S [ksoftirqd/0]
+root            10     2          0      0 0                   0 I [rcu_preempt]
+root            11     2          0      0 0                   0 I [rcu_sched]
+root            12     2          0      0 0                   0 I [rcu_bh]
+root            13     2          0      0 0                   0 S [rcuop/0]
+root            14     2          0      0 0                   0 S [rcuos/0]
+root            15     2          0      0 0                   0 R [kworker/0:1-events]
+root            16     2          0      0 0                   0 S [rcuob/0]
+root            17     2          0      0 0                   0 S [migration/0]
+root            18     2          0      0 0                   0 S [cpuhp/0]
+root            19     2          0      0 0                   0 S [cpuhp/1]
+root            20     2          0      0 0                   0 S [migration/1]
+root            21     2          0      0 0                   0 S [ksoftirqd/1]
+root            22     2          0      0 0                   0 I [kworker/1:0-events]
+root            23     2          0      0 0                   0 I [kworker/1:0H-events_highpri]
+root            24     2          0      0 0                   0 S [rcuop/1]
+root            25     2          0      0 0                   0 S [rcuos/1]
+root            26     2          0      0 0                   0 S [rcuob/1]
+root            27     2          0      0 0                   0 S [cpuhp/2]
+root            28     2          0      0 0                   0 S [migration/2]
+root            29     2          0      0 0                   0 S [ksoftirqd/2]
+root            31     2          0      0 0                   0 I [kworker/2:0H-events_highpri]
+root            32     2          0      0 0                   0 S [rcuop/2]
+root            33     2          0      0 0                   0 S [rcuos/2]
+root            34     2          0      0 0                   0 S [rcuob/2]
+root            35     2          0      0 0                   0 S [cpuhp/3]
+root            36     2          0      0 0                   0 S [migration/3]
+root            37     2          0      0 0                   0 S [ksoftirqd/3]
+root            38     2          0      0 0                   0 I [kworker/3:0-events]
+root            39     2          0      0 0                   0 I [kworker/3:0H-events_highpri]
+root            40     2          0      0 0                   0 S [rcuop/3]
+==== refresh-md5-live-20261106-1517.txt ====
+35db38f8c85758c372546c707513642c  /my_product/etc/refresh_rate_config.xml
+
+
+md5sum: /data/adb/modules/tb371fc_system_refresh_policy/system/my_product/etc/refresh_rate_config.xml: Permission denied
+
+ls: /data/adb/modules/tb371fc_system_refresh_policy/: Permission denied
+

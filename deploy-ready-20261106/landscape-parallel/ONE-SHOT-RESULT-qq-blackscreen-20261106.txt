@@ -1,0 +1,4 @@
+﻿ONE-SHOT 2026-11-06 ~22:50 HKT
+A) QQ deep: WeChat=app TaskFragment+EmptyActivity; QQ v2 GuildBlank dual struct but unfocusable; v3 current opens magic single-pane; true L/R dual not product-achievable for QQ 9.3.80 here without proper EmptyActivity. Docs: landscape-parallel\qq-parallel-deep-20261106\STATUS-qq-parallel-deep-20261106.md
+B) Blackscreen: soft R107 panel unblank; reboot fix; long-term=kernel/panel; not parallel. Docs: blackscreen\STATUS-blackscreen-longterm-20261106.md
+KEEP T2/FWUI/type=2. hardware_success_claimed=false

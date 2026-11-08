@@ -1,0 +1,14 @@
+﻿id=tb371fc_luna_heap_offset_fix
+name=TB371FC Luna heap offset fix (path B disable applyNative)
+version=v1-pathB
+versionCode=2
+author=tibo
+description=Interim: disable applyNative until ART/runtime policy fixed. Not a fluency patch. hardware_success_claimed=false
+
+id=tb371fc_system_refresh_policy
+name=TB371FC system refresh policy (144 product config)
+version=v4d
+versionCode=6
+author=tibo
+description=v4d: v4c + product rateId high-tier 3->4 (1001 items); no separate per-app module
+

@@ -1,0 +1,15 @@
+* Task{d8cffc4 #70 type=standard A=10336:com.ss.android.ugc.aweme U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+topResumedActivity=ActivityRecord{4422230 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t70}
+* Hist  #0: ActivityRecord{4422230 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t70}
+rootOfTask=true task=Task{d8cffc4 #70 type=standard A=10336:com.ss.android.ugc.aweme}
+mActivityComponent=com.ss.android.ugc.aweme/.main.MainActivity
+mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=
+RequestedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=standard mAlwaysOnTop=undef
+ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w1273dp h734dp ?density ?lsize ?long ?ldr ?wideColorGamut land ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=stan
+keysPaused=false inHistory=true idle=true
+overrideOrientation=SCREEN_ORIENTATION_PORTRAIT
+requestedOrientation=SCREEN_ORIENTATION_PORTRAIT
+config info =OplusFullOrientationAppConfig{mPackageName=com.ss.android.ugc.aweme, mStatus = 1, mShouldUseOriginOrientationConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+* Task{f63cd82 #62 type=standard A=10342:com.tencent.mm U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}

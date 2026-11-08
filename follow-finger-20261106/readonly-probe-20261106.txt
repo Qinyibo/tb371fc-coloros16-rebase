@@ -1,0 +1,310 @@
+=== 2026-11-06T13:36:49.9092433+08:00 ===
+=== touch/input props ===
+[debug.sf.oplus_display_trace.enable]: [1]
+[init.svc.bootanim]: [stopped]
+[init.svc.touchscreen_hal_service]: [stopped]
+[persist.oplus.display.enable_direct_composite]: [1]
+[persist.oplus.display.enable_direct_mode]: [1]
+[persist.oplus.display.screen.heightgroup]: [2944,2944,2944,2944]
+[persist.oplus.display.screen.widthgroup]: [1840,1840,1840,1840]
+[persist.oplus.display.vrr]: [1]
+[persist.oplus.display.wait_pending_done]: [0]
+[persist.sys.input.statistics.enable]: [false]
+[persist.sys.input.tracker.enable]: [true]
+[persist.sys.input_java_level]: [0]
+[persist.sys.input_native_level]: [0]
+[persist.sys.inputlatency_report_interval]: [10000ms]
+[persist.sys.inputlatency_threshold_millis]: [300ms]
+[persist.sys.oplus.anim_level]: [4]
+[persist.sys.oplus.display.brightness.mode]: [0]
+[persist.sys.recovery.input.rotation]: [ORIENTATION_270]
+[persist.sys.wallpaperanimation.enable]: [true]
+[ro.display.brightness.new.animation]: [1]
+[ro.oplus.display.lcd_module]: [1]
+[ro.oplus.display.rc.size]: [69,69,69,69]
+[ro.oplus.display.rgb_ball_max_value]: [1000]
+[ro.oplus.display.rgb_ball_min_value]: [900]
+[ro.oplus.display.screenSizeCentimeter.primary]: [30.73]
+[ro.oplus.display.screenSizeInches.primary]: [12.7]
+[ro.surface_flinger.set_touch_timer_ms]: [2000]
+[ro.vendor.config.lgsi.pen.event.name]: [NVTCapacitivePen]
+[service.bootanim.exit]: [1]
+[service.bootanim.progress]: [0]
+[sys.input.resample.latency]: [5]
+[sys.oplus.display.uimode]: [17]
+[sys.persist.browser_swipeup_anim.enable]: [true]
+=== schedtune ===
+=== oplus touch nodes ===
+-r--r--r-- 1 root root 0 2026-11-06 13:36 /proc/nvt_baseline
+-r--r--r-- 1 root root 0 2026-11-06 13:36 /proc/nvt_diff
+-r--r--r-- 1 root root 0 2026-11-06 13:36 /proc/nvt_fw_status
+-r--r--r-- 1 root root 0 2026-11-06 13:36 /proc/nvt_fw_version
+-r--r--r-- 1 root root 0 2026-11-06 13:36 /proc/nvt_pen_diff
+-r--r--r-- 1 root root 0 2026-11-06 13:36 /proc/nvt_raw
+
+=== game/boost services (names only) ===
+2	ISubsysRadio: [com.oplus.telephony.ISubsysRadio]
+3	IVirtualComm: [com.oplus.virtualcomm.IVirtualCommService]
+5	OPLUSExService: [android.os.IOplusExService]
+6	OplusLocationManager: [android.location.IOplusLocationManager]
+7	OplusShoulderPressureManagerService: [com.oplus.shoulderpressure.IOplusShoulderPressureManager]
+8	SpecailizerPLService: [oplus.spservice.ISpecailizerPLService]
+16	additionald: [android.os.IOplusService]
+19	aiwidget: [com.oplus.aiwidget.IAIWidgetManagerService]
+48	anti_root_dialog: [com.oplus.exsystemservice.antirootdialog.IAntiRootDialog]
+50	app_compatibility: [com.oplus.compatibility.IOplusCompatibilityService]
+57	athenaservice: [com.oplus.app.IAthenaService]
+81	color_screenshot: [com.oplus.screenshot.IOplusScreenshotManager]
+82	commscene: [com.oplus.commscene.ICommScene]
+111	dynamic_filter: [com.oplus.filter.IDynamicFilterService]
+116	engineer: [android.engineer.IOplusEngineerManager]
+117	engineer_fw: [com.android.server.engineering.IOplusEngineerFwService]
+125	gaiad: [android.gaia.IOplusGaia]
+126	game: [android.app.IGameManagerService]
+134	heimdall: [com.oplus.heimdall.IHeimdallService]
+135	horae: [com.oplus.horae.IHoraeService]
+149	isms_ext: [com.oplus.telephony.ISmsExt]
+151	isub_ext: [com.oplus.telephony.ISubExt]
+152	jobscheduler: [android.app.job.IJobScheduler]
+179	mediaturbo: [com.oplus.aidl.INativeMediaTurboSevice]
+182	midasd: [com.oplus.otrace.IMidasService]
+185	multimediaDaemon: [com.oplus.atlas.IOplusMMAtlasService]
+196	networking_control: [android.net.IOplusNetworkingControlManager]
+197	neuronsystem: [com.oplus.neuron.INeuronSystemService]
+200	obrain: [com.oplus.midas.IOplusObrain]
+201	ocenter: [com.oplus.ocenter.api.IOCenter]
+208	operator: [android.operator.IOplusOperatorManager]
+209	oplus_accesscontrol: [com.oplus.app.IOplusAccessControlManager]
+210	oplus_app_cache_service: [com.oplus.appcache.IOplusAppCacheService]
+211	oplus_app_data_service: [com.oplus.exsystemservice.appdata.IOplusAppDataService]
+212	oplus_app_stability_service: [com.oplus.stability.appstability.IOplusAppStabilityManager]
+213	oplus_battery_stats_service: [com.android.internal.os.IOplusBatteryStatsService]
+214	oplus_devicecase: [com.oplus.hardware.devicecase.IOplusDeviceCaseManager]
+215	oplus_freeze: [com.oplus.app.IOplusHansFreezeManager]
+216	oplus_mdlog: [com.oplus.log.IMdLogService]
+217	oplus_media_control: [com.oplus.media.IOplusMediaControlManager]
+218	oplus_nec: [com.oplus.nec.IOplusNecService]
+219	oplus_perf_service: [com.oplus.performance.IOplusPerfService]
+220	oplus_sandbox: [com.oplus.sandbox.IOplusSandboxManager]
+221	oplus_sensor_service: [com.oplus.hardware.sensor.IOplusSensorService]
+222	oplus_systemanropt_service: [android.app.ISystemAnrOptService]
+223	oplus_telephony_ext: [com.android.internal.telephony.IOplusTelephonyExt]
+224	oplus_telephony_internal_ext: [com.android.internal.telephony.IOplusTelephonyInternalExt]
+225	oplus_tile: [com.oplus.quicksettings.IOplusTileManagerService]
+226	oplus_vrr_service: [com.oplus.vrr.IOPlusRefreshRate]
+227	opluscustomize: [android.os.customize.IOplusCustomizeService]
+228	oplusdatalimit: [com.oplus.network.IOplusDataLimit]
+229	oplusdevicepolicy: [android.os.oplusdevicepolicy.IOplusDevicePolicyManagerService]
+230	oplusdynamicvsync: [com.oplus.dynamicvsync.IOplusDynamicVsync]
+231	opluslinkkit: [com.oplus.network.IOlk]
+232	oplusnaspower: [com.oplus.nas.power.INasPower]
+233	oplusnetcmd: [com.oplus.network.IOplusNetworkCmdService]
+234	oplusnetd: []
+235	oplusnetworkengineer: [com.oplus.network.IOplusNetworkTcForEngineer]
+236	oplusnetworkmanagement: [com.oplus.network.IOplusNetworkManagementService]
+237	oplusnetworkstack: [com.oplus.network.IOplusNetworkStack]
+238	oplusnetworkstats: [com.oplus.network.IOplusNetworkStatsService]
+239	oplusoiface: [com.oplus.oiface.IOIfaceService]
+240	opluspreodex: [com.oplus.os.IOplusPreOdex]
+241	oplusscreenmode: [com.oplus.screenmode.IOplusScreenMode]
+242	oplusstoragemanagerservice: [android.os.storage.IOplusStorageManagerService]
+243	opluswifikitservice: [android.net.wifi.IOplusWifiManager]
+244	osensemanager: [com.oplus.osense.IOsenseResManager]
+247	ostatsd: [com.oplus.ostats.api.IOStats]
+248	osysnetcontrol: [com.oplus.nwpower.IOSysNetControl]
+254	performance_hint: [android.os.IHintManager]
+264	power_monitor: [com.oplus.os.IOplusPowerMonitor]
+300	stamp_service: [com.oplus.exsystemservice.postman.IOplusStampService]
+307	storagecompressdedup: [com.oplus.os.IAppCompressAndFileDedup]
+334	tsa_bpf_service: [com.oplus.tsabpf.IOplusTsaManager]
+338	usage: [android.os.IOplusUsageService]
+343	vendor.oplus.hardware.charger.ICharger/default: []
+344	vendor.oplus.hardware.commondcs.ICommonDcsAidlHalService/default: []
+345	vendor.oplus.hardware.communicationcenter.IDmtpService/default: []
+346	vendor.oplus.hardware.handlefactory.IHandleFactory/default: []
+347	vendor.oplus.hardware.olc2.IOplusLogCore/default: []
+348	vendor.oplus.hardware.ormsHalService.IOrmsAidlHalService/default: []
+349	vendor.oplus.hardware.performance.IPerformance/default: []
+350	vendor.oplus.hardware.power.powermonitor.IPowerMonitor/default: []
+351	vendor.oplus.hardware.stability.oplus_project.IOplusProject/default: []
+352	vendor.oplus.hardware.urcc.IUrcc/default: []
+353	vendor.perfservice: [com.qualcomm.qti.IPerfManager]
+=== current SF refresh vote ===
+  DisplayDeviceInfo{"内置屏幕": uniqueId="local:4630947161651687041", 1840 x 2944, modeId 1, renderFrameRate 120.00001, hasArrSupport false, frameRateCategoryRate FrameRateCategoryRate {normal=60.0, high=90.0}, supportedRefreshRates [120.00001, 144.00002, 60.000004, 30.000002], defaultModeId 2, userPreferredModeId -1, supportedModes [{id=1, width=1840, height=2944, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1840, height=2944, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[30.000002, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1840, height=2944, fps=30.000002, vsync=30.000002, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}], colorMode 0, supportedColorModes [0, 7, 9], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3, 4], mMaxLuminance=420.0, mMaxAverageLuminance=210.1615, mMinLuminance=0.323}, isForceSdr false, allmSupported false, gameContentTypeSupported false, density 370, 273.309 x 272.91 dpi, appVsyncOff 1000000, presDeadline 13333333, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x40446de85fda2e}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=1}, state OFF, committedState OFF, frameRateOverride , brightnessMinimum 0.016, brightnessMaximum 1.0, brightnessDefault 4570.575, brightnessDim 0.05, hdrSdrRatio NaN, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=78, center=Point(78, 78)}, RoundedCorner{position=TopRight, radius=78, center=Point(1762, 78)}, RoundedCorner{position=BottomRight, radius=78, center=Point(1762, 2866)}, RoundedCorner{position=BottomLeft, radius=78, center=Point(78, 2866)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 3, displayShape DisplayShape{ spec=1406003047 displayWidth=1840 displayHeight=2944 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+    mDisplayModeSpecs={baseModeId=1 allowGroupSwitching=false primary=physical: (0.0 120.00001) render:  (0.0 120.00001) appRequest=physical: (0.0 120.00001) render:  (0.0 120.00001) idleScreenRefreshRateConfig=null}
+    mActiveModeId=1
+    mSupportedRefreshRates=[120.00001, 144.00002, 60.000004, 30.000002]
+      DisplayMode{id=0, width=1840, height=2944, xDpi=273.309, yDpi=272.91, peakRefreshRate=120.00001, vsyncRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=13333333, supportedHdrTypes=[2, 3, 4], group=0}
+      DisplayMode{id=1, width=1840, height=2944, xDpi=273.309, yDpi=272.91, peakRefreshRate=144.00002, vsyncRate=144.00002, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=11944444, supportedHdrTypes=[2, 3, 4], group=0}
+      DisplayMode{id=2, width=1840, height=2944, xDpi=273.309, yDpi=272.91, peakRefreshRate=60.000004, vsyncRate=60.000004, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=16666666, supportedHdrTypes=[2, 3, 4], group=0}
+      DisplayMode{id=3, width=1840, height=2944, xDpi=273.309, yDpi=272.91, peakRefreshRate=30.000002, vsyncRate=30.000002, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=33333333, supportedHdrTypes=[2, 3, 4], group=0}
+    mActiveSfDisplayMode=DisplayMode{id=0, width=1840, height=2944, xDpi=273.309, yDpi=272.91, peakRefreshRate=120.00001, vsyncRate=120.00001, appVsyncOffsetNanos=1000000, presentationDeadlineNanos=13333333, supportedHdrTypes=[2, 3, 4], group=0}
+      DisplayModeRecord{mMode={id=1, width=1840, height=2944, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 144.00002], supportedHdrTypes=[2, 3, 4]}}
+      DisplayModeRecord{mMode={id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}}
+      DisplayModeRecord{mMode={id=3, width=1840, height=2944, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[30.000002, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}}
+      DisplayModeRecord{mMode={id=4, width=1840, height=2944, fps=30.000002, vsync=30.000002, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}}
+    mAmbientLightSensor=SensorData{type= , name= , refreshRateRange: [0.0, Infinity], supportedModes=[]}, mScreenOffBrightnessSensor=null, mProximitySensor=SensorData{type= null, name= null, refreshRateRange: [0.0, Infinity], supportedModes=[]}, mTempSensor=SensorData{type= SKIN, name= null, refreshRateRange: [0.0, Infinity], supportedModes=[]}, mRefreshRateLimitations= [], mDensityMapping= null, mAutoBrightnessBrighteningLightDebounce= -1, mAutoBrightnessDarkeningLightDebounce= -1, mAutoBrightnessBrighteningLightDebounceIdle= -1, mAutoBrightnessDarkeningLightDebounceIdle= -1, mDisplayBrightnessMapping= mBrightnessLevelsNits= [], mBrightnessLevelsLuxMap= {default_normal=[0.0, 10.0, 30.0, 60.0, 100.0, 150.0, 210.0, 255.0]}, mBrightnessLevelsMap= {default_normal=[0.035433073, 0.074803144, 0.15354331, 0.27165353, 0.42913386, 0.6259843, 0.78346455, 1.0]}, mDdcAutoBrightnessAvailable= true, mAutoBrightnessAvailable= true, mIdleStylusTimeoutMillis= 0
+    mDefaultLowBlockingZoneRefreshRate= 0, mDefaultHighBlockingZoneRefreshRate= 0, mRefreshRateData= RefreshRateData {defaultRefreshRate: 0, defaultPeakRefreshRate: 240, defaultRefreshRateInHbmHdr: 0, defaultRefreshRateInHbmSunlight: 0, lowPowerSupportedModes=[], lowLightBlockingZoneSupportedModes=[]} , mRefreshRateZoneProfiles= {}, mRefreshRateThrottlingMap= {}, mLowBlockingZoneThermalMapId= null, mHighBlockingZoneThermalMapId= null
+  mCurrentLayout=[{dispId: 0(ON), displayGroupName: , addr: {port=129, model=0x40446de85fda2e}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mLeadDisplayAddress: null, mThermalRefreshRateThrottlingMapId: null, mPowerThrottlingMapId: null}]
+    mDesiredDisplayModeSpecs={baseModeId=1 allowGroupSwitching=false primary=physical: (0.0 120.00001) render:  (0.0 120.00001) appRequest=physical: (0.0 120.00001) render:  (0.0 120.00001) idleScreenRefreshRateConfig=null}
+    mBaseDisplayInfo=DisplayInfo{"内置屏幕", displayId 0, displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1840 x 2944, largest app 1840 x 2944, smallest app 1840 x 2944, appVsyncOff 1000000, presDeadline 13333333, mode 1, renderFrameRate 120.00001, hasArrSupport false, frameRateCategoryRate FrameRateCategoryRate {normal=60.0, high=90.0}, supportedRefreshRates [120.00001, 144.00002, 60.000004, 30.000002], defaultMode 2, userPreferredModeId -1, supportedModes [{id=1, width=1840, height=2944, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1840, height=2944, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[30.000002, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1840, height=2944, fps=30.000002, vsync=30.000002, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}], appsSupportedModes [{id=1, width=1840, height=2944, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1840, height=2944, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[30.000002, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1840, height=2944, fps=30.000002, vsync=30.000002, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3, 4], mMaxLuminance=420.0, mMaxAverageLuminance=210.1615, mMinLuminance=0.323}, isForceSdr false, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state OFF, committedState OFF, type INTERNAL, uniqueId "local:4630947161651687041", app 1840 x 2944, density 370 (273.309 x 272.91) dpi, layerStack 0, colorMode 0, supportedColorModes [0, 7, 9], address {port=129, model=0x40446de85fda2e}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=1}, removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.016, brightnessMaximum 1.0, brightnessDefault 4570.575, brightnessDim 0.05, installOrientation ROTATION_270, layoutLimitedRefreshRate null, hdrSdrRatio not_available, backlightType 0, thermalRefreshRateThrottling {}, thermalBrightnessThrottlingDataId default, canHostTasks true}
+    mOverrideDisplayInfo=DisplayInfo{"内置屏幕", displayId 0, displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1840 x 2944, largest app 2944 x 2944, smallest app 1840 x 1840, appVsyncOff 1000000, presDeadline 13333333, mode 1, renderFrameRate 120.00001, hasArrSupport false, frameRateCategoryRate FrameRateCategoryRate {normal=60.0, high=90.0}, supportedRefreshRates [120.00001, 144.00002, 60.000004, 30.000002], defaultMode 2, userPreferredModeId -1, supportedModes [{id=1, width=1840, height=2944, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1840, height=2944, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[30.000002, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1840, height=2944, fps=30.000002, vsync=30.000002, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}], appsSupportedModes [{id=1, width=1840, height=2944, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1840, height=2944, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[30.000002, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1840, height=2944, fps=30.000002, vsync=30.000002, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3, 4], mMaxLuminance=420.0, mMaxAverageLuminance=210.1615, mMinLuminance=0.323}, isForceSdr false, userDisabledHdrTypes [], minimalPostProcessingSupported false, rotation 0, state ON, committedState ON, type INTERNAL, uniqueId "local:4630947161651687041", app 1840 x 2944, density 370 (273.309 x 272.91) dpi, layerStack 0, colorMode 0, supportedColorModes [0, 7, 9], address {port=129, model=0x40446de85fda2e}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=1}, removeMode 0, refreshRateOverride 0.0, brightnessMinimum 0.016, brightnessMaximum 1.0, brightnessDefault 4570.575, brightnessDim 0.05, installOrientation ROTATION_270, layoutLimitedRefreshRate null, hdrSdrRatio not_available, backlightType 0, thermalRefreshRateThrottling {}, thermalBrightnessThrottlingDataId default, canHostTasks true}
+    mLayoutLimitedRefreshRate=null
+    mThermalRefreshRateThrottling={}
+    Display 0 [id=local:4630947161651687041,stack=-1],isFirst=true,activeMode=1,state=OFF,commitState=OFF,devInfo:DisplayDeviceInfo{"内置屏幕": uniqueId="local:4630947161651687041", 1840 x 2944, modeId 1, renderFrameRate 120.00001, hasArrSupport false, frameRateCategoryRate FrameRateCategoryRate {normal=60.0, high=90.0}, supportedRefreshRates [120.00001, 144.00002, 60.000004, 30.000002], defaultModeId 2, userPreferredModeId -1, supportedModes [{id=1, width=1840, height=2944, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1840, height=2944, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[30.000002, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1840, height=2944, fps=30.000002, vsync=30.000002, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}], colorMode 0, supportedColorModes [0, 7, 9], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[2, 3, 4], mMaxLuminance=420.0, mMaxAverageLuminance=210.1615, mMinLuminance=0.323}, isForceSdr false, allmSupported false, gameContentTypeSupported false, density 370, 273.309 x 272.91 dpi, appVsyncOff 1000000, presDeadline 13333333, touch INTERNAL, rotation 0, type INTERNAL, address {port=129, model=0x40446de85fda2e}, deviceProductInfo DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=ManufactureDate{week=27, year=2006}, connectionToSinkType=1}, state OFF, committedState OFF, frameRateOverride , brightnessMinimum 0.016, brightnessMaximum 1.0, brightnessDefault 4570.575, brightnessDim 0.05, hdrSdrRatio NaN, roundedCorners RoundedCorners{[RoundedCorner{position=TopLeft, radius=78, center=Point(78, 78)}, RoundedCorner{position=TopRight, radius=78, center=Point(1762, 78)}, RoundedCorner{position=BottomRight, radius=78, center=Point(1762, 2866)}, RoundedCorner{position=BottomLeft, radius=78, center=Point(78, 2866)}]}, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 3, displayShape DisplayShape{ spec=1406003047 displayWidth=1840 displayHeight=2944 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+    state(-1): [{dispId: 0(ON), displayGroupName: , addr: {port=129, model=0x40446de85fda2e}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mLeadDisplayAddress: null, mThermalRefreshRateThrottlingMapId: null, mPowerThrottlingMapId: null}]
+    0 -> [{id=1, width=1840, height=2944, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1840, height=2944, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[30.000002, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1840, height=2944, fps=30.000002, vsync=30.000002, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}]
+    0 -> [{id=1, width=1840, height=2944, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}, {id=3, width=1840, height=2944, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[30.000002, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}, {id=4, width=1840, height=2944, fps=30.000002, vsync=30.000002, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}]
+    0 -> {id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}
+    mDefaultRefreshRate: 0.0
+    mDefaultPeakRefreshRate: 240.0
+    mIgnorePreferredRefreshRate: true
+    mRefreshRateChangeable: true
+    mRefreshRateInLowZone: 0
+    mRefreshRateInHighZone: 0
+    mUdfpsRefreshRateEnabled: 
+     mRefreshRateInHbmSunlight: 0
+     mRefreshRateInHbmHdr: 0
+  mVotesByDisplay:
+      PRIORITY_USER_SETTING_PEAK_RENDER_FRAME_RATE -> RenderVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=120.00001 } }
+      PRIORITY_USER_SETTING_PEAK_REFRESH_RATE -> CombinedVote{ mVotes=[PhysicalVote{ RefreshRateVote{  mMinRefreshRate=0.0, mMaxRefreshRate=120.00001 } }, DisableRefreshRateSwitchingVote{ mDisableRefreshRateSwitching=false }] }
+      PRIORITY_APP_REQUEST_SIZE -> SizeVote{ mWidth=1840, mHeight=2944, mMinWidth=1840, mMinHeight=2944 }
+      PRIORITY_APP_REQUEST_BASE_MODE_REFRESH_RATE -> BaseModeRefreshRateVote{ mAppRequestBaseModeRefreshRate=120.00001 }
+=== luna still ===
+20816
+=== nvt fw ===
+fw_ver=26, x_num=60, y_num=40, button_num=0
+A0
+=== touchpanel dir ===
+=== VRR / dynamic vsync dumpsys snippets ===
+  OPlusRefreshRateService:
+    Stealth Mode: false
+    ADFR support: 0
+    CurrPkgName: com.luna.music
+    CurActivityName: null
+    PrimaryPhysicalDisplayId: 4630947161651687041
+    ActivePhysicalDisplayId: 0
+    physicalDisplayId: 4630947161651687041, brightness: 0.0
+    VrrState: 
+        source: 1, state: 0
+        source: 5, state: 1
+    VrrStateSummary: 1
+    DisplayZenAodState: 0
+    GlobalGameFilterMode: 0
+
+  OPlusOnlineConfigManager:
+    mVersion: 20260515
+    mIsExtendPanel: false
+
+  RefreshRateConfigs:
+  mPhysicalDisplayId: 4630947161651687041
+      SA[ 0 1 2 3 ]
+
+
+  ConfigSource = SYSTEM_CONFIG
+    SystemSource = /my_product/etc/oplus_vrr_config.json
+    DataSource = data/system/oplus_vrr_config.json
+
+  OPlusExternalRefreshRateManager:
+    CurPolicy: 0, POLICY_DEFAULT
+    FrontApp: com.luna.music
+    CurrentActivity: null
+    Defer switch: false
+    OA Defer switch: true
+    Cvt switch: true
+    Frtc switch: true
+    Avt switch: false
+    Mvt switch: false, Log: false
+    Dfrc switch: false
+    Pdfr Switch: false
+    Hybrid Acc switch: false, UseFakeVsync: false, Stablize: false, Log: false
+    TouchIdle switch: true hw: true sw: true adfr: true
+      TouchIdleKeepHight: false
+      TouchIdleShouldPause: true
+      TouchIdleShouldPauseForce: true
+      TouchIdleSpecialTimeOut: -1
+      TouchIdleHwBacklightEnough: true
+      TouchIdleHwBacklightRangeIn: true
+      OtiHistSwitch: false
+      OtiHistDataSwitch: false
+      OtiHistEnable: false
+      OtiHighRefreshMode: false
+      KillPattern:KillerPatternBean{mEnable=false, mSamplerInterval=500, mLowGrayRatio=0.3, mMaxGrayRatio=0.8, mGrayCalcLowBit=0, mGrayCalcHighBit=3, mNitLowLimit=0.0}
+      IsDarkMode:false
+      mTouchIdleHwNitExitHbm: true
+      mIsDefectPanel: false
+      TouchIdleaAdfrToHw: false
+      TouchIdleaAdfr90ToHw: false
+      TouchIdleaAdfrFoldToHw: false
+      mTouchIdleEnterHbm: false
+********************** Help begin:**********************
+1. dump all info
+cmd: dumpsys dynamicvsync dump
+2. update switch config
+cmd: dumpsys dynamicvsync debug 0/1
+cmd: dumpsys dynamicvsync support 0/1
+cmd: dumpsys dynamicvsync backlight 200
+cmd: dumpsys dynamicvsync allapp 0/1
+cmd: dumpsys dynamicvsync delay MILLISECOND
+cmd: dumpsys dynamicvsync add/remove w/b PACKGNAME
+********************** Help end.  **********************
+  OplusPerfService:
+  OplusOnlineConfigManager:
+    CommonVersion: 20260112, ProjectVersion: -1
+    mSoptBean: ScrollOptimBean, mOptEnable=true, mCommonOnly=false
+    FrameOpt: {mPreAnimStrategy=1, mPreAnimBlacklist=[com.shopify.arrive, com.max.xiaoheihe, com.heytap.themestore, com.quark.browser, org.telegram.messenger, org.telegram.messenger.web, com.kyk.world, uz.unnarsx.cherrygram, com.android.launcher], mPreAnimWhitelist=[], mInsertNum=3, mFrameInsertList={com.shopify.arrive={*=0}, com.sankuai.meituan={com.sankuai.waimai.business.page.kingkong.KingKongActivity=0}, com.xueqiu.android={com.xueqiu.android.common.imagebrowse.inner.ui.ImageBrowseActivity=0}, com.max.xiaoheihe={com.max.xiaoheihe.module.bbs.post.ui.activitys.WebNewsPostPageActivity=0}, com.heytap.themestore={*=0}, com.netease.newsreader.activity={com.netease.newsreader.article.framework.view.NewsPageActivity=0}, com.taobao.idlefish={*=0}, uz.unnarsx.cherrygram={uz.unnarsx.cherrygram.CG_Icon_Cherry=0}, com.kyk.world={*=0}, com.android.launcher={*=0}}, mSCEnableList={com.sankuai.meituan=[com.meituan.android.pt.homepage.activity.MainActivity, com.sankuai.waimai.business.restaurant.poicontainer.WMRestaurantActivity], com.dragon.read=[com.dragon.read.pages.main.MainFragmentActivity], com.sina.weibo=[com.sina.weibo.VisitorMainTabActivity], com.xunmeng.pinduoduo=[com.xunmeng.pinduoduo.activity.NewPageActivity], com.tencent.qqmusic=[com.tencent.qqmusic.activity.AppStarterActivity], com.tencent.mobileqq=[com.tencent.mobileqq.activity.SplashActivity, com.qzone.feed.ui.activity.QZoneFriendFeedActivity], com.ct.client=[com.ct.client.activity.MainActivity]}}
+    GcSupression: {mGcSupressionEnable=true, mGcSupressionBlacklist={}}
+    STBufferOpt: {mStBufferOptEnable=true, mStBufferOptStrategy=2, mStBufferOptBlacklist={}, mStBufferOptWhitelist={com.eg.android.AlipayGphone=[com.alipay.mobile.nebulax.xriver.activity.XRiverActivity], ctrip.android.view=[ctrip.android.hotel.list.flutter.map.HotelListMixMapActivity], com.tencent.mm=[com.tencent.mm.plugin.appbrand.ui.AppBrandUI00, com.tencent.mm.plugin.webview.ui.tools.MMWebViewUI, com.tencent.mm.plugin.webview.ui.tools.fts.MMFTSSOSHomeWebViewUI, com.tencent.mm.plugin.game.ui.LiteAppGameTabUI, com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI, com.tencent.mm.plugin.appbrand.ui.AppBrandUI05, com.tencent.mm.plugin.appbrand.ui.AppBrandUI04, com.tencent.mm.plugin.appbrand.ui.AppBrandUI, com.tencent.mm.plugin.appbrand.ui.AppBrandUI03, com.tencent.mm.plugin.appbrand.ui.AppBrandUI02, com.tencent.mm.plugin.appbrand.ui.AppBrandUI01], com.jiemian.news=[com.jiemian.news.base.MainActivity], com.taobao.taobao=[com.taobao.android.detail.alittdetail.TTDetailActivity], com.taobao.idlefish=[com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostActivity]}}
+    InputOpt: {mInputOptEnable=true, mInputOptStrategy=2, mInputOptBlacklist={}, mInputOptWhitelist={com.daimajia.gold=[im.juejin.android.modules.flutter.impl.MyFlutterActivity], com.koudai.weidian.buyer=[com.vdian.android.wdb.main.ui.activity.MainTabsActivity], ctrip.android.view=[ctrip.android.flutter.containers.TransparentTripFlutterActivity], com.tencent.mm=[com.tencent.mm.plugin.ting.TingFlutterActivity, com.tencent.mm.plugin.topstory.ui.home.TopStoryHomeUI, com.tencent.mm.plugin.lite.ui.WxaLiteAppLiteUI, com.tencent.mm.plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity], com.yiche.price=[com.yiche.price.MainActivity], com.taobao.taobao=[com.taobao.tao.welcome.Welcome, com.taobao.tao.TBMainActivity], com.bwcreation.phone_temperature_new=[com.bwcreation.phone_temperature_new.MainActivity], com.taobao.idlefish=[com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostActivity], com.bigbasket.mobileapp=[com.bigbasket.mobileapp.flutter.FlutterContainerActivity]}}
+=== stune raw ===
+total 0
+dr-xr-xr-x 30 system system          0 1970-01-07 02:31 .
+drwxr-xr-x 25 root   root         6060 2026-11-06 13:11 ..
+drwxr-xr-x  2 system system          0 1970-01-07 02:31 background
+drwxr-xr-x  2 system system          0 1970-01-07 02:31 bg
+drwxr-xr-x  2 system cameraserver    0 1970-01-07 02:31 camera
+drwxr-xr-x  2 system system          0 1970-01-07 02:31 camera-background
+drwxr-xr-x  2 system system          0 1970-01-07 02:31 camera-daemon
+-rw-r--r--  1 root   root            0 2026-11-06 13:37 cgroup.clone_children
+-rw-rw-rw-  1 system system          0 1970-01-07 02:31 cgroup.procs
+=== SurfaceFlinger refresh ===
+Scheduler:
+144.00 Hz: 0d00:00:08.147
+120.00 Hz: 0d00:10:26.790
+60.00 Hz: 0d00:02:48.449
+    renderRate=120.00 Hz
+    activeMode={id=0, hwcId=0, resolution=2944x1840, vsyncRate=120.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=0, hwcId=0, resolution=2944x1840, vsyncRate=120.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=2, hwcId=2, resolution=2944x1840, vsyncRate=60.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=3, hwcId=3, resolution=2944x1840, vsyncRate=30.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+    displayManagerPolicy={defaultModeId=0, allowGroupSwitching=false, primaryRanges={physical=[120.00 Hz, 120.00 Hz], render=[120.00 Hz, 120.00 Hz]}, appRequestRanges={physical=[120.00 Hz, 120.00 Hz], render=[120.00 Hz, 120.00 Hz]} idleScreenConfig=nullptr}
+HWVsyncSuppressed: off
+    FakeVsyncCount: 0
+app: state=SyntheticVSync VSyncState={displayId=4630947161651687041, count=102756, synthetic}
+mWorkDuration=11.67 mReadyDuration=12.33 last vsync time -20216.68ms relative to now
+ with vsync committed at 27.89ms  pending events (count=0):
+    Connection{0xb400007b9aa3ea00, 2157, VSyncRequest::None}
+    Connection{0xb400007b9aa3eac0, 2157, VSyncRequest::None}
+    Connection{0xb400007b6752eec0, 2157, VSyncRequest::None}
+    Connection{0xb400007b9aa3e700, 2157, VSyncRequest::None}
+    Connection{0xb400007b9aa3e7c0, 2157, VSyncRequest::None}
+    Connection{0xb400007b9aa3e880, 2157, VSyncRequest::None}
+    Connection{0xb400007b6752f100, 2157, VSyncRequest::None}
+    Connection{0xb400007b6752f1c0, 2157, VSyncRequest::None}
+    Connection{0xb400007b6d8da880, 2848, VSyncRequest::None}
+    Connection{0xb400007b9aa3e940, 2941, VSyncRequest::None}
+    Connection{0xb400007b9aa3ed00, 2941, VSyncRequest::None}
+    Connection{0xb400007b9aa3ee80, 2941, VSyncRequest::None}
+    Connection{0xb400007b9aa3ef40, 2941, VSyncRequest::None}
+    Connection{0xb400007b6d8da340, 2941, VSyncRequest::None}
+    Connection{0xb400007b5c834300, 3231, VSyncRequest::None}
+    Connection{0xb400007b5c834000, 3136, VSyncRequest::None}
+    Connection{0xb400007b9aa3edc0, 3136, VSyncRequest::None}
+    Connection{0xb400007b5c8340c0, 3372, VSyncRequest::None}
+    Connection{0xb400007b5c8343c0, 3231, VSyncRequest::None}
+    Connection{0xb400007b5c834480, 3292, VSyncRequest::None}
+    Connection{0xb400007b5c834540, 2941, VSyncRequest::None}
+    Connection{0xb400007b6d8dae80, 4150, VSyncRequest::None}
+    Connection{0xb400007b5c834a80, 3136, VSyncRequest::None}
+    Connection{0xb400007b5c834b40, 4523, VSyncRequest::None}

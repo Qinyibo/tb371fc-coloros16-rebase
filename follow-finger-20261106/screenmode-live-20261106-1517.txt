@@ -1,0 +1,12 @@
+Current Version:20260107
+Config{ mEnableRateOverride=true mEnableFodHighRate=true mVoiceSceneLowRate=true mVoiceSceneLowRateDelay=500 mMaxRefreshSettings=4 mIpePencilRateId=3 mAppSwitchBoost=true mAppSwitchBoostType=0 mAppSwitchBoostMaxTemp=47 mDefaultRateId=[4, 4, 2, 4] mDefaultMaxRate=144.0 mDisableViewOverrideDefaultValue=false mExtremeHighEnable=true}
+mCurrentPickMode=4
+mCurrentDefaultRateId =4
+mCurrentResolution=Point(1840, 2944)
+mCurrentScreenMode=0
+mPanelRateData = RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}
+mCurrentPickRate=144.00002
+mPreferredRefreshRateId:null
+{mSupportAdfrV32Lp=true,mSupportAdfrV32Hp=false,mAdfrV32DirectorEnable=true,mCurrentFrtcRate=0.0,mCurrentDirectorState=0,mLastDirectorState=0,mSimulateV32frtcResult=true}
+    | COURSE[;control panel:4,data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}]
+  VERSION = 2025120410

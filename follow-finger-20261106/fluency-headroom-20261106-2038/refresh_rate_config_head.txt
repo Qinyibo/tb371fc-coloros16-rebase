@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<!-- format: mode_auto-mode_90-mode_60-mode_120
+     value: 0(unspecified), 1(90Hz), 2(60Hz), 3(120Hz)
+     rateId="4-0-2-4" the preferred refresh rate id per setting mode
+     setting mode: auto  ,90hz     ,60hz  ,120hz
+     refresh rate: 120hz ,default,  60hz  ,120hz
+-->
+<refresh_rate_config version="20260107" ratemagic="8750R60_90_120_144">
+<!-- cts activity -->
+  <item package="android.view.cts" activity="android.view.cts/.DisplayRefreshRateCtsActivity" rateId="2-2-2-2" appreqfirst="true" /> <!--CTS娴嬭瘯fail-->
+  <item package="android.view.cts" activity="android.view.cts/.surfacevalidator.CapturedActivity" rateId="2-2-2-2" />  <!--CTS娴嬭瘯fail-->
+  <item package="com.wudaokou.hippo" activity="com.wudaokou.hippo/.detail.activity.DetailActivity" disableViewOverride="true"  rateId="2-1-2-4" />
+  <item package="com.baidu.netdisk" activity="com.baidu.netdisk/com.baidu.flutter.netdisk.devicemanager.DeviceManagerActivity" disableViewOverride="true"  rateId="2-1-2-4" />
+  <item package="com.netease.newsreader.activity" activity="com.netease.newsreader.activity/com.netease.newsreader.article.framework.view.NewsPageActivity" disableViewOverride="true"  rateId="2-1-2-4" />
+<!-- other activity -->
+  <item package="com.orange.live" activity="com.orange.live/com.tg.live.ui.activity.RoomActivity" rateId="2-2-2-2" />  <!--妗旇壊鐩存挱涓洿鎾満鏅?->
+  <item package="com.fosung.lighthouse" activity="com.fosung.lighthouse/.master.amodule.main.activity.NewsDetailActivity" rateId="2-2-2-2" />  <!--鐏鍏氬缓涓棰?->
+  <item package="com.quanmincai.caipiao" activity="com.quanmincai.caipiao/com.quanmincai.activity.information.ActionDetailActivity" rateId="2-2-2-2" />  <!--鍏ㄦ皯褰╃エ涓棰?->
+  <item package="io.dcloud.UNI098B211" activity="io.dcloud.UNI098B211/io.dcloud.PandoraEntryActivity" rateId="2-2-2-2" />  <!--鐭棰戝幓姘村嵃涓棰?->
+  <item package="com.ctdsbwz.kct" activity="com.ctdsbwz.kct/.ui.activity.NewsDetailActivity" rateId="2-2-2-2" />  <!--鐪嬫澶╀腑瑙嗛-->
+  <item package="com.cjtec.fmradio" activity="com.cjtec.fmradio/com.yidian.newssdk.core.detail.article.video.YdVideoActivity" rateId="2-2-2-2" />  <!--FM鎵嬫満璋冮鏀堕煶鏈轰腑瑙嗛-->
+  <item package="com.tencent.android.qqdownloader" activity="com.tencent.android.qqdownloader/com.tencent.cloud.activity.VideoActivityV2" rateId="2-2-2-2" />  <!--搴旂敤瀹濅腑瑙嗛-->
+  <item package="com.qqgame.hlddz" activity="com.qqgame.hlddz/com.tencent.msdk.webview.WebViewActivity" rateId="2-2-2-2" />  <!--娆箰鏂楀湴涓讳腑瑙嗛-->
+  <item package="com.suning.mobile.epa" activity="com.suning.mobile.epa/com.suning.webview.H5UCBaseActivity" rateId="2-2-2-2" />  <!--鑻忓畞閲戣瀺涓棰?->
+  <item package="com.kwai.videoeditor" activity="com.kwai.videoeditor/.activity.WebActivity" rateId="2-2-2-2" />  <!--蹇奖涓棰?->
+  <item package="com.chinamobile.mcloud" activity="com.chinamobile.mcloud/cn.hotview.tv.PlayerActivity" rateId="2-2-2-2" />  <!--鍜屽僵浜戜腑瑙嗛-->
+  <item package="com.uroad.carclub" activity="com.uroad.carclub/.FM.activity.ArticleDetailActivity" rateId="2-2-2-2" />  <!--ETC杞﹀疂涓棰?->
+  <item package="com.dalongtech.cloud" activity="com.dalongtech.cloud/.app.home.HomePageActivity" rateId="2-2-2-2" />  <!--浜戠數鑴戜腑瑙嗛-->
+  <item package="com.superstar.fantuan" activity="com.superstar.fantuan/com.asiainno.starfan.imagereview.ImagePagerActivity" rateId="2-2-2-2" />  <!--瓒呯骇鏄熼キ鍥腑瑙嗛鎾斁-->
+  <item package="com.superstar.fantuan" activity="com.superstar.fantuan/com.asiainno.starfan.media.VideoDetailActivity" rateId="2-2-2-2" />  <!--瓒呯骇鏄熼キ鍥腑瑙嗛鎾斁-->
+  <item package="com.xm.csee" activity="com.xm.csee/com.xworld.MainActivity" rateId="2-2-2-2" />  <!--瓒呯骇鐪嬬湅涓棰?->
+  <item package="info.red.virtual" activity="info.red.virtual/com.yidian.newssdk.core.detail.article.video.YdVideoActivity" rateId="2-2-2-2" />  <!--寰俊澶氬紑鎮熺┖鍒嗚韩涓棰?->
+  <item package="com.hisunflytone.android" activity="com.hisunflytone.android/com.migu.browser.mvp.ui.activity.BrowserActivity" rateId="2-2-2-2" />  <!--鍜挄鍦堝湀涓棰?->
+  <item package="com.fiberhome.exmobi.client.gaeaclientandroidedn7262" activity="com.fiberhome.exmobi.client.gaeaclientandroidedn7262/com.wdtrgf.homepage.ui.activity.ProductDetailActivity" rateId="2-2-2-2" />  <!--澶╃劧宸ュ潑涓棰?->
+  <item package="com.cloudwallet" activity="com.cloudwallet/.ui.activity.VideoWebActivity" rateId="2-2-2-2" />  <!--浜戦挶鍖呬腑瑙嗛-->
+  <item package="kaixin4.xiaoshuo3" activity="kaixin4.xiaoshuo3/.MainActivity" rateId="2-2-2-2" />  <!--灏忓叕涓昏嫃鑿蹭簹鍏ㄩ泦涓棰?->
+  <item package="com.sicent.app.baba" activity="com.sicent.app.baba/.ui.setting.BabaWebActivity" rateId="2-2-2-2" />  <!--缃戝柕涓棰?->
+  <item package="com.tencent.qqgame.xq" activity="com.tencent.qqgame.xq/com.tencent.msdk.webview.WebViewActivity" rateId="2-2-2-2" />  <!--澶╁ぉ璞℃涓棰?->
+  <item package="com.husor.beibei" activity="com.husor.beibei/.pdtdetail.PdtDetailActivity" rateId="2-2-2-2" />  <!--璐濊礉涓棰?->
+  <item package="com.truckhome.bbs" activity="com.truckhome.bbs/.news.activity.VideoDetailsActivity" rateId="2-2-2-2" />  <!--鍗¤溅涔嬪涓棰?->
+  <item package="com.yirendai" activity="com.yirendai/.ui.more.WebActivity" rateId="2-2-2-2" />  <!--瀹滀汉璐峰€熸涓棰?->
+  <item package="com.gdhbgh.activity" activity="com.gdhbgh.activity/com.telecom.vhealth.ui.activities.movement.MovementWebActivity" rateId="2-2-2-2" />  <!--缈煎仴搴蜂腑瑙嗛-->
+  <item package="com.gdhbgh.activity" activity="com.gdhbgh.activity/com.telecom.vhealth.ui.activities.main.MainActivity5" rateId="2-2-2-2" />  <!--缈煎仴搴蜂腑瑙嗛-->
+  <item package="com.greenline.guahao" activity="com.greenline.guahao/.webkit.MainProcessCommonWebActivity" rateId="2-2-2-2" />  <!--寰尰涓棰?->
+  <item package="com.youliao.topic" activity="com.youliao.topic/.MainActivity" rateId="2-2-2-2" />  <!--鏈夋枡鐪嬬湅涓棰?->
+  <item package="com.jx.privatebrowser" activity="com.jx.privatebrowser/com.cy.browser.BrowserActivity" rateId="2-2-2-2" />  <!--绉佸瘑娴忚鍣ㄤ腑瑙嗛-->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/dov.com.qq.im.QIMCameraCaptureActivity" rateId="2-2-2-2" />  <!--QQ涓媿鎽勫満鏅?->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/.activity.aio.photo.AIOGalleryActivity" rateId="2-2-2-2" />  <!--QQ鑱婂ぉ鐣岄潰鎾斁灏忚棰?->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/com.tencent.aelight.camera.aebase.QIMCameraCaptureActivity" rateId="2-2-2-2" />  <!--QQ鑱婂ぉ鐣岄潰璋冪敤鐩告満-->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/com.tencent.aelight.camera.ae.flashshow.WinkHomeActivity" rateId="2-2-2-2" />  <!--QQ濂藉弸鍔ㄦ€佺晫闈㈣皟鐢ㄧ浉鏈?->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/.gallery.view.AIOGalleryActivity" rateId="2-2-2-2" />  <!--QQ鑱婂ぉ鐣岄潰鎾斁灏忚棰?鏂扮増鏈?->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/.minigame.ui.GameActivity3" rateId="2-2-2-2" />  <!--QQ灏忔父鎴?->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/com.tencent.av.ui.VideoInviteActivity" rateId="2-2-2-2" />  <!-- bug 627267 -->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/.olympic.activity.ScanTorchActivity" rateId="2-2-2-2" />  <!-- bug 700656 -->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/com.tencent.av.ui.VChatActivity" rateId="2-2-2-2" disableViewOverride="true" />  <!-- bug 2946142 qq閫氳瘽椤甸潰 -->
+  <item package="com.tencent.mobileqq" activity="com.tencent.mobileqq/.avatar.dynamicavatar.DynamicAvatarRecordActivity" rateId="2-2-2-2" disableViewOverride="true" />  <!-- bug 717695 -->
+  <item package="com.youloft.calendar" activity="com.youloft.calendar/.WebActivity" rateId="2-2-

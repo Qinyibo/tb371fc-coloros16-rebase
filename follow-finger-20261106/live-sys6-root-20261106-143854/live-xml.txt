@@ -1,0 +1,4 @@
+﻿35db38f8c85758c372546c707513642c  /my_product/etc/refresh_rate_config.xml
+-rw-r--r-- 1 root root 198373 2026-11-06 14:33 /my_product/etc/refresh_rate_config.xml
+overlay-overlay on /product/overlay type overlay (ro,seclabel,noatime,lowerdir=/my_region/overlay:/my_product/overlay:/my_heytap/overlay:/my_stock/overlay:/my_engineering/overlay:/product/overlay)
+/dev/block/sda15 on /my_product/etc/refresh_rate_config.xml type f2fs (rw,lazytime,seclabel,nosuid,nodev,noatime,background_gc=on,discard,no_heap,user_xattr,inline_xattr,acl,inline_data,inline_dentry,flush_merge,extent_cache,mode=adaptive,active_logs=6,reserve_root=32768,resuid=0,resgid=1065,inlinecrypt,alloc_mode=default,fsync_mode=nobarrier)

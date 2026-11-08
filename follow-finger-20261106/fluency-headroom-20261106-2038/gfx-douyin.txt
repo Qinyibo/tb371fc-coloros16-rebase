@@ -1,0 +1,142 @@
+﻿Applications Graphics Acceleration Info:
+Uptime: 7584357 Realtime: 7584357
+
+** Graphics info for pid 26649 [com.ss.android.ugc.aweme] **
+
+Stats since: 7579575341170ns
+Total frames rendered: 192
+Janky frames: 28 (14.58%)
+Janky frames (legacy): 42 (21.88%)
+50th percentile: 5ms
+90th percentile: 15ms
+95th percentile: 25ms
+99th percentile: 81ms
+Number Missed Vsync: 5
+Number High input latency: 187
+Number Slow UI thread: 13
+Number Slow bitmap uploads: 3
+Number Slow issue draw commands: 13
+Number Frame deadline missed: 28
+Number Frame deadline missed (legacy): 18
+HISTOGRAM: 5ms=100 6ms=24 7ms=9 8ms=7 9ms=6 10ms=2 11ms=14 12ms=4 13ms=1 14ms=4 15ms=2 16ms=1 17ms=3 18ms=3 19ms=1 20ms=0 21ms=0 22ms=1 23ms=0 24ms=0 25ms=1 26ms=0 27ms=0 28ms=0 29ms=1 30ms=0 31ms=0 32ms=0 34ms=0 36ms=0 38ms=0 40ms=0 42ms=1 44ms=0 46ms=0 48ms=2 53ms=0 57ms=1 61ms=1 65ms=0 69ms=0 73ms=1 77ms=0 81ms=1 85ms=0 89ms=0 93ms=0 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=0 133ms=0 150ms=0 200ms=1 250ms=0 300ms=0 350ms=0 400ms=0 450ms=0 500ms=0 550ms=0 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+50th gpu percentile: 2ms
+90th gpu percentile: 4ms
+95th gpu percentile: 7ms
+99th gpu percentile: 8ms
+GPU HISTOGRAM: 1ms=6 2ms=110 3ms=50 4ms=7 5ms=1 6ms=7 7ms=8 8ms=2 9ms=1 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 4950ms=0
+
+Pipeline=Skia (OpenGL)
+Memory policy:
+  Max surface area: 5416960
+  Max resource usage: 780.04MB (x144)
+  Background retention: 50% (altUiHidden = true)
+  GPU Context timeout: 10
+Contexts: 1 (stopped = 0)
+CPU Caches:
+  Glyph Cache: 274.97 KB (1 entry)
+  Glyph Count: 103 
+Total CPU memory usage:
+  281565 bytes, 274.97 KB (0.00 bytes is purgeable)
+GPU Caches:
+  Other:
+    Other: 35.47 KB (1 entry)
+    Buffer Object: 2.05 KB (2 entries)
+  Image:
+    Texture: 4.35 MB (44 entries)
+  Scratch:
+    RenderTarget: 2.44 MB (17 entries)
+    Texture: 3.04 MB (11 entries)
+    Buffer Object: 78.00 KB (2 entries)
+Layer Info:
+    GlLayer size 1011x1798
+    GlLayer size 0x0
+  Layers Total         7100.70 KB (numLayers = 2)
+Total GPU memory usage:
+  10429216 bytes, 9.95 MB (4.05 MB is purgeable)
+
+Skia GPU memory Oplus dumper:
+GPU Caches:
+ 2641268 bytes, 2.52 MB (1.90 MB is purgeable)
+  RenderTarget: 2.44 MB (17 entries)
+    skia/gpu_resources/resource_729/texture_renderbuffer: size[128.00 KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] purgeable_size[128.00 KB] Dimensions[256:128]
+    skia/gpu_resources/resource_34/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] label[MakeSurfaceDrawContextWithFallback/ResourceAllocatorRegister] category[Scratch] purgeable_size[64.00 KB] Dimensions[128:128]
+    skia/gpu_resources/resource_282/texture_renderbuffer: size[736.00 KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] purgeable_size[736.00 KB] Dimensions[2944:64]
+    skia/gpu_resources/resource_39/texture_renderbuffer: size[211.31 KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] purgeable_size[211.31 KB] Dimensions[294:184]
+    skia/gpu_resources/resource_565/texture_renderbuffer: size[16.00  KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] Dimensions[64:64]
+    skia/gpu_resources/resource_258/texture_renderbuffer: size[144.00 KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] Dimensions[192:192]
+    skia/gpu_resources/resource_17/texture_renderbuffer: size[32.00  KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] Dimensions[128:64]
+    skia/gpu_resources/resource_290/texture_renderbuffer: size[736.00 KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] purgeable_size[736.00 KB] Dimensions[2944:64]
+    skia/gpu_resources/resource_18/texture_renderbuffer: size[32.00  KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] Dimensions[128:64]
+    skia/gpu_resources/resource_16/texture_renderbuffer: size[32.00  KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] Dimensions[128:64]
+    skia/gpu_resources/resource_15/texture_renderbuffer: size[32.00  KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] Dimensions[128:64]
+    skia/gpu_resources/resource_14/texture_renderbuffer: size[32.00  KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] Dimensions[128:64]
+    skia/gpu_resources/resource_257/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] label[MakeSurfaceDrawContextWithFallback] category[Scratch] purgeable_size[64.00 KB] Dimensions[128:128]
+    skia/gpu_resources/resource_11/texture_renderbuffer: size[32.00  KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] Dimensions[128:64]
+    skia/gpu_resources/resource_259/texture_renderbuffer: size[144.00 KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] Dimensions[192:192]
+    skia/gpu_resources/resource_13/texture_renderbuffer: size[32.00  KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] Dimensions[128:64]
+    skia/gpu_resources/resource_12/texture_renderbuffer: size[32.00  KB   ] type[RenderTarget] label[MakeDevice] category[Scratch] Dimensions[128:64]
+  Buffer Object: 80.05 KB (4 entries)
+    skia/gpu_resources/resource_35   : size[180.00 bytes] type[Buffer Object] label[MakeGlBuffer] category[Other] purgeable_size[180.00 bytes]
+    skia/gpu_resources/resource_36   : size[1.88   KB   ] type[Buffer Object] label[MakeGlBuffer] category[Other] purgeable_size[1.88 KB]
+    skia/gpu_resources/resource_260  : size[30.00  KB   ] type[Buffer Object] label[MakeGlBuffer] category[Scratch]
+    skia/gpu_resources/resource_23   : size[48.00  KB   ] type[Buffer Object] label[MakeGlBuffer] category[Scratch]
+Skia's Wrapped Objects:
+Total GPU memory usage:
+2.52 MB (1.90 MB is purgeable)
+
+TextureView: 1011x1798
+TextureView: 1011x1798
+
+GraphicBufferAllocator buffers:
+            Handle |         Size |     W (Stride) x H | Layers |   Format |      Usage | Requestor
+      0x70f830c0a0 |      unknown |  540 ( 576) x  960 |      1 | 32315659 | 0x     133 | SurfaceTexture-0-26649-0
+      0x70f830c110 |      unknown |  540 ( 576) x  960 |      1 | 32315659 | 0x     133 | SurfaceTexture-0-26649-0
+      0x70f830c180 |      unknown |  540 ( 576) x  960 |      1 | 32315659 | 0x     133 | SurfaceTexture-0-26649-0
+      0x715edc3790 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[SplashActivity]#0(BLAST Consumer)0
+      0x72ae820990 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[SplashActivity]#0(BLAST Consumer)0
+      0x72ed9b98f0 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[SplashActivity]#0(BLAST Consumer)0
+      0x72ed9b9960 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[SplashActivity]#0(BLAST Consumer)0
+      0x72ed9b99d0 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[SplashActivity]#0(BLAST Consumer)0
+      0x72ed9b9a40 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[SplashActivity]#0(BLAST Consumer)0
+Total allocated by GraphicBufferAllocator (estimate): 126960.00 KB
+Imported gralloc buffers:
++ name:VRI[SplashActivity]#0(BLAST Consumer)0, id:4380, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:SurfaceTexture-0-26649-0, id:4378, size:812.00KiB, w/h:540x960, usage: 0x133, req fmt:842094169, fourcc/mod:842094169/0, dataspace: 0x10c10000, compressed: false
+	planes: Y:	 w/h:540x960, stride:576 bytes, size:552960
+	        Cb:	 w/h:270x480, stride:288 bytes, size:138240
+	        Cr:	 w/h:270x480, stride:288 bytes, size:138240
++ name:VRI[SplashActivity]#0(BLAST Consumer)0, id:4379, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:SurfaceTexture-0-26649-0, id:4377, size:812.00KiB, w/h:540x960, usage: 0x133, req fmt:842094169, fourcc/mod:842094169/0, dataspace: 0x10c10000, compressed: false
+	planes: Y:	 w/h:540x960, stride:576 bytes, size:552960
+	        Cb:	 w/h:270x480, stride:288 bytes, size:138240
+	        Cr:	 w/h:270x480, stride:288 bytes, size:138240
++ name:SurfaceTexture-0-26649-0, id:4376, size:812.00KiB, w/h:540x960, usage: 0x133, req fmt:842094169, fourcc/mod:842094169/0, dataspace: 0x10c10000, compressed: false
+	planes: Y:	 w/h:540x960, stride:576 bytes, size:552960
+	        Cb:	 w/h:270x480, stride:288 bytes, size:138240
+	        Cr:	 w/h:270x480, stride:288 bytes, size:138240
++ name:VRI[SplashActivity]#0(BLAST Consumer)0, id:4375, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[SplashActivity]#0(BLAST Consumer)0, id:4374, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[SplashActivity]#0(BLAST Consumer)0, id:4373, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[SplashActivity]#0(BLAST Consumer)0, id:4372, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
+Total imported by gralloc: 129924.00KiB
+
+Profile data in ms:
+
+	com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity/android.view.ViewRootImpl@58079f0 (visibility=0)
+View hierarchy:
+
+  com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity/android.view.ViewRootImpl@58079f0
+  2037 views, 3304.81 kB of render nodes
+
+
+Total ViewRootImpl   : 1
+Total attached Views : 2037
+Total RenderNode     : 3304.81 kB (used) / 6433.66 kB (capacity)
+
+

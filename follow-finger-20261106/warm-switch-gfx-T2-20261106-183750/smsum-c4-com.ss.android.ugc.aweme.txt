@@ -1,0 +1,16 @@
+﻿Config{ mEnableRateOverride=true mEnableFodHighRate=true mVoiceSceneLowRate=true mVoiceSceneLowRateDelay=500 mMaxRefreshSettings=4 mIpePencilRateId=3 mAppSwitchBoost=true mAppSwitchBoostType=0 mAppSwitchBoostMaxTemp=47 mDefaultRateId=[4, 4, 2, 4] mDefaultMaxRate=144.0 mDisableViewOverrideDefaultValue=false mExtremeHighEnable=true}
+current mode={id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}
+mPanelRateData = RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}
+mCurrentPickRate=144.00002
+mPreferredRefreshRateId:PreferredRefreshRateData{mPreferredRefreshRateId=[2, 2, 2, 4],isAnimBoost=true,isBrightnessBlock=true}
+PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null}
+PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null}
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[2, 2, 2, 4],isAnimBoost=true,isBrightnessBlock=true}} ;win name:Splash Screen com.ss.android.ugc.aweme]
+    | VOTES[PRIORITY_LAUNCHER_REQUEST -> Vote{mRefreshRate=120.0, mMinRefreshRate=120.0, mRequestSource=com.android.launcher10108};PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null};]
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[2, 2, 2, 4],isAnimBoost=true,isBrightnessBlock=true}} ;win name:Splash Screen com.ss.android.ugc.aweme]
+    | VOTES[PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null};]
+    | VOTES[PRIORITY_START_ANIMATION_BOOST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null};PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=120.0, mMinRefreshRate=120.0, mRequestSource=null};]
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]
+    | VOTES[PRIORITY_LAUNCHER_REQUEST -> Vote{mRefreshRate=120.0, mMinRefreshRate=120.0, mRequestSource=com.android.launcher10108};PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null};]
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]
+    | VOTES[PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null};]

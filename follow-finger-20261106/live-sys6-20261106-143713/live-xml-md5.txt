@@ -1,0 +1,1 @@
+﻿35db38f8c85758c372546c707513642c  /my_product/etc/refresh_rate_config.xml

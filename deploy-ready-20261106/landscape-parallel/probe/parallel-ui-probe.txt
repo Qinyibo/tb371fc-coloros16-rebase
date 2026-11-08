@@ -1,0 +1,120 @@
+﻿Activity Resolver Table:
+        caabda com.oplus.pscanvas/com.customer.feedback.sdk.activity.FeedbackActivity filter 651b6e8
+      oplus.intent.action.ZOOM_OPERATION_ACTIVITY:
+        b80b993 com.oplus.pscanvas/com.oplus.flexibletask.setting.OperationActivity filter 90bfdd0
+          Action: "oplus.intent.action.ZOOM_OPERATION_ACTIVITY"
+        6774f64 com.oplus.pscanvas/com.oplus.flexibletask.setting.SettingActivity filter 5d5ce82
+      oplus.intent.action.ZOOM_SETTINGS_ACTIVITY:
+        6774f64 com.oplus.pscanvas/com.oplus.flexibletask.setting.SettingActivity filter 65575cd
+          Action: "oplus.intent.action.ZOOM_SETTINGS_ACTIVITY"
+        6b918f6 com.oplus.pscanvas/com.oplus.shareapp.ShareAppActivity filter 6aec4f7
+      oplus.intent.action.ZOOM_SUPPORT_GAME_LIST_ACTIVITY:
+        50a1c9 com.oplus.pscanvas/com.oplus.flexibletask.setting.SupportGameListActivity filter e1650ce
+          Action: "oplus.intent.action.ZOOM_SUPPORT_GAME_LIST_ACTIVITY"
+        caabda com.oplus.pscanvas/com.customer.feedback.sdk.activity.FeedbackActivity filter b43c80b
+        9735bef com.oplus.pscanvas/com.oplus.aifluidcloud.FeedBackHandleActivity filter 4b89185
+        9735bef com.oplus.pscanvas/com.oplus.aifluidcloud.FeedBackHandleActivity filter 5fb26fc
+        a66efb8 com.oplus.pscanvas/.canvasmode.canvas.ContainerActivity filter b2e5191
+Service Resolver Table:
+      oplus.intent.action.settings.RECOVERY_SERVICE:
+        29b2d83 com.oplus.pscanvas/com.oplus.flexibletask.setting.SettingRecoveryService filter a427b00 permission oplus.permission.settings.RECOVERY_SETTINGS
+          Action: "oplus.intent.action.settings.RECOVERY_SERVICE"
+          Action: "com.oplusos.zoomwindow.setting.utils.SettingRecoveryService"
+      com.oplusos.zoomwindow.setting.utils.SettingRecoveryService:
+        29b2d83 com.oplus.pscanvas/com.oplus.flexibletask.setting.SettingRecoveryService filter a427b00 permission oplus.permission.settings.RECOVERY_SETTINGS
+          Action: "oplus.intent.action.settings.RECOVERY_SERVICE"
+          Action: "com.oplusos.zoomwindow.setting.utils.SettingRecoveryService"
+      com.oplus.br.service:
+        1c88f39 com.oplus.pscanvas/com.oplus.flexibletask.setting.utils.BackUpService filter d1e897e permission com.oplus.permission.safe.BACKUP
+          Action: "com.oplus.br.service"
+Provider Resolver Table:
+      com.oplus.seedling.action.SEEDLING_SERVICE:
+        64d9e7 com.oplus.pscanvas/com.oplus.flexibletask.setting.utils.UmsZoomProvider filter 4ff5994
+          Action: "com.oplus.seedling.action.SEEDLING_SERVICE"
+      android.content.action.SEARCH_INDEXABLES_PROVIDER:
+        a7c6c3d com.oplus.pscanvas/com.oplus.flexibletask.setting.IndexSearchProvider filter 422dc32
+          Action: "android.content.action.SEARCH_INDEXABLES_PROVIDER"
+  Permission [com.oplus.exserviceui.pocket.studio.canvas] (9c74331):
+    perm=PermissionInfo{4a27f6 com.oplus.exserviceui.pocket.studio.canvas}
+  Permission [com.oplus.exserviceui.drag.permission] (936ba16):
+    perm=PermissionInfo{1a72ccd com.oplus.exserviceui.drag.permission}
+Registered ContentProviders:
+  com.oplus.pscanvas/androidx.startup.InitializationProvider:
+    Provider{cccafca com.oplus.pscanvas/androidx.startup.InitializationProvider}
+  com.oplus.pscanvas/com.oplus.flexibletask.setting.IndexSearchProvider:
+    Provider{a7c6c3d com.oplus.pscanvas/com.oplus.flexibletask.setting.IndexSearchProvider}
+  com.oplus.pscanvas/com.oplus.flexibletask.setting.utils.UmsZoomProvider:
+    Provider{64d9e7 com.oplus.pscanvas/com.oplus.flexibletask.setting.utils.UmsZoomProvider}
+ContentProvider Authorities:
+    Provider{cccafca com.oplus.pscanvas/androidx.startup.InitializationProvider}
+    Provider{a7c6c3d com.oplus.pscanvas/com.oplus.flexibletask.setting.IndexSearchProvider}
+  [com.oplusos.zoomwindow.setting.ums_zoom_provider]:
+    Provider{64d9e7 com.oplus.pscanvas/com.oplus.flexibletask.setting.utils.UmsZoomProvider}
+      com.oplus.exserviceui.pocket.studio.canvas: prot=signature
+      com.oplus.exserviceui.drag.permission: prot=signature
+      android.permission.START_ANY_ACTIVITY
+      android.permission.MANAGE_ACTIVITY_TASKS
+      android.permission.START_ANY_ACTIVITY: granted=true
+      android.permission.MANAGE_ACTIVITY_TASKS: granted=true
+      [com.android.keychain,com.oplus.customize.coreapp,com.oplus.postmanservice,com.oplus.wifibackuprestore,com.oplus.atlas,com.oplus.exsystemservice,com.oplus.securitypermission,vendor.qti.frameworks.utils,com.oplus.mediaturbo,com.oplus.battery,oplus,com.oplus.lfeh,com.android.dynsystem,com.android.inputdevices,com.oplus.engineermode,com.oplus.trafficmonitor,com.oplus.healthservice,com.android.location.fused,com.oplus.obrain,com.oplus.powermonitor,com.oplus.sau,com.oplus.subsys,android,com.oplus.onetrace,com.android.providers.settings,com.android.DeviceAsWebcam,com.oplus.voice.crs,com.oplus.athena,com.qualcomm.qti.xrvd.service,com.oplus.sauhelper,com.oplus.audio.effectcenter,com.heytap.mcs,com.oplus.safecenter,com.android.localtransport,com.android.server.telecom,com.oplus.nas,com.oplus.notificationmanager,com.wapi.wapicertmanage,com.oplus.appplatform,com.oplus.engineernetwork,com.oplus.bttestmode,com.oplus.olc,com.oplus.wirelesssettings,com.oplus.appbooster,com.oplus.qualityprotect,com.android.settings,com.oplus.owkservice]:
+  [com.oplus.advice.provider.seedling.SceneSeedlingMessageProvider]:
+  [com.oplus.advice.litecard.CardWidgetImplProvider]:
+  [com.oplus.pantanal.ums.UTraceProvider]:
+  [com.oplus.card.ums.server.aiflow.provider]:
+  [com.oplus.advice.health.provider.HealthWidgetCardProvider]:
+  [com.oplus.pantanal.ums.Track.TrackEventProvider]:
+  [com.oplus.pantanal.ums.Track.MultiProcessSharedPreferencesProvider]:
+  [com.oplus.pantanal.ums.card.config.provider]:
+  [com.oplus.advice.provider.seedling.SceneSeedlingCardWidgetProvider]:
+  [com.oplus.advice.provider.data_collect]:
+  [com.oplus.sceneservice.business.checkin.provider.checkInDataProvider]:
+  [com.oplus.pantanal.ums.card.configuration.provider]:
+  [com.oplus.pantanal.ums.card.FileProvider]:
+  [com.oplus.advice.provider.scene_collect_data]:
+  [com.oplus.pantanal.ums.cardService.provider]:
+  [com.oplus.ums.restore.scene_service]:
+  [com.oplus.pantanal.ums.IntentProvider]:
+  [com.oplus.advice.health.provider.healthDataProvider]:
+  [com.oplus.advice.privacy_policy.fileprovider.combine.external.ums]:
+  [com.oplus.ums.breeno_switch_provider]:
+  [com.oplus.pantanal.ums.GroupCardSupportProvider]:
+  [com.oplus.advice.provider.memory_share]:
+  [com.oplus.advice.provider.sport_event_data]:
+  [com.oplus.ums.settings.breenoVoiceProvider]:
+  [com.oplus.pantanal.ums.card.event.provider]:
+  [com.oplus.pantanal.ums.FileShareProvider]:
+  [com.oplus.advice.provider.quickapp]:
+  [com.oplus.pantanal.ums.card.AppCardEventProvider]:
+  [com.oplus.pantanal.ums.cardservice.provider.CardServiceClientProvider]:
+  [com.oplus.advice.provider.subdomain.permission]:
+  [com.oplus.advice.component.analyzer.provider.AnalyzerProvider]:
+  [com.oplus.pantanal.ums.cardservice.provider.CardServiceServerProvider]:
+  [com.oplus.pantanal.ums.configuration.widget.AppWidgetConfigProvider]:
+  [com.oplus.pantanal.ums.Track.TrackCommonProvider]:
+  [com.oplus.aiflow.provider.AiBriefContentProvider]:
+  [com.oplus.pantanal.ums.ResProvider]:
+  [com.oplus.advice.provider.request_alive]:
+  [com.oplus.advice.provider.scene_engine]:
+  [com.oplus.pantanal.ums.card.AppCardWidgetProvider]:
+  [com.ums.aisetting.provider.AISettingDataProvider]:
+  [com.oplus.pantanal.ums.QuickAppWidgetProvider]:
+  [com.oplus.advice.provider.preference]:
+  [com.oplus.pantanal.ums.upk.FileProvider]:
+  [com.oplus.ums.visibility_attr_provider]:
+  [com.oplus.card.server.headset.provider]:
+  [com.oplus.pantanal.ums.RemoveGroupCardProvider]:
+  [com.oplus.advice.settings.combine.external.ums]:
+  [com.oplus.pantanal.ums.atomicservice.discovery]:
+  [com.oplus.pantanal.ums.cardservice.provider.AssistantProvider]:
+  [com.oplus.pantanal.ums.litecard.CardWidgetImplProvider]:
+  [com.oplus.pantanal.ums.HostPidProvider]:
+  [com.oplus.pantanal.ums.APKServerProvider]:
+  [com.oplus.pantanal.ums.EventContentProvider]:
+  [com.oplus.pantanal.ums.decision.switchprovider]:
+  [com.oplus.pantanal.ums.ServiceStoreProvider]:
+  [com.oplus.advice.provider.sport_event_team_logo]:
+  [com.oplus.pantanal.ums.card.widget.config.provider]:
+  [com.oplus.pantanal.ums.BriefDataContentProvider]:
+  [com.oplus.pantanal.ums.settings]:
+  [com.oplus.pantanal.ums.assembled_scene_name_provider]:
+  [com.oplus.advice.provider.quickapp.timely]:

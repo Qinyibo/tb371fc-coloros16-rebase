@@ -1,0 +1,6 @@
+id=tb371fc_sf_duration_144
+name=TB371FC SF workDuration 144-aligned
+version=v1
+versionCode=1
+author=tb371fc-grok
+description=Set debug.sf.* duration props for 144Hz period (6944444ns). Reversible. Do NOT bind jars.

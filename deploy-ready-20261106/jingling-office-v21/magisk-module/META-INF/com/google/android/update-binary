@@ -1,0 +1,6 @@
+#!/sbin/sh
+# Magisk module installer stub — relies on Magisk injecting util_functions
+SKIPUNZIP=1
+unzip -o "$ZIPFILE" -x "META-INF/*" -d "$MODPATH" >&2
+set_perm_recursive "$MODPATH" 0 0 0755 0644
+[ -f "$MODPATH/customize.sh" ] && . "$MODPATH/customize.sh"

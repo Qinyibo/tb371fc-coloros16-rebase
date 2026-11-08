@@ -1,0 +1,102 @@
+﻿APK 8391979 01450E66939EAC2A0E188396244B1F59725E862342BE978CA60CD8E218BE7BB8 D:\TB371FC-release\clean-rebase-20261104\donor-tree\system_ext\app\OplusFlexibleWindowUI\OplusFlexibleWindowUI.apk
+APK 8391979 01450E66939EAC2A0E188396244B1F59725E862342BE978CA60CD8E218BE7BB8 D:\TB371FC-release\clean-rebase-20261104\deploy-ready-20261106\landscape-parallel\probe\OplusFlexibleWindowUI.apk
+DIR D:\TB371FC-release\v23-test-apks
+  d-----  com.ss.android.ugc.aweme
+  d-----  com.tencent.mm
+  d-----  com.tencent.mobileqq
+  d-----  tv.danmaku.bili
+  -a---- 953 manifest.json
+DIR D:\TB371FC-release\clean-rebase-20261104\original
+  -a---- 8218645547 OPD2413_16.0.10.600_CN01.zip
+DIR D:\TB371FC-release\clean-rebase-20261104\flash-candidate
+  d-----  images
+  d-----  scripts
+  d-----  tools
+  -a---- 1161 manifest.json
+DIR D:\TB371FC-release\clean-rebase-20261104\flash-rollback
+  d-----  images
+  d-----  scripts
+  d-----  tools
+  -a---- 903 manifest.json
+DIR D:\TB371FC-release\public-source\TB371FC-ColorOS16
+  d-----  baseline
+  d-----  camera
+  d-----  diagnostics
+  d-----  docs
+  d-----  flash
+  d-----  market-guard
+  d-----  native-animation
+  d-----  native-charger
+  d-----  native-freezer
+  d-----  native-pen
+  d-----  patches
+  d-----  privacy
+  d-----  release
+  d-----  research
+  d-----  rom-build
+  d-----  speaker
+  -a---- 97 .gitignore
+  -a---- 35149 LICENSE
+  -a---- 8564 README.md
+=== R94T-v23-20261030-TEST top ===
+  1-连接检查.cmd
+  2-刷前检查.cmd
+  assets
+  attempt-logs
+  drivers
+  images
+  manifest.json
+  scripts
+  tools
+  verification
+  刷入说明.md
+  打开驱动辅助工具.cmd
+  核验ROM.cmd
+  清空数据刷入.cmd
+=== R94T-v27-r106-20261103-CANDIDATE top ===
+  1-连接检查.cmd
+  2-刷前检查.cmd
+  assets
+  attempt-logs
+  drivers
+  images
+  manifest.json
+  scripts
+  tools
+  verification
+  刷入说明.md
+  打开驱动辅助工具.cmd
+  核验ROM.cmd
+  清空数据刷入.cmd
+=== R94-OCT18-BASELINE-PRIVATE-TEST top ===
+  1-连接检查.cmd
+  2-刷前检查.cmd
+  assets
+  attempt-logs
+  drivers
+  images
+  manifest.json
+  scripts
+  tools
+  verification
+  刷入说明.md
+  打开驱动辅助工具.cmd
+  本版改动.md
+  核验ROM.cmd
+  清空数据刷入.cmd
+=== R94T-v22a-NATIVE-PEN-COMM-PRIVATE_TEST top ===
+  1-连接检查.cmd
+  2-刷前检查.cmd
+  assets
+  attempt-logs
+  drivers
+  images
+  manifest.json
+  scripts
+  tools
+  verification
+  刷入说明.md
+  打开驱动辅助工具.cmd
+  核验ROM.cmd
+  清空数据刷入.cmd
+=== v23 depth3 Flexible/pscanvas/Settings ===

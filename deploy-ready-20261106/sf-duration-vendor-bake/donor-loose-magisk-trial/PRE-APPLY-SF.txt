@@ -1,0 +1,7 @@
+﻿PRE-APPLY Asia/Hong_Kong 2026-11-06 17:53:28
+mWorkDuration=8.89 mReadyDuration=10.94 activeMode=144Hz
+app/SF duration=8888888/10944444
+high_fps_late_app=1000000 high_fps_late_sf=-4000000
+use_phase_offsets_as_durations=empty
+vendor/build.prop MD5=fe6f8d95b40efedfcdfc45cf05ba6ec7
+old tb371fc_sf_duration_144 remains DISABLED (tight hang recipe)

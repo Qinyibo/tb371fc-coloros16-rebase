@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="sys_fantasy_window_managed_b">20260515</string>
+    <string name="sys_fantasy_window_managed_a">20260706</string>
+    <string name="sys_compact_window_managed_c">20260422</string>
+    <boolean name="FantasyWindowConfigFullScanFinished" value="true" />
+    <set name="escapePackageForAutoLayout" />
+    <set name="escapePackageForParallelWindow" />
+    <string name="sys_full_orientation_managed_o">20260422</string>
+</map>

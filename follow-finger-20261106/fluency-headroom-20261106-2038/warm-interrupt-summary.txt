@@ -1,0 +1,3 @@
+﻿wechat janky=62 (32.12%) p50=?ms p90=?ms p95=?ms p99=?ms mCurrentPickRate=144.00002
+douyin janky=28 (14.58%) p50=?ms p90=?ms p95=?ms p99=?ms mCurrentPickRate=144.00002
+luna janky=69 (16.79%) p50=?ms p90=?ms p95=?ms p99=?ms mCurrentPickRate=144.00002

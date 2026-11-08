@@ -1,0 +1,47 @@
+{
+  "state": "DELTA_WRITTEN_REBOOTED_POSTCHECK_PASS",
+  "hardware_success_claimed": false,
+  "flashed": true,
+  "flash_completed_at_asia_hong_kong": "2026-11-06T17:16:50.327283+08:00",
+  "serial": "HA1W0JA3",
+  "work": "pen-sharing-compat/candidate-v4-on-e088",
+  "baseline_receipt": "pen-sharing-compat/candidate-v4-on-e088/physical-baseline-receipt.json",
+  "boot_sha256": "5b4acefcc109ece2d3b84ce646b3496de6dfe2dc4b33d459bd2557d4d9a38b3a",
+  "super_before_sha256": "e088d404d8e6e67f07820681f85259a62eee7911a0e5c24ef9c67b57aca03cdf",
+  "super_after_sha256": "7b1c6736d45bf228a46df0e00dd2cd54e73cf1e36f6cf6a9bb08efbf2aba033d",
+  "expected_super_sha256": "7b1c6736d45bf228a46df0e00dd2cd54e73cf1e36f6cf6a9bb08efbf2aba033d",
+  "userdata_wiped": false,
+  "partitions": [
+    "system_a"
+  ],
+  "delta_parts": 5,
+  "forward_parts_sha256": [
+    "1a5901ea804ee0c3f3bc85e193d30a49309c4b3dcae978a57724db5891a3bc49",
+    "214704d49df0253c6c9a20d89ea9d8a396e72fdac14b492e4a49b082450226a6",
+    "73e7bfdabc7169b25fea51a8bfd0f79c204cca1ab18888e760a2c3df56366d93",
+    "c4a5f29944d4174dffae1dc3076b47b2d6c0b95fd4710441ac343b7121fb1d80",
+    "194535d6379e90ab444653f471fc7f3f86333e321bd8f65f6f7635a99d74f732"
+  ],
+  "fastboot_log": "fastboot-20261106-171017.log",
+  "reboot_command_status": "FAILED_unknown_status_u_but_device_rebooted_to_adb",
+  "physical_boot_verified": true,
+  "postcheck": {
+    "super_readback": "7b1c6736d45bf228a46df0e00dd2cd54e73cf1e36f6cf6a9bb08efbf2aba033d",
+    "boot_unchanged": true,
+    "refresh_xml_md5": "35db38f8c85758c372546c707513642c",
+    "selinux": "Enforcing",
+    "magisk_refresh_disabled": true,
+    "luna_enabled_path_b_sha256": "2dc3bda37442e36f9fd6d3b2a19aec427e59c0393449f0ffb433095c94cf0b4e",
+    "IPeManager_apk_sha256": "bfdae2e161774767a2c0dc94598fb78cdfa0e8063a00e7d6a459340311a956f2",
+    "services_jar_sha256": "6a3caff3686b55ec58e492e8dc69090efe7c269e42327b454e0efe6308a8b490"
+  },
+  "coreservice_note": "After unlock (~286s uptime sampled): dumpsys activity services com.oplus.ipemanager empty; no IPeManager process; CoreService component registered but not running; boot logcat had 0 IPeManager/btadsorb lines. V3 had system-initiated start with app=null/empty PID; V4 this boot showed no automatic start attempt. Automatic/manual start and real-pen checklist PENDING. hardware_success_claimed=false.",
+  "pen_hardware_checklist": {
+    "connect": "PENDING",
+    "battery": "PENDING",
+    "pressure": "PENDING",
+    "side_button": "PENDING",
+    "in_app_writing": "PENDING",
+    "game_input": "PENDING"
+  }
+}

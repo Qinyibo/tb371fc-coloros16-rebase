@@ -1,0 +1,6 @@
+id=tb371fc_system_refresh_policy
+name=TB371FC system refresh policy (144 product config)
+version=v3
+versionCode=3
+author=tibo
+description=System refresh v3: UTF8 no-BOM; defaultRateId/maxRefreshRateId=4; no per-app items

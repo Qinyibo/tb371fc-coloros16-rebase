@@ -1,0 +1,50 @@
+﻿    OplusFeatureUIR: mIsUIROpened = false mCurrentPkg = null mIsDarkMode = false mFloatWindowApps [] config = config is null
+  mSafeMode=false
+  mDefaultDisplayDefaultColorMode=0
+  mHdrConversionMode=HdrConversionMode{ConversionMode=HDR_CONVERSION_SYSTEM, PreferredHdrOutputType=HDR_TYPE_INVALID}
+  DisplayDeviceInfo{"鍐呯疆灞忓箷": uniqueId="local:4630947161651687041", 1840 x 2944, modeId 2, renderFrameRate 144.00002, hasArrSupport false, frameRateCategoryRate FrameRateCategoryRate {normal=60.0, hig
+    mDisplayModeSpecs={baseModeId=2 allowGroupSwitching=false primary=physical: (0.0 144.00002) render:  (0.0 144.00002) appRequest=physical: (0.0 144.00002) render:  (0.0 144.00002) idleScreenRefresh
+    mDisplayModeSpecsInvalid=false
+    mActiveModeId=2
+    mActiveColorMode=0
+    mDefaultModeId=2
+    mUserPreferredModeId=-1
+    mSupportedRefreshRates=[120.00001, 144.00002, 60.000004, 30.000002]
+    mStaticDisplayInfo=StaticDisplayInfo{isInternal=true, density=2.3125, secure=true, deviceProductInfo=DeviceProductInfo{name=, manufacturerPnpId=QCM, productId=1, modelYear=null, manufactureDate=Ma
+    mSfDisplayModes=
+      DisplayMode{id=0, width=1840, height=2944, xDpi=273.309, yDpi=272.91, peakRefreshRate=120.00001, vsyncRate=120.00001, appVsyncOffsetNanos=1222222, presentationDeadlineNanos=9500000, supportedHdr
+      DisplayMode{id=1, width=1840, height=2944, xDpi=273.309, yDpi=272.91, peakRefreshRate=144.00002, vsyncRate=144.00002, appVsyncOffsetNanos=5388888, presentationDeadlineNanos=9500000, supportedHdr
+      DisplayMode{id=2, width=1840, height=2944, xDpi=273.309, yDpi=272.91, peakRefreshRate=60.000004, vsyncRate=60.000004, appVsyncOffsetNanos=1222222, presentationDeadlineNanos=9500000, supportedHdr
+      DisplayMode{id=3, width=1840, height=2944, xDpi=273.309, yDpi=272.91, peakRefreshRate=30.000002, vsyncRate=30.000002, appVsyncOffsetNanos=17888888, presentationDeadlineNanos=9500001, supportedHd
+    mActiveSfDisplayMode=DisplayMode{id=1, width=1840, height=2944, xDpi=273.309, yDpi=272.91, peakRefreshRate=144.00002, vsyncRate=144.00002, appVsyncOffsetNanos=5388888, presentationDeadlineNanos=95
+    mActiveRenderFrameRate=144.00002
+    mSupportedModes=
+      DisplayModeRecord{mMode={id=1, width=1840, height=2944, fps=120.00001, vsync=120.00001, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 144.00002], supportedHdrTypes=[2, 3, 4]}}
+      DisplayModeRecord{mMode={id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}}
+      DisplayModeRecord{mMode={id=3, width=1840, height=2944, fps=60.000004, vsync=60.000004, synthetic=false, alternativeRefreshRates=[30.000002, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}}
+      DisplayModeRecord{mMode={id=4, width=1840, height=2944, fps=30.000002, vsync=30.000002, synthetic=false, alternativeRefreshRates=[60.000004, 120.00001, 144.00002], supportedHdrTypes=[2, 3, 4]}}
+    mSupportedColorModes=[0, 7, 9]
+    mAmbientLightSensor=SensorData{type= , name= , refreshRateRange: [0.0, Infinity], supportedModes=[]}, mScreenOffBrightnessSensor=null, mProximitySensor=SensorData{type= null, name= null, refreshRa
+    mDefaultLowBlockingZoneRefreshRate= 0, mDefaultHighBlockingZoneRefreshRate= 0, mRefreshRateData= RefreshRateData {defaultRefreshRate: 0, defaultPeakRefreshRate: 240, defaultRefreshRateInHbmHdr: 0,
+    mBrightnessCapForWearBedtimeMode= 0.07480315
+  mSingleDisplayDemoMode=false
+  mCurrentLayout=[{dispId: 0(ON), displayGroupName: , addr: {port=129, model=0x40446de85fda2e}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mLeadDisplayAddre
+    mDesiredDisplayModeSpecs={baseModeId=2 allowGroupSwitching=false primary=physical: (0.0 144.00002) render:  (0.0 144.00002) appRequest=physical: (0.0 144.00002) render:  (0.0 144.00002) idleScreen
+    mRequestedColorMode=0
+    mBaseDisplayInfo=DisplayInfo{"鍐呯疆灞忓箷", displayId 0, displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 1840 x 2944, largest app 1840 x 2944, smallest app 1840 x 294
+    mOverrideDisplayInfo=DisplayInfo{"鍐呯疆灞忓箷", displayId 0, displayGroupId 0, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, real 2944 x 1840, largest app 2944 x 2944, smallest app 1840 x
+    mFrameRateOverrides=[]
+    mPendingFrameRateOverrideUids={}
+    mLayoutLimitedRefreshRate=null
+    mThermalRefreshRateThrottling={}
+    Display 0 [id=local:4630947161651687041,stack=0],isFirst=true,activeMode=2,state=ON,commitState=ON,devInfo:DisplayDeviceInfo{"鍐呯疆灞忓箷": uniqueId="local:4630947161651687041", 1840 x 2944, modeId 2, 
+    state(-1): [{dispId: 0(ON), displayGroupName: , addr: {port=129, model=0x40446de85fda2e}, mThermalBrightnessThrottlingMapId: null, mRefreshRateZoneId: null, mLeadDisplayId: -1, mLeadDisplayAddress
+  mPendingRequestLocked=policy=DIM, useProximitySensor=false, screenBrightnessOverride=-1.0, useAutoBrightness=false, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, bl
+  mCachedBrightnessInfo.hbmMode=0
+  mPowerRequest=policy=DIM, useProximitySensor=false, screenBrightnessOverride=-1.0, useAutoBrightness=false, screenAutoBrightnessAdjustmentOverride=NaN, screenLowPowerBrightnessFactor=1.0, blockScree
+AutomaticBrightnessStrategy:
+  mShouldResetShortTermModel=false
+  mWasShortTermModelActive=false
+  mMode=1
+  Last selected DisplayBrightnessStrategy= AutomaticBrightnessStrategy
+DisplayBrightnessStrategySelector:

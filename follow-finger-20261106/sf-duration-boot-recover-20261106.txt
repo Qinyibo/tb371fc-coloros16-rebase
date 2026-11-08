@@ -1,0 +1,32 @@
+=== modules ===
+-rw-r--r-- 1 root root 0 2026-11-06 14:49 /data/adb/modules/tb371fc_dynframe_144/disable
+-rw-r--r-- 1 root root 0 2026-11-06 15:32 /data/adb/modules/tb371fc_sf_duration_144/disable
+-rw-r--r-- 1 root root 0 2026-11-06 15:07 /data/adb/modules/tb371fc_vrr_touchidle_off/disable
+ls: /data/adb/modules/: Permission denied
+
+tb371fc_sf_duration_144 disable=YES
+tb371fc_dynframe_144 disable=YES
+tb371fc_vrr_touchidle_off disable=YES
+tb371fc_system_refresh_policy disable=NO
+=== props ===
+debug.sf.use_phase_offsets_as_durations=
+debug.sf.late.app.duration=
+debug.sf.late.sf.duration=
+debug.sf.high_fps_late_app_phase_offset_ns=1000000
+debug.sf.high_fps_late_sf_phase_offset_ns=-4000000
+=== refresh md5 ===
+35db38f8c85758c372546c707513642c  /my_product/etc/refresh_rate_config.xml
+
+=== screenmode ===
+Current Version:20260107
+Config{ mEnableRateOverride=true mEnableFodHighRate=true mVoiceSceneLowRate=true mVoiceSceneLowRateDelay=500 mMaxRefreshSettings=4 mIpePencilRateId=3 mAppSwitchBoost=true mAppSwitchBoostType=0 mAppSwitchBoostMaxTemp=47 mDefaultRateId=[4, 4, 2, 4] mDefaultMaxRate=144.0 mDisableViewOverrideDefaultValue=false mExtremeHighEnable=true}
+mCurrentPickMode=4
+mPanelRateData = RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}
+mCurrentPickRate=144.00002
+=== SF key ===
+app duration:   8888888 ns	         SF duration:  10944444 ns
+early app duration:   8888888 ns	   early SF duration:  10944444 ns
+GL early app duration:   8888888 ns	GL early SF duration:  10944444 ns
+activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+mWorkDuration=8.89 mReadyDuration=10.94 last vsync time 14.21ms relative to now
+activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}

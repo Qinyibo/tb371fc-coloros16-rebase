@@ -1,0 +1,120 @@
+  * Task{3addccf #69 type=standard A=10336:com.ss.android.ugc.aweme U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+    topResumedActivity=ActivityRecord{124403625 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t69}
+    * Hist  #0: ActivityRecord{124403625 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t69}
+      rootOfTask=true task=Task{3addccf #69 type=standard A=10336:com.ss.android.ugc.aweme}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActi
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mAc
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg port finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen 
+      RequestedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowing
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w1273dp h734dp ?density ?lsize ?long ?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotati
+      requestedOrientation=SCREEN_ORIENTATION_PORTRAIT
+  * Task{f63cd82 #62 type=standard A=10342:com.tencent.mm U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=2}
+    mLastPausedActivity: ActivityRecord{253874854 u0 com.tencent.mm/.ui.chatting.ChattingUI t62}
+    * Hist  #1: ActivityRecord{253874854 u0 com.tencent.mm/.ui.chatting.ChattingUI t62}
+      rootOfTask=false task=Task{f63cd82 #62 type=standard A=10342:com.tencent.mm}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActi
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mAc
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen 
+      RequestedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowing
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w1273dp h796dp ?density ?lsize ?long ?ldr ?wideColorGamut land ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotati
+      requestedOrientation=SCREEN_ORIENTATION_PORTRAIT
+    * Hist  #0: ActivityRecord{155154020 u0 com.tencent.mm/.ui.LauncherUI t62}
+      rootOfTask=true task=Task{f63cd82 #62 type=standard A=10342:com.tencent.mm}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActi
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mAc
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen 
+      RequestedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowing
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w1273dp h796dp ?density ?lsize ?long ?ldr ?wideColorGamut land ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotati
+      requestedOrientation=SCREEN_ORIENTATION_PORTRAIT
+  * Task{c91a1a0 #1 type=home U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+    * Task{c951e2a #5 type=undefined I=com.android.launcher/.Launcher U=0 rootTaskId=1 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+      mLastPausedActivity: ActivityRecord{13940384 u0 com.android.launcher/.Launcher t5}
+      * Hist  #0: ActivityRecord{13940384 u0 com.android.launcher/.Launcher t5}
+        rootOfTask=true task=Task{c951e2a #5 type=undefined I=com.android.launcher/.Launcher}
+          mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mAc
+          mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen m
+        CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscree
+        RequestedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowi
+        requestedOrientation=SCREEN_ORIENTATION_USER
+  * Task{a8ec16a #2 type=undefined U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=2}
+    * Task{89c4459 #4 type=undefined U=0 rootTaskId=2 visible=false visibleRequested=false mode=multi-window translucent=true sz=0}
+      mBounds=Rect(2944, 0 - 4416, 1840)
+    * Task{4ba9579 #3 type=undefined U=0 rootTaskId=2 visible=false visibleRequested=false mode=multi-window translucent=true sz=0}
+    Resumed: ActivityRecord{124403625 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t69}
+  ResumedActivity: ActivityRecord{124403625 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t69}
+  topDisplayFocusedRootTask=Task{3addccf #69 type=standard A=10336:com.ss.android.ugc.aweme}
+  deepestLastOrientationSource=ActivityRecord{124403625 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t69}
+  overrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 2944, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityT
+  mFocusedApp=ActivityRecord{124403625 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t69}
+    * Leaf:100:100
+    * HideDisplayCutout:65:99
+      * OneHanded:67:99
+        * AppZoomOut:67:99
+          * Leaf:67:99
+      * AppZoomOut:66:66
+        * Leaf:66:66
+      * OneHanded:65:65
+        * AppZoomOut:65:65
+          * Leaf:65:65
+    * WindowedMagnification:0:64
+      * HideDisplayCutout:58:64
+        * OneHanded:58:64
+          * AppZoomOut:58:64
+            * Leaf:58:64
+      * Leaf:56:57
+      * HideDisplayCutout:18:55
+        * OneHanded:18:55
+          * Leaf:55:55
+          * AppZoomOut:20:54
+            * Leaf:20:54
+          * Leaf:19:19
+          * AppZoomOut:18:18
+            * Leaf:18:18
+      * OneHanded:17:17
+        * Leaf:17:17
+      * HideDisplayCutout:16:16
+        * OneHanded:16:16
+          * AppZoomOut:16:16
+            * Leaf:16:16
+      * OneHanded:15:15
+        * Leaf:15:15
+      * HideDisplayCutout:0:14
+        * OneHanded:0:14
+          * AppZoomOut:2:14
+            * ImePlaceholder:13:14
+              * ImeContainer
+            * Leaf:3:12
+            * DefaultTaskDisplayArea (organized)
+          * Leaf:1:1
+          * AppZoomOut:0:0
+            * Leaf:0:0
+      overrideConfig={0.0 ?mcc??mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=fullscreen 
+      mPreferredTopFocusableRootTask=Task{3addccf #69 type=standard A=10336:com.ss.android.ugc.aweme}
+      mLastFocusedRootTask=Task{3addccf #69 type=standard A=10336:com.ss.android.ugc.aweme}
+      * Task{3addccf #69 type=standard A=10336:com.ss.android.ugc.aweme U=0 visible=true visibleRequested=true mode=fullscreen translucent=false sz=1}
+        * ActivityRecord{124403625 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t69}
+      * Task{f63cd82 #62 type=standard A=10342:com.tencent.mm U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=2}
+        * ActivityRecord{253874854 u0 com.tencent.mm/.ui.chatting.ChattingUI t62}
+        * ActivityRecord{155154020 u0 com.tencent.mm/.ui.LauncherUI t62}
+      * Task{c91a1a0 #1 type=home U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+        * Task{c951e2a #5 type=undefined I=com.android.launcher/.Launcher U=0 rootTaskId=1 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+          * ActivityRecord{13940384 u0 com.android.launcher/.Launcher t5}
+      * Task{a8ec16a #2 type=undefined U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=2}
+        * Task{89c4459 #4 type=undefined U=0 rootTaskId=2 visible=false visibleRequested=false mode=multi-window translucent=true sz=0}
+        * Task{4ba9579 #3 type=undefined U=0 rootTaskId=2 visible=false visibleRequested=false mode=multi-window translucent=true sz=0}
+    mSystemBarColorApps={ActivityRecord{124403625 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t69}}
+    mRotation=1 mDeferredRotationPauseCount=0
+        source=ActivityRecord{244435776 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t8} SCREEN_ORIENTATION_PORTRAIT
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=-1
+        source=ActivityRecord{63175857 u0 com.oplus.wpslauncher/.activity.DialogActivity t27} SCREEN_ORIENTATION_SENSOR_LANDSCAPE
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=-1
+        source=ActivityRecord{228078266 u0 com.tencent.mobileqq/.activity.SplashActivity t24} SCREEN_ORIENTATION_PORTRAIT
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=-1
+        source=ActivityRecord{81266439 u0 com.oplus.wpslauncher/.activity.DialogActivity t32} SCREEN_ORIENTATION_SENSOR_LANDSCAPE
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=-1
+        source=ActivityRecord{78147602 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t41} SCREEN_ORIENTATION_PORTRAIT
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=ROTATION_90
+        source=ActivityRecord{13940384 u0 com.android.launcher/.Launcher t5} SCREEN_ORIENTATION_USER
+        mode=USER_ROTATION_FREE user=ROTATION_0 sensor=ROTATION_90
+          11-06 18:58:26.643: mode=USER_ROTATION_LOCKED, rotation=ROTATION_0, caller=MonkeyRotationEven#injectEvent
+          11-06 18:58:26.655: mode=USER_ROTATION_FREE, rotation=ROTATION_0, caller=MonkeyRotationEven#injectEvent

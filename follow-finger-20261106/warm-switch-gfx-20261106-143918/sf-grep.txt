@@ -1,0 +1,40 @@
+﻿Display 4630947161651687041 (HWC display 0): port=129 pnpId=QCM displayName=""
+144.00 Hz: 0d00:00:29.387
+    renderRate=144.00 Hz
+    activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=0, hwcId=0, resolution=2944x1840, vsyncRate=120.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=2, hwcId=2, resolution=2944x1840, vsyncRate=60.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+        {id=3, hwcId=3, resolution=2944x1840, vsyncRate=30.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+    displayManagerPolicy={defaultModeId=1, allowGroupSwitching=false, primaryRanges={physical=[0.00 Hz, 144.00 Hz], render=[0.00 Hz, 144.00 Hz]}, appRequestRanges={physical=[0.00 Hz, 144.00 Hz], render=[0.00 Hz, 144.00 Hz]} idleScreenConfig=nullptr}
+HWVsyncSuppressed: off
+    FakeVsyncCount: 0
+app: state=SyntheticVSync VSyncState={displayId=4630947161651687041, count=6515, synthetic}
+mWorkDuration=8.89 mReadyDuration=10.94 last vsync time -376323.97ms relative to now
+ with vsync committed at 28.33ms  pending events (count=0):
+    Connection{0xb40000767d5cbcc0, 2236, VSyncRequest::None}
+    Connection{0xb40000767d5cc2c0, 2236, VSyncRequest::None}
+    Connection{0xb40000767a42bf00, 2236, VSyncRequest::None}
+    Connection{0xb40000767a42c380, 2236, VSyncRequest::None}
+    Connection{0xb40000767a42c5c0, 2236, VSyncRequest::None}
+    Connection{0xb40000767afaf440, 2236, VSyncRequest::None}
+    Connection{0xb40000767a7a3d40, 2236, VSyncRequest::None}
+    Connection{0xb40000767a7a3ec0, 2236, VSyncRequest::None}
+    Connection{0xb40000767a7a3f80, 2826, VSyncRequest::None}
+    Connection{0xb40000767d5f8dc0, 2926, VSyncRequest::None}
+    Connection{0xb40000767af2cbc0, 2926, VSyncRequest::None}
+    Connection{0xb40000767af2d700, 2926, VSyncRequest::None}
+    Connection{0xb40000768759fe00, 2926, VSyncRequest::None}
+    Connection{0xb40000767a7a4a00, 2926, VSyncRequest::None}
+    Connection{0xb4000076b1c3eac0, 3232, VSyncRequest::None}
+    Connection{0xb4000076b1c3eb80, 3113, VSyncRequest::None}
+    Connection{0xb4000076b1c3ec40, 3322, VSyncRequest::None}
+    Connection{0xb4000076b1c3ed00, 3113, VSyncRequest::None}
+    Connection{0xb40000767a7a4400, 3232, VSyncRequest::None}
+    Connection{0xb4000076b1c3ee80, 3277, VSyncRequest::None}
+    Connection{0xb40000767a7eec40, 2926, VSyncRequest::None}
+    Connection{0xb40000767a42b0c0, 4012, VSyncRequest::None}
+    Connection{0xb40000767a7a4340, 3113, VSyncRequest::None}
+    Connection{0xb40000767a7a44c0, 4409, VSyncRequest::None}
+    Connection{0xb40000767af2d340, 4629, VSyncRequest::None}
+    Connection{0xb40000767a7a4640, 3969, VSyncRequest::None}

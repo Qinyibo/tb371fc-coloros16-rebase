@@ -1,0 +1,6 @@
+id=tb371fc_screenmode_index_cap
+name=TB371FC ScreenMode getSettingModeIndex cap 7
+version=v1
+versionCode=1
+author=tibo
+description=System: raise getSettingModeIndex Math.min cap 3->7 so SETTING_MODE_144 falls back to DefaultRateId=4

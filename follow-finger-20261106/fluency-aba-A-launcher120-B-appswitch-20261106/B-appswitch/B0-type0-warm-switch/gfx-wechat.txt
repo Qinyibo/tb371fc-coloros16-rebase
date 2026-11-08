@@ -1,0 +1,139 @@
+Applications Graphics Acceleration Info:
+Uptime: 50705 Realtime: 50705
+
+** Graphics info for pid 8959 [com.tencent.mm] **
+
+Stats since: 44945301388ns
+Total frames rendered: 218
+Janky frames: 34 (15.60%)
+Janky frames (legacy): 44 (20.18%)
+50th percentile: 5ms
+90th percentile: 22ms
+95th percentile: 93ms
+99th percentile: 300ms
+Number Missed Vsync: 18
+Number High input latency: 220
+Number Slow UI thread: 31
+Number Slow bitmap uploads: 10
+Number Slow issue draw commands: 20
+Number Frame deadline missed: 34
+Number Frame deadline missed (legacy): 32
+HISTOGRAM: 5ms=145 6ms=15 7ms=14 8ms=2 9ms=5 10ms=3 11ms=1 12ms=1 13ms=2 14ms=0 15ms=1 16ms=3 17ms=0 18ms=0 19ms=1 20ms=1 21ms=0 22ms=3 23ms=1 24ms=0 25ms=0 26ms=0 27ms=1 28ms=1 29ms=0 30ms=0 31ms=0 32ms=0 34ms=0 36ms=1 38ms=0 40ms=0 42ms=0 44ms=0 46ms=1 48ms=1 53ms=2 57ms=1 61ms=1 65ms=0 69ms=0 73ms=0 77ms=0 81ms=0 85ms=0 89ms=0 93ms=1 97ms=0 101ms=0 105ms=0 109ms=0 113ms=0 117ms=0 121ms=0 125ms=0 129ms=1 133ms=0 150ms=2 200ms=2 250ms=2 300ms=1 350ms=1 400ms=0 450ms=0 500ms=0 550ms=1 600ms=0 650ms=0 700ms=0 750ms=0 800ms=0 850ms=0 900ms=0 950ms=0 1000ms=0 1050ms=0 1100ms=0 1150ms=0 1200ms=0 1250ms=0 1300ms=0 1350ms=0 1400ms=0 1450ms=0 1500ms=0 1550ms=0 1600ms=0 1650ms=0 1700ms=0 1750ms=0 1800ms=0 1850ms=0 1900ms=0 1950ms=0 2000ms=0 2050ms=0 2100ms=0 2150ms=0 2200ms=0 2250ms=0 2300ms=0 2350ms=0 2400ms=0 2450ms=0 2500ms=0 2550ms=0 2600ms=0 2650ms=0 2700ms=0 2750ms=0 2800ms=0 2850ms=0 2900ms=0 2950ms=0 3000ms=0 3050ms=0 3100ms=0 3150ms=0 3200ms=0 3250ms=0 3300ms=0 3350ms=0 3400ms=0 3450ms=0 3500ms=0 3550ms=0 3600ms=0 3650ms=0 3700ms=0 3750ms=0 3800ms=0 3850ms=0 3900ms=0 3950ms=0 4000ms=0 4050ms=0 4100ms=0 4150ms=0 4200ms=0 4250ms=0 4300ms=0 4350ms=0 4400ms=0 4450ms=0 4500ms=0 4550ms=0 4600ms=0 4650ms=0 4700ms=0 4750ms=0 4800ms=0 4850ms=0 4900ms=0 4950ms=0
+50th gpu percentile: 2ms
+90th gpu percentile: 3ms
+95th gpu percentile: 4ms
+99th gpu percentile: 5ms
+GPU HISTOGRAM: 1ms=0 2ms=167 3ms=39 4ms=6 5ms=5 6ms=1 7ms=0 8ms=0 9ms=0 10ms=0 11ms=0 12ms=0 13ms=0 14ms=0 15ms=0 16ms=0 17ms=0 18ms=0 19ms=0 20ms=0 21ms=0 22ms=0 23ms=0 24ms=0 25ms=0 4950ms=0
+
+Pipeline=Skia (OpenGL)
+Memory policy:
+  Max surface area: 5416960
+  Max resource usage: 780.04MB (x144)
+  Background retention: 50% (altUiHidden = true)
+  GPU Context timeout: 10
+Contexts: 1 (stopped = 0)
+CPU Caches:
+  Glyph Cache: 573.55 KB (1 entry)
+  Glyph Count: 26 
+Total CPU memory usage:
+  587317 bytes, 573.55 KB (0.00 bytes is purgeable)
+GPU Caches:
+  Other:
+    Other: 23.84 KB (1 entry)
+    Buffer Object: 2.50 KB (4 entries)
+    StencilAttachment: 296.00 KB (3 entries)
+  Image:
+    Texture: 4.06 MB (68 entries)
+  Scratch:
+    RenderTarget: 3.15 MB (28 entries)
+    Texture: 2.06 MB (2 entries)
+    Buffer Object: 78.00 KB (2 entries)
+Total GPU memory usage:
+  10134112 bytes, 9.66 MB (4.62 MB is purgeable)
+
+Skia GPU memory Oplus dumper:
+GPU Caches:
+ 3692356 bytes, 3.52 MB (1.22 MB is purgeable)
+  RenderTarget: 3.15 MB (28 entries)
+    skia/gpu_resources/resource_230/texture_renderbuffer: size[64.00  KB   ] label[MakeDevice] Dimensions[128:128] type[RenderTarget] category[Scratch] purgeable_size[64.00 KB]
+    skia/gpu_resources/resource_127/texture_renderbuffer: size[16.00  KB   ] label[MakeDevice/ResourceAllocatorRegister] Dimensions[64:64] type[RenderTarget] category[Scratch] purgeable_size[16.00 KB]
+    skia/gpu_resources/resource_136/texture_renderbuffer: size[16.00  KB   ] label[MakeDevice/ResourceAllocatorRegister] Dimensions[64:64] type[RenderTarget] category[Scratch] purgeable_size[16.00 KB]
+    skia/gpu_resources/resource_130/texture_renderbuffer: size[16.00  KB   ] label[MakeDevice/ResourceAllocatorRegister] Dimensions[64:64] type[RenderTarget] category[Scratch] purgeable_size[16.00 KB]
+    skia/gpu_resources/resource_125/texture_renderbuffer: size[16.00  KB   ] label[MakeDevice] Dimensions[64:64] type[RenderTarget] category[Scratch] purgeable_size[16.00 KB]
+    skia/gpu_resources/resource_213/texture_renderbuffer: size[8.00   KB   ] label[TextureRenderTarget_FullyLazyProxy] Dimensions[128:64] type[RenderTarget] category[Scratch] purgeable_size[8.00 KB]
+    skia/gpu_resources/resource_188/texture_renderbuffer: size[736.00 KB   ] label[MakeDevice] Dimensions[2944:64] type[RenderTarget] category[Scratch] purgeable_size[736.00 KB]
+    skia/gpu_resources/resource_149/texture_renderbuffer: size[211.31 KB   ] type[RenderTarget] label[MakeDevice] Dimensions[294:184] purgeable_size[211.31 KB] category[Scratch]
+    skia/gpu_resources/resource_126/texture_renderbuffer: size[16.00  KB   ] type[RenderTarget] Dimensions[64:64] label[MakeDevice/ResourceAllocatorRegister] category[Scratch]
+    skia/gpu_resources/resource_146/texture_renderbuffer: size[48.00  KB   ] type[RenderTarget] Dimensions[192:64] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_132/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] Dimensions[128:128] label[MakeDevice/ResourceAllocatorRegister] category[Scratch]
+    skia/gpu_resources/resource_145/texture_renderbuffer: size[16.00  KB   ] type[RenderTarget] Dimensions[64:64] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_137/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] Dimensions[128:128] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_131/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] Dimensions[128:128] label[MakeDevice/ResourceAllocatorRegister] category[Scratch]
+    skia/gpu_resources/resource_138/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] Dimensions[128:128] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_140/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] Dimensions[128:128] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_141/texture_renderbuffer: size[656.00 KB   ] type[RenderTarget] Dimensions[2624:64] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_135/texture_renderbuffer: size[64.00  KB   ] label[MakeDevice/ResourceAllocatorRegister] Dimensions[128:128] type[RenderTarget] category[Scratch] purgeable_size[64.00 KB]
+    skia/gpu_resources/resource_144/texture_renderbuffer: size[16.00  KB   ] type[RenderTarget] Dimensions[64:64] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_143/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] Dimensions[128:128] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_139/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] Dimensions[128:128] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_129/texture_renderbuffer: size[16.00  KB   ] label[MakeDevice/ResourceAllocatorRegister] Dimensions[64:64] type[RenderTarget] category[Scratch] purgeable_size[16.00 KB]
+    skia/gpu_resources/resource_128/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] Dimensions[128:128] label[MakeDevice/ResourceAllocatorRegister] category[Scratch]
+    skia/gpu_resources/resource_134/texture_renderbuffer: size[64.00  KB   ] type[RenderTarget] Dimensions[128:128] label[MakeDevice] category[Scratch]
+    skia/gpu_resources/resource_142/texture_renderbuffer: size[16.00  KB   ] label[MakeDevice] Dimensions[64:64] type[RenderTarget] category[Scratch] purgeable_size[16.00 KB]
+    skia/gpu_resources/resource_221/texture_renderbuffer: size[2.00   KB   ] label[TextureRenderTarget_FullyLazyProxy] Dimensions[64:32] type[RenderTarget] category[Scratch] purgeable_size[2.00 KB]
+    skia/gpu_resources/resource_124/texture_renderbuffer: size[64.00  KB   ] label[TextureRenderTarget_FullyLazyProxy] Dimensions[512:128] type[RenderTarget] category[Scratch] purgeable_size[64.00 KB]
+    skia/gpu_resources/resource_133/texture_renderbuffer: size[656.00 KB   ] type[RenderTarget] Dimensions[2624:64] label[MakeDevice/ResourceAllocatorRegister] category[Scratch]
+  Stencil: 296.00 KB (3 entries)
+    skia/gpu_resources/resource_214  : size[32.00  KB   ] type[StencilAttachment] Dimensions[128:64] label[GLAttachmentMakeStencil] category[Other]
+    skia/gpu_resources/resource_222  : size[8.00   KB   ] type[StencilAttachment] Dimensions[64:32] label[GLAttachmentMakeStencil] category[Other]
+    skia/gpu_resources/resource_87   : size[256.00 KB   ] type[StencilAttachment] Dimensions[512:128] label[GLAttachmentMakeStencil] category[Other]
+  Buffer Object: 80.50 KB (6 entries)
+    skia/gpu_resources/resource_80   : size[272.00 bytes] label[MakeGlBuffer] type[Buffer Object] category[Other] purgeable_size[272.00 bytes]
+    skia/gpu_resources/resource_81   : size[192.00 bytes] label[MakeGlBuffer] type[Buffer Object] category[Other] purgeable_size[192.00 bytes]
+    skia/gpu_resources/resource_91   : size[1.88   KB   ] label[MakeGlBuffer] type[Buffer Object] category[Other] purgeable_size[1.88 KB]
+    skia/gpu_resources/resource_90   : size[180.00 bytes] label[MakeGlBuffer] type[Buffer Object] category[Other] purgeable_size[180.00 bytes]
+    skia/gpu_resources/resource_5    : size[48.00  KB   ] type[Buffer Object] label[MakeGlBuffer] category[Scratch]
+    skia/gpu_resources/resource_92   : size[30.00  KB   ] type[Buffer Object] label[MakeGlBuffer] category[Scratch]
+Skia's Wrapped Objects:
+Total GPU memory usage:
+3.52 MB (1.22 MB is purgeable)
+
+
+GraphicBufferAllocator buffers:
+            Handle |         Size |     W (Stride) x H | Layers |   Format |      Usage | Requestor
+      0x74ac97e2a0 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[LauncherUI]#2(BLAST Consumer)2
+      0x7600cd2310 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[LauncherUI]#2(BLAST Consumer)2
+      0x7600cd24d0 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[LauncherUI]#2(BLAST Consumer)2
+      0x7600cd25b0 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[LauncherUI]#2(BLAST Consumer)2
+      0x7600cd2b60 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[LauncherUI]#2(BLAST Consumer)2
+      0x7600cd3dc0 | 21160.00 KiB | 2944 (2944) x 1840 |      1 |        1 | 0x10000900 | VRI[LauncherUI]#2(BLAST Consumer)2
+Total allocated by GraphicBufferAllocator (estimate): 126960.00 KB
+Imported gralloc buffers:
++ name:VRI[LauncherUI]#2(BLAST Consumer)2, id:195, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[LauncherUI]#2(BLAST Consumer)2, id:194, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[LauncherUI]#2(BLAST Consumer)2, id:193, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[LauncherUI]#2(BLAST Consumer)2, id:178, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[LauncherUI]#2(BLAST Consumer)2, id:180, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
++ name:VRI[LauncherUI]#2(BLAST Consumer)2, id:179, size:21248.00KiB, w/h:2944x1840, usage: 0x10000900, req fmt:1, fourcc/mod:875708993/0, dataspace: 0x0, compressed: true
+	planes: R/G/B/A:	 w/h:2944x1840, stride:11776 bytes, size:21757952
+Total imported by gralloc: 127488.00KiB
+
+Profile data in ms:
+
+	com.tencent.mm/com.tencent.mm.ui.LauncherUI/android.view.ViewRootImpl@d81beaf (visibility=0)
+View hierarchy:
+
+  com.tencent.mm/com.tencent.mm.ui.LauncherUI/android.view.ViewRootImpl@d81beaf
+  480 views, 847.45 kB of render nodes
+
+
+Total ViewRootImpl   : 1
+Total attached Views : 480
+Total RenderNode     : 847.45 kB (used) / 1943.80 kB (capacity)
+
+

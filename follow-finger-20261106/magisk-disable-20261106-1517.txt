@@ -1,0 +1,10 @@
+total 18
+drwxr-xr-x 6 root root 3452 1970-01-07 04:22 .
+drwx------ 7 root root 3452 1970-01-07 04:22 ..
+drwxr-xr-x 3 root root 3452 2026-11-06 14:49 tb371fc_dynframe_144
+drwxr-xr-x 2 root root 3452 1970-01-07 03:06 tb371fc_luna_heap_offset_fix
+drwxr-xr-x 2 root root 3452 1970-01-07 03:32 tb371fc_system_refresh_policy
+drwxr-xr-x 3 root root 3452 2026-11-06 15:07 tb371fc_vrr_touchidle_off
+
+ERR:
+ls: /data/adb/modules/*/disable: Permission denied

@@ -1,0 +1,37 @@
+
+    public final boolean requestRefreshRateByInvoke(boolean p10, String p11)
+    {
+        kotlin.jvm.internal.Intrinsics.checkNotNullParameter(p11, "scene");
+        String v1 = 0;
+        if (!p10) {
+            if (!this.mSceneString.equals(p11)) {
+                com.oplus.basecommon.log.LogUtils.d("LauncherBooster", "The current scene is different with the scene where the request ends, return");
+                return 0;
+            }
+        } else {
+            this.mSceneString = p11;
+        }
+        boolean v2_0;
+        Integer v3_0;
+        if (!p10) {
+            v2_0 = 0;
+            v3_0 = 0;
+        } else {
+            v2_0 = new android.os.Bundle();
+            v2_0.putIntegerArrayList("limitSettings", new java.util.ArrayList(kotlin.collections.s.m(new Integer[] {Integer.valueOf(2)}))));
+            v3_0 = 1;
+        }
+        try {
+            reflect.Method v4_3 = Class.forName("com.oplus.screenmode.OplusDisplayModeManager");
+            Integer v5_1 = v4_3.getDeclaredMethod("getInstance", 0);
+            v5_1.setAccessible(1);
+            boolean v11_3 = v4_3.getDeclaredMethod("requestRefreshRate", new Class[] {Integer.TYPE, Integer.TYPE, Float.TYPE, android.os.Bundle})).invoke(v5_1.invoke(0, 0), new Object[] {Integer.valueOf(85), Integer.valueOf(v3_0), Float.valueOf(1123024896), v2_0}));
+        } catch (NoSuchMethodError) {
+            com.oplus.basecommon.log.LogUtils.e("LauncherBooster", "requestRefreshRate error");
+            return 0;
+        }
+        if (((v11_3 instanceof Boolean)) && ((((Boolean) v11_3).booleanValue()) && (p10))) {
+            v1 = 1;
+        }
+        return v1;
+    }

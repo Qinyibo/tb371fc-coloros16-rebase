@@ -1,0 +1,7 @@
+#!/sbin/sh
+SKIPUNZIP=1
+unzip -o "$ZIPFILE" 'module.prop' -d $TMPDIR >&2
+ui_print "- TB371FC douyin refresh trial"
+unzip -o "$ZIPFILE" -x 'META-INF/*' -d $MODPATH >&2
+set_perm_recursive $MODPATH 0 0 0755 0644
+set_perm $MODPATH/post-fs-data.sh 0 0 0755

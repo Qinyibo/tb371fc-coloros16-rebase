@@ -1,0 +1,102 @@
+﻿I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="qpnp_pon"
+P: Phys=qpnp_pon/input0
+S: Sysfs=/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm8150@0:qcom,power-on@800/input/input0
+U: Uniq=
+H: Handlers=kbd event0 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=14000000000000 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="qwerty"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input1
+U: Uniq=
+H: Handlers=kbd event1 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=3100000 40000800 1c16c000000000 0
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="qti-haptics"
+P: Phys=
+S: Sysfs=/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pm8150b@3:qcom,haptics@c000/input/input6
+U: Uniq=
+H: Handlers=event2 
+B: PROP=0
+B: EV=200001
+B: FF=120070000 0
+
+I: Bus=0019 Vendor=0001 Product=0001 Version=0100
+N: Name="gpio-keys"
+P: Phys=gpio-keys/input0
+S: Sysfs=/devices/platform/soc/soc:gpio_keys/input/input7
+U: Uniq=
+H: Handlers=kbd event3 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=8000000000000 0
+
+I: Bus=001c Vendor=0000 Product=0000 Version=0000
+N: Name="NVTCapacitiveTouchScreen"
+P: Phys=input/ts
+S: Sysfs=/devices/virtual/input/input8
+U: Uniq=
+H: Handlers=kbd event4 kgsl cpufreq 
+B: PROP=2
+B: EV=b
+B: KEY=40000000 800 0 0 400 0 0 0 10000000000000 0
+B: ABS=661800000000000
+
+I: Bus=001c Vendor=0000 Product=0000 Version=0000
+N: Name="nvt_wake_key"
+P: Phys=
+S: Sysfs=/devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9
+U: Uniq=
+H: Handlers=kbd event5 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=8000 10000000000000 0
+
+I: Bus=001c Vendor=0000 Product=0000 Version=0000
+N: Name="NVTCapacitivePen"
+P: Phys=input/pen
+S: Sysfs=/devices/virtual/input/input10
+U: Uniq=
+H: Handlers=event6 cpufreq 
+B: PROP=2
+B: EV=b
+B: KEY=1c01 0 0 0 0 0
+B: ABS=f000003
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="kona-qrd-snd-card Headset Jack"
+P: Phys=ALSA
+S: Sysfs=/devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:sound/sound/card0/input11
+U: Uniq=
+H: Handlers=event7 
+B: PROP=0
+B: EV=21
+B: SW=1e00d4
+
+I: Bus=0000 Vendor=0000 Product=0000 Version=0000
+N: Name="kona-qrd-snd-card Button Jack"
+P: Phys=ALSA
+S: Sysfs=/devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:sound/sound/card0/input12
+U: Uniq=
+H: Handlers=kbd event8 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=40 0 0 0 0 30 400000000 0 c000000000000 0
+
+I: Bus=0003 Vendor=0001 Product=0001 Version=0001
+N: Name="uinput_nav"
+P: Phys=
+S: Sysfs=/devices/virtual/input/input13
+U: Uniq=
+H: Handlers=kbd event9 cpufreq 
+B: PROP=0
+B: EV=3
+B: KEY=2000000 0 c168000000000 0
+

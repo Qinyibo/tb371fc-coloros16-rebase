@@ -1,0 +1,43 @@
+﻿Config{ mEnableRateOverride=true mEnableFodHighRate=true mVoiceSceneLowRate=true mVoiceSceneLowRateDelay=500 mMaxRefreshSettings=4 mIpePencilRateId=3 mAppSwitchBoost=true mAppSwitchBoostType=0 mAppSwitchBoostMaxTemp=47 mDefaultRateId=[4, 4,
+mDisableCameraOverridePackages: {com.whatsapp, com.tencent.mm, com.tencent.mobileqq}
+current mode={id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}
+mNonHighRefreshRatePackages={}
+mAudioLowRefreshRatePackages={}
+mSupportMaxRefreshRate=144.0
+mCurrentPickMode=4
+mCurrentDefaultRateId =4
+mCurrentResolution=Point(1840, 2944)
+mSupportMultiDisplayRefreshRate=false
+mCurrentScreenMode=0
+mPanelRateData = RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}
+mCurrentPickRate=144.00002
+mWindowOverrideRateId:0
+mOifaceOverrideRateId:0
+mPreferredRefreshRateId:PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}
+mOplusVrrRefreshRate=0.0
+{mSupportAdfrV32Lp=true,mSupportAdfrV32Hp=false,mAdfrV32DirectorEnable=true,mCurrentFrtcRate=0.0,mCurrentDirectorState=0,mLastDirectorState=0,mSimulateV32frtcResult=true}
+RefreshRateCore:
+PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null}
+PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null}
+OplusLowRefreshRate:
+,LowRefreshRate:false
+refresh rate switch info:
+ Refresh rate changing from 120.00001 to 144.00002,maxRefreshRate=144.00002 FOR:{
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]
+    | VOTES[PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null};]
+ Refresh rate changing from 144.00002 to 120.00001,maxRefreshRate=120.00001 FOR:{
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]
+    | VOTES[PRIORITY_LAUNCHER_REQUEST -> Vote{mRefreshRate=120.0, mMinRefreshRate=120.0, mRequestSource=com.android.launcher10108};PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null};]
+ Refresh rate changing from 120.00001 to 144.00002,maxRefreshRate=144.00002 FOR:{
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]
+    | VOTES[PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null};]
+ Refresh rate changing from 120.00001 to 144.00002,maxRefreshRate=144.00002 FOR:{
+    | COURSE[;control panel:4,data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}]
+    | VOTES[PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null};]
+ Refresh rate changing from 144.00002 to 120.00001,maxRefreshRate=120.00001 FOR:{
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]
+    | VOTES[PRIORITY_LAUNCHER_REQUEST -> Vote{mRefreshRate=120.0, mMinRefreshRate=120.0, mRequestSource=com.android.launcher10108};PRIORITY_WINDOW_REQUEST -> Vote{mRefreshRate=144.0, mMinRefreshRate=144.0, mRequestSource=null};]
+refresh rate remoteConnection size:0
+mDisplay.getMode={id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}
+mDefaultMode= record resolutionId=2,mode ={id=2, width=1840, height=2944, fps=144.00002, vsync=144.00002, synthetic=false, alternativeRefreshRates=[30.000002, 60.000004, 120.00001], supportedHdrTypes=[2, 3, 4]}
+  VERSION = 2025120410

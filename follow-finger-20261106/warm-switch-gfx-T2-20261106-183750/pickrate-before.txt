@@ -1,0 +1,7 @@
+﻿Config{ mEnableRateOverride=true mEnableFodHighRate=true mVoiceSceneLowRate=true mVoiceSceneLowRateDelay=500 mMaxRefreshSettings=4 mIpePencilRateId=3 mAppSwitchBoost=true mAppSwitchBoostType=0 mAppSwitchBoostMaxTemp=47 mDefaultRateId=[4, 4, 2, 4] mDefaultMaxRate=144.0 mDisableViewOverrideDefaultValue=false mExtremeHighEnable=true}
+mPanelRateData = RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 4, 2, 4],isAnimBoost=true}}
+mCurrentPickRate=144.00002
+mPreferredRefreshRateId:PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]
+    | COURSE[; Win preferred rateId=4, appReqFirst=false, data= RateData{PreferredRefreshRateData{mPreferredRefreshRateId=[4, 2, 2, 4],isAnimBoost=true}} ;win name:com.android.launcher/com.android.launcher.Launcher]

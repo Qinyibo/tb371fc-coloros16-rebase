@@ -1,0 +1,47 @@
+ro.surface_flinger.set_touch_timer_ms=2000
+ro.surface_flinger.set_idle_timer_ms=2000
+ro.surface_flinger.game_default_frame_rate_override=60
+ro.surface_flinger.max_frame_buffer_acquired_buffers=
+debug.sf.set_idle_timer_ms=
+debug.sf.high_fps_late_sf_phase_offset_ns=-4000000
+debug.sf.high_fps_late_app_phase_offset_ns=1000000
+debug.sf.late.sf.duration=
+debug.sf.late.app.duration=
+debug.sf.early.sf.duration=
+debug.sf.early.app.duration=
+debug.sf.earlyGl.sf.duration=
+debug.sf.earlyGl.app.duration=
+debug.sf.phase_offset_threshold_for_next_vsync_ns=
+debug.sf.use_phase_offsets_as_durations=
+debug.sf.enable_gl_backpressure=1
+debug.sf.predict_hwc_composition_strategy=
+persist.sys.sf.color_mode=0
+vendor.display.enable_optimal_refresh_rate=
+ro.vendor.display.vrr=
+[audio.offload.min.duration.secs]: [30]
+[debug.sf.bq_blocked_pid]: [1858]
+[debug.sf.debug_hang]: [false]
+[debug.sf.disable_client_composition_cache]: [0]
+[debug.sf.enable_advanced_sf_phase_offset]: [1]
+[debug.sf.enable_gl_backpressure]: [1]
+[debug.sf.enable_hwc_vds]: [0]
+[debug.sf.framefinder.status]: [0]
+[debug.sf.high_fps_early_gl_phase_offset_ns]: [-4000000]
+[debug.sf.high_fps_early_phase_offset_ns]: [-4000000]
+[debug.sf.high_fps_late_app_phase_offset_ns]: [1000000]
+[debug.sf.high_fps_late_sf_phase_offset_ns]: [-4000000]
+[debug.sf.hw]: [0]
+[debug.sf.ignore_hwc_physical_display_orientation]: [true]
+[debug.sf.latch_unsignaled]: [1]
+[debug.sf.load_dpp_lib]: [0]
+[debug.sf.oplus_display_trace.enable]: [1]
+[ro.surface_flinger.force_hwc_copy_for_virtual_displays]: [true]
+[ro.surface_flinger.game_default_frame_rate_override]: [60]
+[ro.surface_flinger.has_HDR_display]: [true]
+[ro.surface_flinger.has_wide_color_display]: [true]
+[ro.surface_flinger.primary_display_orientation]: [ORIENTATION_270]
+[ro.surface_flinger.protected_contents]: [true]
+[ro.surface_flinger.set_idle_timer_ms]: [2000]
+[ro.surface_flinger.set_touch_timer_ms]: [2000]
+[ro.surface_flinger.use_color_management]: [true]
+[ro.surface_flinger.wcg_composition_dataspace]: [143261696]

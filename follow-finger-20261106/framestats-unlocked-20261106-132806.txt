@@ -1,0 +1,29 @@
+=== DOUYIN unlocked 2026-11-06T13:28:16.5392194+08:00 ===
+focus=  mCurrentFocus=Window{2c7eff3 u0 com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity}
+Total frames rendered: 424
+Janky frames: 55 (12.97%)
+Janky frames (legacy): 217 (51.18%)
+50th percentile: 11ms
+90th percentile: 22ms
+95th percentile: 31ms
+99th percentile: 48ms
+Number Missed Vsync: 13
+Number High input latency: 593
+Number Slow UI thread: 35
+Number Slow bitmap uploads: 21
+Number Slow issue draw commands: 26
+Number Frame deadline missed: 55
+Number Frame deadline missed (legacy): 91
+50th gpu percentile: 4ms
+90th gpu percentile: 8ms
+95th gpu percentile: 9ms
+99th gpu percentile: 11ms
+Pipeline=Skia (OpenGL)
+SF target=com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity
+refresh_ns=16666666
+sf_samples=0
+=== interrupt switch timings ===
+douyin->com.tencent.mm ms=623 got=True focus=mCurrentFocus=Window{b10391c u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+wechat->com.ss.android.ugc.aweme ms=1118 got=True focus=mCurrentFocus=Window{2c7eff3 u0 com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity}
+douyin->com.luna.music ms=518 got=True focus=mCurrentFocus=Window{64c00c4 u0 com.luna.music/com.luna.biz.main.main.MainActivity}
+luna->com.ss.android.ugc.aweme ms=356 got=True focus=mCurrentFocus=Window{2c7eff3 u0 com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity}

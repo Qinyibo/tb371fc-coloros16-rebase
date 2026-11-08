@@ -1,0 +1,3 @@
+wechat janky=66 (19.24%) p50=6ms p90=15ms p95=30ms p99=150ms missed=12 high=472 PickRate=144.00002 type=2
+douyin janky=80 (25.97%) p50=8ms p90=40ms p95=69ms p99=117ms missed=34 high=355 PickRate=144.00002 type=2
+luna janky=70 (14.89%) p50=11ms p90=18ms p95=40ms p99=150ms missed=22 high=780 PickRate=144.00002 type=2

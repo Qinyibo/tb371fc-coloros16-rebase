@@ -1,0 +1,10 @@
+﻿/my_product/etc/fantasy
+/my_product/etc/fantasy/sys_fantasy_window_managed.xml
+/system_ext/oplus/sys_fantasy_window_managed_others.xml
+/system_ext/oplus/sys_flexiblewindow_policy_list.xml
+/system_ext/app/OplusFlexibleWindowUI
+/system_ext/app/OplusFlexibleWindowUI/oat/arm64/OplusFlexibleWindowUI.vdex
+/system_ext/app/OplusFlexibleWindowUI/OplusFlexibleWindowUI.apk
+/my_stock/app/COSA
+/my_stock/app/COSA/oat/arm64/COSA.vdex
+/my_stock/app/COSA/COSA.apk

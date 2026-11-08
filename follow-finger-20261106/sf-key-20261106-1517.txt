@@ -1,0 +1,6 @@
+activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}
+mWorkDuration=8.89 mReadyDuration=10.94 last vsync time 18.61ms relative to now
+workDuration: 10.94ms readyDuration: 0.00ms lastVsync: -9.41ms relative to now committedVsync: -9.41ms relative to now
+workDuration: 8.89ms readyDuration: 10.94ms lastVsync: 18.33ms relative to now committedVsync: 18.33ms relative to now
+workDuration: 16.67ms readyDuration: 15.67ms lastVsync: -674772.06ms relative to now committedVsync: -674772.06ms relative to now
+activeMode={id=1, hwcId=1, resolution=2944x1840, vsyncRate=144.00 Hz, dpi=272.91x273.31, group=0, vrrConfig=N/A, supportedHdrTypes=INVALID}

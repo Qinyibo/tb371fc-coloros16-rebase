@@ -1,0 +1,22 @@
+﻿total 0
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 event0 -> ../../devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm8150@0:qcom,power-on@800/input/input0/event0
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 event1 -> ../../devices/virtual/input/input1/event1
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 event2 -> ../../devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pm8150b@3:qcom,haptics@c000/input/input6/event2
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 event3 -> ../../devices/platform/soc/soc:gpio_keys/input/input7/event3
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 event4 -> ../../devices/virtual/input/input8/event4
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 event5 -> ../../devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9/event5
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 event6 -> ../../devices/virtual/input/input10/event6
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 event7 -> ../../devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:sound/sound/card0/input11/event7
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 event8 -> ../../devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:sound/sound/card0/input12/event8
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 event9 -> ../../devices/virtual/input/input13/event9
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 input0 -> ../../devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-00/c440000.qcom,spmi:qcom,pm8150@0:qcom,power-on@800/input/input0
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 input1 -> ../../devices/virtual/input/input1
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 input10 -> ../../devices/virtual/input/input10
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 input11 -> ../../devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:sound/sound/card0/input11
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 input12 -> ../../devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:sound/sound/card0/input12
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 input13 -> ../../devices/virtual/input/input13
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 input6 -> ../../devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pm8150b@3:qcom,haptics@c000/input/input6
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 input7 -> ../../devices/platform/soc/soc:gpio_keys/input/input7
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 input8 -> ../../devices/virtual/input/input8
+lrwxrwxrwx 1 root root 0 2026-11-06 14:37 input9 -> ../../devices/platform/soc/880000.spi/spi_master/spi0/spi0.0/input/input9
+/sys/bus/spi/drivers/NVT-ts

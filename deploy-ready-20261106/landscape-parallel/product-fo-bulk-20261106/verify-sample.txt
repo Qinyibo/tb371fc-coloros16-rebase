@@ -1,0 +1,1043 @@
+
+===== com.tencent.mm =====
+
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10108 showForAllUsers=true package=com.android.launcher appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10280 showForAllUsers=false package=com.coloros.smartsidebar appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=1000 showForAllUsers=true package=android appop=SYSTEM_ALERT_WINDOW
+    mOwnerUid=10254 showForAllUsers=false package=com.sohu.inputmethod.sogouoem appop=NONE
+  Window #12 Window{8256c15 u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI}:
+    mOwnerUid=10342 showForAllUsers=false package=com.tencent.mm appop=NONE
+    mBaseLayer=21000 mSubLayer=0    mToken=ActivityRecord{172058873 u0 com.tencent.mm/.ui.LauncherUI t112}
+    mActivityRecord=ActivityRecord{172058873 u0 com.tencent.mm/.ui.LauncherUI t112}
+    WindowStateAnimator{51b6b66 com.tencent.mm/com.tencent.mm.ui.LauncherUI}:
+      mSurface=Surface(name=com.tencent.mm/com.tencent.mm.ui.LauncherUI)/@0xe49fea7
+    Task{832e4ab #112 type=standard A=10342:com.tencent.mm}
+    mOwnerUid=10108 showForAllUsers=false package=com.android.launcher appop=NONE
+    mOwnerUid=10161 showForAllUsers=false package=com.heytap.colorfulengine appop=NONE
+  imeLayeringTarget in display# 0 Window{8256c15 u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+  imeInputTarget in display# 0 Window{8256c15 u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+  imeControlTarget in display# 0 Window{8256c15 u0 com.tencent.mm/com.tencent.mm.ui.LauncherUI}
+
+
+
+
+  * Task{832e4ab #112 type=standard A=10342:com.tencent.mm U=0 visible=true visibleRequested=true mode=fullscreen trans
+lucent=false sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840
+) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTAT
+ION_90} s.520 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 18
+40) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTA
+TION_90} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChan
+ged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mF
+oldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL
+= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexi
+bleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944,
+ 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=R
+OTATION_90} s.3 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleC
+hanged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226,
+ mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundM
+inL= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFl
+exibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w1273dp h734dp ?density ?lsize ?long 
+?ldr ?wideColorGamut land ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.3 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.tencent.mm, mStatus = 1, mShouldUseOriginOrientation
+Config = true}
+  * Task{ff79a4 #1 type=home U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+    * Task{88d9ced #5 type=undefined I=com.android.launcher/.Launcher U=0 rootTaskId=1 visible=false visibleRequested=f
+alse mode=fullscreen translucent=true sz=1}
+          mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 2944, 18
+40) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROT
+ATION_90} s.519 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleC
+hanged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226,
+ mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundM
+inL= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFl
+exibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+          mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/
+v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 2944, 
+1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTATI
+ON_90} s.12 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -ke
+yb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 294
+4, 1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROT
+ATION_90} s.12 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCh
+anged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, 
+mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMi
+nL= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFle
+xibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+  * Task{2197379 #2 type=undefined U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=2}
+  overrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/h -nav/
+h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 2944, 1840) mDi
+splayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_9
+0} s.448 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChanged=
+ -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFoldi
+ngAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 10
+0.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibleA
+ctivitySuitable= -1, mPuttDisplayFlag= -1}
+  mFocusedApp=ActivityRecord{172058873 u0 com.tencent.mm/.ui.LauncherUI t112}
+      overrideConfig={0.0 ?mcc??mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?
+orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0
+ - 0, 0) mDisplayRotation=undefined mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=
+undefined} ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= -1, mAccessibleChange
+d= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontUserId= -1, mFontVariationSettings= fffffff
+f, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDarkModeDialogBgMaxL= -1.0, mDarkModeForegrou
+ndMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= -1, mFlag= 0, mExtraFlag= 0, 
+mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      * Task{832e4ab #112 type=standard A=10342:com.tencent.mm U=0 visible=true visibleRequested=true mode=fullscreen t
+ranslucent=false sz=1}
+      * Task{ff79a4 #1 type=home U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+        * Task{88d9ced #5 type=undefined I=com.android.launcher/.Launcher U=0 rootTaskId=1 visible=false visibleRequest
+ed=false mode=fullscreen translucent=true sz=1}
+      * Task{2197379 #2 type=undefined U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=2}
+
+
+
+===== com.tencent.mobileqq =====
+
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10108 showForAllUsers=true package=com.android.launcher appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10280 showForAllUsers=false package=com.coloros.smartsidebar appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=1000 showForAllUsers=true package=android appop=SYSTEM_ALERT_WINDOW
+    mOwnerUid=10254 showForAllUsers=false package=com.sohu.inputmethod.sogouoem appop=NONE
+  Window #12 Window{53f9028 u0 com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginActivity}:
+    mOwnerUid=10338 showForAllUsers=false package=com.tencent.mobileqq appop=NONE
+    mBaseLayer=21000 mSubLayer=0    mToken=ActivityRecord{2186923 u0 com.tencent.mobileqq/.activity.LoginActivity t113}
+    mActivityRecord=ActivityRecord{2186923 u0 com.tencent.mobileqq/.activity.LoginActivity t113}
+    WindowStateAnimator{ca4be37 com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginActivity}:
+      mSurface=Surface(name=com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginActivity)/@0x9a3efa4
+    Task{fcbec2a #113 type=standard A=10338:com.tencent.mobileqq}
+    mOwnerUid=10342 showForAllUsers=false package=com.tencent.mm appop=NONE
+    mOwnerUid=10108 showForAllUsers=false package=com.android.launcher appop=NONE
+    mOwnerUid=10161 showForAllUsers=false package=com.heytap.colorfulengine appop=NONE
+  imeLayeringTarget in display# 0 Window{53f9028 u0 com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginActivity}
+  imeInputTarget in display# 0 Window{53f9028 u0 com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginActivity}
+  imeControlTarget in display# 0 Window{53f9028 u0 com.tencent.mobileqq/com.tencent.mobileqq.activity.LoginActivity}
+
+
+
+
+  * Task{fcbec2a #113 type=standard A=10338:com.tencent.mobileqq U=0 visible=true visibleRequested=true mode=fullscreen
+ translucent=false sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.592 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.3 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.3 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.tencent.mobileqq, mStatus = 1, mShouldUseOriginOrien
+tationConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{832e4ab #112 type=standard A=10342:com.tencent.mm U=0 visible=false visibleRequested=false mode=fullscreen tra
+nslucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840
+) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTAT
+ION_90} s.520 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 18
+40) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTA
+TION_90} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChan
+ged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mF
+oldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL
+= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexi
+bleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.4 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.4 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.tencent.mm, mStatus = 1, mShouldUseOriginOrientation
+Config = true}
+  * Task{ff79a4 #1 type=home U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+    * Task{88d9ced #5 type=undefined I=com.android.launcher/.Launcher U=0 rootTaskId=1 visible=false visibleRequested=f
+alse mode=fullscreen translucent=true sz=1}
+          mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 2944, 18
+40) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROT
+ATION_90} s.519 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleC
+hanged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226,
+ mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundM
+inL= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFl
+exibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+          mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/
+v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 2944, 
+1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTATI
+ON_90} s.12 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1273dp 370dpi xlrg hdr widecg port finger -ke
+yb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2944) mMaxBounds=Rect(0, 0 - 184
+0, 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTA
+TION_0} s.13 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChan
+ged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mF
+oldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL
+= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexi
+bleActivitySuitable= -1, mPuttDisplayFlag= -1}
+  * Task{2197379 #2 type=undefined U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=2}
+  overrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1273dp 370dpi xlrg hdr widecg port finger -keyb/v/h -nav/
+h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2944) mMaxBounds=Rect(0, 0 - 1840, 2944) mDi
+splayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0}
+ s.521 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChanged= -
+1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFolding
+Angle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 100.
+0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibleAct
+ivitySuitable= -1, mPuttDisplayFlag= -1}
+  mFocusedApp=ActivityRecord{2186923 u0 com.tencent.mobileqq/.activity.LoginActivity t113}
+      overrideConfig={0.0 ?mcc??mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?
+orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0
+ - 0, 0) mDisplayRotation=undefined mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=
+undefined} ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= -1, mAccessibleChange
+d= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontUserId= -1, mFontVariationSettings= fffffff
+f, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDarkModeDialogBgMaxL= -1.0, mDarkModeForegrou
+ndMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= -1, mFlag= 0, mExtraFlag= 0, 
+mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      * Task{fcbec2a #113 type=standard A=10338:com.tencent.mobileqq U=0 visible=true visibleRequested=true mode=fullsc
+reen translucent=false sz=1}
+      * Task{832e4ab #112 type=standard A=10342:com.tencent.mm U=0 visible=false visibleRequested=false mode=fullscreen
+ translucent=true sz=1}
+      * Task{ff79a4 #1 type=home U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+        * Task{88d9ced #5 type=undefined I=com.android.launcher/.Launcher U=0 rootTaskId=1 visible=false visibleRequest
+ed=false mode=fullscreen translucent=true sz=1}
+      * Task{2197379 #2 type=undefined U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=2}
+
+
+
+===== com.ss.android.ugc.aweme =====
+
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10108 showForAllUsers=true package=com.android.launcher appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10280 showForAllUsers=false package=com.coloros.smartsidebar appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=1000 showForAllUsers=true package=android appop=SYSTEM_ALERT_WINDOW
+    mOwnerUid=10254 showForAllUsers=false package=com.sohu.inputmethod.sogouoem appop=NONE
+  Window #11 Window{4957b51 u0 com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity}:
+    mOwnerUid=10336 showForAllUsers=false package=com.ss.android.ugc.aweme appop=NONE
+    mBaseLayer=21000 mSubLayer=0    mToken=ActivityRecord{240029088 u0 com.ss.android.ugc.aweme/.splash.SplashActivity 
+t114}
+    mActivityRecord=ActivityRecord{240029088 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t114}
+    WindowStateAnimator{5489dd7 com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity}:
+      mSurface=Surface(name=com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivity)/@0xb4ce6c4
+    Task{2866d1e #114 type=standard A=10336:com.ss.android.ugc.aweme}
+    mOwnerUid=10338 showForAllUsers=false package=com.tencent.mobileqq appop=NONE
+    mOwnerUid=10342 showForAllUsers=false package=com.tencent.mm appop=NONE
+    mOwnerUid=10108 showForAllUsers=false package=com.android.launcher appop=NONE
+    mOwnerUid=10161 showForAllUsers=false package=com.heytap.colorfulengine appop=NONE
+  imeLayeringTarget in display# 0 Window{4957b51 u0 com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActi
+vity}
+  imeInputTarget in display# 0 Window{4957b51 u0 com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActivit
+y}
+  imeControlTarget in display# 0 Window{4957b51 u0 com.ss.android.ugc.aweme/com.ss.android.ugc.aweme.splash.SplashActiv
+ity}
+
+
+
+
+  * Task{2866d1e #114 type=standard A=10336:com.ss.android.ugc.aweme U=0 visible=true visibleRequested=true mode=fullsc
+reen translucent=false sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.593 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.3 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=stand
+ard mAlwaysOnTop=undefined mRotation=undefined} s.3 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFlip
+Font= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontUs
+erId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDark
+ModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurme
+seFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.ss.android.ugc.aweme, mStatus = 1, mShouldUseOriginO
+rientationConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{fcbec2a #113 type=standard A=10338:com.tencent.mobileqq U=0 visible=false visibleRequested=false mode=fullscre
+en translucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.592 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.3 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.3 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.tencent.mobileqq, mStatus = 1, mShouldUseOriginOrien
+tationConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{832e4ab #112 type=standard A=10342:com.tencent.mm U=0 visible=false visibleRequested=false mode=fullscreen tra
+nslucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840
+) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTAT
+ION_90} s.520 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 18
+40) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTA
+TION_90} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChan
+ged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mF
+oldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL
+= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexi
+bleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.4 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.4 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.tencent.mm, mStatus = 1, mShouldUseOriginOrientation
+Config = true}
+  * Task{ff79a4 #1 type=home U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+    * Task{88d9ced #5 type=undefined I=com.android.launcher/.Launcher U=0 rootTaskId=1 visible=false visibleRequested=f
+alse mode=fullscreen translucent=true sz=1}
+          mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 2944, 18
+40) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROT
+ATION_90} s.519 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleC
+hanged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226,
+ mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundM
+inL= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFl
+exibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+          mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h796dp 370dpi xlrg hdr widecg land finger -keyb/
+v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1840) mMaxBounds=Rect(0, 0 - 2944, 
+1840) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTATI
+ON_90} s.12 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1273dp 370dpi xlrg hdr widecg port finger -ke
+yb/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2944) mMaxBounds=Rect(0, 0 - 184
+0, 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=home mAlwaysOnTop=undefined mRotation=ROTA
+TION_0} s.13 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChan
+ged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mF
+oldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL
+= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexi
+bleActivitySuitable= -1, mPuttDisplayFlag= -1}
+  * Task{2197379 #2 type=undefined U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=2}
+  overrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1273dp 370dpi xlrg hdr widecg port finger -keyb/v/h -nav/
+h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2944) mMaxBounds=Rect(0, 0 - 1840, 2944) mDi
+splayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATION_0}
+ s.521 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChanged= -
+1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFolding
+Angle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 100.
+0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibleAct
+ivitySuitable= -1, mPuttDisplayFlag= -1}
+  mFocusedApp=ActivityRecord{240029088 u0 com.ss.android.ugc.aweme/.splash.SplashActivity t114}
+      overrideConfig={0.0 ?mcc??mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?ldr ?wideColorGamut ?
+orien ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=null mMaxBounds=Rect(0, 0
+ - 0, 0) mDisplayRotation=undefined mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=
+undefined} ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= -1, mAccessibleChange
+d= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontUserId= -1, mFontVariationSettings= fffffff
+f, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDarkModeDialogBgMaxL= -1.0, mDarkModeForegrou
+ndMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= -1, mFlag= 0, mExtraFlag= 0, 
+mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+
+
+
+===== com.heytap.browser =====
+
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10108 showForAllUsers=true package=com.android.launcher appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10280 showForAllUsers=false package=com.coloros.smartsidebar appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=1000 showForAllUsers=true package=android appop=SYSTEM_ALERT_WINDOW
+  Window #11 Window{514f360 u0 com.heytap.browser/com.android.browser.BrowserActivity}:
+    mOwnerUid=10278 showForAllUsers=false package=com.heytap.browser appop=NONE
+    mBaseLayer=21000 mSubLayer=0    mToken=ActivityRecord{239392761 u0 com.heytap.browser/com.android.browser.BrowserAc
+tivity t115}
+    mActivityRecord=ActivityRecord{239392761 u0 com.heytap.browser/com.android.browser.BrowserActivity t115}
+    WindowStateAnimator{80f6790 com.heytap.browser/com.android.browser.BrowserActivity}:
+       mAnimationIsEntrance=true      mSurface=Surface(name=com.heytap.browser/com.android.browser.BrowserActivity)/@0x
+97d2889
+    mOwnerUid=10254 showForAllUsers=false package=com.sohu.inputmethod.sogouoem appop=NONE
+  Window #13 Window{2ab3189 u0 com.heytap.browser/com.android.browser.BrowserActivity}:
+    mOwnerUid=10278 showForAllUsers=false package=com.heytap.browser appop=NONE
+    mBaseLayer=21000 mSubLayer=0    mToken=ActivityRecord{239392761 u0 com.heytap.browser/com.android.browser.BrowserAc
+tivity t115}
+    mActivityRecord=ActivityRecord{239392761 u0 com.heytap.browser/com.android.browser.BrowserActivity t115}
+    WindowStateAnimator{f9a308e com.heytap.browser/com.android.browser.BrowserActivity}:
+      mSurface=Surface(name=com.heytap.browser/com.android.browser.BrowserActivity)/@0xb4620af
+    mOwnerUid=10336 showForAllUsers=false package=com.ss.android.ugc.aweme appop=NONE
+    mOwnerUid=10338 showForAllUsers=false package=com.tencent.mobileqq appop=NONE
+    mOwnerUid=10342 showForAllUsers=false package=com.tencent.mm appop=NONE
+    mOwnerUid=10108 showForAllUsers=false package=com.android.launcher appop=NONE
+    mOwnerUid=10161 showForAllUsers=false package=com.heytap.colorfulengine appop=NONE
+  imeLayeringTarget in display# 0 Window{2ab3189 u0 com.heytap.browser/com.android.browser.BrowserActivity}
+
+
+
+
+  * Task{596759f #115 type=standard A=10278:android.task.browser U=0 visible=true visibleRequested=true mode=fullscreen
+ translucent=false sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.594 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.2 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.heytap.browser, mStatus = 1, mShouldUseOriginOrienta
+tionConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{2866d1e #114 type=standard A=10336:com.ss.android.ugc.aweme U=0 visible=false visibleRequested=false mode=full
+screen translucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.593 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.3 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=stand
+ard mAlwaysOnTop=undefined mRotation=undefined} s.3 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFlip
+Font= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontUs
+erId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDark
+ModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurme
+seFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.ss.android.ugc.aweme, mStatus = 1, mShouldUseOriginO
+rientationConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{fcbec2a #113 type=standard A=10338:com.tencent.mobileqq U=0 visible=false visibleRequested=false mode=fullscre
+en translucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.592 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.3 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.3 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.tencent.mobileqq, mStatus = 1, mShouldUseOriginOrien
+tationConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{832e4ab #112 type=standard A=10342:com.tencent.mm U=0 visible=false visibleRequested=false mode=fullscreen tra
+nslucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840
+) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTAT
+ION_90} s.520 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 18
+40) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTA
+TION_90} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChan
+ged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mF
+oldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL
+= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexi
+bleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.4 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.4 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.tencent.mm, mStatus = 1, mShouldUseOriginOrientation
+Config = true}
+  * Task{ff79a4 #1 type=home U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+    * Task{88d9ced #5 type=undefined I=com.android.launcher/.Launcher U=0 rootTaskId=1 visible=false visibleRequested=f
+alse mode=fullscreen translucent=true sz=1}
+
+
+
+===== com.heytap.yoli =====
+
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10108 showForAllUsers=true package=com.android.launcher appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10280 showForAllUsers=false package=com.coloros.smartsidebar appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=1000 showForAllUsers=true package=android appop=SYSTEM_ALERT_WINDOW
+    mOwnerUid=10278 showForAllUsers=false package=com.heytap.browser appop=NONE
+    mOwnerUid=10254 showForAllUsers=false package=com.sohu.inputmethod.sogouoem appop=NONE
+    mOwnerUid=10278 showForAllUsers=false package=com.heytap.browser appop=NONE
+    mOwnerUid=10336 showForAllUsers=false package=com.ss.android.ugc.aweme appop=NONE
+    mOwnerUid=10338 showForAllUsers=false package=com.tencent.mobileqq appop=NONE
+    mOwnerUid=10342 showForAllUsers=false package=com.tencent.mm appop=NONE
+    mOwnerUid=10108 showForAllUsers=false package=com.android.launcher appop=NONE
+    mOwnerUid=10161 showForAllUsers=false package=com.heytap.colorfulengine appop=NONE
+
+
+
+
+  * Task{596759f #115 type=standard A=10278:android.task.browser U=0 visible=true visibleRequested=true mode=fullscreen
+ translucent=false sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.594 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.2 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.heytap.browser, mStatus = 1, mShouldUseOriginOrienta
+tionConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{2866d1e #114 type=standard A=10336:com.ss.android.ugc.aweme U=0 visible=false visibleRequested=false mode=full
+screen translucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.593 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.3 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=stand
+ard mAlwaysOnTop=undefined mRotation=undefined} s.3 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFlip
+Font= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontUs
+erId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDark
+ModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurme
+seFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.ss.android.ugc.aweme, mStatus = 1, mShouldUseOriginO
+rientationConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{fcbec2a #113 type=standard A=10338:com.tencent.mobileqq U=0 visible=false visibleRequested=false mode=fullscre
+en translucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.592 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.3 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.3 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.tencent.mobileqq, mStatus = 1, mShouldUseOriginOrien
+tationConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{832e4ab #112 type=standard A=10342:com.tencent.mm U=0 visible=false visibleRequested=false mode=fullscreen tra
+nslucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840
+) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTAT
+ION_90} s.520 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 18
+40) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTA
+TION_90} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChan
+ged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mF
+oldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL
+= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexi
+bleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.4 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.4 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.tencent.mm, mStatus = 1, mShouldUseOriginOrientation
+Config = true}
+  * Task{ff79a4 #1 type=home U=0 visible=false visibleRequested=false mode=fullscreen translucent=true sz=1}
+    * Task{88d9ced #5 type=undefined I=com.android.launcher/.Launcher U=0 rootTaskId=1 visible=false visibleRequested=f
+alse mode=fullscreen translucent=true sz=1}
+
+
+
+===== com.coloros.gallery3d =====
+
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10108 showForAllUsers=true package=com.android.launcher appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=10280 showForAllUsers=false package=com.coloros.smartsidebar appop=NONE
+    mOwnerUid=10116 showForAllUsers=true package=com.android.systemui appop=NONE
+    mOwnerUid=1000 showForAllUsers=true package=android appop=SYSTEM_ALERT_WINDOW
+    mOwnerUid=10254 showForAllUsers=false package=com.sohu.inputmethod.sogouoem appop=NONE
+  Window #11 Window{d40d65c u0 com.coloros.gallery3d/com.coloros.gallery3d.app.MainActivity}:
+    mOwnerUid=10168 showForAllUsers=false package=com.coloros.gallery3d appop=NONE
+    mBaseLayer=21000 mSubLayer=0    mToken=ActivityRecord{10406331 u0 com.coloros.gallery3d/.app.MainActivity t116}
+    mActivityRecord=ActivityRecord{10406331 u0 com.coloros.gallery3d/.app.MainActivity t116}
+    WindowStateAnimator{dbb267b com.coloros.gallery3d/com.coloros.gallery3d.app.MainActivity}:
+      mSurface=Surface(name=com.coloros.gallery3d/com.coloros.gallery3d.app.MainActivity)/@0xc8b0c98
+    mOwnerUid=10278 showForAllUsers=false package=com.heytap.browser appop=NONE
+    mOwnerUid=10278 showForAllUsers=false package=com.heytap.browser appop=NONE
+    mOwnerUid=10336 showForAllUsers=false package=com.ss.android.ugc.aweme appop=NONE
+    mOwnerUid=10338 showForAllUsers=false package=com.tencent.mobileqq appop=NONE
+    mOwnerUid=10342 showForAllUsers=false package=com.tencent.mm appop=NONE
+    mOwnerUid=10108 showForAllUsers=false package=com.android.launcher appop=NONE
+    mOwnerUid=10161 showForAllUsers=false package=com.heytap.colorfulengine appop=NONE
+  imeLayeringTarget in display# 0 Window{d40d65c u0 com.coloros.gallery3d/com.coloros.gallery3d.app.MainActivity}
+  imeInputTarget in display# 0 Window{d40d65c u0 com.coloros.gallery3d/com.coloros.gallery3d.app.MainActivity}
+  imeControlTarget in display# 0 Window{d40d65c u0 com.coloros.gallery3d/com.coloros.gallery3d.app.MainActivity}
+
+
+
+
+  * Task{8ad5231 #116 type=standard A=10168:com.oppo.gallery3d.app.Gallery U=0 visible=true visibleRequested=true mode=
+fullscreen translucent=false sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1273dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2944) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.595 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1273dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2944) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1273dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2944) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.coloros.gallery3d, mStatus = 1, mShouldUseOriginOrie
+ntationConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{596759f #115 type=standard A=10278:android.task.browser U=0 visible=false visibleRequested=false mode=fullscre
+en translucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.594 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.2 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.heytap.browser, mStatus = 1, mShouldUseOriginOrienta
+tionConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{2866d1e #114 type=standard A=10336:com.ss.android.ugc.aweme U=0 visible=false visibleRequested=false mode=full
+screen translucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.593 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.3 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=stand
+ard mAlwaysOnTop=undefined mRotation=undefined} s.3 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFlip
+Font= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontUs
+erId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDark
+ModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurme
+seFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.ss.android.ugc.aweme, mStatus = 1, mShouldUseOriginO
+rientationConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{fcbec2a #113 type=standard A=10338:com.tencent.mobileqq U=0 visible=false visibleRequested=false mode=fullscre
+en translucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 2944
+) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTATI
+ON_0} s.592 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChang
+ed= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFo
+ldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL=
+ 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexib
+leActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840, 29
+44) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTAT
+ION_0} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChange
+d= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mFol
+dingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL= 
+100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexibl
+eActivitySuitable= -1, mPuttDisplayFlag= -1}
+      CurrentConfiguration={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w796dp h1212dp 370dpi xlrg hdr widecg port finger -keyb
+/v/h -nav/h winConfig={ mBounds=Rect(0, 0 - 1840, 2944) mAppBounds=Rect(0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 1840,
+ 2944) mDisplayRotation=ROTATION_0 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=RO
+TATION_0} s.3 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      ResolvedOverrideConfiguration={0.0 ?mcc??mnc ?localeList ?layoutDir sw796dp w796dp h1212dp ?density ?lsize ?long 
+?ldr ?wideColorGamut port ?uimode ?night ?touch ?keyb/?/? ?nav/? winConfig={ mBounds=Rect(0, 0 - 0, 0) mAppBounds=Rect(
+0, 0 - 1840, 2907) mMaxBounds=Rect(0, 0 - 0, 0) mDisplayRotation=undefined mWindowingMode=undefined mActivityType=undef
+ined mAlwaysOnTop=undefined mRotation=undefined} s.3 ?fontWeightAdjustmentmThemeChanged= 0, mThemeChangedFlags= 0, mFli
+pFont= 0, mScenario= -1, mAccessibleChanged= 0, mUxIconConfig= 0, mMaterialColor= ffffffffffffffff, mUserId= -1, mFontU
+serId= -1, mFontVariationSettings= ffffffff, mFoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= -1.0, mDar
+kModeDialogBgMaxL= -1.0, mDarkModeForegroundMinL= -1.0, mOplusConfigType= 0, mOplusChangedConfigs= 0, OpSans= -1, mBurm
+eseFontFlag= -1, mFlag= 0, mExtraFlag= 0, mFlexibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+      mIsFullOrientation =true
+       config info =OplusFullOrientationAppConfig{mPackageName=com.tencent.mobileqq, mStatus = 1, mShouldUseOriginOrien
+tationConfig = true, mIsNotRelaunchOnResize = true, mAdjustDisplayRotation = 0}
+  * Task{832e4ab #112 type=standard A=10342:com.tencent.mm U=0 visible=false visibleRequested=false mode=fullscreen tra
+nslucent=true sz=1}
+        mGlobalConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/h 
+-nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 1840
+) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=undefined mAlwaysOnTop=undefined mRotation=ROTAT
+ION_90} s.520 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleCha
+nged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, m
+FoldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMin
+L= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlex
+ibleActivitySuitable= -1, mPuttDisplayFlag= -1}
+        mOverrideConfig={1.0 ?mcc??mnc [zh_CN] ldltr sw796dp w1273dp h734dp 370dpi xlrg hdr widecg land finger -keyb/v/
+h -nav/h winConfig={ mBounds=Rect(0, 0 - 2944, 1840) mAppBounds=Rect(0, 0 - 2944, 1803) mMaxBounds=Rect(0, 0 - 2944, 18
+40) mDisplayRotation=ROTATION_90 mWindowingMode=fullscreen mActivityType=standard mAlwaysOnTop=undefined mRotation=ROTA
+TION_90} s.2 fontWeightAdjustment=0mThemeChanged= 0, mThemeChangedFlags= 0, mFlipFont= 0, mScenario= 0, mAccessibleChan
+ged= -1, mUxIconConfig= 1e177b15e00120, mMaterialColor= 0, mUserId= 0, mFontUserId= 0, mFontVariationSettings= 1226, mF
+oldingAngle = -1.0, mIconPackName= , mDarkModeBackgroundMaxL= 0.0, mDarkModeDialogBgMaxL= 27.0, mDarkModeForegroundMinL
+= 100.0, mOplusConfigType= 1, mOplusChangedConfigs= 0, OpSans= -1, mBurmeseFontFlag= 2, mFlag= 0, mExtraFlag= 0, mFlexi
+bleActivitySuitable= -1, mPuttDisplayFlag= -1}
+
+
+

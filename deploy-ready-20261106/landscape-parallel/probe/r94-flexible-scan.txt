@@ -1,0 +1,173 @@
+﻿=== D:\TB371FC-release\R94T-v23-20261030-TEST ===
+  d-----  assets
+  d-----  attempt-logs
+  d-----  drivers
+  d-----  images
+  d-----  scripts
+  d-----  tools
+  d-----  verification
+  -a---- 154 1-连接检查.cmd
+  -a---- 167 2-刷前检查.cmd
+  -a---- 32914 manifest.json
+  -a---- 1276 刷入说明.md
+  -a---- 244 打开驱动辅助工具.cmd
+  -a---- 154 核验ROM.cmd
+  -a---- 363 清空数据刷入.cmd
+=== D:\TB371FC-release\R94T-v23-20261030-TEST-before-init-context-fix ===
+  d-----  assets
+  d-----  attempt-logs
+  d-----  drivers
+  d-----  images
+  d-----  scripts
+  d-----  tools
+  d-----  verification
+  -a---- 154 1-连接检查.cmd
+  -a---- 167 2-刷前检查.cmd
+  -a---- 32747 manifest.json
+  -a---- 1114 刷入说明.md
+  -a---- 244 打开驱动辅助工具.cmd
+  -a---- 154 核验ROM.cmd
+  -a---- 363 清空数据刷入.cmd
+=== D:\TB371FC-release\R94T-v22a-NATIVE-PEN-COMM-PRIVATE_TEST ===
+  d-----  assets
+  d-----  attempt-logs
+  d-----  drivers
+  d-----  images
+  d-----  scripts
+  d-----  tools
+  d-----  verification
+  -a---- 154 1-连接检查.cmd
+  -a---- 167 2-刷前检查.cmd
+  -a---- 30186 manifest.json
+  -a---- 2386 刷入说明.md
+  -a---- 244 打开驱动辅助工具.cmd
+  -a---- 154 核验ROM.cmd
+  -a---- 363 清空数据刷入.cmd
+=== D:\TB371FC-release\R94T-v27-r106-20261103-CANDIDATE ===
+  d-----  assets
+  d-----  attempt-logs
+  d-----  drivers
+  d-----  images
+  d-----  scripts
+  d-----  tools
+  d-----  verification
+  -a---- 154 1-连接检查.cmd
+  -a---- 167 2-刷前检查.cmd
+  -a---- 41279 manifest.json
+  -a---- 1347 刷入说明.md
+  -a---- 244 打开驱动辅助工具.cmd
+  -a---- 154 核验ROM.cmd
+  -a---- 363 清空数据刷入.cmd
+=== D:\TB371FC-release\R94T-v26-r104-20261103-CANDIDATE ===
+  d-----  assets
+  d-----  attempt-logs
+  d-----  drivers
+  d-----  images
+  d-----  scripts
+  d-----  tools
+  d-----  verification
+  -a---- 154 1-连接检查.cmd
+  -a---- 167 2-刷前检查.cmd
+  -a---- 39094 manifest.json
+  -a---- 1054 刷入说明.md
+  -a---- 244 打开驱动辅助工具.cmd
+  -a---- 154 核验ROM.cmd
+  -a---- 363 清空数据刷入.cmd
+=== D:\TB371FC-release\R94T-v25-r102-20261102-CANDIDATE ===
+  d-----  assets
+  d-----  attempt-logs
+  d-----  drivers
+  d-----  images
+  d-----  scripts
+  d-----  tools
+  d-----  verification
+  -a---- 154 1-连接检查.cmd
+  -a---- 167 2-刷前检查.cmd
+  -a---- 35697 manifest.json
+  -a---- 985 刷入说明.md
+  -a---- 244 打开驱动辅助工具.cmd
+  -a---- 154 核验ROM.cmd
+  -a---- 363 清空数据刷入.cmd
+=== D:\TB371FC-release\R94-OCT18-BASELINE-PRIVATE-TEST ===
+  d-----  assets
+  d-----  attempt-logs
+  d-----  drivers
+  d-----  images
+  d-----  scripts
+  d-----  tools
+  d-----  verification
+  -a---- 154 1-连接检查.cmd
+  -a---- 167 2-刷前检查.cmd
+  -a---- 17772 manifest.json
+  -a---- 1193 刷入说明.md
+  -a---- 244 打开驱动辅助工具.cmd
+  -a---- 1476 本版改动.md
+  -a---- 154 核验ROM.cmd
+  -a---- 363 清空数据刷入.cmd
+=== D:\TB371FC-release\clean-rebase-20261104\original ===
+  -a---- 8218645547 OPD2413_16.0.10.600_CN01.zip
+=== D:\TB371FC-release\clean-rebase-20261104\flash-candidate ===
+  d-----  images
+  d-----  scripts
+  d-----  tools
+  -a---- 1161 manifest.json
+=== D:\TB371FC-release\clean-rebase-20261104\flash-rollback ===
+  d-----  images
+  d-----  scripts
+  d-----  tools
+  -a---- 903 manifest.json
+=== D:\TB371FC-release\clean-rebase-20261104\integrated-logicals ===
+  d-----  baseline-system
+  d-----  baseline-system_ext
+  d-----  donor-policy
+  d-----  mount-product
+  d-----  mount-system
+  d-----  mount-system_ext
+  d-----  verify-product
+  d-----  verify-system
+  d-----  verify-system_ext
+  -a---- 288 fsck-product.log
+  -a---- 296 fsck-system.log
+  -a---- 297 fsck-system_ext.log
+  -a---- 883 lpmake.log
+  -a---- 1768 policy-input-sha256.txt
+  -a---- 0 policy.log
+  -a---- 73 pre-grow-fsck.log
+  -a---- 25165824 product.img
+  -a---- 0 runtime-file_contexts
+  -a---- 1612483 runtime-sepolicy
+  -a---- 579 SHA256SUMS
+  -a---- 12884901888 super-cleanbase-OFFLINE.img
+  -a---- 1161 super-result.json
+  -a---- 98 system-ext-grow.log
+  -a---- 10187964416 system.img
+  -a---- 1736441856 system_ext.img
+=== D:\TB371FC-release\v23-test-apks ===
+  d-----  com.ss.android.ugc.aweme
+  d-----  com.tencent.mm
+  d-----  com.tencent.mobileqq
+  d-----  tv.danmaku.bili
+  -a---- 953 manifest.json
+=== D:\TB371FC-release\public-source\TB371FC-ColorOS16 ===
+  d-----  baseline
+  d-----  camera
+  d-----  diagnostics
+  d-----  docs
+  d-----  flash
+  d-----  market-guard
+  d-----  native-animation
+  d-----  native-charger
+  d-----  native-freezer
+  d-----  native-pen
+  d-----  patches
+  d-----  privacy
+  d-----  release
+  d-----  research
+  d-----  rom-build
+  d-----  speaker
+  -a---- 97 .gitignore
+  -a---- 35149 LICENSE
+  -a---- 8564 README.md
+  HIT 6065 D:\TB371FC-release\public-source\TB371FC-ColorOS16\docs\five-finger-input-20261104\ownership-followup\oplus-services-OplusZoomWindowManagerService.md
+  HIT 4247 D:\TB371FC-release\public-source\TB371FC-ColorOS16\docs\parallel-windows.md
+  HIT 4188 D:\TB371FC-release\public-source\TB371FC-ColorOS16\docs\evidence\parallel-startup.json

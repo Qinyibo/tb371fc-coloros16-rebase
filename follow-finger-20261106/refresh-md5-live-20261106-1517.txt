@@ -1,0 +1,4 @@
+35db38f8c85758c372546c707513642c  /my_product/etc/refresh_rate_config.xml
+
+md5sum: /data/adb/modules/tb371fc_system_refresh_policy/system/my_product/etc/refresh_rate_config.xml: Permission denied
+ls: /data/adb/modules/tb371fc_system_refresh_policy/: Permission denied
