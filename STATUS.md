@@ -1,4 +1,19 @@
-# 实际状态 · 2026-11-06
+# 实际状态
+
+## 2026-11-09/10 · Force REK 与 Tinno 键盘（硬件未成功）
+
+`hardware_success_claimed=false`
+
+远程此前停在 2026-11-08 提交的 KEEP+鲸鲮归档（包内日期 2026-11-07）。下面是 11-09/10 ColorOS 端口现场，来自 Qin `E:\youxikaifa\work\today-20261109` lean pack，不是新的硬件验收。
+
+- **休眠黑屏**：Force REK boot PASS。`tb371fc-offline@r108-force-rek` #45，`boot_completed=1`。休眠唤醒 `PRE_STATE=0xA0` → `0x23 0x00` → `REAL_READY state=0xA1` / `FORCE_REK_STATE_OK`，`mScreenState=ON`，面板过滤中 R107 计数为 0。DIMNESS-DIAG：画面可见、最大亮度仍略暗（UI 8191 约映射 PWM 1023/2047，HBM 未开）。用户侧接受这条略暗结果；略暗不是黑屏失败。镜像不入库。
+- **Tinno VINTF**：Magisk 模块 `tb371fc_tinno_vintf_pair` 已装（systemless）。`init.svc.tinnokeyboard=running`，lshal 有 `vendor.qti.hardware.tinno_keyboard@1.0::ITinnoKeyBoard/default`。未 remount `/vendor` rw，未关 verity、未改 vbmeta。
+- **键盘物理**：POGO `present=0` / `online=0`。MCU `online`（HID status bit0）会短暂置位再掉。`kb_batt_level`（`inbuf[9]`）是遥测，不是连接门。键盘包不可充电，不要建议充电。触控乱跑是 NVT 鬼触（键盘靠近玻璃），不是 Lenovo HID 洪水。
+- **不要做**：userspace GPIO / `mcu_resume` 拉高（有 bootloop 记录）；只加 device manifest、矩阵仍写 `vendor.mediatek…` 而 HAL 是 `vendor.qti…`（半套会砖）；不要用关 verity 补救。
+
+键盘没有硬件成功。路径：[`packages/force_rek_20261109/`](packages/force_rek_20261109/INDEX.md)、[`packages/tinno_vintf_pair_20261109/`](packages/tinno_vintf_pair_20261109/INDEX.md)、[`field-notes-20261109/`](field-notes-20261109/INDEX.md)。`field-notes-20261109/qin-pc/` 只是 Qin 电脑 C: 清空与 D: 回收站盘点，不是刷机事实。boot（`boot-r108-force-rek*.img`、`boot-r108-resx-magisk*.img`）留在 Qin E:，local-only / Release 候选。
+
+## 2026-11-06
 
 最新性能记录见 [四应用冷启动 A→B→A](evidence/2026-11-06/scheduler/four-app-cold-aba/README.md)。24 次确认冷启动，停用调度未见稳定收益，服务已恢复。重载内容跟手与长期稳定仍待验收。
 

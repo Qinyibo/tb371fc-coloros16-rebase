@@ -1,0 +1,24 @@
+﻿TB371FC keyboard attach RECHECK — READ ONLY
+timestamp: 2026-11-09 21:20:09 Asia/Hong_Kong
+compare_to: kb-attach-20261109-211705.txt (~21:17 present=0 online=0 HAL dead)
+hardware_success_claimed=false
+
+POGO dc: present=0 online=0 type=POGO  (UNCHANGED vs 21:17)
+siblings: battery present=1 charging; usb/pc_port/main present; no wireless node
+Dock powered: still false (implied by dc 0/0 + undocked)
+
+tinno HAL: init.svc=stopped; service check=not found; no tinno ps; NO_TINNO_LSHAL  (STILL DEAD)
+
+input /dev/input: event0..event9 only (same set since 20:27)
+dumpsys: only IsExternal=true = Device9 uinput_nav; NO Lenovo/pogo/tinno node
+
+lid/dock: mLidState=LID_ABSENT mDockMode=EXTRA_DOCK_STATE_UNDOCKED  (UNCHANGED)
+
+logcat relevant: only settings.keyboard aconfig map line; no tinno/pogo/mcu attach traffic
+
+VERDICT vs prior:
+- POGO present flip to 1? NO (still 0)
+- any Lenovo/external keyboard input nodes? NO
+- HAL still dead? YES
+- cause class unchanged: BOTH software-missing/failed + no electrical/detect
+hardware_success_claimed=false

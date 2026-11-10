@@ -1,0 +1,50 @@
+﻿=== FORCE SUSPEND THEN RESUME ===
+control=auto runtime=active active_time=253876 suspended_time=5027508
+wait_0 runtime=active
+wait_1 runtime=active
+wait_2 runtime=active
+wait_3 runtime=active
+wait_4 runtime=active
+wait_5 runtime=active
+wait_6 runtime=active
+wait_7 runtime=active
+wait_8 runtime=active
+wait_9 runtime=active
+wait_10 runtime=active
+wait_11 runtime=active
+wait_12 runtime=active
+wait_13 runtime=active
+wait_14 runtime=active
+wait_15 runtime=active
+wait_16 runtime=active
+wait_17 runtime=active
+wait_18 runtime=active
+wait_19 runtime=active
+=== BEFORE RESUME ===
+kb=Not connected
+ver=HOST_MCU:80, online:0
+dc_p=0 dc_o=0
+usb_typec=Source attached (default current)
+=== RESUME control=on ===
+-- t1 -- runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+-- t2 -- runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+-- t3 -- runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+-- t4 -- runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+-- t5 -- runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+-- t6 -- runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+-- t7 -- runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+-- t8 -- runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+-- t9 -- runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+-- t10 -- runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+-- t11 -- runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+-- t12 -- runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+=== DMESG ===
+=== hidraw poke ===
+after_hidraw kb=Not connected ver=HOST_MCU:80, online:0
+=== REVERT ===
+final_control=auto final_runtime=active
+final_kb=Not connected final_ver=HOST_MCU:80, online:0
+final_dc=0/0
+running
+system       27634     1    2200316   4688 binder_ioctl_write_read 0 S vendor.qti.hardware.tinno_keyboard@1.0-service
+DONE

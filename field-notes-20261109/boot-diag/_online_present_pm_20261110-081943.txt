@@ -1,0 +1,98 @@
+﻿=== FIND kb_status/version ===
+/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status
+/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/version
+/sys/module/radio_i2c_rtc6226_qca/version
+total 0
+drwxr-xr-x 4 root root    0 2026-11-10 08:19 .
+drwxr-xr-x 5 root root    0 1970-01-10 11:02 ..
+-r--r--r-- 1 root root 4096 2026-11-10 08:19 country
+lrwxrwxrwx 1 root root    0 2026-11-10 08:19 driver -> ../../../../../../../bus/hid/drivers/hid-multitouch
+drwxr-xr-x 3 root root    0 2026-11-10 08:19 hidraw
+-r--r--r-- 1 root root 4096 2026-11-10 08:19 kb_status
+-r--r--r-- 1 root root 4096 2026-11-10 08:19 modalias
+drwxr-xr-x 2 root root    0 2026-11-10 08:19 power
+-rw-r--r-- 1 root root 4096 2026-11-10 08:19 quirks
+-r--r--r-- 1 root root 4096 2026-11-10 08:19 report_descriptor
+lrwxrwxrwx 1 root root    0 2026-11-10 08:19 subsystem -> ../../../../../../../bus/hid
+-rw-r--r-- 1 root root 4096 2026-11-10 08:19 uevent
+-r--r--r-- 1 root root 4096 2026-11-10 08:19 version
+=== HID attrs ===
+country=00 
+kb_status=Not connected
+quirks=4112 
+version=HOST_MCU:80, online:0 
+=== BEFORE PM ===
+control=auto
+runtime=active
+dc_present=0
+dc_online=0
+dc_v=
+=== SET power/control=on ===
+control_now=on
+runtime_now=active
+-- tick 1 --
+runtime=active
+dc_p=0 dc_o=0 dc_v=empty
+kb_status@/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status=Not connected
+no Lenovo input
+-- tick 2 --
+runtime=active
+dc_p=0 dc_o=0 dc_v=empty
+kb_status@/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status=Not connected
+no Lenovo input
+-- tick 3 --
+runtime=active
+dc_p=0 dc_o=0 dc_v=empty
+kb_status@/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status=Not connected
+no Lenovo input
+-- tick 4 --
+runtime=active
+dc_p=0 dc_o=0 dc_v=empty
+kb_status@/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status=Not connected
+no Lenovo input
+-- tick 5 --
+runtime=active
+dc_p=0 dc_o=0 dc_v=empty
+kb_status@/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status=Not connected
+no Lenovo input
+-- tick 6 --
+runtime=active
+dc_p=0 dc_o=0 dc_v=empty
+kb_status@/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status=Not connected
+no Lenovo input
+-- tick 7 --
+runtime=active
+dc_p=0 dc_o=0 dc_v=empty
+kb_status@/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status=Not connected
+no Lenovo input
+-- tick 8 --
+runtime=active
+dc_p=0 dc_o=0 dc_v=empty
+kb_status@/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status=Not connected
+no Lenovo input
+-- tick 9 --
+runtime=active
+dc_p=0 dc_o=0 dc_v=empty
+kb_status@/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status=Not connected
+no Lenovo input
+-- tick 10 --
+runtime=active
+dc_p=0 dc_o=0 dc_v=empty
+kb_status@/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status=Not connected
+no Lenovo input
+-- tick 11 --
+runtime=active
+dc_p=0 dc_o=0 dc_v=empty
+kb_status@/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status=Not connected
+no Lenovo input
+-- tick 12 --
+runtime=active
+dc_p=0 dc_o=0 dc_v=empty
+kb_status@/sys/devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001/kb_status=Not connected
+no Lenovo input
+=== DMESG AFTER ON ===
+=== REVERT power/control=auto ===
+control_final=auto
+runtime_final=active
+dc_final_p=0 dc_final_o=0
+=== DONE ===

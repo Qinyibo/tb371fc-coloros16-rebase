@@ -1,0 +1,27 @@
+﻿TB371FC touch runaway — READ ONLY
+timestamp: 2026-11-09 ~22:25 Asia/Hong_Kong
+hardware_success_claimed=false
+
+1) HA1W0JA3 boot_completed=1; uname 4.19.325-perf+ #45; /proc/version tb371fc-offline@r108-force-rek → Force REK #45 OK
+
+2) dumpsys input:
+- NVTCapacitiveTouchScreen event4 active; no stuck KeyState
+- NO Lenovo input nodes; only IsExternal=uinput_nav
+- palm rejection OFF (mEnablePalmRejection=0, mPalmRejectors=None)
+- Recent MotionEvent deviceId=4: 4-finger coordinated MOVE then POINTER_UP (~38s age); later single-finger drift UP (~53s age)
+- AbsState first SLOT=3 X=10519 Y=8070 TID=-1; later SLOT=0 X=2659 Y=16160 TID=-1; Last Cooked pointerCount=0 at snapshots
+
+3) skipped long getevent; used dumpsys history
+
+4) dmesg NVT: repeated hid-keyboard nvt_drm_panel_notifier + "Touch is already resume"; logcat quiet
+
+5) NVT-ts spi0.0; fw_ver=26 x_num=60 y_num=40; fw_status=A3
+
+6) keyboard: POGO 0/0; kb_status=Not connected; HOST_MCU online:0 — NOT HID input spam; possible glass proximity ghosts + hid-keyboard notifier churn
+
+7) Screen ON; backlight brightness=1011 max=2047 actual=0 (Force REK PWM quirk; separate)
+
+VERDICT: likely NVT capacitive ghost/multi-touch runaway (palm reject off). Not Lenovo HID flood. Aggravator: KB magnetically near glass; NVT hid-keyboard resume churn.
+SAFE next: physically remove keyboard fully away from tablet 10–20s; if calm, keep KB off glass. No reboot/flash/GPIO.
+hardware_success_claimed=false
+raw: boot-diag\_touch_runaway.out _touch_runaway3.out _touch_runaway4.out

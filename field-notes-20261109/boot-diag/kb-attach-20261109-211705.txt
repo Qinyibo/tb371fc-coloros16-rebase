@@ -1,0 +1,83 @@
+﻿TB371FC ColorOS16 keyboard attach diagnostic — READ ONLY
+timestamp: 2026-11-09 21:16 Asia/Hong_Kong (approx capture window 21:12-21:16)
+machine: Qin d034a1ca-7f3e-4320-ba7e-4a4db4e6fc6b
+device: HA1W0JA3 / OPD2413 / OP615EL1
+hardware_success_claimed=false
+LIMITS HONORED: no remount, flash, Magisk install, GPIO, reboot, vendor write.
+
+==== 1) devices / boot / build / slot ====
+adb devices: HA1W0JA3 device product:OPD2413 model:OPD2413 device:OP615EL1
+sys.boot_completed=1
+ro.build.display.id=OPD2413_16.0.0.210(CN01)
+ro.boot.slot_suffix=_a
+ro.product.model=OPD2413
+
+==== 2) Magisk modules ====
+/data/adb/modules:
+  r94_ai_transaction_candidate
+  r94_foreground_schedtune
+  r94_privacy_password_test
+  r94_speaker_direction
+RESULT: NO tinno Magisk module (as expected after post-brick hold).
+
+==== 3) tinno HAL / service ====
+init.svc.tinnokeyboard=stopped
+service check tinnokeyboard: not found
+ps: NO tinno process
+lshal | tinno: none
+dmesg (boot):
+  init: processing action (sys.boot_completed=1) from (...tinno_keyboard@1.0-service.rc:9)
+  init: starting service 'tinnokeyboard'... pid 4622
+  Service 'tinnokeyboard' (pid 4622) exited with status 1 oneshot (~0.017s)
+NOTE: binary is present and init does start it; process dies immediately (status 1).
+
+==== 4) POGO / power_supply ====
+/sys/class/power_supply/dc (type=POGO): present=0 online=0
+dumpsys battery: USB powered=true (ADB cable), Dock powered=false, AC=false, Wireless=false, level=96
+usb.present=1 usb.online=0 type=USB_PD; pc_port.online=1
+No /sys *pogo* nodes beyond power_supply/dc.
+
+==== 5) Input ====
+/dev/input: event0..event9
+names:
+  event0=qpnp_pon
+  event1=qwerty
+  event2=qti-haptics
+  event3=gpio-keys
+  event4=NVTCapacitiveTouchScreen
+  event5=nvt_wake_key
+  event6=NVTCapacitivePen
+  event7=kona-qrd-snd-card Headset Jack
+  event8=kona-qrd-snd-card Button Jack
+  event9=uinput_nav
+dumpsys input: only IsExternal=true is Device 9 uinput_nav (virtual).
+NO Lenovo / pogo / tinno / magnetic keyboard input node.
+
+==== 6) Host MCU / kb_status / logcat ====
+props: init.svc.tinnokeyboard=stopped; init.svc.r94_native_keyboard=stopped; debug.r94.keyboard_ready=1
+logcat recent tinno/keyboard/pogo/mcu: no useful attach traffic; SELinux denials only when shell does service check
+dmesg: tinno exit status 1 at ~boot+23s as above
+
+==== 7) Hall / lid / dock ====
+mDockMode=EXTRA_DOCK_STATE_UNDOCKED
+mLidState=LID_ABSENT
+hall_sensor platform driver exists; no bound device listed under drivers/hall_sensor/
+DT node: /soc/i2c@a84000/dhall@18
+bu520* sysfs: none found
+
+==== 8) binary / VINTF ====
+EXISTS: /vendor/bin/hw/vendor.qti.hardware.tinno_keyboard@1.0-service (-rwxr-xr-x, 25224)
+EXISTS: /vendor/etc/init/vendor.qti.hardware.tinno_keyboard@1.0-service.rc (start on sys.boot_completed=1, oneshot)
+EXISTS: /vendor/lib64/vendor.qti.hardware.tinno_keyboard@1.0.so
+VINTF compatibility_matrix.xml: vendor.mediatek.hardware.tinno_keyboard / ITinnoKeyBoard
+/vendor/etc/vintf/manifest*: no tinno name hit (unpaired relative to Magisk-era paired VINTF)
+
+==== VERDICT ====
+software HAL running? NO
+POGO present/online: present=0 / online=0 (type=POGO)
+Lenovo/external keyboard input nodes: NONE
+likely cause class: BOTH
+  1) software-missing/failed — Magisk tinno module absent; HAL starts then exits status 1; not registered in lshal
+  2) physical/electrical OR detect-path — keyboard attached per user but POGO still 0/0, lid ABSENT, dock UNDOCKED
+Magisk paired VINTF reinstall needs user-attended confirm (not done this run).
+hardware_success_claimed=false

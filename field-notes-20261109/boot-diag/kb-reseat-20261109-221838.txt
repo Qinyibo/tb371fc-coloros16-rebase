@@ -1,0 +1,89 @@
+====1 POGO====
+present=0
+online=0
+type=POGO
+voltage_now=cat: /sys/class/power_supply/dc/voltage_now: No data available
+current_max=0
+====2 HID MCU====
+kb_status=Not connected
+version=HOST_MCU:13, online:0
+runtime_status=suspended
+runtime_active_time=104
+runtime_suspended_time=2088508
+wakeup_count=0
+driver=../../../../../../bus/i2c/drivers/i2c_hid
+hid_name=HID_NAME=Lenovo Keyboard Pack for Tab P12 Pro
+====3 HAL====
+init.svc.tinnokeyboard=running
+DM,DC    Y vendor.qti.hardware.tinno_keyboard@1.0::ITinnoKeyBoard/default                                         N/A        N/A    
+system        1303     1    2153212   5256 binder_ioctl_write_read 0 S vendor.qti.hardware.tinno_keyboard@1.0-service
+====4 INPUT====
+event0
+event1
+event2
+event3
+event4
+event5
+event6
+event7
+event8
+event9
+event0=qpnp_pon
+event1=qwerty
+event2=qti-haptics
+event3=gpio-keys
+event4=NVTCapacitiveTouchScreen
+event5=nvt_wake_key
+event6=NVTCapacitivePen
+event7=kona-qrd-snd-card Headset Jack
+event8=kona-qrd-snd-card Button Jack
+event9=uinput_nav
+  Device 9: uinput_nav
+    IsExternal: true
+  Device 7: NVTCapacitivePen
+    IsExternal: false
+  Device 6: gpio-keys
+    IsExternal: false
+  Device 5: qwerty
+    IsExternal: false
+  Device 4: NVTCapacitiveTouchScreen
+    IsExternal: false
+  Device 3: qpnp_pon
+    IsExternal: false
+  Device 2: nvt_wake_key
+    IsExternal: false
+  Device 8: kona-qrd-snd-card Headset Jack
+    IsExternal: false
+    IsExternal: false
+  Device 9: uinput_nav
+    IsExternal: true
+  Device 7: NVTCapacitivePen
+    IsExternal: false
+  Device 6: gpio-keys
+    IsExternal: false
+  Device 5: qwerty
+    IsExternal: false
+  Device 4: NVTCapacitiveTouchScreen
+    IsExternal: false
+  Device 3: qpnp_pon
+    IsExternal: false
+  Device 2: nvt_wake_key
+    IsExternal: false
+  Device 8: kona-qrd-snd-card Headset Jack
+    IsExternal: false
+    IsExternal: false
+====5 LID USB====
+    mDockMode=EXTRA_DOCK_STATE_UNDOCKED mLidState=LID_ABSENT
+usb.present=1
+usb.online=0
+usb.type=USB_PD
+usb.typec_mode=Source attached (default current)
+Dock line:
+  AC powered: false
+  USB powered: true
+  Wireless powered: false
+  Dock powered: false
+
+VERDICT: unchanged
+hardware_success_claimed=false
+compare_to: present=0 kb_status=Not connected HOST_MCU online=0 — NO CHANGE

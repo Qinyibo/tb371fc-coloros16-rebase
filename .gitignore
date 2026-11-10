@@ -14,8 +14,11 @@ temp/
 **/native-source/
 **/__pycache__/
 *.pyc
+# Boot/super/vendor images stay on Qin E: (local-only / Release candidates).
 *.img
 *.zip
+# Source-sized paired VINTF module (XML only; no boot image, no magiskboot).
+!packages/tinno_vintf_pair_20261109/tb371fc_tinno_vintf_pair.zip
 *.apk
 *.apex
 *.capex

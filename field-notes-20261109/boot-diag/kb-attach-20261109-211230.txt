@@ -1,0 +1,548 @@
+TB371FC ColorOS16 keyboard attach diagnostic — READ ONLY
+timestamp_local_HK: 2026-11-09 21:12:30 Asia/Hong_Kong
+machine: Qin d034a1ca-7f3e-4320-ba7e-4a4db4e6fc6b
+log: E:\youxikaifa\work\today-20261109\boot-diag\kb-attach-20261109-211230.txt
+hardware_success_claimed=false
+
+==== 1) devices / boot / build / slot ====
+
+\$ adb 
+Android Debug Bridge version 1.0.41
+Version 37.0.1-15733141
+Installed as C:\android-sdk\platform-tools\adb.exe
+Running on Windows 10.0.26200
+
+global options:
+ -a                       listen on all network interfaces, not just localhost
+ -d                       use USB device (error if multiple devices connected)
+ -e                       use TCP/IP device (error if multiple TCP/IP devices available)
+ -s SERIAL                use device with given serial (overrides $ANDROID_SERIAL)
+ -t ID                    use device with given transport id
+ -H                       name of adb server host [default=localhost]
+ -P                       port of adb server [default=5037]
+ -L SOCKET                listen on given socket for adb server [default=tcp:localhost:5037]
+ --one-device SERIAL|USB  only allowed with 'start-server' or 'server nodaemon', server will only connect to one USB device, specified by a serial number or USB device address.
+ --exit-on-write-error    exit if stdout is closed
+
+general commands:
+ devices [-l]             list connected devices (-l for long output)
+ help                     show this help message
+ version                  show version num
+
+networking:
+ connect HOST[:PORT]      connect to a device via TCP/IP [default port=5555]
+ disconnect [HOST[:PORT]]
+     disconnect from given TCP/IP device [default port=5555], or all
+ pair HOST[:PORT] [PAIRING CODE]
+     pair with a device for secure TCP/IP communication
+ forward --list           list all forward socket connections
+ forward [--no-rebind] LOCAL REMOTE
+     forward socket connection using:
+       tcp:<port> (<local> may be "tcp:0" to pick any open port)
+       localabstract:<unix domain socket name>
+       localreserved:<unix domain socket name>
+       localfilesystem:<unix domain socket name>
+       dev:<character device name>
+       dev-raw:<character device name> (open device in raw mode)
+       jdwp:<process pid> (remote only)
+       vsock:<CID>:<port> (remote only)
+       acceptfd:<fd> (listen only)
+ forward --remove LOCAL   remove specific forward socket connection
+ forward --remove-all     remove all forward socket connections
+ reverse --list           list all reverse socket connections from device
+ reverse [--no-rebind] REMOTE LOCAL
+     reverse socket connection using:
+       tcp:<port> (<remote> may be "tcp:0" to pick any open port)
+       localabstract:<unix domain socket name>
+       localreserved:<unix domain socket name>
+       localfilesystem:<unix domain socket name>
+ reverse --remove REMOTE  remove specific reverse socket connection
+ reverse --remove-all     remove all reverse socket connections from device
+ mdns check               check if mdns discovery is available
+ mdns services            list all discovered services
+
+file transfer:
+ push [--sync] [-z ALGORITHM] [-Z] LOCAL... REMOTE
+     copy local files/directories to device
+     -n: dry run: push files to device without storing to the filesystem
+     -q: suppress progress messages
+     -Z: disable compression
+     -z: enable compression with a specified algorithm (any/none/brotli/lz4/zstd)
+     --sync: only push files that have different timestamps on the host than the device
+ pull [-a] [-z ALGORITHM] [-Z] REMOTE... LOCAL
+     copy files/dirs from device
+     -a: preserve file timestamp and mode
+     -q: suppress progress messages
+     -Z: disable compression
+     -z: enable compression with a specified algorithm (any/none/brotli/lz4/zstd)
+ sync [-l] [-z ALGORITHM] [-Z] [all|data|odm|oem|product|system|system_ext|vendor]
+     sync a local build from $ANDROID_PRODUCT_OUT to the device (default all)
+     -l: list files that would be copied, but don't copy them
+     -n: dry run: push files to device without storing to the filesystem
+     -q: suppress progress messages
+     -Z: disable compression
+     -z: enable compression with a specified algorithm (any/none/brotli/lz4/zstd)
+
+shell:
+ shell [-e ESCAPE] [-n] [-Tt] [-x] [COMMAND...]
+     run remote shell command (interactive shell if no command given)
+     -e: choose escape character, or "none"; default '~'
+     -n: don't read from stdin
+     -T: disable pty allocation
+     -t: allocate a pty if on a tty (-tt: force pty allocation)
+     -x: disable remote exit codes and stdout/stderr separation
+ emu COMMAND              run emulator console command
+
+app installation (see also `adb shell cmd package help`):
+ install [-lrtsdg] [--instant] PACKAGE
+     push a single package to the device and install it
+ install-multiple [-lrtsdpg] [--instant] PACKAGE...
+     push multiple APKs to the device for a single package and install them
+ install-multi-package [-lrtsdpg] [--instant] PACKAGE...
+     push one or more packages to the device and install them atomically
+     -r: replace existing application
+     -t: allow test packages
+     -d: allow version code downgrade (debuggable packages only)
+     -p: partial application install (install-multiple only)
+     -g: grant all runtime permissions
+     --abi ABI: override platform's default ABI
+     --instant: cause the app to be installed as an ephemeral install app
+     --no-streaming: always push APK to device and invoke Package Manager as separate steps
+     --streaming: force streaming APK directly into Package Manager
+     --fastdeploy: use fast deploy
+     --no-fastdeploy: prevent use of fast deploy
+     --force-agent: force update of deployment agent when using fast deploy
+     --date-check-agent: update deployment agent when local version is newer and using fast deploy
+     --version-check-agent: update deployment agent when local version has different version code and using fast deploy
+     (See also `adb shell pm help` for more options.)
+ uninstall [-k] PACKAGE
+     remove this app package from the device
+     '-k': keep the data and cache directories
+
+debugging:
+ bugreport [PATH]
+     write bugreport to given PATH [default=bugreport.zip];
+     if PATH is a directory, the bug report is saved in that directory.
+     devices that don't support zipped bug reports output to stdout.
+ jdwp                     list pids of processes hosting a JDWP transport
+ logcat                   show device log (logcat --help for more)
+
+security:
+ disable-verity           disable dm-verity checking on userdebug builds
+ enable-verity            re-enable dm-verity checking on userdebug builds
+ keygen FILE
+     generate adb public/private key; private key stored in FILE,
+
+scripting:
+ wait-for[-TRANSPORT]-STATE...
+     wait for device to be in a given state
+     STATE: device, recovery, rescue, sideload, bootloader, or disconnect
+     TRANSPORT: usb, local, or any [default=any]
+ get-state                print offline | bootloader | device
+ get-serialno             print <serial-number>
+ get-devpath              print <device-path>
+ remount [-R]
+      remount partitions read-write. if a reboot is required, -R will
+      will automatically reboot the device.
+ reboot [bootloader|recovery|sideload|sideload-auto-reboot]
+     reboot the device; defaults to booting system image but
+     supports bootloader and recovery too. sideload reboots
+     into recovery and automatically starts sideload mode,
+     sideload-auto-reboot is the same but reboots after sideloading.
+ sideload OTAPACKAGE      sideload the given full OTA package
+ root                     restart adbd with root permissions
+ unroot                   restart adbd without root permissions
+ usb                      restart adbd listening on USB
+ tcpip PORT               restart adbd listening on TCP on PORT
+
+internal debugging:
+ start-server             ensure that there is a server running
+ kill-server              kill the server if it is running
+ reconnect                kick connection from host side to force reconnect
+ reconnect device         kick connection from device side to force reconnect
+ reconnect offline        reset offline/unauthorized devices to force reconnect
+
+usb:
+ attach                   attach a detached USB device
+ detach                   detach from a USB device to allow use by other processes
+environment variables:
+ $ADB_TRACE
+     comma/space separated list of debug info to log:
+     all,adb,sockets,packets,rwx,usb,sync,sysdeps,transport,jdwp,services,auth,fdevent,shell,incremental
+ $ADB_VENDOR_KEYS         colon-separated list of keys (files or directories)
+ $ANDROID_SERIAL          serial number to connect to (see -s)
+ $ANDROID_LOG_TAGS        tags to be used by logcat (see logcat --help)
+ $ADB_LOCAL_TRANSPORT_MAX_PORT max emulator scan port (default 5585, 16 emus)
+ $ADB_MDNS_AUTO_CONNECT   comma-separated list of mdns services to allow auto-connect (default adb-tls-connect)
+
+Online documentation: https://android.googlesource.com/platform/packages/modules/adb/+/refs/heads/main/docs/user/adb.1.md
+\$ adb shell getprop sys.boot_completed
+1
+\$ adb shell getprop ro.build.display.id
+OPD2413_16.0.0.210(CN01)
+\$ adb shell getprop ro.boot.slot_suffix
+_a
+\$ adb shell getprop ro.product.model
+OPD2413
+\$ adb shell getprop ro.product.device
+OP615EL1
+
+==== 2) Magisk modules (expect NO tinno) ====
+
+\$ adb shell ls -la /data/adb/modules
+adb.exe : ls: /data/adb/modules: Permission denied
+所在位置 C:\Users\Administrator\AppData\Local\Temp\ps-script-f9d01728-f37d-462b-9e94-f84b52c47a03.ps1:638 字符: 12
++     $out = & $adb shell $cmd 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ls: /data/adb/modules: Permission denied:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+\$ adb shell ls -la /data/adb/modules 2>/dev/null; for d in /data/adb/modules/*; do echo "== $d"; ls "$d" 2>/dev/null | head -20; done
+== /data/adb/modules/*
+
+==== 3) tinno HAL / service ====
+
+\$ adb shell getprop init.svc.tinnokeyboard
+stopped
+\$ adb shell service check tinnokeyboard
+Service tinnokeyboard: not found
+\$ adb shell ps -A | grep -i tinno
+
+\$ adb shell getprop | grep -i tinno
+[init.svc.tinnokeyboard]: [stopped]
+\$ adb shell lshal 2>/dev/null | grep -i tinno
+adb.exe : Segmentation fault 
+所在位置 C:\Users\Administrator\AppData\Local\Temp\ps-script-f9d01728-f37d-462b-9e94-f84b52c47a03.ps1:638 字符: 12
++     $out = & $adb shell $cmd 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Segmentation fault :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+==== 4) POGO / power_supply ====
+
+\$ adb shell dumpsys battery
+Current OPLUS Battery Service state:
+  Charger voltage : 0
+  Battery current : 599000
+  ChargerTechnology: -1
+  ChargeFastCharger: false
+  PlugType: 2
+  UpdatesStopped: false
+  UsbHwStatus: -2147483648
+  BatteryHwStatus: -2147483648
+  HwStatusIsSet: 1
+  BatteryIcStatus: -2147483648
+  IcStatusIsSet: 1
+
+  mUsbStatus: -2147483648
+  PhoneTemp: 250
+  ThermalFeatureOn: true
+Current Battery Service state:
+  AC powered: false
+  USB powered: true
+  Wireless powered: false
+  Dock powered: false
+  Max charging current: 500000
+ Time when the latest updated value of the Max charging current was sent via battery changed broadcast: +14s182ms
+  Max charging voltage: 5000000
+  Charge counter: 0
+  status: 2
+  health: 2
+  present: true
+  level: 96
+  scale: 100
+  voltage: 4338
+ Time when the latest updated value of the voltage was sent via battery changed broadcast: +42m55s560ms
+ The last voltage value sent via the battery changed broadcast: 4335
+  temperature: 259
+  technology: Li-ion
+  Charging state: 0
+  Charging policy: 0
+  Capacity level: -1
+\$ adb shell ls -la /sys/class/power_supply/
+total 0
+drwxr-xr-x   2 root root 0 2026-11-09 21:10 .
+drwxr-xr-x 105 root root 0 1970-01-10 09:47 ..
+lrwxrwxrwx   1 root root 0 2026-11-09 21:10 battery -> ../../devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/battery
+lrwxrwxrwx   1 root root 0 2026-11-09 21:12 bms -> ../../devices/platform/soc/98c000.i2c/i2c-1/1-0055/power_supply/bms
+lrwxrwxrwx   1 root root 0 2026-11-09 21:12 charge_pump_master -> ../../devices/platform/soc/888000.i2c/i2c-7/7-0034/888000.i2c:qcom,smb1396@34:qcom,div2_cp/power_supply/charge_pump_master
+lrwxrwxrwx   1 root root 0 2026-11-09 21:12 dc -> ../../devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/dc
+lrwxrwxrwx   1 root root 0 2026-11-09 21:12 main -> ../../devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/main
+lrwxrwxrwx   1 root root 0 2026-11-09 21:10 pc_port -> ../../devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/pc_port
+lrwxrwxrwx   1 root root 0 2026-11-09 21:10 usb -> ../../devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/usb
+\$ adb shell for d in /sys/class/power_supply/*; do n=$(basename $d); echo "--- $n"; for f in present online type status capacity voltage_now current_now; do if [ -f $d/$f ]; then echo -n "$f="; cat $d/$f 2>/dev/null; echo; fi; done; done
+--- battery
+present=1
+
+type=Battery
+
+status=Charging
+
+capacity=96
+
+voltage_now=4340000
+
+current_now=604000
+
+--- bms
+type=Battery
+
+capacity=96
+
+voltage_now=4340000
+
+current_now=-604000
+
+--- charge_pump_master
+type=Charge_Pump
+
+--- dc
+present=0
+
+online=0
+
+type=POGO
+
+voltage_now=
+--- main
+type=Main
+
+--- pc_port
+--- usb
+\$ adb shell ls -la /sys/class/power_supply/ | grep -iE "pogo|dc|usb|wireless|dock"
+adb.exe : /system/bin/sh: usb: inaccessible or not found
+所在位置 C:\Users\Administrator\AppData\Local\Temp\ps-script-f9d01728-f37d-462b-9e94-f84b52c47a03.ps1:638 字符: 12
++     $out = & $adb shell $cmd 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (/system/bin/sh:...le or not found:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+/system/bin/sh: dc: inaccessible or not found
+/system/bin/sh: dock: inaccessible or not found
+/system/bin/sh: wireless: inaccessible or not found
+
+==== 5) Input nodes ====
+
+\$ adb shell ls -la /dev/input
+total 0
+drwxr-xr-x  2 root root      240 2026-11-09 20:27 .
+drwxr-xr-x 24 root root     6040 2026-11-09 20:27 ..
+crw-rw----  1 root input 13,  64 1970-01-10 09:47 event0
+crw-rw----  1 root input 13,  65 1970-01-10 09:47 event1
+crw-rw----  1 root input 13,  66 1970-01-10 09:47 event2
+crw-rw----  1 root input 13,  67 1970-01-10 09:47 event3
+crw-rw----  1 root input 13,  68 1970-01-10 09:47 event4
+crw-rw----  1 root input 13,  69 1970-01-10 09:47 event5
+crw-rw----  1 root input 13,  70 1970-01-10 09:47 event6
+crw-rw----  1 root input 13,  71 1970-01-10 09:47 event7
+crw-rw----  1 root input 13,  72 1970-01-10 09:47 event8
+crw-rw----  1 root input 13,  73 2026-11-09 20:27 event9
+\$ adb shell dumpsys input | grep -iE "Lenovo|keyboard|pogo|tinno|External|Keyboard|Physical" | head -80
+adb.exe : /system/bin/sh: tinno: inaccessible or not found
+所在位置 C:\Users\Administrator\AppData\Local\Temp\ps-script-f9d01728-f37d-462b-9e94-f84b52c47a03.ps1:638 字符: 12
++     $out = & $adb shell $cmd 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (/system/bin/sh:...le or not found:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+/system/bin/sh: keyboard: inaccessible or not found
+/system/bin/sh: External: inaccessible or not found
+/system/bin/sh: pogo: inaccessible or not found
+/system/bin/sh: Keyboard: inaccessible or not found
+/system/bin/sh: Physical: inaccessible or not found
+\$ adb shell timeout 3 getevent -pl 2>/dev/null | head -120 || getevent -pl 2>&1 | head -5
+add device 1: /dev/input/event9
+  name:     "uinput_nav"
+  events:
+    KEY (0001): KEY_UP                KEY_LEFT              KEY_RIGHT             KEY_DOWN             
+                KEY_VOLUMEDOWN        KEY_VOLUMEUP          KEY_SEARCH           
+  input props:
+    <none>
+add device 2: /dev/input/event8
+  name:     "kona-qrd-snd-card Button Jack"
+  events:
+    KEY (0001): KEY_VOLUMEDOWN        KEY_VOLUMEUP          KEY_MEDIA             BTN_4                
+                BTN_5                 KEY_VOICECOMMAND     
+  input props:
+    <none>
+add device 3: /dev/input/event7
+  name:     "kona-qrd-snd-card Headset Jack"
+  events:
+    SW  (0005): SW_HEADPHONE_INSERT   SW_MICROPHONE_INSERT  SW_LINEOUT_INSERT     SW_JACK_PHYSICAL_INS    
+                0011                  0012                  0013                  0014                 
+  input props:
+    <none>
+add device 4: /dev/input/event6
+  name:     "NVTCapacitivePen"
+  events:
+    KEY (0001): BTN_DIGI              BTN_TOUCH             BTN_STYLUS            BTN_STYLUS2          
+    ABS (0003): ABS_X                 : value 0, min 0, max 18400, fuzz 0, flat 0, resolution 0
+                ABS_Y                 : value 0, min 0, max 29440, fuzz 0, flat 0, resolution 0
+                ABS_PRESSURE          : value 0, min 0, max 4095, fuzz 0, flat 0, resolution 0
+                ABS_DISTANCE          : value 0, min 0, max 1, fuzz 0, flat 0, resolution 0
+                ABS_TILT_X            : value 0, min -60, max 60, fuzz 0, flat 0, resolution 0
+                ABS_TILT_Y            : value 0, min -60, max 60, fuzz 0, flat 0, resolution 0
+  input props:
+    INPUT_PROP_DIRECT
+add device 5: /dev/input/event1
+  name:     "qwerty"
+  events:
+    KEY (0001): KEY_HOME              KEY_UP                KEY_LEFT              KEY_RIGHT            
+                KEY_DOWN              KEY_VOLUMEDOWN        KEY_VOLUMEUP          KEY_POWER            
+                KEY_MENU              KEY_BACK              KEY_CAMERA            KEY_CHAT             
+                KEY_SEARCH           
+  input props:
+    <none>
+add device 6: /dev/input/event2
+  name:     "qti-haptics"
+  events:
+    FF  (0015): FF_RUMBLE             FF_PERIODIC           FF_CONSTANT           FF_CUSTOM            
+                FF_GAIN              
+  input props:
+    <none>
+add device 7: /dev/input/event4
+  name:     "NVTCapacitiveTouchScreen"
+  events:
+    KEY (0001): KEY_POWER             BTN_TOUCH             KEY_NUMERIC_POUND     025e                 
+    ABS (0003): ABS_MT_SLOT           : value 0, min 0, max 9, fuzz 0, flat 0, resolution 0
+                ABS_MT_TOUCH_MAJOR    : value 0, min 0, max 255, fuzz 0, flat 0, resolution 0
+                ABS_MT_POSITION_X     : value 0, min 0, max 18400, fuzz 0, flat 0, resolution 0
+                ABS_MT_POSITION_Y     : value 0, min 0, max 29440, fuzz 0, flat 0, resolution 0
+                ABS_MT_TRACKING_ID    : value 0, min 0, max 65535, fuzz 0, flat 0, resolution 0
+                ABS_MT_PRESSURE       : value 0, min 0, max 1000, fuzz 0, flat 0, resolution 0
+  input props:
+    INPUT_PROP_DIRECT
+add device 8: /dev/input/event0
+  name:     "qpnp_pon"
+  events:
+    KEY (0001): KEY_VOLUMEDOWN        KEY_POWER            
+  input props:
+    <none>
+add device 9: /dev/input/event3
+  name:     "gpio-keys"
+  events:
+    KEY (0001): KEY_VOLUMEUP         
+  input props:
+    <none>
+add device 10: /dev/input/event5
+  name:     "nvt_wake_key"
+  events:
+    KEY (0001): KEY_POWER             KEY_WAKEUP           
+  input props:
+    <none>
+
+==== 6) Host MCU / kb_status / recent logcat ====
+
+\$ adb shell getprop | grep -iE "mcu|kb_status|keyboard|pogo|tinno|hall|lid|dock"
+adb.exe : /system/bin/sh: keyboard: inaccessible or not found
+所在位置 C:\Users\Administrator\AppData\Local\Temp\ps-script-f9d01728-f37d-462b-9e94-f84b52c47a03.ps1:638 字符: 12
++     $out = & $adb shell $cmd 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (/system/bin/sh:...le or not found:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+/system/bin/sh: pogo: inaccessible or not found
+/system/bin/sh: kb_status: inaccessible or not found
+/system/bin/sh: hall: inaccessible or not found
+/system/bin/sh: lid: inaccessible or not found
+/system/bin/sh: tinno: inaccessible or not found
+/system/bin/sh: dock: inaccessible or not found
+\$ adb shell logcat -d -t 200 2>/dev/null | grep -iE "tinno|keyboard|pogo|mcu|LenovoKeyboard|kb_status" | tail -80
+adb.exe : /system/bin/sh: mcu: inaccessible or not found
+所在位置 C:\Users\Administrator\AppData\Local\Temp\ps-script-f9d01728-f37d-462b-9e94-f84b52c47a03.ps1:638 字符: 12
++     $out = & $adb shell $cmd 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (/system/bin/sh:...le or not found:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+/system/bin/sh: pogo: inaccessible or not found
+/system/bin/sh: LenovoKeyboard: inaccessible or not found
+/system/bin/sh: keyboard: inaccessible or not found
+/system/bin/sh: kb_status: inaccessible or not found
+
+==== 7) Hall / lid / dock ====
+
+\$ adb shell dumpsys window 2>/dev/null | grep -iE "mLidState|mDockMode|Lid|Dock" | head -40
+adb.exe : /system/bin/sh: Lid: inaccessible or not found
+所在位置 C:\Users\Administrator\AppData\Local\Temp\ps-script-f9d01728-f37d-462b-9e94-f84b52c47a03.ps1:638 字符: 12
++     $out = & $adb shell $cmd 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (/system/bin/sh:...le or not found:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+/system/bin/sh: mDockMode: inaccessible or not found
+/system/bin/sh: Dock: inaccessible or not found
+\$ adb shell ls /sys/class/input 2>/dev/null; ls /sys/devices 2>/dev/null | grep -iE "hall|bu520|lid|pogo" | head -40
+event0
+event1
+event2
+event3
+event4
+event5
+event6
+event7
+event8
+event9
+input0
+input1
+input10
+input11
+input12
+input13
+input6
+input7
+input8
+input9
+adb.exe : /system/bin/sh: bu520: inaccessible or not found
+所在位置 C:\Users\Administrator\AppData\Local\Temp\ps-script-f9d01728-f37d-462b-9e94-f84b52c47a03.ps1:638 字符: 12
++     $out = & $adb shell $cmd 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (/system/bin/sh:...le or not found:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+/system/bin/sh: lid: inaccessible or not found
+/system/bin/sh: pogo: inaccessible or not found
+\$ adb shell find /sys -iname "*hall*" 2>/dev/null | head -40
+/sys/bus/platform/drivers/hall_sensor
+/sys/module/hall_sensor
+\$ adb shell find /sys -iname "*bu520*" 2>/dev/null | head -20
+
+\$ adb shell find /sys -iname "*pogo*" 2>/dev/null | head -40
+
+
+==== 8) binary exists? ====
+
+\$ adb shell ls -la /vendor/bin/hw/vendor.qti.hardware.tinno_keyboard@1.0-service
+adb.exe : ls: /vendor/bin/hw/vendor.qti.hardware.tinno_keyboard@1.0-service: Permission denied
+所在位置 C:\Users\Administrator\AppData\Local\Temp\ps-script-f9d01728-f37d-462b-9e94-f84b52c47a03.ps1:638 字符: 12
++     $out = & $adb shell $cmd 2>&1 | Out-String
++            ~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (ls: /vendor/bin...rmission denied:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+\$ adb shell ls -la /vendor/bin/hw/ | grep -i tinno
+-????????? ? ?    ?         ?                ? vendor.qti.hardware.tinno_keyboard@1.0-service
+\$ adb shell ls -la /vendor/etc/init/ | grep -i tinno
+-rw-r--r--  1 root root   356 2009-01-01 08:00 vendor.qti.hardware.tinno_keyboard@1.0-service.rc
+\$ adb shell ls -la /vendor/etc/vintf/ | grep -i tinno; ls /vendor/etc/vintf/manifest* 2>/dev/null | head -20
+
+/vendor/etc/vintf/manifest.xml
+
+/vendor/etc/vintf/manifest:
+android.hardware.atrace@1.0-service.xml
+android.hardware.biometrics.fingerprint@2.1-service.xml
+android.hardware.boot@1.1.xml
+android.hardware.cas@1.2-service.xml
+android.hardware.graphics.mapper-impl-qti-display.xml
+android.hardware.health@2.1.xml
+android.hardware.lights-qti.xml
+android.hardware.neuralnetworks@1.3-service-qti.xml
+android.hardware.sensors@2.0-multihal.xml
+android.hardware.thermal@2.0-service.qti.xml
+android.hardware.usb@1.2-service.xml
+android.hardware.wifi.hostapd.xml
+android.hardware.wifi@1.0-service.xml
+c2_manifest_vendor.xml
+manifest.xml
+manifest_android.hardware.drm@1.3-service.clearkey.xml
+
+==== END READ-ONLY DIAG ====
+hardware_success_claimed=false

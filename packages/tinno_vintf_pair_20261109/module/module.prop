@@ -1,0 +1,6 @@
+id=tb371fc_tinno_vintf_pair
+name=TB371FC Tinno Keyboard VINTF Pair
+version=1.0.0
+versionCode=1
+author=Kinverlin
+description=Systemless paired VINTF fix: rename vendor.mediatek.hardware.tinno_keyboard to vendor.qti.hardware.tinno_keyboard in compatibility_matrix.xml and declare matching HIDL fragment. Does not remount/write /vendor partition. AVB/verity untouched.
