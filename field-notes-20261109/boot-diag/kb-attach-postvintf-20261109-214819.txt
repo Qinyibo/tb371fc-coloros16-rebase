@@ -1,0 +1,40 @@
+﻿TB371FC keyboard attach POST-VINTF — READ ONLY
+timestamp: 2026-11-09 21:48:19 Asia/Hong_Kong
+user: magnetically attached (“吸了没用”)
+compare_to: pre-VINTF kb-attach-20261109-211705 / recheck-20261109-212009 (HAL dead, POGO 0/0)
+           post-install software: install-verify-20261109-214451 (HAL running, POGO 0/0 keyboard out)
+hardware_success_claimed=false
+LIMITS: no GPIO/mcu_resume/remount/flash/reboot/Magisk changes
+
+==== 1) HAL ====
+init.svc.tinnokeyboard=running
+lshal: vendor.qti.hardware.tinno_keyboard@1.0::ITinnoKeyBoard/default  (Y)
+ps: vendor.qti.hardware.tinno_keyboard@1.0-service pid 1303 uid system
+
+==== 2) POGO ====
+dc: present=0 online=0 type=POGO
+dumpsys battery: Dock powered=false; USB powered=true (ADB); AC=false; Wireless=false; level=94
+
+==== 3) Host MCU / kb_status ====
+No kb_status / MCU online / KB/TP props found (getprop tinno|pogo|mcu|kb_ essentially empty beyond init.svc.tinnokeyboard=running and debug.r94.keyboard_ready=1)
+No useful tinno/pogo/mcu attach lines in recent logcat
+
+==== 4) Input ====
+/dev/input: event0..event9 only (same set)
+names: qpnp_pon, qwerty, qti-haptics, gpio-keys, NVTCapacitiveTouchScreen, nvt_wake_key, NVTCapacitivePen, Headset Jack, Button Jack, uinput_nav
+dumpsys: only IsExternal=true = Device9 uinput_nav
+NO Lenovo / pogo / tinno keyboard nodes
+
+==== 5) Lid / hall ====
+mLidState=LID_ABSENT
+mDockMode=EXTRA_DOCK_STATE_UNDOCKED
+hall_sensor driver: bind/uevent/unbind only (no bound device listed); debug=Y readable
+
+==== 6) logcat ====
+essentially no tinno/pogo/mcu attach traffic (only unrelated settings.keyboard aconfig earlier)
+
+==== VERDICT ====
+software still OK? YES (HAL running + lshal ITinnoKeyBoard/default + process up)
+physical still fail? YES (POGO 0/0, Dock false, LID_ABSENT, UNDOCKED, no Lenovo input, no MCU/kb_status)
+improvement vs pre-VINTF attach? Software side only — HAL went from dead/exit-1 to running/registered. Physical/detect path unchanged (still POGO 0, no input nodes). Matches historical pattern: software PASS + physical FAIL (prior brief MCU flicker not seen this capture).
+hardware_success_claimed=false

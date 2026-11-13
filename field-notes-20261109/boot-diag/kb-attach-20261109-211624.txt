@@ -1,0 +1,62 @@
+TB371FC ColorOS16 keyboard attach diagnostic — READ ONLY
+timestamp: 2026-11-09 21:16:27 Asia/Hong_Kong
+machine: Qin d034a1ca-7f3e-4320-ba7e-4a4db4e6fc6b
+device: HA1W0JA3 OPD2413
+hardware_success_claimed=false
+
+==== 1) devices / boot / build / slot ====
+adb devices: HA1W0JA3 device product:OPD2413
+sys.boot_completed=1
+ro.build.display.id=OPD2413_16.0.0.210(CN01)
+ro.boot.slot_suffix=_a
+
+==== 2) Magisk modules (expect NO tinno) ====
+r94_ai_transaction_candidate r94_foreground_schedtune r94_privacy_password_test r94_speaker_direction
+RESULT: NO tinno Magisk module present (only r94_*).
+
+==== 3) tinno HAL / service ====
+init.svc.tinnokeyboard=stopped
+service check: Service tinnokeyboard: not found
+ps: NO tinno process
+lshal: NO_TINNO_LSHAL
+dmesg start/exit:
+[   23.499392] init: starting service 'tinnokeyboard'... [   23.500810] init: ... started service 'tinnokeyboard' has pid 4622 [   23.517456] init: Service 'tinnokeyboard' (pid 4622) exited with status 1 oneshot service took 0.017000 seconds in background [   23.517462] init: Sending signal 9 to service 'tinnokeyboard' (pid 4622) process group... [  565.029201] SELinux: avc:  denied  { find } for pid=22853 uid=2000 name=tinnokeyboard scontext=u:r:shell:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0 [  565.053752] SELinux: avc:  denied  { find } for pid=22854 uid=2000 name=tinnokeyboard scontext=u:r:shell:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0 [  646.249454] SELinux: avc:  denied  { find } for pid=24421 uid=2000 name=tinnokeyboard scontext=u:r:shell:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0 [ 2726.753396] SELinux: avc:  denied  { find } for pid=6312 uid=2000 name=tinnokeyboard scontext=u:r:shell:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0 [ 2756.698747] SELinux: avc:  denied  { find } for pid=7145 uid=2000 name=tinnokeyboard scontext=u:r:shell:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0 [ 2774.444840] SELinux: avc:  denied  { find } for pid=7831 uid=2000 name=tinnokeyboard scontext=u:r:shell:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0 [ 2960.117055] SELinux: avc:  denied  { find } for pid=10692 uid=2000 name=tinnokeyboard scontext=u:r:shell:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+NOTE: boot_completed started tinnokeyboard oneshot; exited status 1 in ~17ms.
+
+==== 4) POGO power ====
+present= online= type=
+dumpsys battery earlier: USB powered=true (ADB), Dock powered=false, AC=false
+usb.present=1 usb.online=0 type=USB_PD; pc_port.online=1
+
+==== 5) Input ====
+/dev/input: event0..event9
+names:
+event=event=event=event=event=event=event=event=event=event=
+dumpsys: only IsExternal=true is Device9 uinput_nav (virtual). NO Lenovo / pogo / tinno keyboard node.
+
+==== 6) Host MCU / logcat ====
+props of note: init.svc.tinnokeyboard=stopped; debug.r94.keyboard_ready=1; init.svc.r94_native_keyboard=stopped
+recent logcat tinno/pogo: essentially empty except SELinux denials on shell service-check
+dmesg: service exit status 1 at boot; later SELinux denials for shell find on tinnokeyboard
+
+==== 7) Hall / lid ====
+
+hall_sensor driver present but no bound device nodes under /sys/bus/platform/drivers/hall_sensor/
+DT: /soc/i2c@a84000/dhall@18
+no /sys *pogo* nodes; no bu520 sysfs found
+
+==== 8) binary exists? ====
+-rwxr-xr-x 1 root shell 25224 2009-01-01 08:00 /vendor/bin/hw/vendor.qti.hardware.tinno_keyboard@1.0-service
+also: /vendor/etc/init/...tinno...rc present; /vendor/lib64/vendor.qti.hardware.tinno_keyboard@1.0.so present
+VINTF: compatibility_matrix.xml lists vendor.mediatek.hardware.tinno_keyboard / ITinnoKeyBoard
+no tinno name found under /vendor/etc/vintf/manifest (unpaired vs Magisk-era paired VINTF)
+
+==== VERDICT ====
+software HAL running? NO (started then exited status 1; not in lshal; Magisk tinno module absent)
+POGO present/online: present=0 online=0 type=POGO
+Lenovo/external keyboard input nodes: NONE (only uinput_nav external)
+likely cause class: BOTH
+  - software-missing / failed: tinno HAL not staying up (exit 1) + Magisk paired VINTF module not installed
+  - physical/electrical OR detect-path: with keyboard attached, POGO still present=0/online=0, lid=LID_ABSENT, dock=UNDOCKED
+Magisk paired VINTF reinstall needs user-attended confirm (not done this run).
+hardware_success_claimed=false

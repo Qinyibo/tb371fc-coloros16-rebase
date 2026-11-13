@@ -1,0 +1,41 @@
+﻿=== before stop tinno ===
+running
+runtime=active control=auto
+lr-x------ 1 root root 64 2026-11-10 08:22 3 -> /dev/hidraw0
+holder=od -An -tx1 -N 16 /dev/hidraw0 pid=28568
+=== stop tinnokeyboard (temp) ===
+stopped
+wait_0 runtime=active
+wait_1 runtime=active
+wait_2 runtime=active
+wait_3 runtime=active
+wait_4 runtime=active
+wait_5 runtime=active
+wait_6 runtime=active
+wait_7 runtime=active
+wait_8 runtime=active
+wait_9 runtime=active
+wait_10 runtime=active
+wait_11 runtime=active
+wait_12 runtime=active
+wait_13 runtime=active
+wait_14 runtime=active
+=== resume on ===
+t1 runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+t2 runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+t3 runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+t4 runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+t5 runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+t6 runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+t7 runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+t8 runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+t9 runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+t10 runtime=active kb=Not connected ver=HOST_MCU:80, online:0 dc=0/0
+=== dmesg ===
+=== restart tinno + revert pm ===
+running
+system        8958     1    2239228   5644 binder_ioctl_write_read 0 S vendor.qti.hardware.tinno_keyboard@1.0-service
+DM,DC    Y vendor.qti.hardware.tinno_keyboard@1.0::ITinnoKeyBoard/default                                         N/A        N/A    
+final_control=auto final_runtime=active
+final_kb=Not connected final_ver=HOST_MCU:80, online:0 final_dc=0
+DONE

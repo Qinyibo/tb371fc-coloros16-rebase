@@ -1,0 +1,7 @@
+﻿1
+Linux version 4.19.325-perf+ (tb371fc-offline@r108-force-rek) (Ubuntu clang version 21.1.8 (++20251221032922+2078da43e25a-1~exp1~20251221153059.70), GNU ld (GNU Binutils for Ubuntu) 2.42) #45 SMP PREEMPT Mon Nov 09 2026 18:25:00 +0800
+---- TIME: 2026-11-09 20:28:05.526 ----
+Build configuration: [sf PRESENT_TIME_OFFSET=0 FORCE_HWC_FOR_RBG_TO_YUV=1 MAX_VIRT_DISPLAY_DIM=0 RUNNING_WITHOUT_SYNC_FRAMEWORK=0 NUM_FRAMEBUFFER_SURFACE_BUFFERS=2]
+
+Display identification data:
+Display 4630947161651687041 (HWC display 0): port=129 pnpId=QCM displayName=""

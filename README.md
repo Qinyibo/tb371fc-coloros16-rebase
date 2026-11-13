@@ -26,9 +26,14 @@
 | `compat-framework/` | 已有框架兼容补丁生成器 |
 | `kernel/r107-overlay/` | 当前保留的 EROFS 覆盖源码，保留原始版权及 SPDX 声明 |
 | `tools/` | 分区差分构建、回退与刷写校验工具源码 |
-| `EXPORT-MANIFEST.json` | 导出源文件清单、原始与导出文件哈希及占位符替换记录 |
+| `EXPORT-MANIFEST.json` | 导出源文件清单、原始与导出文件哈希及占位符替换记录（快照日 2026-11-06；其后归档用各目录 `INDEX.md`，不改这份哈希清单） |
+| `packages/KEEP_jingling_20261107/` | 2026-11-07 KEEP+鲸鲮刷机说明与脚本；镜像不在 git |
+| `packages/tinno_vintf_pair_20261109/` | 2026-11-09 Magisk systemless 成对 Tinno VINTF。半套 manifest 会砖；未宣称键盘硬件成功 |
+| `packages/force_rek_20261109/` | 2026-11-09 Force REK 诊断脚本与休眠黑屏记录。boot 镜像不在 git |
+| `field-notes-20261106/` | 金标前现场笔记 |
+| `field-notes-20261109/` | 2026-11-09/10 键盘 / POGO / 开机门槛笔记。`qin-pc/` 是电脑侧记录，不是刷机事实 |
 
-当前实际状态与证据限制见 [STATUS.md](STATUS.md)。目录保留本地工程结构；历史工具不等于当前启用项，不能按目录顺序批量执行。
+当前实际状态与证据限制见 [STATUS.md](STATUS.md)。目录保留本地工程结构；历史工具不等于当前启用项，不能按目录顺序批量执行。`hardware_success_claimed=false`。
 
 ## 复现条件
 

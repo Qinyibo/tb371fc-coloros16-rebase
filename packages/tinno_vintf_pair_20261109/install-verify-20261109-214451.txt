@@ -1,0 +1,41 @@
+﻿TB371FC Magisk paired tinno VINTF reinstall — VERIFY
+timestamp: 2026-11-09 21:44:51 Asia/Hong_Kong
+hardware_success_claimed=false
+
+MODULE
+  path_host: E:\youxikaifa\work\today-20261109\kb-vintf-magisk\tb371fc_tinno_vintf_pair.zip
+  SHA256: 16E3F4FF045D824482EFCD5CE92251129A8FCB2326F38BC36978AD6CF3AB2078
+  device: /data/adb/modules/tb371fc_tinno_vintf_pair (enabled, no disable flag)
+  pair: compatibility_matrix.xml => vendor.qti.hardware.tinno_keyboard
+        + manifest/vendor.qti.hardware.tinno_keyboard@1.0-service.xml (ITinnoKeyBoard/default)
+  rejected: vintf-DO-NOT-APPLY solo fragment
+
+FIX / SAFE-MODE BYPASS
+  /data/adb/tinno_vintf_fix.sh staged
+  /data/adb/service.d/tinno_vintf_fix.sh staged
+  boot image: kept Force REK Magisk (did NOT flash boot-r108-resx-magisk-tinno.img / overlay.d)
+  Safe-mode: no Safe mode hit observed this boot (module enabled)
+
+checkvintf: binary not on Qin; relied on prior STATUS.md PASS (2026-11-09 evening)
+
+REBOOT
+  one reboot after staging; adb returned ~21:42:49; boot_completed=1 at ~21:43:01 Asia/Hong_Kong
+  no FASTBOOT/bootloop
+
+LIVE VERIFY
+  Magisk: 30.7:MAGISK:R
+  build: OPD2413_16.0.0.210(CN01) slot _a
+  init.svc.tinnokeyboard=running
+  lshal: vendor.qti.hardware.tinno_keyboard@1.0::ITinnoKeyBoard/default
+  ps: vendor.qti.hardware.tinno_keyboard@1.0-service running (uid system)
+  live matrix tinno name: vendor.qti.hardware.tinno_keyboard
+  live fragment: /vendor/etc/vintf/manifest/vendor.qti.hardware.tinno_keyboard@1.0-service.xml present
+  /vendor mount: still ro (dm-4); Magisk binds only for vintf paths — no vendor remount-rw
+
+POGO (keyboard preferably out): present=0 online=0
+
+NEXT PHYSICAL ATTACH
+  User may now attach magnetic keyboard and re-check POGO present/online + Lenovo input nodes.
+  Do not claim hardware success until attach verifies.
+
+hardware_success_claimed=false

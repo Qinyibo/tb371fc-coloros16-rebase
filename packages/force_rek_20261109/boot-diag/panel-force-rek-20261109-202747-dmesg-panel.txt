@@ -1,0 +1,69 @@
+﻿
+[    1.385358] [NVT-ts] nvt_ts_check_chip_ver_trim 2481: buf[1]=0x20, buf[2]=0x00, buf[3]=0x02, buf[4]=0x32, buf[5]=0x6
+5, buf[6]=0x03
+[    7.112790] init: starting service 'r94_native_mirror_check'...
+[    7.117140] init: ... started service 'r94_native_mirror_check' has pid 955
+[    7.117152] init: SVC_EXEC service 'r94_native_mirror_check' pid 955 (uid 0 gid 0+1 context u:r:shell:s0) started; w
+aiting...
+[    7.167787] init: Service 'r94_native_mirror_check' (pid 955) exited with status 0 waiting took 0.054000 seconds
+[    7.167793] init: Sending signal 9 to service 'r94_native_mirror_check' (pid 955) process group...
+[   11.439793] [drm:dsi_display_post_enable] [msm-dsi-info]: R94_PANEL_POST_ARMED waiting_native_commit_completion
+[   15.783731] [NVT-ts] nvt_update_firmware 942: R94_BOOT_FW_CACHED size=245760
+[   15.803941] [NVT-ts] nvt_check_fw_reset_state 993: R94_REAL_READY state=0xA1 retry=2
+[   15.828370] [NVT-ts] Boot_Update_Firmware 3708: R94_BOOT_FW_VERIFIED real_REK_verified IRQ_OPEN
+[   23.412613] init: starting service 'r94_native_keyboard'...
+[   23.414535] init: ... started service 'r94_native_keyboard' has pid 4579
+[   23.414652] init: starting service 'r94_native_pinner'...
+[   23.419639] init: ... started service 'r94_native_pinner' has pid 4581
+[   23.420566] init: starting service 'r94_pen_prepare'...
+[   23.422443] init: ... started service 'r94_pen_prepare' has pid 4582
+[   23.500271] type=1400 audit(1794227248.112:406): avc:  denied  { noatsecure } for  comm="init" scontext=u:r:init:s0 
+tcontext=u:r:r94_commcenterd:s0 tclass=process permissive=0
+[   23.586627] servicemanager: Caller(pid=4616,uid=0,sid=u:r:r94_commcenterd:s0) Found vendor.oplus.hardware.communicat
+ioncenter.IDmtpService/default in device VINTF manifest.
+[   23.781883] init: Service 'r94_native_keyboard' (pid 4579) exited with status 0 oneshot service took 0.368000 second
+s in background
+[   23.781890] init: Sending signal 9 to service 'r94_native_keyboard' (pid 4579) process group...
+[   24.246906] type=1400 audit(1794227248.860:412): avc:  denied  { read } for  comm="owner-back" name="bin" dev="dm-0"
+ ino=12 scontext=u:r:r94_pms_backend:s0 tcontext=u:object_r:vendor_file:s0 tclass=dir permissive=0
+[   24.247001] type=1400 audit(1794227248.860:413): avc:  denied  { read } for  comm="owner-back" name="bin" dev="dm-4"
+ ino=82 scontext=u:r:r94_pms_backend:s0 tcontext=u:object_r:vendor_file:s0 tclass=dir permissive=0
+[   25.846653] init: Service 'r94_pen_prepare' (pid 4582) exited with status 0 oneshot service took 2.425000 seconds in
+ background
+[   25.846663] init: Sending signal 9 to service 'r94_pen_prepare' (pid 4582) process group...
+[   25.858744] init: starting service 'r94_pen_reload'...
+[   25.874127] init: ... started service 'r94_pen_reload' has pid 5917
+[   26.544118] init: Service 'r94_pen_reload' (pid 5917) exited with status 0 oneshot service took 0.682000 seconds in 
+background
+[   26.544129] init: Sending signal 9 to service 'r94_pen_reload' (pid 5917) process group...
+[   27.533361] type=1400 audit(1794227252.036:462): avc:  denied  { call } for  comm="DefaultDispatch" scontext=u:r:pla
+tform_app:s0:c512,c768 tcontext=u:r:r94_pms_gateway:s0 tclass=binder permissive=0 app=com.heytap.accessory
+[   30.871537] type=1400 audit(1794227255.484:465): avc:  denied  { call } for  comm="FindCachedThrea" scontext=u:r:pri
+v_app:s0:c512,c768 tcontext=u:r:r94_pms_gateway:s0 tclass=binder permissive=0 app=com.coloros.findmyphone
+[   30.878006] type=1400 audit(1794227255.484:466): avc:  denied  { call } for  comm="FindCachedThrea" scontext=u:r:pri
+v_app:s0:c512,c768 tcontext=u:r:r94_pms_gateway:s0 tclass=binder permissive=0 app=com.coloros.findmyphone
+[   30.878101] type=1400 audit(1794227255.488:467): avc:  denied  { call } for  comm="FindCachedThrea" scontext=u:r:pri
+v_app:s0:c512,c768 tcontext=u:r:r94_pms_gateway:s0 tclass=binder permissive=0 app=com.coloros.findmyphone
+[   30.882331] type=1400 audit(1794227255.492:468): avc:  denied  { call } for  comm="FindCachedThrea" scontext=u:r:pri
+v_app:s0:c512,c768 tcontext=u:r:r94_pms_gateway:s0 tclass=binder permissive=0 app=com.coloros.findmyphone
+[   30.882431] type=1400 audit(1794227255.496:469): avc:  denied  { call } for  comm="FindCachedThrea" scontext=u:r:pri
+v_app:s0:c512,c768 tcontext=u:r:r94_pms_gateway:s0 tclass=binder permissive=0 app=com.coloros.findmyphone
+[   33.140442] type=1400 audit(1794227257.752:504): avc:  denied  { call } for  comm="pool-11-thread-" scontext=u:r:pri
+v_app:s0:c512,c768 tcontext=u:r:r94_pms_gateway:s0 tclass=binder permissive=0 app=com.oplus.pantanal.ums
+[   33.146980] type=1400 audit(1794227257.760:505): avc:  denied  { call } for  comm="pool-11-thread-" scontext=u:r:pri
+v_app:s0:c512,c768 tcontext=u:r:r94_pms_gateway:s0 tclass=binder permissive=0 app=com.oplus.pantanal.ums
+[   34.846430] type=1400 audit(1794227259.460:506): avc:  denied  { call } for  comm="pool-14-thread-" scontext=u:r:pri
+v_app:s0:c512,c768 tcontext=u:r:r94_pms_gateway:s0 tclass=binder permissive=0 app=com.oplus.ndsf
+[   34.855228] type=1400 audit(1794227259.468:507): avc:  denied  { call } for  comm="binder:2338_20" scontext=u:r:syst
+em_server:s0 tcontext=u:r:r94_pms_gateway:s0 tclass=binder permissive=0
+[   51.939611] [NVT-ts] nvt_resume_fw_restore 4021: R94_PREPARED full_fw_verified IRQ_CLOSED
+[   51.939616] [NVT-ts] nvt_panel_resume_prepare 4086: R94_PREPANEL_FW_VERIFIED before_DSI_commands IRQ_CLOSED
+[   52.168797] [drm:dsi_display_enable] [msm-dsi-info]: R94_DISPLAY_PREPARED waiting_real_first_frame id=2
+[   52.176856] [drm:dsi_display_post_enable] [msm-dsi-info]: R94_PANEL_POST_ARMED waiting_native_commit_completion
+[   52.177290] [NVT-ts] nvt_force_rek_host_cmd 4122: R10x_FORCE_REK_PRE_STATE=0xA0
+[   52.177461] [NVT-ts] nvt_force_rek_host_cmd 4135: R10x_FORCE_REK_SENT cmd=0x23 0x00
+[   52.187745] [NVT-ts] nvt_check_fw_reset_state 993: R94_REAL_READY state=0xA1 retry=0
+[   52.187749] [NVT-ts] nvt_panel_resume_commit 4172: R10x_FORCE_REK_STATE_OK >=REK
+[   52.187782] [NVT-ts] nvt_panel_resume_commit 4194: R94_NATIVE_COMPLETE_COMMITTED real_REK_verified IRQ_OPEN
+
+

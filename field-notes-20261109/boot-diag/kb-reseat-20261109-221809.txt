@@ -1,0 +1,13 @@
+﻿TB371FC keyboard reseat retest — READ ONLY
+timestamp: 2026-11-09 ~22:17 Asia/Hong_Kong
+compare_to: pogo-power-20261109-220201 (present=0, kb_status=Not connected, HOST_MCU online=0)
+hardware_success_claimed=false
+
+1) POGO dc: present=0 online=0 type=POGO voltage_now=No data current_max=0  [UNCHANGED]
+2) HID MCU: kb_status=Not connected; HOST_MCU:13, online:0; i2c_hid runtime_status=suspended (active_time=104ms, wakeup_count=0); Lenovo Keyboard Pack still on 5-0060  [UNCHANGED]
+3) HAL: init.svc.tinnokeyboard=running; lshal ITinnoKeyBoard/default Y; pid 1303  [STILL OK]
+4) Lenovo input nodes: NONE (event0-9 same; only IsExternal=uinput_nav)  [UNCHANGED]
+5) mLidState=LID_ABSENT mDockMode=UNDOCKED; USB-C still Source attached; Dock powered=false  [UNCHANGED]
+
+VERDICT: unchanged
+hardware_success_claimed=false

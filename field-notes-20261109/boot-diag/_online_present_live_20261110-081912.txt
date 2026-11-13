@@ -1,0 +1,172 @@
+﻿=== LIVE DIG ts=20261110-081913 ===
+=== BUILD ===
+OPD2413_16.0.0.210(CN01)
+_a
+orange
+
+running
+adb
+adb
+=== POWER SUPPLY dc/usb/battery ===
+-- dc --
+type=POGO
+present=0
+online=0
+voltage_now=
+current_max=0
+input_suspend=0
+real_type=POGO
+-- usb --
+type=USB_PD
+present=1
+online=1
+voltage_now=5013840
+current_max=100000
+real_type=USB_FLOAT
+typec_mode=Source attached (default current)
+scope=Device
+-- pc_port --
+type=USB
+online=0
+current_max=100000
+-- battery --
+type=Battery
+present=1
+status=Charging
+voltage_now=4397000
+current_now=507000
+input_suspend=0
+-- main --
+type=Main
+current_max=100000
+=== SMB5 DCIN node ===
+/sys/devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/dc
+/sys/firmware/devicetree/base/soc/qcom,spmi@c440000/qcom,pm8150b@2/qcom,qpnp-smb5/qcom,dc@1400
+/sys/firmware/devicetree/base/soc/qcom,spmi@c440000/qcom,pm8150b@2/qcom,qpnp-smb5/qcom,dc@1400/interrupts
+/sys/firmware/devicetree/base/soc/qcom,spmi@c440000/qcom,pm8150b@2/qcom,qpnp-smb5/qcom,dc@1400/interrupt-names
+/sys/firmware/devicetree/base/soc/qcom,spmi@c440000/qcom,pm8150b@2/qcom,qpnp-smb5/qcom,dc@1400/reg
+/sys/firmware/devicetree/base/soc/qcom,spmi@c440000/qcom,pm8150b@2/qcom,qpnp-smb5/qcom,dc@1400/name
+=== i2c 5-0060 baseline ===
+name=hid-over-i2c
+driver=i2c_hid
+power_control=auto
+runtime_status=active
+runtime_enabled=
+wakeup_count=0
+total 0
+drwxr-xr-x 5 root root    0 1970-01-10 11:02 .
+drwxr-xr-x 5 root root    0 1970-01-10 11:02 ..
+drwxr-xr-x 4 root root    0 2026-11-10 08:19 0018:17EF:6175.0001
+lrwxrwxrwx 1 root root    0 2026-11-10 08:19 driver -> ../../../../../../bus/i2c/drivers/i2c_hid
+-r--r--r-- 1 root root 4096 2026-11-10 08:19 modalias
+-r--r--r-- 1 root root 4096 2026-11-10 08:19 name
+lrwxrwxrwx 1 root root    0 2026-11-10 08:19 of_node -> ../../../../../../firmware/devicetree/base/soc/i2c@a94000/mouse@60
+drwxr-xr-x 2 root root    0 2026-11-10 08:19 power
+lrwxrwxrwx 1 root root    0 2026-11-10 08:19 subsystem -> ../../../../../../bus/i2c
+-rw-r--r-- 1 root root 4096 2026-11-10 08:19 uevent
+drwxr-xr-x 3 root root    0 1970-01-10 11:02 wakeup
+=== HID / input ===
+total 0
+drwxr-xr-x 2 root root 0 2026-11-10 08:19 .
+drwxr-xr-x 4 root root 0 2026-11-10 08:19 ..
+lrwxrwxrwx 1 root root 0 2026-11-10 08:19 0018:17EF:6175.0001 -> ../../../devices/platform/soc/a94000.i2c/i2c-5/5-0060/0018:17EF:6175.0001
+/dev/input/event0
+/dev/input/event1
+/dev/input/event2
+/dev/input/event3
+/dev/input/event4
+/dev/input/event5
+/dev/input/event6
+/dev/input/event7
+/dev/input/event8
+/dev/input/event9
+  name:     "uinput_nav"
+  name:     "kona-qrd-snd-card Button Jack"
+  name:     "kona-qrd-snd-card Headset Jack"
+  name:     "NVTCapacitivePen"
+  name:     "qti-haptics"
+  name:     "gpio-keys"
+  name:     "qwerty"
+  name:     "NVTCapacitiveTouchScreen"
+  name:     "qpnp_pon"
+  name:     "nvt_wake_key"
+=== HALL / lid ===
+total 0
+drwxr-xr-x 3 root root    0 2026-11-10 08:19 .
+drwxr-xr-x 6 root root    0 2026-11-10 08:19 ..
+-r--r--r-- 1 root root 4096 2026-11-10 08:19 modalias
+-r--r--r-- 1 root root 4096 2026-11-10 08:19 name
+lrwxrwxrwx 1 root root    0 2026-11-10 08:19 of_node -> ../../../../../../firmware/devicetree/base/soc/i2c@a84000/dhall@18
+drwxr-xr-x 2 root root    0 2026-11-10 08:19 power
+lrwxrwxrwx 1 root root    0 2026-11-10 08:19 subsystem -> ../../../../../../bus/i2c
+-rw-r--r-- 1 root root 4096 2026-11-10 08:19 uevent
+OCH8801-0
+3-0018 driver: UNBOUND
+    mLidKeyboardAccessibility=0 mLidNavigationAccessibility=0 getLidBehavior=LID_BEHAVIOR_NONE
+    mDockMode=EXTRA_DOCK_STATE_UNDOCKED mLidState=LID_ABSENT
+    mLidOpenRotation=-1
+=== TINNO / HAL ===
+system       27634     1    2200316   4216 binder_ioctl_write_read 0 S vendor.qti.hardware.tinno_keyboard@1.0-service
+DM,DC    Y vendor.qti.hardware.tinno_keyboard@1.0::ITinnoKeyBoard/default                                         N/A        N/A    
+/dev/hidraw0
+=== USB dumpsys snippet ===
+      connected=true
+      host_connected=false
+      source_power=false
+      sink_power=true
+      audio_accessory_connected=false
+      11-09 22:20:09:097 USB UEVENT: {SUBSYSTEM=android_usb, SEQNUM=12291, ACTION=change, USB_STATE=DISCONNECTED, DEVPATH=/devices/virtual/android_usb/android0}
+      11-09 22:20:10:668 USB UEVENT: {SUBSYSTEM=android_usb, SEQNUM=12302, ACTION=change, USB_STATE=CONNECTED, DEVPATH=/devices/virtual/android_usb/android0}
+      11-09 23:16:27:621 USB UEVENT: {SUBSYSTEM=android_usb, SEQNUM=18426, ACTION=change, USB_STATE=DISCONNECTED, DEVPATH=/devices/virtual/android_usb/android0}
+      11-10 08:17:05:522 USB UEVENT: {SUBSYSTEM=android_usb, SEQNUM=497933, ACTION=change, USB_STATE=CONNECTED, DEVPATH=/devices/virtual/android_usb/android0}
+        connected=true
+        power_role=sink
+        data_role=device
+        role_combinations=[
+            power_role=source
+            data_role=host
+            power_role=sink
+            data_role=device
+      can_change_power_role=false
+      can_change_data_role=false
+      connected_at_millis=38067499
+Current OPLUS Battery Service state:
+  Charger voltage : 0
+  Battery current : 1084000
+  ChargerTechnology: -1
+  ChargeFastCharger: false
+  PlugType: 1
+  UpdatesStopped: false
+  UsbHwStatus: -2147483648
+  BatteryHwStatus: -2147483648
+  HwStatusIsSet: 1
+  BatteryIcStatus: -2147483648
+  IcStatusIsSet: 1
+
+  mUsbStatus: -2147483648
+  PhoneTemp: 180
+  ThermalFeatureOn: true
+Current Battery Service state:
+  AC powered: true
+  USB powered: false
+  Wireless powered: false
+  Dock powered: false
+  Max charging current: 100000
+ Time when the latest updated value of the Max charging current was sent via battery changed broadcast: +10h34m28s134ms
+  Max charging voltage: 5000000
+  Charge counter: 0
+  status: 2
+  health: 2
+  present: true
+  level: 100
+  scale: 100
+  voltage: 4331
+ Time when the latest updated value of the voltage was sent via battery changed broadcast: +10h36m38s228ms
+ The last voltage value sent via the battery changed broadcast: 4331
+  temperature: 183
+  technology: Li-ion
+  Charging state: 0
+  Charging policy: 0
+  Capacity level: -1
+=== DMESG recent i2c/kb/pogo/dcin ===
+=== BASELINE DONE ===
